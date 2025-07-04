@@ -1,0 +1,71 @@
+/* General layout */
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #222;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 0.5em;
+  }
+  
+  h1 {
+    margin: 0.2em 0;
+    color: #003366;
+  }
+  
+  h2 {
+    color: #003366;
+    margin-top: 2em;
+  }
+  
+  /* Links */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections and horizontal rules */
+  section {
+    margin-bottom: 2em;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+  }
+  
+  .meetup-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+  
+  .meetup-card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+  }
+  
+  
