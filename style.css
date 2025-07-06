@@ -67,5 +67,23 @@ body {
     max-width: 360px;
     box-sizing: border-box;
   }
+
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    color: #333;
+  }
   
+  footer a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
   
