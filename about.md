@@ -61,6 +61,6 @@ There are several ways you can contribute to SciPy India in 2025 and beyond:
 - **Organise events**: Help us organise local meetups, workshops, or conferences in your area to promote scientific computing with Python and foster a sense of community beyond virtual barriers.
 - **Contribute to open source**: Get involved in open source software projects related to scientific computing and data science. You can contribute code, documentation, or help with testing and bug reporting, and eventually, help us with our own website and infrastructure.
 - **Share knowledge**: Write blog posts (we're open to guest posts!), create tutorials, organise workshops, or speak on topics related to scientific computing and share your expertise with the SciPy India community.
-- **Volunteer**: Offer your time and skills at your convenience to help with various community initiatives, such as event planning, outreach, curation, graphics, social media management, grant writing, or the maintenance of this website.
+- **Volunteer**: Please reach out to us on Zulip or email if there is anything specific you think you can help us with such as event planning, communication and coordination, outreach, curation, graphics, social media management, grant writing, maintenance of this website or anything else.
 - **Spread the word**: Help us promote SciPy India by sharing our events and resources with your network.
 <!-- - **Donate**: Support our initiatives financially to help us organise events and provide resources to the community. -->
