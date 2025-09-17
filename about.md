@@ -32,7 +32,7 @@ However, what are we doing in the meantime, you ask? Read on!
 
 <!-- link to other blog post about first community call with more details) -->
 
-One of the key initiatives we have undertaken to keep the community engaged is the introduction of regular community calls. These calls serve as a platform for members to connect, share updates, discuss ongoing projects, and explore new ideas in the field of scientific computing. The community calls are open to all members and are held monthly, providing an opportunity for continuous learning and collaboration.
+One of the key initiatives we have undertaken to keep the community engaged is the introduction of regular community calls. These calls serve as a space for folks to connect, share their work and explore new ideas in the field of scientific computing and research. The community calls are open to everyone in the world and are held monthly, providing an opportunity for continuous learning and collaboration.
 
 We kicked off our first community call of 2025 on July 26th, 2025, with an engaging session that included updates from the community, presentations on recent projects, and discussions on future plans. The call was well-received, and we had a great turnout of participants from various backgrounds. We plan to continue these community calls on a regular basis, and we encourage all members to join in and contribute to the discussions.
 
