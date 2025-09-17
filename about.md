@@ -48,10 +48,6 @@ Stay tuned for more updates on our upcoming initiatives and events, and keep spr
 
 <!-- link to contact page here, should be at https://scipy-india.github.io/contact.html/ -->
 
-## Community
-
-SciPy India is built on the principles of inclusivity, collaboration, and open access to knowledge. We welcome individuals from diverse backgrounds, including students, professionals, academics, and hobbyists who share a passion for scientific computing and data science.
-
 ## Get involved/Volunteer
 
 There are several ways you can contribute to SciPy India in 2025 and beyond:
