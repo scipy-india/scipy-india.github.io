@@ -10,10 +10,10 @@ Our mission is to foster a collaborative environment where researchers, scientis
 
 Primarily, we focus on:
 
-- Promoting the use of the Python programming language and its scientific libraries in research and development across India
+- Encouraging and empowering the use of best practices in scientific software and research software engineering in research workflows in the Indian subcontinent
 - Encouraging contributions and collaborations among Indian researchers and developers in the world of free and open source software, and building a strong network of professionals and enthusiasts in the field of scientific computing in India
 - Organising workshops, conferences and sprints, and engaging in outreach activities to facilitate knowledge sharing and skill development in scientific computing
-- Advocating for access to open science, open code, open data and open education practices in India.
+- Advocating for access to open science, open code, open data and open education practices in India
 - and more!
 
 ## SciPy India over the years
