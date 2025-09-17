@@ -13,7 +13,7 @@ Primarily, we focus on:
 - Promoting the use of the Python programming language and its scientific libraries in research and development across India
 - Encouraging contributions and collaborations among Indian researchers and developers in the world of free and open source software, and building a strong network of professionals and enthusiasts in the field of scientific computing in India
 - Organising events, workshops, and conferences, and engaging in outreach activities to facilitate knowledge sharing and skill development in scientific computing
-- Advocating for access to open data, open research, open code, and open science practices in India within both academia and industry
+- Advocating for access to open science, open code, open data and open education practices in India.
 - and more!
 
 ## SciPy India over the years
