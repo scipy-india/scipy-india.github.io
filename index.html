@@ -1,99 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>SciPy India</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img src="assets/SciPy-India-logo.png" alt="SciPy India Logo" class="logo">
-    <h1>SciPy India</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <title>SciPy India</title>
+    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <main>
-    <section id="meetups">
-        <h2>Upcoming Meetups</h2>
-      
-        <div class="meetup-grid">
+  <body>
+    <header>
+        <special-header></special-header>
+    </header>
 
-          <div class="meetup-card">
-            <h3><a href="#">SciPy India Community Call #2</a></h3>
-            <p><strong>Date: </strong> 6th September, 2025 (Saturday)<br>
-            <strong>Time: </strong>10am to 12pm IST<br>
-            <strong>Place: </strong>Online</p>
-            <p>
-              <a href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml">Submit a talk here</a>
-            </p>
-          </div>
+    <main>
+      <h2>Upcoming Events</h2>
+      <div class="meetup-grid">
+        <section id="upcoming_events"></section>
+      </div>
 
-        </div>
+      <h2>Past Events</h2>
+      <div class="meetup-grid">
+        <section id="past_events"></section>
+      </div>
+    </main>
 
-        <h2>Past Events</h2>
+    <footer>
+      <special-footer></special-footer>
+    </footer>
 
-        <div class="meetup-grid">
-
-          <div class="meetup-card">
-            <h3><a href="#">SciPy India Virtual Meetup #1</a></h3>
-            <p><strong>Date:</strong> 26th July, 2025<br>
-            <strong>Time:</strong> 10am to 1pm IST<br>  
-            <strong>Place:</strong>Online</p>
-            <p>
-              <a href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml">Submit a talk here</a> | 
-              <a href="https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp">RSVP now!</a>
-            </p>
-          </div>
-      
-        </div>
-      </section>      
-
-    <hr>
-
-    <section id="announcements">
-      <h2>Announcements</h2>
-      <p>NA</p>
-    </section>
-
-    <hr>
-
-    <section id="sponsors">
-      <h2>Sponsors</h2>
-      <p>NA</p>
-    </section>
-
-    <hr>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>SciPy India is a community and an annual conference centred around the Python programming language for education and scientific computing topics In India</p>
-    </section>
-
-    <hr>
-
-    <section id="code-of-conduct">
-      <h2>Code of Conduct</h2>
-      <p>The SciPy India community strictly follows the <a href="https://numfocus.org/code-of-conduct">NumFOCUS' Code of Conduct</a>. To make a report on any potential violation of our Code of Conduct, please fill out <a href="https://form.jotform.com/scipyindia/scipy-india-coc-reporting-form">this report form</a> to the best of your ability. For more visit <a href="https://github.com/scipy-india/.github/blob/main/CODE_OF_CONDUCT.md">SciPy India's CoC</a>.</p>
-    </section>
-    
-    <hr>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: aditijuneja7@gmail.com , agriyakhetarpal@outlook.com</p>
-    </section>
-
-    <hr>
-
-    Thank you for visiting :)
-  </main>
-  <footer>
-    <hr>
-    <p>Connect with us:</p>
-    <a href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/" target="_blank">Zulip</a> |
-    <a href="https://bsky.app/profile/scipyindia.bsky.social" target="_blank">Bluesky</a> |
-    <a href="https://www.linkedin.com/company/scipyindia" target="_blank">LinkedIn</a> |
-    <a href="https://fosstodon.org/@scipyindia" target="_blank">Mastodon</a> |
-    <a href="https://github.com/orgs/scipy-india/discussions" target="_blank">GitHub Discussions</a>
-  </footer>
-</body>
+    <script src="./headerFooterManager.js"></script>
+    <script src="./events-loop-html.js"></script>
+  </body>
 </html>

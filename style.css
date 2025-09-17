@@ -1,89 +1,149 @@
 /* General layout */
 body {
-    font-family: system-ui, sans-serif;
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 0 1em;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #222;
-  }
-  
-  /* Header styles */
-  header {
-    text-align: center;
-    margin-bottom: 2em;
-  }
-  
-  .logo {
-    width: 120px;
-    margin-bottom: 0.5em;
-  }
-  
-  h1 {
-    margin: 0.2em 0;
-    color: #003366;
-  }
-  
-  h2 {
-    color: #003366;
-    margin-top: 2em;
-  }
-  
-  /* Links */
-  a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Sections and horizontal rules */
-  section {
-    margin-bottom: 2em;
-  }
-  
-  hr {
-    border: none;
-    border-top: 1px solid #ccc;
-    margin: 2em 0;
-  }
-  
-  .meetup-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
-    margin-top: 1em;
-  }
-  
-  .meetup-card {
-    border: 1px solid #ccc;
-    padding: 1em;
-    border-radius: 6px;
-    background-color: #fdfdfd;
-    width: 100%;
-    max-width: 360px;
-    box-sizing: border-box;
-  }
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+}
 
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 4rem;
-    padding: 2rem;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  footer a {
-    color: #0066cc;
-    text-decoration: none;
-    margin: 0 0.5rem;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  margin: 0.2em 0;
+  color: #003366;
+}
+
+h2 {
+  color: #003366;
+  margin-top: 2em;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sections and horizontal rules */
+section {
+  margin-bottom: 2em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+}
+
+.meetup-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.meetup-card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+footer a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+  background: #1565c0; /* blue strip */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(21,101,192,0.08);
+  margin-bottom: 2em;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  padding: 0.75em 2em;
+  margin: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff; /* white font */
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.navbar li a:hover {
+  color: #ffeb3b; /* yellow on hover for contrast */
+}
+
+
+/* Blog List */
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+.blog-list li {
+  background: #f5faff;
+  border: 1px solid #cce4ff;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  padding: 1em 1.5em;
+  box-shadow: 0 2px 8px rgba(21,101,192,0.06);
+  transition: box-shadow 0.2s;
+}
+.blog-list li:hover {
+  box-shadow: 0 4px 16px rgba(21,101,192,0.12);
+}
+
+.blog-list a {
+  color: #1565c0;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.blog-list a:hover {
+  color: #003366;
+  text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SciPy India</title>
+    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <special-header></special-header>
+    </header>
+
+    <main>
+      <div id="markdown-content"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script>
+          fetch('blogs/meetup1_highlights.md')
+          .then(response => response.text())
+          .then(md => {
+            document.getElementById('markdown-content').innerHTML = marked.parse(md);
+          });
+        </script>
+
+      </main>
+      
+      <footer>
+        <special-footer></special-footer>
+      </footer>
+
+      <script src="./headerFooterManager.js"></script>
+  </body>
+</html>
