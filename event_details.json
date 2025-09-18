@@ -1,12 +1,12 @@
 [
     {
         "title": "SciPy India Conference 2025",
-        "date": "TBD",
-        "day": "TBD",
-        "time": "TBD",
-        "location": "TBD",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/september-2025/rsvp"
+        "date": "Coming soon",
+        "day": "Coming soon",
+        "time": "Coming soon",
+        "location": "Coming soon",
+        "cfp_link": "",
+        "rsvp_link": ""
     },
     {
         "title": "SciPy India Community Call #2",
@@ -15,49 +15,13 @@
         "time": "10:00 AM - 12:00 PM IST",
         "location": "Online",
         "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/september-2025/rsvp"
+        "rsvp_link": "https://fossunited.org/c/scipy-india/september-2025/rsvp"
     },
     {
         "title": "SciPy India Virtual Meetup #1",
         "date": "26-Jul-2025",
         "day": "Saturday",
         "time": "10am to 1pm IST",
-        "location": "Online",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"
-    },
-    {
-        "title": "SciPy India Community Call #D",
-        "date": "24-Jun-2025",
-        "day": "Saturday",
-        "time": "10:00 AM - 12:00 PM IST",
-        "location": "Online",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"
-    },
-    {
-        "title": "SciPy India Community Call #C",
-        "date": "24-May-2025",
-        "day": "Saturday",
-        "time": "10:00 AM - 12:00 PM IST",
-        "location": "Online",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"
-    },
-    {
-        "title": "SciPy India Community Call #B",
-        "date": "24-Apr-2025",
-        "day": "Saturday",
-        "time": "10:00 AM - 12:00 PM IST",
-        "location": "Online",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"
-    },
-    {
-        "title": "SciPy India Community Call #A",
-        "date": "24-Mar-2025",
-        "day": "Saturday",
-        "time": "10:00 AM - 12:00 PM IST",
         "location": "Online",
         "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
         "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"

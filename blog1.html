@@ -14,14 +14,16 @@
 
     <main>
       <div id="markdown-content"></div>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script>
-          fetch('blogs/about_SciPy_India.md')
-          .then(response => response.text())
-          .then(md => {
-            document.getElementById('markdown-content').innerHTML = marked.parse(md);
-          });
-        </script>
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+      <script>
+        fetch('blogs/about_SciPy_India.md')
+        .then(response => response.text())
+        .then(md => {
+          const html = marked.parse(md);
+          document.getElementById('markdown-content').innerHTML = DOMPurify.sanitize(html);
+        });
+      </script>
 
       </main>
       
