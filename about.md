@@ -10,9 +10,8 @@ Our mission is to foster a collaborative environment where researchers, scientis
 
 Primarily, we focus on:
 
-- Encouraging and empowering researchers from the Indian subcontinent to use and create high-quality scientific software in their research workflows.
-- Encouraging contributions and collaborations among Indian researchers and developers in the world of free and open source software, and building a strong network of professionals and enthusiasts in the field of scientific computing in India
-- Organising workshops, conferences and sprints, and engaging in outreach activities to facilitate knowledge sharing among researchers and software developers, and familiarise researchers with the best practices in software engineering-- to write and share good quality research code with the global research and open-source community.
+- Organising workshops, conferences and sprints, and engaging in outreach activities to facilitate knowledge sharing among researchers and software developers from the Indian subcontinent, to encourage and empower them to use and create high-quality scientific software in their research workflows
+- Encouraging contributions and collaborations among Indian researchers and software developers in the world of free and open source software, and building a strong network of professionals and enthusiasts in the field of scientific computing in India
 - Advocating for access to open science, open code, open data and open education practices in India
 - and more!
 
