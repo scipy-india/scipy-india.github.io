@@ -255,6 +255,7 @@ class Renderer {
 
   findNextInlineMarkdown(text, startPos) {
     const patterns = [
+      { regex: /!\[([^\]]*)\]\(([^)]+)\)/g, type: "image" }, // ![alt](url)
       { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: "link" }, // [text](url)
       { regex: /\*\*([^*]+)\*\*/g, type: "bold" }, // **text**
       { regex: /\*([^*]+)\*/g, type: "italic" }, // *text*
@@ -284,6 +285,26 @@ class Renderer {
 
   createInlineElement(type, content, url = null) {
     switch (type) {
+      case "image":
+        const img = document.createElement("img");
+        img.src = this.sanitiseUrl(url);
+        img.alt = content || "Image";
+        img.loading = "lazy";
+        img.style.maxWidth = "100%";
+        img.style.height = "auto";
+
+        // Add error handling
+        img.onerror = function () {
+          this.alt = `Image failed to load: ${content || "Unknown"}`;
+          this.style.display = "inline";
+          this.style.backgroundColor = "#f0f0f0";
+          this.style.padding = "0.5rem";
+          this.style.border = "1px dashed #ccc";
+          this.style.borderRadius = "4px";
+        };
+
+        return img;
+
       case "link":
         const link = document.createElement("a");
         link.href = this.sanitiseUrl(url);
@@ -314,6 +335,11 @@ class Renderer {
 
   sanitiseUrl(url) {
     if (!url) return "#";
+
+    // Allow base64 images before sanitisation
+    if (url.startsWith("data:image/")) {
+      return url;
+    }
 
     const cleaned = url
       .trim()
