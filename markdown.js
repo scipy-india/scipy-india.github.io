@@ -45,16 +45,12 @@ class Renderer {
     };
   }
 
-  // Simple markdown parser (basic implementation)
   parseMarkdown(markdown) {
-    // Sanitize input
-    const sanitized = this.sanitiseInput(markdown);
-
-    // Create container
+    // Sanitise input
+    const sanitised = this.sanitiseInput(markdown);
     const container = document.createElement("div");
 
-    // Split into lines and process
-    const lines = sanitized.split("\n");
+    const lines = sanitised.split("\n");
     let currentList = null;
     let inCodeBlock = false;
     let codeBlockContent = "";
@@ -62,6 +58,11 @@ class Renderer {
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
+
+      // Skip markdown comments
+      if (line.trim().startsWith("%") || line.trim().match(/^<!--.*-->$/)) {
+        continue;
+      }
 
       // Handle code blocks
       if (line.startsWith("```")) {
@@ -118,11 +119,16 @@ class Renderer {
   }
 
   sanitiseInput(input) {
-    return input
+    let sanitised = input
       .replace(/<script[^>]*>.*?<\/script>/gis, "")
       .replace(/<iframe[^>]*>.*?<\/iframe>/gis, "")
       .replace(/javascript:/gi, "")
       .replace(/on\w+\s*=/gi, "");
+
+    // Remove HTML comments, but keep markdown comments for processing.
+    sanitised = sanitised.replace(/<!--[\s\S]*?-->/g, "");
+
+    return sanitised;
   }
 
   processLine(line) {
@@ -198,69 +204,167 @@ class Renderer {
   }
 
   processInlineElements(text, container) {
+    const elements = this.parseInlineMarkdown(text);
+
+    elements.forEach((element) => {
+      container.appendChild(element);
+    });
+  }
+
+  parseInlineMarkdown(text) {
+    const elements = [];
     let remaining = text;
-    let lastIndex = 0;
+    let position = 0;
 
-    // Process bold (**text**)
-    const boldRegex = /\*\*(.*?)\*\*/g;
-    let match;
+    while (position < remaining.length) {
+      // Find the next markdown element
+      const nextMarkdown = this.findNextInlineMarkdown(remaining, position);
 
-    // For now, simple implementation - just add text
-    // In production, you'd want to properly parse all inline elements
-    this.addTextWithBasicFormatting(text, container);
+      if (nextMarkdown === null) {
+        // No more markdown, add remaining text
+        if (position < remaining.length) {
+          const textNode = document.createTextNode(
+            remaining.substring(position)
+          );
+          elements.push(textNode);
+        }
+        break;
+      }
+
+      // Add text before the markdown element
+      if (nextMarkdown.start > position) {
+        const textNode = document.createTextNode(
+          remaining.substring(position, nextMarkdown.start)
+        );
+        elements.push(textNode);
+      }
+
+      // Create the markdown element
+      const element = this.createInlineElement(
+        nextMarkdown.type,
+        nextMarkdown.content,
+        nextMarkdown.url
+      );
+      elements.push(element);
+
+      position = nextMarkdown.end;
+    }
+
+    return elements;
+  }
+
+  findNextInlineMarkdown(text, startPos) {
+    const patterns = [
+      { regex: /!\[([^\]]*)\]\(([^)]+)\)/g, type: "image" }, // ![alt](url)
+      { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: "link" }, // [text](url)
+      { regex: /\*\*([^*]+)\*\*/g, type: "bold" }, // **text**
+      { regex: /\*([^*]+)\*/g, type: "italic" }, // *text*
+      { regex: /`([^`]+)`/g, type: "code" }, // `text`
+    ];
+
+    let earliest = null;
+
+    patterns.forEach((pattern) => {
+      pattern.regex.lastIndex = startPos;
+      const match = pattern.regex.exec(text);
+
+      if (match && (earliest === null || match.index < earliest.start)) {
+        earliest = {
+          start: match.index,
+          end: match.index + match[0].length,
+          type: pattern.type,
+          content: match[1],
+          url: match[2] || null, // For links
+          fullMatch: match[0],
+        };
+      }
+    });
+
+    return earliest;
+  }
+
+  createInlineElement(type, content, url = null) {
+    switch (type) {
+      case "image":
+        const img = document.createElement("img");
+        img.src = this.sanitiseUrl(url);
+        img.alt = content || "Image";
+        img.loading = "lazy";
+        img.style.maxWidth = "100%";
+        img.style.height = "auto";
+
+        // Add error handling
+        img.onerror = function () {
+          this.alt = `Image failed to load: ${content || "Unknown"}`;
+          this.style.display = "inline";
+          this.style.backgroundColor = "#f0f0f0";
+          this.style.padding = "0.5rem";
+          this.style.border = "1px dashed #ccc";
+          this.style.borderRadius = "4px";
+        };
+
+        return img;
+
+      case "link":
+        const link = document.createElement("a");
+        link.href = this.sanitiseUrl(url);
+        link.textContent = content;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        return link;
+
+      case "bold":
+        const bold = document.createElement("strong");
+        bold.textContent = content;
+        return bold;
+
+      case "italic":
+        const italic = document.createElement("em");
+        italic.textContent = content;
+        return italic;
+
+      case "code":
+        const code = document.createElement("code");
+        code.textContent = content;
+        return code;
+
+      default:
+        return document.createTextNode(content);
+    }
+  }
+
+  sanitiseUrl(url) {
+    if (!url) return "#";
+
+    // Allow base64 images before sanitisation
+    if (url.startsWith("data:image/")) {
+      return url;
+    }
+
+    const cleaned = url
+      .trim()
+      .replace(/javascript:/gi, "")
+      .replace(/data:/gi, "")
+      .replace(/vbscript:/gi, "");
+    if (
+      cleaned.startsWith("http://") ||
+      cleaned.startsWith("https://") ||
+      cleaned.startsWith("/") ||
+      cleaned.startsWith("./") ||
+      cleaned.startsWith("../")
+    ) {
+      return cleaned;
+    }
+
+    // If it doesn't start with a protocol, assume it's a relative URL
+    return cleaned.startsWith("#") ? cleaned : `#${cleaned}`;
   }
 
   addTextWithBasicFormatting(text, container) {
-    // Simple implementation - handles basic bold and italic
-    let remaining = text;
-
-    // Handle bold
-    while (remaining.includes("**")) {
-      const start = remaining.indexOf("**");
-      const end = remaining.indexOf("**", start + 2);
-
-      if (end === -1) break;
-
-      // Add text before bold
-      if (start > 0) {
-        const textNode = document.createTextNode(remaining.substring(0, start));
-        container.appendChild(textNode);
-      }
-
-      // Add bold text
-      const bold = document.createElement("strong");
-      bold.textContent = remaining.substring(start + 2, end);
-      container.appendChild(bold);
-
-      remaining = remaining.substring(end + 2);
-    }
-
-    // Handle italic (single *)
-    while (remaining.includes("*") && !remaining.includes("**")) {
-      const start = remaining.indexOf("*");
-      const end = remaining.indexOf("*", start + 1);
-
-      if (end === -1) break;
-
-      // Add text before italic
-      if (start > 0) {
-        const textNode = document.createTextNode(remaining.substring(0, start));
-        container.appendChild(textNode);
-      }
-
-      // Add italic text
-      const italic = document.createElement("em");
-      italic.textContent = remaining.substring(start + 1, end);
-      container.appendChild(italic);
-
-      remaining = remaining.substring(end + 1);
-    }
-
-    // Add remaining text
-    if (remaining) {
-      const textNode = document.createTextNode(remaining);
-      container.appendChild(textNode);
-    }
+    // This method is now replaced by processInlineElements
+    // I'm keeping it for backward compatibility, but it will delegate
+    // to the new system.
+    this.processInlineElements(text, container);
   }
 }
 
