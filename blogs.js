@@ -111,7 +111,7 @@ class BlogsRenderer {
     actions.className = "event-actions";
 
     const readBtn = document.createElement("a");
-    readBtn.href = this.generateBlogUrl(blog.id);
+    readBtn.href = `blogs.html?id=${blog.id}&nav=blogs`;
     readBtn.className = "btn btn-primary";
     readBtn.textContent = "Read article";
 
