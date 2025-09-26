@@ -1,24 +1,22 @@
 const blogConfig = [
   {
-    id: "blog1",
+    id: "about",
     title: "About SciPy India",
     excerpt:
-      "Learn about our community, mission, and vision for advancing Python in scientific computing across India.",
-    url: "blog1.html",
-    markdownFile: "blogs/about_SciPy_India.md",
-    date: "2025-01-15",
+      "Learn about our community, mission, and vision, for advancing Python in scientific computing across India.",
+    markdownFile: "blogs/about.md",
+    date: "2025-09-26",
     tags: ["Community", "Introduction"],
     icon: "🏛️",
-    readTime: "3 min read",
+    readTime: "5 min read",
   },
   {
-    id: "blog2",
-    title: "Highlights from Community Call #1",
+    id: "community-call-july-2025",
+    title: "Highlights from the SciPy India Community Call #1",
     excerpt:
       "Key insights and takeaways from our first community call, including upcoming events and community initiatives.",
-    url: "blog2.html",
-    markdownFile: "blogs/meetup1_highlights.md",
-    date: "2025-01-20",
+    markdownFile: "blogs/community-calls/july-2025.md",
+    date: "2025-08-01",
     tags: ["Community Call", "Events"],
     icon: "📞",
     readTime: "5 min read",
@@ -31,6 +29,10 @@ class BlogsRenderer {
     if (this.container) {
       this.renderBlogs();
     }
+  }
+
+  generateBlogUrl(blogId) {
+    return `blogs.html?id=${blogId}`;
   }
 
   renderBlogs() {
@@ -109,7 +111,7 @@ class BlogsRenderer {
     actions.className = "event-actions";
 
     const readBtn = document.createElement("a");
-    readBtn.href = blog.url;
+    readBtn.href = `blogs.html?id=${blog.id}&nav=blogs`;
     readBtn.className = "btn btn-primary";
     readBtn.textContent = "Read article";
 
@@ -151,8 +153,23 @@ class BlogsRenderer {
 
     this.container.appendChild(messageDiv);
   }
+
+  static getBlogById(id) {
+    return blogConfig.find((blog) => blog.id === id);
+  }
+
+  static getAllBlogs() {
+    return blogConfig;
+  }
 }
+
+window.BlogsRenderer = BlogsRenderer;
+window.blogConfig = blogConfig;
 
 document.addEventListener("DOMContentLoaded", () => {
   new BlogsRenderer();
 });
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { BlogsRenderer, blogConfig };
+}
