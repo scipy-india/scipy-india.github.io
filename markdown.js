@@ -259,6 +259,7 @@ class Renderer {
       { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: "link" }, // [text](url)
       { regex: /\*\*([^*]+)\*\*/g, type: "bold" }, // **text**
       { regex: /\*([^*]+)\*/g, type: "italic" }, // *text*
+      { regex: /_([^_]+)_/g, type: "italic" }, // _text_
       { regex: /`([^`]+)`/g, type: "code" }, // `text`
     ];
 
