@@ -1,7 +1,7 @@
 const blogConfig = [
   {
     id: "about",
-    title: "About",
+    title: "About SciPy India",
     excerpt:
       "Learn about our community, mission, and vision, for advancing Python in scientific computing across India.",
     markdownFile: "blogs/about.md",
