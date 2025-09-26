@@ -163,6 +163,9 @@ class BlogsRenderer {
   }
 }
 
+window.BlogsRenderer = BlogsRenderer;
+window.blogConfig = blogConfig;
+
 document.addEventListener("DOMContentLoaded", () => {
   new BlogsRenderer();
 });
