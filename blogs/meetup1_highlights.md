@@ -1,1 +1,0 @@
-# Highlights from Community Call #1
