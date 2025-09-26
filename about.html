@@ -1,30 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>SciPy India</title>
-    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - SciPy India</title>
+    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png" />
+    <meta
+      name="description"
+      content="Learn about the SciPy India community, our mission, and our vision"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <header>
-      <special-header></special-header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <img
+              src="assets/SciPy-India-logo.png"
+              alt="SciPy India Logo"
+              class="logo"
+            />
+            <div class="brand-text">
+              <h1>SciPy India</h1>
+              <div class="tagline">
+                Building a scientific computing community in India
+              </div>
+            </div>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">About</a></li>
+              <li><a href="blogs.html">Blogs</a></li>
+              <li><a href="coc.html">Code of Conduct</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>SciPy India is a community and an annual conference centred around the Python programming language for education and scientific computing topics In India</p>
-      
-      </section>
-      
-      </main>
-      
-      <footer>
-        <special-footer></special-footer>
-      </footer>
+      <!-- <div class="container">
+        <div class="page-header">
+          <h1 class="page-title">About SciPy India</h1>
+          <p class="page-subtitle">
+            Fostering a vibrant community of enthusiasts, researchers, and
+            software developers across India
+          </p>
+        </div> -->
 
-      <script src="./headerFooterManager.js"></script>
+        <section class="content-section">
+          <div id="markdown-content" class="markdown-content">
+            <div class="loading-spinner">Loading content...</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Connect with us</h3>
+            <div class="social-links">
+              <a
+                href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/"
+                class="social-link zulip"
+                aria-label="Zulip"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-comments"></i>
+              </a>
+              <a
+                href="https://bsky.app/profile/scipyindia.bsky.social"
+                class="social-link bluesky"
+                aria-label="Bluesky"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-cloud"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/scipyindia"
+                class="social-link linkedin"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://fosstodon.org/@scipyindia"
+                class="social-link mastodon"
+                aria-label="Mastodon"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-mastodon"></i>
+              </a>
+              <a
+                href="https://github.com/orgs/scipy-india/discussions"
+                class="social-link github"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 SciPy India. Licensed under the BSD 3-Clause "New" or "Revised" License.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="navigation.js"></script>
+    <script src="markdown.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const markdownLoader = new MarkdownLoader();
+        markdownLoader.loadMarkdownContent("blogs/about_SciPy_India.md");
+      });
+    </script>
   </body>
 </html>
