@@ -111,7 +111,7 @@ class BlogsRenderer {
     const readBtn = document.createElement("a");
     readBtn.href = blog.url;
     readBtn.className = "btn btn-primary";
-    readBtn.textContent = "Read Article";
+    readBtn.textContent = "Read article";
 
     actions.appendChild(readBtn);
     card.appendChild(actions);
