@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SciPy India</title>
+    <title>About Us - SciPy India</title>
     <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png" />
     <meta
       name="description"
-      content="SciPy India is a community and annual conference centered around the Python programming language in education and scientific computing"
+      content="Learn about the SciPy India community, our mission, and our vision"
     />
     <link
       rel="stylesheet"
@@ -35,8 +35,8 @@
           <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
           <nav>
             <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" class="active">About</a></li>
               <li><a href="blogs.html">Blogs</a></li>
               <li><a href="coc.html">Code of Conduct</a></li>
               <li><a href="contact.html">Contact</a></li>
@@ -47,87 +47,20 @@
     </header>
 
     <main>
-      <div class="container">
-        <!-- Hero Section -->
-        <section class="hero-section">
-          <h1 class="hero-title">Welcome</h1>
-          <p class="hero-subtitle">
-            SciPy India is a community and annual conference centered around the Python programming language for
-            education and scientific computing topics in India
+      <!-- <div class="container">
+        <div class="page-header">
+          <h1 class="page-title">About SciPy India</h1>
+          <p class="page-subtitle">
+            Fostering a vibrant community of enthusiasts, researchers, and
+            software developers across India
           </p>
-        </section>
+        </div> -->
 
-        <div class="main-grid">
-          <!-- Main Content -->
-          <div class="main-content">
-            <!-- Upcoming Events -->
-            <section class="content-section">
-              <h2 class="section-title">Upcoming events</h2>
-              <div id="upcoming-events">
-                <!-- Events will be populated by JavaScript -->
-              </div>
-            </section>
-
-            <!-- Past Events -->
-            <section class="content-section">
-              <h2 class="section-title">Past <em></em>vents</h2>
-              <div id="past-events">
-                <!-- Events will be populated by JavaScript -->
-              </div>
-            </section>
+        <section class="content-section">
+          <div id="markdown-content" class="markdown-content">
+            <div class="loading-spinner">Loading content...</div>
           </div>
-
-          <!-- Sidebar -->
-          <aside class="sidebar">
-            <!-- Recent Blogs -->
-            <div class="sidebar-section">
-              <h3 class="sidebar-title">
-                <span class="icon icon-blog"></span>
-                Recent blogs
-              </h3>
-              <div class="blog-item">
-                <a href="blog1.html" class="blog-title">About SciPy India</a>
-                <div class="blog-date">Latest updates</div>
-              </div>
-              <div class="blog-item">
-                <a href="blog2.html" class="blog-title"
-                  >Highlights from Community Call #1</a
-                >
-                <div class="blog-date">Community insights</div>
-              </div>
-              <div style="text-align: center; margin-top: 1rem">
-                <a
-                  href="blogs.html"
-                  class="btn btn-secondary"
-                  style="font-size: 0.8rem; padding: 0.4rem 0.8rem"
-                  >View all</a
-                >
-              </div>
-            </div>
-
-            <div class="sidebar-section">
-              <h3 class="sidebar-title">Quick actions</h3>
-              <div style="display: flex; flex-direction: column; gap: 0.8rem">
-                <a
-                  href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml"
-                  class="btn btn-primary"
-                  target="_blank"
-                  rel="noopener"
-                  style="text-align: center; font-size: 0.8rem; padding: 0.6rem"
-                >
-                  Submit a proposal
-                </a>
-                <a
-                  href="coc.html"
-                  class="btn btn-secondary"
-                  style="text-align: center; font-size: 0.8rem; padding: 0.6rem"
-                >
-                  Code of Conduct
-                </a>
-              </div>
-            </div>
-          </aside>
-        </div>
+        </section>
       </div>
     </main>
 
@@ -193,6 +126,12 @@
     </footer>
 
     <script src="navigation.js"></script>
-    <script src="events.js"></script>
+    <script src="markdown.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const markdownLoader = new MarkdownLoader();
+        markdownLoader.loadMarkdownContent("blogs/about_SciPy_India.md");
+      });
+    </script>
   </body>
 </html>
