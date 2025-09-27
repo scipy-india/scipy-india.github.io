@@ -257,10 +257,10 @@ class Renderer {
     const patterns = [
       { regex: /!\[([^\]]*)\]\(([^)]+)\)/g, type: "image" }, // ![alt](url)
       { regex: /\[([^\]]+)\]\(([^)]+)\)/g, type: "link" }, // [text](url)
+      { regex: /`([^`]+)`/g, type: "code" }, // `text`
       { regex: /\*\*([^*]+)\*\*/g, type: "bold" }, // **text**
       { regex: /\*([^*]+)\*/g, type: "italic" }, // *text*
       { regex: /_([^_]+)_/g, type: "italic" }, // _text_
-      { regex: /`([^`]+)`/g, type: "code" }, // `text`
     ];
 
     let earliest = null;
@@ -309,19 +309,36 @@ class Renderer {
       case "link":
         const link = document.createElement("a");
         link.href = this.sanitiseUrl(url);
-        link.textContent = content;
+
+        // Parse link content; we need to deal with nested formatting
+        // like [**bold link**](url) or [*italic link*](url) in links.
+        const linkElements = this.parseInlineMarkdown(content);
+        linkElements.forEach((element) => {
+          link.appendChild(element);
+        });
+
         link.target = "_blank";
         link.rel = "noopener noreferrer";
         return link;
 
       case "bold":
         const bold = document.createElement("strong");
-        bold.textContent = content;
+
+        const boldElements = this.parseInlineMarkdown(content);
+        boldElements.forEach((element) => {
+          bold.appendChild(element);
+        });
+
         return bold;
 
       case "italic":
         const italic = document.createElement("em");
-        italic.textContent = content;
+
+        const italicElements = this.parseInlineMarkdown(content);
+        italicElements.forEach((element) => {
+          italic.appendChild(element);
+        });
+
         return italic;
 
       case "code":
