@@ -115,28 +115,50 @@ class EventManager {
     card.appendChild(details);
 
     // Actions
-    if (event.cfp_link || event.rsvp_link) {
+    const today = new Date();
+    const eventDate =
+      event.date === "Coming soon"
+        ? new Date(9999, 11, 31)
+        : new Date(event.date);
+    const isPastEvent = eventDate < today;
+
+    const hasActions = this.shouldShowActions(event, isPastEvent);
+
+    if (hasActions) {
       const actions = document.createElement("div");
       actions.className = "event-actions";
 
-      if (event.cfp_link && event.cfp_link.trim() !== "") {
-        const cfpLink = document.createElement("a");
-        cfpLink.href = event.cfp_link;
-        cfpLink.className = "btn btn-primary";
-        cfpLink.textContent = "Submit a proposal";
-        cfpLink.target = "_blank";
-        cfpLink.rel = "noopener";
-        actions.appendChild(cfpLink);
-      }
+      // For past events, we show a livestream if a link to it is available.
+      if (isPastEvent) {
+        if (event.livestream_link && event.livestream_link.trim() !== "") {
+          const livestreamLink = document.createElement("a");
+          livestreamLink.href = event.livestream_link;
+          livestreamLink.className = "btn btn-primary";
+          livestreamLink.textContent = "Watch livestream";
+          livestreamLink.target = "_blank";
+          livestreamLink.rel = "noopener";
+          actions.appendChild(livestreamLink);
+        }
+      } else {
+        if (event.cfp_link && event.cfp_link.trim() !== "") {
+          const cfpLink = document.createElement("a");
+          cfpLink.href = event.cfp_link;
+          cfpLink.className = "btn btn-primary";
+          cfpLink.textContent = "Submit a proposal";
+          cfpLink.target = "_blank";
+          cfpLink.rel = "noopener";
+          actions.appendChild(cfpLink);
+        }
 
-      if (event.rsvp_link && event.rsvp_link.trim() !== "") {
-        const rsvpLink = document.createElement("a");
-        rsvpLink.href = event.rsvp_link;
-        rsvpLink.className = "btn btn-secondary";
-        rsvpLink.textContent = "RSVP now";
-        rsvpLink.target = "_blank";
-        rsvpLink.rel = "noopener";
-        actions.appendChild(rsvpLink);
+        if (event.rsvp_link && event.rsvp_link.trim() !== "") {
+          const rsvpLink = document.createElement("a");
+          rsvpLink.href = event.rsvp_link;
+          rsvpLink.className = "btn btn-secondary";
+          rsvpLink.textContent = "RSVP now";
+          rsvpLink.target = "_blank";
+          rsvpLink.rel = "noopener";
+          actions.appendChild(rsvpLink);
+        }
       }
 
       if (actions.children.length > 0) {
@@ -145,6 +167,17 @@ class EventManager {
     }
 
     return card;
+  }
+
+  shouldShowActions(event, isPastEvent) {
+    if (isPastEvent) {
+      return event.livestream_link && event.livestream_link.trim() !== "";
+    } else {
+      return (
+        (event.cfp_link && event.cfp_link.trim() !== "") ||
+        (event.rsvp_link && event.rsvp_link.trim() !== "")
+      );
+    }
   }
 
   renderNoEvents(container, message) {
