@@ -1,57 +1,114 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>SciPy India</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img src="assets/SciPy-India-logo.png" alt="SciPy India Logo" class="logo">
-    <h1>SciPy India</h1>
-  </header>
-
-  <main>
-    <section id="meetups">
-        <h2>Upcoming Meetups</h2>
-      
-        <div class="meetup-grid">
-      
-          <div class="meetup-card">
-            <h3><a href="#">SciPy India Virtual Meetup #1</a></h3>
-            <p><strong>Date:</strong> 26th July, 2025<br>
-            <strong>Place:</strong> Virtual</p>
-            <p>
-              <a href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml">Submit a talk here</a> | 
-              <a href="#">RSVP - coming soon!</a>
-            </p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SciPy India</title>
+    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png" />
+    <meta
+      name="description"
+      content="SciPy India is a community and annual conference centered around the Python programming language in education and scientific computing"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <img
+              src="assets/SciPy-India-logo.png"
+              alt="SciPy India Logo"
+              class="logo"
+            />
+            <div class="brand-text">
+              <h1>SciPy India</h1>
+              <div class="tagline">
+                Building a scientific computing community in India
+              </div>
+            </div>
           </div>
-      
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="blogs.html?id=about">About</a></li>
+              <li><a href="blogs.html">Blogs</a></li>
+              <li><a href="coc.html">Code of Conduct</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-      </section>      
+      </div>
+    </header>
 
-    <hr>
+    <main>
+      <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+          <h1 class="hero-title">Welcome</h1>
+          <p class="hero-subtitle">
+            SciPy India is a community and annual conference centered around the
+            Python programming language for education and scientific computing
+            topics in India
+          </p>
+        </section>
 
-    <section id="announcements">
-      <h2>Announcements</h2>
-      <p>NA</p>
-    </section>
+        <div class="main-grid">
+          <!-- Main Content -->
+          <div class="main-content">
+            <!-- Upcoming Events -->
+            <section class="content-section">
+              <h2 class="section-title">Upcoming events</h2>
+              <div id="upcoming-events">
+                <!-- Events will be populated by JavaScript -->
+              </div>
+            </section>
 
-    <hr>
+            <!-- Past Events -->
+            <section class="content-section">
+              <h2 class="section-title">Past <em></em>events</h2>
+              <div id="past-events">
+                <!-- Events will be populated by JavaScript -->
+              </div>
+            </section>
+          </div>
 
-    <section id="sponsors">
-      <h2>Sponsors</h2>
-      <p>NA</p>
-    </section>
-
-    <hr>
-
-    <section id="about">
-      <h2>About Us</h2>
-      <p>SciPy India is a community and an annual conference centred around the Python programming language for education and scientific computing topics In India</p>
-    </section>
-
-    <hr>
+          <!-- Sidebar -->
+          <aside class="sidebar">
+            <!-- Recent Blogs -->
+            <div class="sidebar-section">
+              <h3 class="sidebar-title">
+                <span class="icon icon-blog"></span>
+                Recent blogs
+              </h3>
+              <div class="blog-item">
+                <a
+                  href="blogs.html?id=community-call-july-2025"
+                  class="blog-title"
+                  >Highlights from Community Call #1</a
+                >
+                <div class="blog-date">Community insights</div>
+              </div>
+              <div class="blog-item">
+                <a href="blogs.html?id=about" class="blog-title"
+                  >About SciPy India</a
+                >
+                <div class="blog-date">Latest updates</div>
+              </div>
+              <div style="text-align: center; margin-top: 1rem">
+                <a
+                  href="blogs.html"
+                  class="btn btn-secondary"
+                  style="font-size: 0.8rem; padding: 0.4rem 0.8rem"
+                  >View all</a
+                >
+              </div>
+            </div>
 
     <section id="code-of-conduct">
       <h2>Code of Conduct</h2>
@@ -59,24 +116,97 @@
     </section>
     
     <hr>
+            <div class="sidebar-section">
+              <h3 class="sidebar-title">Quick actions</h3>
+              <div style="display: flex; flex-direction: column; gap: 0.8rem">
+                <a
+                  href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml"
+                  class="btn btn-primary"
+                  target="_blank"
+                  rel="noopener"
+                  style="text-align: center; font-size: 0.8rem; padding: 0.6rem"
+                >
+                  Submit a proposal
+                </a>
+                <a
+                  href="coc.html"
+                  class="btn btn-secondary"
+                  style="text-align: center; font-size: 0.8rem; padding: 0.6rem"
+                >
+                  Code of Conduct
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: aditijuneja7@gmail.com , agriyakhetarpal@outlook.com</p>
-    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Connect with us</h3>
+            <div class="social-links">
+              <a
+                href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/"
+                class="social-link zulip"
+                aria-label="Zulip"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-comments"></i>
+              </a>
+              <a
+                href="https://bsky.app/profile/scipyindia.bsky.social"
+                class="social-link bluesky"
+                aria-label="Bluesky"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-cloud"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/scipyindia"
+                class="social-link linkedin"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://fosstodon.org/@scipyindia"
+                class="social-link mastodon"
+                aria-label="Mastodon"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-mastodon"></i>
+              </a>
+              <a
+                href="https://github.com/orgs/scipy-india/discussions"
+                class="social-link github"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <hr>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 SciPy India. Licensed under the BSD 3-Clause "New" or
+            "Revised" License.
+          </p>
+        </div>
+      </div>
+    </footer>
 
-    Thank you for visiting :)
-  </main>
-  <footer>
-    <hr>
-    <p>Connect with us:</p>
-    <a href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/" target="_blank">Zulip</a> |
-    <a href="https://bsky.app/profile/scipyindia.bsky.social" target="_blank">Bluesky</a> |
-    <a href="https://www.linkedin.com/company/scipyindia" target="_blank">LinkedIn</a> |
-    <a href="https://fosstodon.org/@scipyindia" target="_blank">Mastodon</a> |
-    <a href="https://github.com/orgs/scipy-india/discussions" target="_blank">GitHub Discussions</a>
-  </footer>
-</body>
+    <script src="navigation.js"></script>
+    <script src="events.js"></script>
+  </body>
 </html>
