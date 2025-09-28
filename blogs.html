@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Blog - SciPy India</title>
+    <link rel="icon" href="assets/SciPy-India-logo.png" type="image/png" />
+    <meta
+      id="page-description"
+      name="description"
+      content="Read the latest from the SciPy India community"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <img
+              src="assets/SciPy-India-logo.png"
+              alt="SciPy India Logo"
+              class="logo"
+            />
+            <div class="brand-text">
+              <h1>SciPy India</h1>
+              <div class="tagline">
+                Building a scientific computing community in India
+              </div>
+            </div>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blogs.html?id=about">About</a></li>
+              <li><a href="blogs.html" class="active">Blogs</a></li>
+              <li><a href="coc.html">Code of Conduct</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- Blog Selection State (when no ID provided) -->
+        <div id="blog-selection-view" style="display: none">
+          <div class="page-header">
+            <h1 class="page-title">Our blogs</h1>
+            <p class="page-subtitle">
+              Insights, updates, and stories from the SciPy India community.
+              Stay connected with the latest developments in Python for
+              scientific computing.
+            </p>
+          </div>
+          <div class="blogs-grid" id="blogs-container">
+            <!-- blogs will be populated by JS -->
+          </div>
+        </div>
+
+        <div id="blog-post-view" style="display: none">
+          <div class="page-header" id="blog-header">
+            <div class="blog-header-content">
+              <div class="blog-icon-large" id="blog-icon-large"></div>
+              <h1 class="page-title" id="blog-title">Loading...</h1>
+              <div class="blog-meta-header">
+                <span id="blog-date"></span>
+                <span id="blog-read-time"></span>
+              </div>
+              <div class="blog-tags-header" id="blog-tags-header"></div>
+            </div>
+          </div>
+
+          <!-- Back to blogs link -->
+          <div class="blog-navigation">
+            <a href="blogs.html" class="btn btn-secondary">
+              <i class="fas fa-arrow-left"></i> Back to all blogs
+            </a>
+          </div>
+
+          <!-- Blog content -->
+          <section class="content-section">
+            <div id="markdown-content" class="markdown-content">
+              <div class="loading-spinner">Loading blog content...</div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Error state -->
+        <div id="error-state" style="display: none">
+          <div class="page-header">
+            <h1 class="page-title">Blog not found</h1>
+            <p class="page-subtitle">
+              The blog post you're looking for doesn't exist or couldn't be
+              loaded.
+            </p>
+          </div>
+          <section class="content-section">
+            <div class="error-message">
+              <h2>What would you like to do?</h2>
+              <p>
+                You can browse our available blog posts or return to the main
+                site.
+              </p>
+              <div style="text-align: center; margin-top: 2rem">
+                <a
+                  href="blogs.html"
+                  class="btn btn-primary"
+                  style="margin-right: 1rem"
+                  >View all blogs</a
+                >
+                <a href="index.html" class="btn btn-secondary"
+                  >Go to homepage</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Connect with us</h3>
+            <div class="social-links">
+              <a
+                href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/"
+                class="social-link zulip"
+                aria-label="Zulip"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-comments"></i>
+              </a>
+              <a
+                href="https://bsky.app/profile/scipyindia.bsky.social"
+                class="social-link bluesky"
+                aria-label="Bluesky"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fas fa-cloud"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/scipyindia"
+                class="social-link linkedin"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://fosstodon.org/@scipyindia"
+                class="social-link mastodon"
+                aria-label="Mastodon"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-mastodon"></i>
+              </a>
+              <a
+                href="https://github.com/orgs/scipy-india/discussions"
+                class="social-link github"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 SciPy India. Licensed under the BSD 3-Clause "New" or
+            "Revised" License.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="navigation.js"></script>
+    <script src="markdown.js"></script>
+    <script src="blogs.js"></script>
+    <script>
+      class BlogPageManager {
+        constructor() {
+          this.markdownLoader = new MarkdownLoader();
+          this.init();
+        }
+
+        init() {
+          // Get blog ID from URL parameters
+          const urlParams = new URLSearchParams(window.location.search);
+          const blogId = urlParams.get("id");
+
+          if (blogId) {
+            this.loadBlogPost(blogId);
+          } else {
+            this.showBlogSelection();
+          }
+        }
+
+        showBlogSelection() {
+          if (typeof window.blogConfig === "undefined") {
+            setTimeout(() => this.showBlogSelection(), 100);
+            return;
+          }
+          document.getElementById("blog-selection-view").style.display =
+            "block";
+
+          document.title = "Our blogs - SciPy India";
+          document.getElementById("page-title").textContent =
+            "Our blogs - SciPy India";
+
+          const container = document.getElementById("blogs-container");
+          this.renderBlogs(container);
+        }
+
+        renderBlogs(container) {
+          while (container.firstChild) {
+            container.removeChild(container.firstChild);
+          }
+
+          if (window.blogConfig.length === 0) {
+            this.renderNoBlogsMessage(container);
+            return;
+          }
+
+          // Sort blogs by date (newest first)
+          const sortedBlogs = [...window.blogConfig].sort(
+            (a, b) => new Date(b.date) - new Date(a.date)
+          );
+
+          sortedBlogs.forEach((blog) => {
+            const blogCard = this.createBlogCard(blog);
+            container.appendChild(blogCard);
+          });
+        }
+
+        createBlogCard(blog) {
+          const card = document.createElement("article");
+          card.className = "blog-card";
+
+          // Header
+          const header = document.createElement("div");
+          header.className = "blog-card-header";
+
+          const icon = document.createElement("div");
+          icon.className = "blog-icon";
+          icon.textContent = blog.icon;
+
+          const meta = document.createElement("div");
+          meta.className = "blog-meta";
+
+          const title = document.createElement("h2");
+          title.className = "blog-title";
+          title.textContent = blog.title;
+
+          const date = document.createElement("div");
+          date.className = "blog-date";
+          date.textContent = `📅 ${this.formatDate(blog.date)} • ${
+            blog.readTime
+          }`;
+
+          meta.appendChild(title);
+          meta.appendChild(date);
+          header.appendChild(icon);
+          header.appendChild(meta);
+          card.appendChild(header);
+
+          // Excerpt
+          const excerpt = document.createElement("p");
+          excerpt.className = "blog-excerpt";
+          excerpt.textContent = blog.excerpt;
+          card.appendChild(excerpt);
+
+          // Tags
+          if (blog.tags && blog.tags.length > 0) {
+            const tagsContainer = document.createElement("div");
+            tagsContainer.className = "blog-tags";
+
+            blog.tags.forEach((tag) => {
+              const tagElement = document.createElement("span");
+              tagElement.className = "blog-tag";
+              tagElement.textContent = tag;
+              tagsContainer.appendChild(tagElement);
+            });
+
+            card.appendChild(tagsContainer);
+          }
+
+          // Actions
+          const actions = document.createElement("div");
+          actions.className = "event-actions";
+
+          const readBtn = document.createElement("a");
+          readBtn.href = `blogs.html?id=${blog.id}`;
+          readBtn.className = "btn btn-primary";
+          readBtn.textContent = "Read article";
+
+          actions.appendChild(readBtn);
+          card.appendChild(actions);
+
+          return card;
+        }
+
+        loadBlogPost(blogId) {
+          if (typeof window.BlogsRenderer === "undefined") {
+            setTimeout(() => this.loadBlogPost(blogId), 100);
+            return;
+          }
+
+          const blog = window.BlogsRenderer.getBlogById(blogId);
+
+          if (!blog) {
+            this.showError();
+            return;
+          }
+
+          document.getElementById("blog-post-view").style.display = "block";
+          this.updatePageMeta(blog);
+          this.markdownLoader.loadMarkdownContent(blog.markdownFile);
+        }
+
+        updatePageMeta(blog) {
+          document.title = `${blog.title} - SciPy India`;
+          document.getElementById(
+            "page-title"
+          ).textContent = `${blog.title} - SciPy India`;
+
+          document
+            .getElementById("page-description")
+            .setAttribute("content", blog.excerpt);
+
+          const blogIcon = document.getElementById("blog-icon-large");
+          const blogTitle = document.getElementById("blog-title");
+          const blogDate = document.getElementById("blog-date");
+          const blogReadTime = document.getElementById("blog-read-time");
+          const blogTagsHeader = document.getElementById("blog-tags-header");
+
+          blogIcon.textContent = blog.icon;
+          blogTitle.textContent = blog.title;
+          blogDate.textContent = `📅 ${this.formatDate(blog.date)}`;
+          blogReadTime.textContent = `⏱️ ${blog.readTime}`;
+
+          // Add tags
+          if (blog.tags && blog.tags.length > 0) {
+            blogTagsHeader.innerHTML = "";
+            blog.tags.forEach((tag) => {
+              const tagElement = document.createElement("span");
+              tagElement.className = "blog-tag";
+              tagElement.textContent = tag;
+              blogTagsHeader.appendChild(tagElement);
+            });
+          }
+        }
+
+        showError() {
+          document.getElementById("error-state").style.display = "block";
+        }
+
+        formatDate(dateString) {
+          const date = new Date(dateString);
+          return date.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          });
+        }
+
+        renderNoBlogsMessage(container) {
+          const messageDiv = document.createElement("div");
+          messageDiv.className = "no-blogs";
+
+          const icon = document.createElement("div");
+          icon.className = "no-blogs-icon";
+          icon.textContent = "📝";
+
+          const title = document.createElement("h3");
+          title.textContent = "No blogs yet";
+          title.style.marginBottom = "1rem";
+          title.style.color = "var(--text-dark)";
+
+          const description = document.createElement("p");
+          description.textContent =
+            "We're working on bringing you great content. Check back soon!";
+
+          messageDiv.appendChild(icon);
+          messageDiv.appendChild(title);
+          messageDiv.appendChild(description);
+
+          container.appendChild(messageDiv);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        new BlogPageManager();
+      });
+    </script>
+
+    <style>
+      .blog-header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .blog-icon-large {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .blog-meta-header {
+        display: flex;
+        gap: 2rem;
+        margin: 1rem 0;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.1rem;
+      }
+
+      .blog-tags-header {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .blog-tags-header .blog-tag {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .blog-navigation {
+        margin: 2rem 0;
+      }
+
+      @media (max-width: 768px) {
+        .blog-meta-header {
+          flex-direction: column;
+          gap: 0.5rem;
+          text-align: center;
+        }
+
+        .blog-icon-large {
+          width: 80px;
+          height: 80px;
+          font-size: 3rem;
+        }
+      }
+    </style>
+  </body>
+</html>

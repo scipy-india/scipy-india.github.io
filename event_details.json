@@ -1,0 +1,28 @@
+[
+    {
+        "title": "SciPy India Conference 2025",
+        "date": "Coming soon",
+        "time": "Coming soon",
+        "location": "TBA",
+        "cfp_link": "",
+        "rsvp_link": ""
+    },
+    {
+        "title": "SciPy India Community Call #2",
+        "date": "04 October, 2025",
+        "day": "Saturday",
+        "time": "10:00 AM - 12:00 PM IST / 4:30 AM - 6:30 AM UTC",
+        "location": "Online",
+        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
+        "rsvp_link": "https://fossunited.org/c/scipy-india/september-2025/rsvp"
+    },
+    {
+        "title": "SciPy India Virtual Meetup #1",
+        "date": "26-Jul-2025",
+        "day": "Saturday",
+        "time": "10am to 1pm IST",
+        "location": "Online",
+        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
+        "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp"
+    }
+]
