@@ -18,10 +18,6 @@ Option 1: Overleaf (Recommended)
 - Set `Main.tex` as the root document.
 - Compile to PDF.
 
-Option 2: Local (TeX Live/MiKTeX)
-
-<!-- Yet to test these out -->
-
 ## Making edits
 
 - Update text in `Main.tex` only with content already agreed in the website/README/reviews.
