@@ -1,0 +1,119 @@
+
+ \definecolor{dkblue}{rgb}{0.00,0.5,0.68}
+
+\mode<presentation> {
+\usetheme{Boadilla}
+\usecolortheme{default}
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts,amsthm,mathrsfs}
+
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+
+% For tikz figures
+\usepackage{graphicx,float,color,xcolor}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+
+% For math letters
+\usefonttheme[onlymath]{serif}
+
+
+% Justify text in the slides
+\usepackage{ragged2e} 
+
+% For Slide titles 
+\setbeamertemplate{frametitle continuation}[from second]
+
+% --------------------------------
+% Put logos in frametitle
+
+
+
+% Define line
+\newcommand{\topline}{%
+  \tikz[remember picture,overlay] {%
+    \draw[dkblue,very thick] ([yshift=-1cm]current page.north west)-- ([yshift=-1cm,xshift=0.8\paperwidth]current page.north west);}}
+
+% Define Header
+\def\thisframelogos{}
+\newcommand{\framelogo}[1]{\def\thisframelogos{#1}}
+
+\addtobeamertemplate{frametitle}{\setbeamercolor{frametitle}{fg=black,bg=white}}{
+\topline
+\begin{tikzpicture}[remember picture,overlay]
+ \node[inner sep=12.5pt,outer sep=0pt,right = -5pt] at (current page.north east)
+[anchor=north east]
+{%
+\foreach \img in \thisframelogos {%
+% \includegraphics[width=1.3cm,keepaspectratio]{Figures/CBA_logo.png}
+}};
+\end{tikzpicture}
+}
+
+
+
+% To hide bottom navigation symbols in beamer
+\setbeamertemplate{navigation symbols}{}
+
+
+%% Footer
+\defbeamertemplate*{footline}{my footline}
+{
+    \ifnum \insertpagenumber=1
+    \leavevmode%
+     \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=2ex,center]{title in head/foot}   \end{beamercolorbox}
+    
+    %   \hbox{%
+    %   \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    %     % empty environment to raise height
+    %   \end{beamercolorbox}}%
+    %   \vskip0pt%
+    \else
+\leavevmode
+\begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=-1ex]{box1}\includegraphics[width=1.2cm,keepaspectratio]{../assets/SciPy-India-logo.png}
+\usebeamercolor{author in head/foot}
+\end{beamercolorbox}\hfill%
+\begin{beamercolorbox}[wd=0.40\paperwidth,sep=1em,ht=3.25ex]{box2}\usebeamerfont{\insertdate}\insertdate
+\end{beamercolorbox}\hfill%
+\begin{beamercolorbox}[wd=.12\paperwidth,sep=1em,ht=2.25ex]{box3}\usebeamerfont{\insertshorttitle}\insertshorttitle
+\end{beamercolorbox}\hfill%
+\begin{beamercolorbox}[wd=.12\paperwidth,sep=1em,,ht=2.25ex]{box4} \usebeamerfont{\insertframenumber}\insertframenumber
+\end{beamercolorbox}
+    \fi
+}
+
+
+
+
+
+\BeforeBeginEnvironment{frame}{%
+\setbeamertemplate{headline}{}}
+
+\makeatletter
+\define@key{beamerframe}{Title}[true]{%
+\setbeamertemplate{headline}{\hfill%
+\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=2ex,center]{title in head/foot}   \end{beamercolorbox}%
+}}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
