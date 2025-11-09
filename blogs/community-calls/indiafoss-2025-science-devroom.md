@@ -73,6 +73,26 @@ After a full day of talks spanning hardware hacking, infrastructure design, data
 
 The full [FOSS in Science devroom](https://fossunited.org/indiafoss/2025/devrooms/science) was livestreamed on [YouTube](https://www.youtube.com/watch?v=NyQced4oJVM) for those who couldn't attend in person. The recording remains available for viewing at your convenience, with timestamps for individual talks.
 
+## Videos
+
+Individual talk recordings are now available in the [FOSS in Science devroom playlist](https://www.youtube.com/playlist?list=PLOGilj110oly_VPJ7pz0avjyxiLjiTJTP). Here's the complete schedule with links to each presentation:
+
+| Talk | Speaker | Video |
+|------|---------|-------|
+| [KuttyPy: A no cost transformation of the ubiquitous Arduino into an affordable data acquisition system for STEM](https://fossunited.org/c/indiafoss/2025/cfp/3a8mrlaug1) | Jithin B P | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=uT_yO95ODuvTKorJ&t=1001) |
+| [Understanding API Dispatching in Scientific Python ecosystem](https://fossunited.org/c/indiafoss/2025/cfp/ac6fq71113) | Aditi Juneja | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=VG-3EN8TKjLJwM99&t=2400) |
+| [The Array API Standard: One ring to rule them all](https://fossunited.org/c/indiafoss/2025/cfp/4vqtvphjlo) | Pradyot Ranjan | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=7BIogBt6ufHp8B_4&t=3045) |
+| [Zarr: Cloud-optimised, N-dimensional, typed array storage](https://fossunited.org/c/indiafoss/2025/cfp/840daar96d) | Sanket Verma | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=Ol73_la5pM5u-7DR&t=3430) |
+| [Assessing the State of India's Birds using FOSS](https://fossunited.org/c/indiafoss/2025/cfp/4h74unreb3) | Pradeep Koulgi | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=oDoRBWkwxN52_Wb5&t=3995) |
+| [Collaborative CAD & GIS in JupyterLab](https://fossunited.org/c/indiafoss/2025/cfp/c3ihc5q86u) | Arjun Verma | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=Q1kgbMTQ573JT5_s&t=4680) |
+| [The CoRE stack open-source initiative](https://fossunited.org/c/indiafoss/2025/cfp/8h350au2vu) | Dr. Aaditeshwar Seth | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=CpJ8Zrhw8v9L6H-X&t=7110) |
+| [Formalizing Mathematics and Scientific Computing with an Open-Source Theorem Prover](https://fossunited.org/c/indiafoss/2025/cfp/094oqd69br) | Sagnik Saha | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=SipJNe30QcHdryeK&t=8745) |
+| [Empowering Open Science with Scalable Interactive Computing Environments in India](https://fossunited.org/c/indiafoss/2025/cfp/53f0kokb65) | Kriyanshi Shah | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=-qPiBwQAOAuM6kiA&t=9570) |
+| [Beyond the smokescreen: interactive in-browser FOSS tools for science communication and evidence-based environmental policy](https://fossunited.org/c/indiafoss/2025/cfp/4cskgcvsha) | Agriya Khetarpal | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=cV-a0uaudTumD6CC&t=10695) |
+| [The Observability of Everything: Instrumenting Science with DevOps Tools](https://fossunited.org/c/indiafoss/2025/cfp/922tldapca) | Aftab S | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=SEVBs6Ou-omF8OJp&t=11355) |
+| [Breaking into the Black Box: Making LLMs Transparent for Science](https://fossunited.org/c/indiafoss/2025/cfp/bobop0lvdi) | Alosh Denny | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=2snMOCovEfmnN77O&t=12140) |
+| [Signal Over Noise: Benchmarking Time Series Models with sktime](https://fossunited.org/c/indiafoss/2025/cfp/5r5n9qq4nh) | Jigyasu Krishnan | [Watch](https://www.youtube.com/live/NyQced4oJVM?si=0SOwoZwkUnqMSTio&t=12675) |
+
 ## In a nutshell
 
 Thank you to everyone who spoke, attended, asked questions, and contributed to making the FOSS in Science devroom at IndiaFOSS 2025 a success. To the speakers who travelled to Bengaluru and prepared thoughtful presentations showcasing their work: your contributions made the day what it was. To FOSS United for organizing IndiaFOSS and providing us with the platform and infrastructure to host the devroom: we're grateful for your continued support of the FOSS community in India.
