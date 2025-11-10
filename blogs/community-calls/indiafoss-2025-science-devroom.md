@@ -1,6 +1,6 @@
 # IndiaFOSS 2025 | Devroom – FOSS in Science
 
-_Srihari Thyagarajan_
+_Srihari Thyagarajan_, _Agriya Khetarpal_
 
 This blog post is our account of SciPy India's participation in the FOSS in Science devroom at IndiaFOSS 2025, held in Bengaluru. Here, we describe the devroom as it happened, including the talks, discussions, and the incredible diversity of applications of free and open-source software in scientific research and practice across India.
 
