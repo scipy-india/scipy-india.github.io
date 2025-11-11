@@ -21,6 +21,17 @@ const blogConfig = [
     icon: "📞",
     readTime: "5 min read",
   },
+  {
+    id: "indiafoss-2025-science-devroom",
+    title: "IndiaFOSS 2025 | Devroom – FOSS in Science",
+    excerpt:
+      "A full day of talks at the FOSS In Science Devroom at IndiaFOSS 2025.",
+    markdownFile: "blogs/community-calls/indiafoss-2025-science-devroom.md",
+    date: "2025-09-21",
+    tags: ["Conference", "IndiaFOSS", "FOSS in Science"],
+    icon: "🔬",
+    readTime: "15 min read",
+  },
 ];
 
 class BlogsRenderer {
