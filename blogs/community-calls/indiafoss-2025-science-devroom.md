@@ -9,7 +9,7 @@ This blog post is our account of SciPy India's participation in the FOSS in Scie
 - **Date**: September 21st, 2025
 - **Time**: 10:00 to 13:00 IST
 - **Venue**: [NIMHANS Convention Centre, Bengaluru](https://osmapp.org/way/1219285692#15.37/12.9430/77.5956)
-- **YouTube livestream**: https://www.youtube.com/watch?v=NyQced4oJVM
+- **YouTube livestream**: [https://www.youtube.com/watch?v=NyQced4oJVM](https://www.youtube.com/watch?v=NyQced4oJVM)
 
 ## Background
 
