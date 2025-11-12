@@ -1,20 +1,31 @@
 [
     {
-        "title": "SciPy India Community Call #3",
-        "date": "01 November, 2025",
-        "day": "Saturday",
-        "time": "02:00 PM - 04:00 PM IST / 8:30 AM - 10:30 AM UTC",
-        "location": "Online",
-        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
-        "rsvp_link": "https://fossunited.org/c/scipy-india/community-call-3/rsvp"
-    },
-    {
         "title": "SciPy India Conference 2025",
-        "date": "Coming soon",
-        "time": "Coming soon",
+        "date": "Coming soon!",
+        "time": "Coming soon!",
         "location": "TBA",
         "cfp_link": "",
         "rsvp_link": ""
+    },
+    {
+        "title": "SciPy India Community Call #3",
+        "date": "01 November, 2025",
+        "day": "Saturday",
+        "time": "02:00 PM - 04:00 PM IST / 8:30 AM – 10:30 AM UTC",
+        "location": "Online",
+        "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
+        "rsvp_link": "https://fossunited.org/c/scipy-india/community-call-3/rsvp",
+        "livestream_link": "https://www.youtube.com/watch?v=6SoLgkFVkIg"
+    },
+    {
+        "title": "FOSS in Science Devroom at IndiaFOSS 2025",
+        "date": "21 September, 2025",
+        "day": "Sunday",
+        "time": "10:00 AM to 1:00 PM IST IST / 10:00 AM to 1:00 PM IST / 04:30 AM – 07:30 AM UTC",
+        "location": "NIMHANS Convention Centre, Bengaluru, India",
+        "cfp_link": "https://fossunited.org/indiafoss/2025/devrooms/science",
+        "rsvp_link": "https://fossunited.org/indiafoss/2025/devrooms/science",
+        "livestream_link": "https://www.youtube.com/playlist?list=PLOGilj110oly_VPJ7pz0avjyxiLjiTJTP"
     },
     {
         "title": "SciPy India Community Call #2",
@@ -30,7 +41,7 @@
         "title": "SciPy India Virtual Meetup #1",
         "date": "26-Jul-2025",
         "day": "Saturday",
-        "time": "10am to 1pm IST",
+        "time": "10:00 AM to 1:00 PM IST / 04:30 AM – 07:30 AM UTC",
         "location": "Online",
         "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml",
         "rsvp_link": "https://fossunited.org/c/scipy-india/meetup/july-2025/rsvp",
