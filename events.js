@@ -27,7 +27,7 @@ class EventManager {
     const pastEvents = [];
 
     events.forEach((event) => {
-      if (event.date === "Coming soon") {
+      if (event.date === "Coming soon!") {
         upcomingEvents.push(event);
       } else {
         const eventDate = new Date(event.date);
@@ -89,7 +89,7 @@ class EventManager {
     details.appendChild(dateDetail);
 
     // Time details
-    if (event.time && event.time !== "Coming soon") {
+    if (event.time && event.time !== "Coming soon!") {
       const timeDetail = document.createElement("div");
       timeDetail.className = "event-detail";
       const timeIcon = document.createElement("span");
@@ -117,7 +117,7 @@ class EventManager {
     // Actions
     const today = new Date();
     const eventDate =
-      event.date === "Coming soon"
+      event.date === "Coming soon!"
         ? new Date(9999, 11, 31)
         : new Date(event.date);
     const isPastEvent = eventDate < today;
