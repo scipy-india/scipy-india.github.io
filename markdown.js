@@ -89,6 +89,23 @@ class Renderer {
         continue;
       }
 
+      // Handle tables
+      if (this.isTableLine(line)) {
+        currentList = null;
+        const tableLines = [line];
+
+        while (i + 1 < lines.length && this.isTableLine(lines[i + 1])) {
+          i++;
+          tableLines.push(lines[i]);
+        }
+
+        const tableElement = this.createTable(tableLines);
+        if (tableElement) {
+          container.appendChild(tableElement);
+        }
+        continue;
+      }
+
       // Process regular lines
       const element = this.processLine(line);
       if (element) {
@@ -201,6 +218,114 @@ class Renderer {
     }
     pre.appendChild(code);
     return pre;
+  }
+
+  isTableLine(line) {
+    const trimmed = line.trim();
+    // A table line should contain at least one pipe character,
+    // and should start/end with pipes or have pipes in between.
+    return trimmed.includes("|") && trimmed.length > 0;
+  }
+
+  createTable(lines) {
+    if (lines.length < 2) return null;
+
+    // Parse header row,
+    // Check if second line is a separator,
+    // Parse alignment from separator row,
+    // Create table element,
+    // Create thead,
+    // Create tbody,
+    // Parse data rows (skip header and separator).
+    const headerCells = this.parseTableRow(lines[0]);
+    if (!headerCells || headerCells.length === 0) return null;
+
+    const separatorMatch = lines[1].match(/^\s*\|?(\s*:?-+:?\s*\|)+\s*:?-+:?\s*\|?\s*$/);
+    if (!separatorMatch) return null;
+
+    const alignments = this.parseTableAlignment(lines[1], headerCells.length);
+
+    const table = document.createElement("table");
+
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+
+    headerCells.forEach((cellContent, index) => {
+      const th = document.createElement("th");
+      if (alignments[index]) {
+        th.setAttribute("align", alignments[index]);
+      }
+      this.processInlineElements(cellContent, th);
+      headerRow.appendChild(th);
+    });
+
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+
+    for (let i = 2; i < lines.length; i++) {
+      const cells = this.parseTableRow(lines[i]);
+      if (!cells) continue;
+
+      const row = document.createElement("tr");
+      cells.forEach((cellContent, index) => {
+        const td = document.createElement("td");
+        if (alignments[index]) {
+          td.setAttribute("align", alignments[index]);
+        }
+        this.processInlineElements(cellContent, td);
+        row.appendChild(td);
+      });
+
+      tbody.appendChild(row);
+    }
+
+    table.appendChild(tbody);
+    return table;
+  }
+
+  parseTableRow(line) {
+    const trimmed = line.trim();
+
+    // Remove leading and trailing pipes
+    let content = trimmed;
+    if (content.startsWith("|")) {
+      content = content.substring(1);
+    }
+    if (content.endsWith("|")) {
+      content = content.substring(0, content.length - 1);
+    }
+
+    // Split by pipes and trim each cell.
+    const cells = content.split("|").map((cell) => cell.trim());
+
+    return cells.length > 0 ? cells : null;
+  }
+
+  parseTableAlignment(separatorLine, columnCount) {
+    const cells = this.parseTableRow(separatorLine);
+    const alignments = [];
+
+    for (let i = 0; i < columnCount; i++) {
+      const cell = cells[i] || "";
+      const trimmed = cell.trim();
+
+      const startsWithColon = trimmed.startsWith(":");
+      const endsWithColon = trimmed.endsWith(":");
+
+      if (startsWithColon && endsWithColon) {
+        alignments.push("center");
+      } else if (endsWithColon) {
+        alignments.push("right");
+      } else if (startsWithColon) {
+        alignments.push("left");
+      } else {
+        alignments.push("left"); // left is our default alignment
+      }
+    }
+
+    return alignments;
   }
 
   processInlineElements(text, container) {
