@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,7 +39,14 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="blogs.html?id=about">About</a></li>
               <li><a href="blogs.html" class="active">Blogs</a></li>
-              <li><a href="slides/SciPy-intro-slides.pdf" target="_blank" rel="noopener">Slides</a></li>
+              <li>
+                <a
+                  href="slides/SciPy-intro-slides.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Slides</a
+                >
+              </li>
               <li><a href="coc.html">Code of Conduct</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -240,7 +247,7 @@
 
           // Sort blogs by date (newest first)
           const sortedBlogs = [...window.blogConfig].sort(
-            (a, b) => new Date(b.date) - new Date(a.date)
+            (a, b) => new Date(b.date) - new Date(a.date),
           );
 
           sortedBlogs.forEach((blog) => {
@@ -336,9 +343,8 @@
 
         updatePageMeta(blog) {
           document.title = `${blog.title} - SciPy India`;
-          document.getElementById(
-            "page-title"
-          ).textContent = `${blog.title} - SciPy India`;
+          document.getElementById("page-title").textContent =
+            `${blog.title} - SciPy India`;
 
           document
             .getElementById("page-description")

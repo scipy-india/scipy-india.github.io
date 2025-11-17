@@ -58,7 +58,7 @@ class BlogsRenderer {
 
     // Sort blogs by date (newest first)
     const sortedBlogs = [...blogConfig].sort(
-      (a, b) => new Date(b.date) - new Date(a.date)
+      (a, b) => new Date(b.date) - new Date(a.date),
     );
 
     sortedBlogs.forEach((blog, index) => {

@@ -4,15 +4,8 @@
 default: true
 
 # MD013/line-length - Line length
-MD013:
-  line_length: 200
-  heading_line_length: 100
-  code_block_line_length: 120
-  code_blocks: true
-  tables: true
-  headings: true
-  strict: false
-  stern: false
+# Disabled for blog posts and prose content where long sentences are natural
+MD013: false
 
 # MD033/no-inline-html - Inline HTML
 MD033:
@@ -30,3 +23,7 @@ MD046:
 # MD024/no-duplicate-heading - Multiple headings with the same content
 MD024:
   siblings_only: true
+
+# MD036/no-emphasis-as-heading - Emphasis used instead of a heading
+# Disabled to allow emphasis for author bylines and similar uses
+MD036: false

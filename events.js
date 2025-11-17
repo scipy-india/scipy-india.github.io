@@ -46,7 +46,7 @@ class EventManager {
     if (upcomingEvents.length === 0) {
       this.renderNoEvents(
         this.upcomingContainer,
-        "No upcoming events at the moment."
+        "No upcoming events at the moment.",
       );
     }
     if (pastEvents.length === 0) {
