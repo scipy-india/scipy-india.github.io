@@ -1,0 +1,29 @@
+# Markdownlint configuration
+# See https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+default: true
+
+# MD013/line-length - Line length
+# Disabled for blog posts and prose content where long sentences are natural
+MD013: false
+
+# MD033/no-inline-html - Inline HTML
+MD033:
+  allowed_elements: [br, sub, sup, details, summary]
+
+MD034: true
+
+# MD041/first-line-heading - First line in file should be a top level heading
+MD041: false
+
+# MD046/code-block-style - Code block style
+MD046:
+  style: fenced
+
+# MD024/no-duplicate-heading - Multiple headings with the same content
+MD024:
+  siblings_only: true
+
+# MD036/no-emphasis-as-heading - Emphasis used instead of a heading
+# Disabled to allow emphasis for author bylines and similar uses
+MD036: false

@@ -77,7 +77,7 @@ class Renderer {
           inCodeBlock = false;
           const preElement = this.createCodeBlock(
             codeBlockContent,
-            codeBlockLanguage
+            codeBlockLanguage,
           );
           container.appendChild(preElement);
         }
@@ -240,7 +240,9 @@ class Renderer {
     const headerCells = this.parseTableRow(lines[0]);
     if (!headerCells || headerCells.length === 0) return null;
 
-    const separatorMatch = lines[1].match(/^\s*\|?(\s*:?-+:?\s*\|)+\s*:?-+:?\s*\|?\s*$/);
+    const separatorMatch = lines[1].match(
+      /^\s*\|?(\s*:?-+:?\s*\|)+\s*:?-+:?\s*\|?\s*$/,
+    );
     if (!separatorMatch) return null;
 
     const alignments = this.parseTableAlignment(lines[1], headerCells.length);
@@ -349,7 +351,7 @@ class Renderer {
         // No more markdown, add remaining text
         if (position < remaining.length) {
           const textNode = document.createTextNode(
-            remaining.substring(position)
+            remaining.substring(position),
           );
           elements.push(textNode);
         }
@@ -359,7 +361,7 @@ class Renderer {
       // Add text before the markdown element
       if (nextMarkdown.start > position) {
         const textNode = document.createTextNode(
-          remaining.substring(position, nextMarkdown.start)
+          remaining.substring(position, nextMarkdown.start),
         );
         elements.push(textNode);
       }
@@ -368,7 +370,7 @@ class Renderer {
       const element = this.createInlineElement(
         nextMarkdown.type,
         nextMarkdown.content,
-        nextMarkdown.url
+        nextMarkdown.url,
       );
       elements.push(element);
 
