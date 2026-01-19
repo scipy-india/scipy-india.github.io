@@ -8,6 +8,15 @@
     "rsvp_link": ""
   },
   {
+    "title": "BangPypers x SciPy India Meetup",
+    "date": "21 February, 2026",
+    "day": "Saturday",
+    "time": "TBA",
+    "location": "Bangalore, India",
+    "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=bangpypers-scipy-india-proposal.yaml",
+    "rsvp_link": ""
+  },
+  {
     "title": "SciPy India Community Call #3",
     "date": "01 November, 2025",
     "day": "Saturday",
