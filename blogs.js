@@ -4,7 +4,7 @@ const blogConfig = [
     title: "SciPy India x BangPypers Meetup - February 2026",
     excerpt:
       "How a long-planned SciPy India x BangPypers meetup came together in Bengaluru, with talks, lightning sessions, and strong offline community energy.",
-    markdownFile: "blogs/community-calls/scipy-india-x-bangpypers-feb-2026.md",
+    markdownFile: "blogs/community-calls/scipy-india-bangpypers-feb-2026.md",
     date: "2026-02-21",
     tags: ["Community Call", "Meetup", "Bangalore"],
     icon: "🤝",
