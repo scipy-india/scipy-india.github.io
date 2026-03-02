@@ -50,14 +50,12 @@ His advice was grounded: start small, run local tests before you submit anything
 
 Tushar is a BangPypers regular. This was a very technical talk, mostly live demos with some slides, naturally spoken. He covered Python annotations and t-strings ([PEP 750](https://peps.python.org/pep-0750/) territory) and ran for around 40 to 45 minutes. It ran long in the good way, where time disappears and nobody minds.
 
-<!-- FIXME: add talk details and link to resources if available -->
-
 ### Lightning Talks
 
 We finalized the lightning talks at the break around 1:40 PM. Both ran about 10 to 12 minutes each:
 
 - **Load balancing project** by Nischal Jain
-- **Metagenomics: classifying a billion base pairs per second with Kraken2** by <!-- FIXME: add speaker name -->
+- **Metagenomics: classifying a billion base pairs per second with Kraken2** by Anand Reddy Pandikunta
 
 ## Aftermath
 
