@@ -24,7 +24,7 @@ This was a joint effort between SciPy India and BangPypers, with Amadeus hosting
 
 - Welcome and introductions
 - [_Garbage In, Garbage Out: Engineering Reliable LLM Systems Beyond the Prompt_](https://github.com/scipy-india/proposal-reviewing/issues/40) by Anirudh Sethuraman
-- [_Open Source, Demystified: How Anyone Can Start Contributing_](https://github.com/scipy-india/proposal-reviewing/issues/41) by Ganesh Kathiresan
+- [_From User to Maintainer: My NumPy Journey_](https://github.com/scipy-india/proposal-reviewing/issues/41) by Ganesh Kathiresan
 - Break
 - _Python Annotations and t-strings: Python metaprogramming in the modern age_ by Tushar Sadhwani
 - Lightning talks
@@ -38,7 +38,7 @@ Priyanka from Amadeus opened the day by introducing Amadeus and the other organi
 
 Anirudh talked about building reliable LLM systems, walking through something he had actually built ([slides](https://github.com/scipy-india/proposal-reviewing/issues/40#issuecomment-3918796335)). The focus was on the data pipeline, indexing, chunking, and how quality issues cascade from there. He also touched on frameworks like LlamaIndex: what they offer, where they fall short, and why understanding those limits matters before you commit to one over a custom design. The talk generated a fair bit of discussion around retrieval strategies and where these pipelines tend to break.
 
-### Open Source, Demystified (Ganesh Kathiresan)
+### From User to Maintainer (Ganesh Kathiresan)
 
 Ganesh was the first to arrive, and I had a good conversation with him before things got going. He is a NumPy maintainer and Senior SDE at Amazon.
 
