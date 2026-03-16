@@ -41,7 +41,7 @@ In addition to community calls, we are also exploring other ways to keep the mom
 
 Provided enough interest and support, we aim to host the next edition of the SciPy India conference, in person, in either late 2025 or early 2026. The conference, as always, will feature a mix of keynote speakers, technical sessions, and networking opportunities for attendees. We are currently in the planning stages and will be sharing more details in the coming months as we finalise the venue, dates, and call for proposals, and we could definitely use your help in making this happen!
 
-Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](https://scipy-india.github.io/contact.html/).
+Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](https://scipy-india.github.io/contact.html).
 
 <!-- link to contact page here, should be at https://scipy-india.github.io/contact.html/ -->
 
