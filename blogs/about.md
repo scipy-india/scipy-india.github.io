@@ -33,7 +33,7 @@ One of the key initiatives we have undertaken to keep the community engaged is t
 
 We kicked off our first community call of 2025 on July 26th, 2025, with an engaging session that included updates from the community, presentations on recent projects, and discussions on future plans. The call was well-received, and we had a great turnout of participants from various backgrounds. We plan to continue these community calls on a regular basis, and we encourage all members to join in and contribute to the discussions.
 
-[Please click here to read more about our first community call](https://scipy-india.github.io/blog/events/community-call-july-2025.html/).
+[Please click here to read more about our first community call](https://scipy-india.github.io/blog/events/community-call-july-2025.html/)).
 
 ### Conference
 
