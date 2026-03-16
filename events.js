@@ -128,7 +128,7 @@ class EventManager {
       const actions = document.createElement("div");
       actions.className = "event-actions";
 
-      // For past events, we show a livestream if a link to it is available.
+      // For past events, we show a livestream and/or blog post link if available.
       if (isPastEvent) {
         if (event.livestream_link && event.livestream_link.trim() !== "") {
           const livestreamLink = document.createElement("a");
@@ -138,6 +138,13 @@ class EventManager {
           livestreamLink.target = "_blank";
           livestreamLink.rel = "noopener";
           actions.appendChild(livestreamLink);
+        }
+        if (event.blog_link && event.blog_link.trim() !== "") {
+          const blogLink = document.createElement("a");
+          blogLink.href = event.blog_link;
+          blogLink.className = "btn btn-secondary";
+          blogLink.textContent = "Read blog post";
+          actions.appendChild(blogLink);
         }
       } else {
         if (event.cfp_link && event.cfp_link.trim() !== "") {
@@ -171,7 +178,10 @@ class EventManager {
 
   shouldShowActions(event, isPastEvent) {
     if (isPastEvent) {
-      return event.livestream_link && event.livestream_link.trim() !== "";
+      return (
+        (event.livestream_link && event.livestream_link.trim() !== "") ||
+        (event.blog_link && event.blog_link.trim() !== "")
+      );
     } else {
       return (
         (event.cfp_link && event.cfp_link.trim() !== "") ||
