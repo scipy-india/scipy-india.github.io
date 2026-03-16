@@ -24,6 +24,7 @@ class Renderer {
       "pre",
       "a",
       "img",
+      "iframe",
       "table",
       "thead",
       "tbody",
@@ -37,12 +38,15 @@ class Renderer {
     this.allowedAttributes = {
       a: ["href", "title", "target", "rel"],
       img: ["src", "alt", "title", "width", "height"],
+      iframe: ["src", "width", "height", "frameborder", "allowfullscreen"],
       table: ["class"],
       th: ["align"],
       td: ["align"],
       code: ["class"],
       pre: ["class"],
     };
+
+    this.allowedIframeDomains = ["embed.ente.io"];
   }
 
   parseMarkdown(markdown) {
@@ -106,6 +110,23 @@ class Renderer {
         continue;
       }
 
+      // Handle trusted iframes (these are passed through sanitisation)
+      if (
+        line.trim().match(/^<iframe\s/i) &&
+        line.trim().match(/<\/iframe>$/i)
+      ) {
+        currentList = null;
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = line.trim();
+        const iframe = wrapper.querySelector("iframe");
+        if (iframe) {
+          const container_div = document.createElement("div");
+          container_div.appendChild(iframe);
+          container.appendChild(container_div);
+        }
+        continue;
+      }
+
       // Process regular lines
       const element = this.processLine(line);
       if (element) {
@@ -138,7 +159,20 @@ class Renderer {
   sanitiseInput(input) {
     let sanitised = input
       .replace(/<script[^>]*>.*?<\/script>/gis, "")
-      .replace(/<iframe[^>]*>.*?<\/iframe>/gis, "")
+      .replace(/<iframe[^>]*>.*?<\/iframe>/gis, (match) => {
+        const srcMatch = match.match(/src\s*=\s*"([^"]+)"/i);
+        if (srcMatch) {
+          try {
+            const url = new URL(srcMatch[1]);
+            if (this.allowedIframeDomains.includes(url.hostname)) {
+              return match;
+            }
+          } catch (e) {
+            // invalid URL, strip
+          }
+        }
+        return "";
+      })
       .replace(/javascript:/gi, "")
       .replace(/on\w+\s*=/gi, "");
 
