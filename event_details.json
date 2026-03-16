@@ -11,10 +11,11 @@
     "title": "BangPypers x SciPy India Meetup",
     "date": "21 February, 2026",
     "day": "Saturday",
-    "time": "TBA",
-    "location": "Bangalore, India",
+    "time": "11:00 AM – 2:00 PM IST",
+    "location": "Amadeus Software Labs, Bengaluru",
     "cfp_link": "https://github.com/scipy-india/proposal-reviewing/issues/new?template=bangpypers-scipy-india-proposal.yaml",
-    "rsvp_link": ""
+    "rsvp_link": "",
+    "blog_link": "blogs.html?id=scipy-india-x-bangpypers-feb-2026"
   },
   {
     "title": "SciPy India Community Call #3",
