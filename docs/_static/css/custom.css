@@ -6,20 +6,20 @@
 /* ── Light mode ─────────────────────────────────────────── */
 :root,
 html[data-theme="light"] {
-  --pst-color-primary: 21, 101, 192;           /* #1565c0 */
-  --pst-color-secondary: 0, 51, 102;           /* #003366 */
-  --pst-color-accent: 255, 235, 59;            /* #ffeb3b */
-  --pst-color-background: 250, 251, 252;       /* #fafbfc */
-  --pst-color-surface: 255, 255, 255;          /* #ffffff */
-  --pst-color-on-background: 44, 62, 80;       /* #2c3e50 */
-  --pst-color-on-surface: 44, 62, 80;          /* #2c3e50 */
-  --pst-color-text-muted: 90, 108, 125;        /* #5a6c7d */
-  --pst-color-border: 225, 232, 237;           /* #e1e8ed */
+  --pst-color-primary: 21, 101, 192; /* #1565c0 */
+  --pst-color-secondary: 0, 51, 102; /* #003366 */
+  --pst-color-accent: 255, 235, 59; /* #ffeb3b */
+  --pst-color-background: 250, 251, 252; /* #fafbfc */
+  --pst-color-surface: 255, 255, 255; /* #ffffff */
+  --pst-color-on-background: 44, 62, 80; /* #2c3e50 */
+  --pst-color-on-surface: 44, 62, 80; /* #2c3e50 */
+  --pst-color-text-muted: 90, 108, 125; /* #5a6c7d */
+  --pst-color-border: 225, 232, 237; /* #e1e8ed */
   --pst-color-shadow: 0, 0, 0;
 
   /* Custom brand tokens */
   --sci-yellow: #ffeb3b;
-  --sci-yellow-dark: #f9a825;          /* darker yellow for dark-mode accent */
+  --sci-yellow-dark: #f9a825; /* darker yellow for dark-mode accent */
   --sci-blue-light: #e3f2fd;
   --sci-gradient-accent: linear-gradient(90deg, #1565c0 0%, #ffeb3b 100%);
   --sci-border-radius: 12px;
@@ -32,10 +32,10 @@ html[data-theme="light"] {
 
 /* ── Dark mode ───────────────────────────────────────────── */
 html[data-theme="dark"] {
-  --pst-color-primary: 100, 181, 246;          /* #64b5f6 */
-  --pst-color-secondary: 144, 202, 249;        /* #90caf9 */
-  --pst-color-accent: 255, 213, 79;            /* #ffd54f */
-  --pst-color-background: 24, 29, 35;          /* softened dark surface */
+  --pst-color-primary: 100, 181, 246; /* #64b5f6 */
+  --pst-color-secondary: 144, 202, 249; /* #90caf9 */
+  --pst-color-accent: 255, 213, 79; /* #ffd54f */
+  --pst-color-background: 24, 29, 35; /* softened dark surface */
   --pst-color-surface: 31, 37, 45;
   --pst-color-on-background: 229, 233, 238;
   --pst-color-on-surface: 229, 233, 238;
@@ -92,11 +92,21 @@ html[data-theme="dark"] {
   overflow: hidden;
   display: block;
   padding: clamp(2.5rem, 4vw, 4rem) clamp(2rem, 4vw, 4rem)
-           clamp(2.5rem, 4vw, 4rem) clamp(2rem, 4vw, 4rem);
+    clamp(2.5rem, 4vw, 4rem) clamp(2rem, 4vw, 4rem);
   background: linear-gradient(
     145deg,
-    color-mix(in srgb, rgb(var(--pst-color-primary)) 92%, rgb(var(--pst-color-surface))) 0%,
-    color-mix(in srgb, rgb(var(--pst-color-secondary)) 88%, rgb(var(--pst-color-surface))) 100%
+    color-mix(
+        in srgb,
+        rgb(var(--pst-color-primary)) 92%,
+        rgb(var(--pst-color-surface))
+      )
+      0%,
+    color-mix(
+        in srgb,
+        rgb(var(--pst-color-secondary)) 88%,
+        rgb(var(--pst-color-surface))
+      )
+      100%
   );
   border-radius: var(--sci-border-radius);
   margin-bottom: 3rem;
@@ -313,8 +323,9 @@ html[data-theme="dark"] {
 
 .sd-card {
   border-radius: var(--sci-border-radius) !important;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   overflow: hidden;
   border-color: rgb(var(--pst-color-border)) !important;
 }
@@ -564,7 +575,11 @@ div.admonition.admonition-community {
 }
 
 div.admonition.admonition-community > .admonition-title {
-  background: color-mix(in srgb, var(--sci-yellow) 28%, rgb(var(--pst-color-surface)));
+  background: color-mix(
+    in srgb,
+    var(--sci-yellow) 28%,
+    rgb(var(--pst-color-surface))
+  );
   color: rgb(var(--pst-color-secondary));
 }
 
@@ -697,7 +712,11 @@ table tbody tr:hover {
 /* PSF logo has a light background built in — give it a pill container */
 .sci-partner-logo--psf {
   height: 40px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 250, 255, 0.98));
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.98),
+    rgba(247, 250, 255, 0.98)
+  );
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 12px;
   padding: 8px 14px;
