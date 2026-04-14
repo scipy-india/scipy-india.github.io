@@ -1,19 +1,23 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+# Sphinx build output
+_build/
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
 
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+# uv
+.python-version
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+
+# Design context (local only)
 .impeccable.md
+
+.claude/
