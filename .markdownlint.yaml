@@ -9,7 +9,7 @@ MD013: false
 
 # MD033/no-inline-html - Inline HTML
 MD033:
-  allowed_elements: [br, sub, sup, details, summary, iframe]
+  allowed_elements: [br, sub, sup, details, summary, iframe, div, span, a, em, strong]
 
 MD034: true
 
