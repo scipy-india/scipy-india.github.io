@@ -1,0 +1,9 @@
+---
+date: 2025-12-31
+location: TBA
+status: upcoming
+---
+
+# SciPy India Conference 2025
+
+Details coming soon.

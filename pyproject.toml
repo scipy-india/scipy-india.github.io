@@ -1,0 +1,16 @@
+[project]
+name = "scipy-india-website"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "sphinx>=7.4",
+    "pydata-sphinx-theme>=0.16",
+    "myst-parser[linkify]>=3.0",
+    "ablog>=0.11",
+    "sphinx-design>=0.6",
+    "sphinx-copybutton>=0.5",
+    "sphinx-togglebutton>=0.3",
+]
+
+[dependency-groups]
+dev = []
