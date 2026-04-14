@@ -1,0 +1,90 @@
+project = "SciPy India"
+copyright = "2026, SciPy India Contributors"
+author = "SciPy India Contributors"
+
+html_theme = "pydata_sphinx_theme"
+
+extensions = [
+    "myst_parser",
+    "ablog",
+    "sphinx_design",
+    "sphinx_copybutton",
+    "sphinx_togglebutton",
+]
+
+html_static_path = ["_static"]
+html_css_files = ["css/custom.css"]
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+html_show_sourcelink = False
+
+html_sidebars = {
+    "index": [],
+    "contact": [],
+    "coc": [],
+    "blog/**": [],
+}
+
+myst_enable_extensions = ["colon_fence", "deflist"]
+
+html_logo = "_static/SciPy-India-logo.png"
+html_favicon = "_static/SciPy-India-logo.png"
+
+html_theme_options = {
+    "logo": {
+        "image_light": "_static/SciPy-India-logo.png",
+        "image_dark": "_static/SciPy-India-logo.png",
+        "alt_text": "SciPy India",
+    },
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": ["navbar-nav"],
+    "navbar_end": ["navbar-icon-links", "theme-switcher"],
+    "footer_start": ["copyright"],
+    "footer_center": ["footer_partners"],
+    "footer_end": ["theme-version"],
+    "show_prev_next": False,
+    "secondary_sidebar_items": ["page-toc"],
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/scipy-india",
+            "icon": "fab fa-github",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Zulip",
+            "url": "https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/",
+            "icon": "fas fa-comments",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Bluesky",
+            "url": "https://bsky.app/profile/scipyindia.bsky.social",
+            "icon": "fas fa-cloud",
+            "type": "fontawesome",
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/company/scipyindia",
+            "icon": "fab fa-linkedin",
+            "type": "fontawesome",
+        },
+        {
+            "name": "Mastodon",
+            "url": "https://fosstodon.org/@scipyindia",
+            "icon": "fab fa-mastodon",
+            "type": "fontawesome",
+        },
+    ],
+    "use_edit_page_button": False,
+    "show_toc_level": 2,
+    "navigation_with_keys": True,
+    "back_to_top_button": True,
+}
+
+# ABlog settings
+blog_path = "blog"
+blog_title = "SciPy India Blog"
+blog_baseurl = "https://scipy-india.github.io"
+blog_feed_fulltext = True
+blog_post_pattern = "blog/*.md"
