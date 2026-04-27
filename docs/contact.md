@@ -19,7 +19,7 @@ Co-organizer
 [agriyakhetarpal@outlook.com](mailto:agriyakhetarpal@outlook.com)
 :::
 
-:::{grid-item-card} @Schefflera-Arboricola
+:::{grid-item-card} Aditi Juneja
 
 Volunteer
 

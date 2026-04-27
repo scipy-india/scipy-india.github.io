@@ -1,11 +1,3 @@
-{% extends "!layout.html" %}
-{% block docs_sidebar %}
-{% if pagename != "index" %}
-{{ super() }}
-{% endif %}
-{% endblock docs_sidebar %}
-{% block docs_toc %}
-{% if pagename != "index" %}
-{{ super() }}
-{% endif %}
-{% endblock %}
+{% extends "!layout.html" %} {% block docs_sidebar %} {% if pagename != "index"
+%} {{ super() }} {% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {%
+if pagename != "index" %} {{ super() }} {% endif %} {% endblock %}
