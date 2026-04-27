@@ -13,7 +13,6 @@ extensions = [
 ]
 
 html_static_path = ["_static"]
-html_css_files = ["css/custom.css"]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_show_sourcelink = False
@@ -40,7 +39,6 @@ html_theme_options = {
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["navbar-icon-links", "theme-switcher"],
     "footer_start": ["copyright"],
-    "footer_center": ["footer_partners"],
     "footer_end": ["theme-version"],
     "show_prev_next": False,
     "secondary_sidebar_items": ["page-toc"],

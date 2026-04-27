@@ -17,19 +17,16 @@ This page is a quick event reference. For the full write-up, use the recap link 
 :gutter: 3
 
 :::{grid-item-card} Date
-:class-card: sci-meta-card
 
 21 September 2025
 :::
 
 :::{grid-item-card} Time
-:class-card: sci-meta-card
 
 10:00 AM – 1:00 PM IST
 :::
 
 :::{grid-item-card} Venue
-:class-card: sci-meta-card
 
 NIMHANS Convention Centre, Bengaluru
 :::
@@ -37,7 +34,7 @@ NIMHANS Convention Centre, Bengaluru
 ::::
 
 ````{admonition} YouTube
-:class: dropdown admonition-youtube
+:class: dropdown
 
 ```{raw} html
 <div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
@@ -54,7 +51,4 @@ NIMHANS Convention Centre, Bengaluru
 ```
 ````
 
-<div class="sci-inline-links">
-<a href="https://fossunited.org/indiafoss/2025/devrooms/science">Devroom page</a>
-<a href="/blog/2025-09-21-indiafoss-science-devroom">Read the event recap</a>
-</div>
+[Devroom page](https://fossunited.org/indiafoss/2025/devrooms/science) · [Read the event recap](../../blog/2025-09-21-indiafoss-science-devroom)

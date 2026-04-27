@@ -1,97 +1,11 @@
-{% extends "!layout.html" %} {% block docs_sidebar %} {% if pagename != "index"
-%} {{ super() }} {% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {%
-if pagename != "index" %} {{ super() }} {% endif %} {% endblock %} {% block
-docs_main %} {% if pagename == "index" %}
-<div class="container-xl sci-homepage">
-  <section class="sci-hero" aria-label="SciPy India">
-    <div class="sci-hero-content">
-      <p class="sci-hero-kicker">Scientific Python community in India</p>
-      <h1 class="sci-hero-title">SciPy India</h1>
-      <p class="sci-hero-subtitle">
-        Discover events, read community updates, and stay connected with the
-        local scientific Python ecosystem.
-      </p>
-      <div class="sci-hero-actions">
-        <a
-          href="{{ pathto('events/index') }}"
-          class="sd-sphinx-override sd-btn sci-btn-primary"
-        >
-          View events
-        </a>
-        <a
-          href="{{ pathto('blog/index') }}"
-          class="sd-sphinx-override sd-btn sci-btn-secondary"
-        >
-          Read the blog
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <div class="sci-home-grid">
-    <article class="sci-main-col">
-      <div class="bd-article-container">
-        <article class="bd-article">{{ body }}</article>
-      </div>
-    </article>
-
-    <aside class="sci-sidebar-col" aria-label="Community links">
-      <section class="sci-sidebar-section">
-        <p class="sci-sidebar-kicker">Get involved</p>
-        <h2 class="sci-sidebar-title">Stay connected</h2>
-        <p class="sci-sidebar-copy">
-          Join the conversation, propose talks, and keep up with the broader
-          SciPy India community between events.
-        </p>
-        <ul class="sci-quick-links">
-          <li>
-            <a
-              href="https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/"
-              target="_blank"
-              rel="noopener"
-              >Join our Zulip chat</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/scipy-india/proposal-reviewing/issues/new?template=talk-proposal.yaml"
-              target="_blank"
-              rel="noopener"
-              >Submit a talk proposal</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://bsky.app/profile/scipyindia.bsky.social"
-              target="_blank"
-              rel="noopener"
-              >Follow on Bluesky</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://fosstodon.org/@scipyindia"
-              target="_blank"
-              rel="noopener"
-              >Follow on Mastodon</a
-            >
-          </li>
-        </ul>
-        <p class="sci-sidebar-note">
-          If you want to help with organising, outreach, or review work, join
-          our Zulip and say hello there first.
-        </p>
-      </section>
-
-      <section class="sci-sidebar-section">
-        <p class="sci-sidebar-kicker">About the community</p>
-        <h2 class="sci-sidebar-title">Built for meetups and conferences</h2>
-        <p class="sci-sidebar-copy">
-          SciPy India brings together researchers, students, practitioners, and
-          open source contributors working across the scientific Python stack.
-        </p>
-      </section>
-    </aside>
-  </div>
-</div>
-{% else %} {{ super() }} {% endif %} {% endblock %}
+{% extends "!layout.html" %}
+{% block docs_sidebar %}
+{% if pagename != "index" %}
+{{ super() }}
+{% endif %}
+{% endblock docs_sidebar %}
+{% block docs_toc %}
+{% if pagename != "index" %}
+{{ super() }}
+{% endif %}
+{% endblock %}

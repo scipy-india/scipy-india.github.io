@@ -12,13 +12,11 @@ Details coming soon.
 :gutter: 3
 
 :::{grid-item-card} Date
-:class-card: sci-meta-card
 
 Coming soon
 :::
 
 :::{grid-item-card} Location
-:class-card: sci-meta-card
 
 TBA
 :::
@@ -26,7 +24,7 @@ TBA
 ::::
 
 ```{admonition} Planning updates
-:class: dropdown admonition-community
+:class: dropdown
 
 - Conference details will be announced here as they are confirmed.
 - Follow the SciPy India blog and community channels for CFP and registration updates.

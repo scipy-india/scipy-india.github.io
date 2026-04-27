@@ -16,25 +16,20 @@ This page is a quick event reference. For the full write-up, use the recap link 
 :gutter: 3
 
 :::{grid-item-card} Date
-:class-card: sci-meta-card
 
 21 February 2026
 :::
 
 :::{grid-item-card} Time
-:class-card: sci-meta-card
 
 11:00 AM – 2:00 PM IST
 :::
 
 :::{grid-item-card} Venue
-:class-card: sci-meta-card
 
 Amadeus Software Labs, Bengaluru
 :::
 
 ::::
 
-<div class="sci-inline-links">
-<a href="/blog/2026-02-21-bangpypers-joint-meetup">Read the event recap</a>
-</div>
+[Read the event recap](../../blog/2026-02-21-bangpypers-joint-meetup)

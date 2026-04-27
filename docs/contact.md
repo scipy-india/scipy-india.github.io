@@ -6,7 +6,6 @@ For general inquiries about SciPy India, collaboration opportunities, or if you'
 :gutter: 3
 
 :::{grid-item-card} Srihari Thyagarajan
-:class-card: sci-contact-card
 
 Co-organizer
 
@@ -14,11 +13,17 @@ Co-organizer
 :::
 
 :::{grid-item-card} Agriya Khetarpal
-:class-card: sci-contact-card
 
 Co-organizer
 
 [agriyakhetarpal@outlook.com](mailto:agriyakhetarpal@outlook.com)
+:::
+
+:::{grid-item-card} @Schefflera-Arboricola
+
+Volunteer
+
+[GitHub](https://github.com/Schefflera-Arboricola)
 :::
 
 ::::

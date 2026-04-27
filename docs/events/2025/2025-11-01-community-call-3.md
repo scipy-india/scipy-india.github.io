@@ -17,19 +17,16 @@ This page is a quick event reference with the recording embedded below.
 :gutter: 3
 
 :::{grid-item-card} Date
-:class-card: sci-meta-card
 
 1 November 2025
 :::
 
 :::{grid-item-card} Time
-:class-card: sci-meta-card
 
 2:00 PM – 4:00 PM IST
 :::
 
 :::{grid-item-card} Format
-:class-card: sci-meta-card
 
 Online
 :::
@@ -37,7 +34,7 @@ Online
 ::::
 
 ````{admonition} YouTube
-:class: dropdown admonition-youtube
+:class: dropdown
 
 ```{raw} html
 <div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">

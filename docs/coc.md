@@ -20,7 +20,6 @@ The comprehensive NumFOCUS Code of Conduct outlines expected behaviours and prov
 :gutter: 3
 
 :::{grid-item-card} Report an incident
-:class-card: sci-coc-card
 
 Use our anonymous reporting form to report any violations of our Code of Conduct.
 
@@ -28,7 +27,6 @@ Use our anonymous reporting form to report any violations of our Code of Conduct
 :::
 
 :::{grid-item-card} Need more information?
-:class-card: sci-coc-card
 
 Visit our GitHub repository for the full Code of Conduct and additional resources.
 

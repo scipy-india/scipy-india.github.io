@@ -17,19 +17,16 @@ This page is a quick event reference. For the full write-up, use the recap link 
 :gutter: 3
 
 :::{grid-item-card} Date
-:class-card: sci-meta-card
 
 26 July 2025
 :::
 
 :::{grid-item-card} Time
-:class-card: sci-meta-card
 
 10:00 AM – 1:00 PM IST
 :::
 
 :::{grid-item-card} Format
-:class-card: sci-meta-card
 
 Online
 :::
@@ -37,7 +34,7 @@ Online
 ::::
 
 ````{admonition} YouTube
-:class: dropdown admonition-youtube
+:class: dropdown
 
 ```{raw} html
 <div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
@@ -54,6 +51,4 @@ Online
 ```
 ````
 
-<div class="sci-inline-links">
-<a href="/blog/2025-07-26-community-call-1">Read the event recap</a>
-</div>
+[Read the event recap](../../blog/2025-07-26-community-call-1)

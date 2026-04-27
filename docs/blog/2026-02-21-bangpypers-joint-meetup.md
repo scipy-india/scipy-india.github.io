@@ -24,22 +24,6 @@ There's been a [running conversation](https://github.com/scipy-india/planning/is
 
 <iframe src="https://embed.ente.io/?t=UGKIYD9VFW#CSAX2cjcGnXtm4z5dHN557isYYhxtn56eQPsEHmaXTvw" width="100%" height="500" frameborder="0" allowfullscreen></iframe>
 
-## Video
-
-```{raw} html
-<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 1.5rem 0;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/FCSsohzaP4s"
-    title="SciPy India x BangPypers Meetup video"
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    style="width: 100%; height: 100%; border: 0;"
-  ></iframe>
-</div>
-```
-
 ## Background
 
 This was a joint effort between SciPy India and BangPypers, with Amadeus hosting us at their Bengaluru office. It was the second time BangPypers had done a meetup at this venue. The call for proposals came from both communities, posting across both handles and reaching out to speakers from each network. Bengaluru was BangPypers' home ground, and a chance to see how a more scientific computing-oriented programme would land there.
