@@ -26,14 +26,14 @@ html_sidebars = {
 
 myst_enable_extensions = ["colon_fence", "deflist"]
 
-html_logo = "_static/SciPy-India-logo.png"
-html_favicon = "_static/SciPy-India-logo.png"
+html_logo = "_static/scipy-india-logo.svg"
+html_favicon = "_static/scipy-india-logo.svg"
 
 html_theme_options = {
     "logo": {
-        "image_light": "_static/SciPy-India-logo.png",
-        "image_dark": "_static/SciPy-India-logo.png",
-        "alt_text": "SciPy India",
+        "image_light": "_static/scipy-india-logo.svg",
+        "image_dark": "_static/scipy-india-logo.svg",
+        "alt_text": "SciPy India logo",
     },
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
