@@ -13,6 +13,15 @@ extensions = [
 ]
 
 html_static_path = ["_static"]
+html_css_files = [
+    "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css",
+]
+html_js_files = [
+    (
+        "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/js/brands.min.js",
+        {"defer": "defer"},
+    ),
+]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_show_sourcelink = False
