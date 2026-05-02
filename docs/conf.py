@@ -61,13 +61,13 @@ html_theme_options = {
         {
             "name": "Zulip",
             "url": "https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/",
-            "icon": "fas fa-comments",
+            "icon": "fa-brands fa-zulip",
             "type": "fontawesome",
         },
         {
             "name": "Bluesky",
             "url": "https://bsky.app/profile/scipyindia.bsky.social",
-            "icon": "fas fa-cloud",
+            "icon": "fa-brands fa-bluesky",
             "type": "fontawesome",
         },
         {
