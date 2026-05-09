@@ -1,0 +1,23 @@
+{
+  "subject": "acct:scipyindia@scipy.in",
+  "aliases": [
+    "https://fosstodon.org/@scipyindia",
+    "https://fosstodon.org/users/scipyindia"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://fosstodon.org/@scipyindia"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://fosstodon.org/users/scipyindia"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://fosstodon.org/authorize_interaction?uri={uri}"
+    }
+  ]
+}

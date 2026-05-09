@@ -1,6 +1,7 @@
 project = "SciPy India"
-copyright = "2026, SciPy India Contributors"
-author = "SciPy India Contributors"
+html_title = "SciPy India"
+copyright = "2026, The SciPy India team"
+author = "The SciPy India team"
 
 html_theme = "pydata_sphinx_theme"
 
@@ -13,6 +14,7 @@ extensions = [
 ]
 
 html_static_path = ["_static"]
+html_extra_path = ["_extra"]
 html_css_files = ["custom.css"]
 html_js_files = [
     (
@@ -90,6 +92,6 @@ html_theme_options = {
 # ABlog settings
 blog_path = "blog"
 blog_title = "SciPy India Blog"
-blog_baseurl = "https://scipy-india.github.io"
+blog_baseurl = "https://scipy.in"
 blog_feed_fulltext = True
 blog_post_pattern = "blog/*.md"
