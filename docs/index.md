@@ -35,7 +35,7 @@ Details to be announced. Watch this space.
 :link: blog/2026-02-21-bangpypers-joint-meetup
 :link-type: doc
 
-*21 Feb 2026* · Debrief
+_21 Feb 2026_ · Debrief
 
 Our first offline joint meetup, with talks on LLM systems, NumPy contributions, and Python metaprogramming.
 :::
@@ -44,9 +44,75 @@ Our first offline joint meetup, with talks on LLM systems, NumPy contributions, 
 :link: blog/2025-09-21-indiafoss-science-devroom
 :link-type: doc
 
-*21 Sep 2025* · Debrief
+_21 Sep 2025_ · Debrief
 
 A full day of talks on FOSS in scientific research, co-organised at IndiaFOSS 2025 in Bengaluru.
+:::
+
+::::
+
+## Partners & support
+
+::::{grid} 1 1 2 2
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:link: https://www.python.org/psf
+:link-type: url
+
+```{image} _static/partner-logos/psf.svg
+:alt: Python Software Foundation
+:height: 100px
+:class: mb-3 no-scaled-link partner-logo
+```
+
+SciPy India is an [official community partner](https://www.python.org/psf/community-partners/) of the Python Software Foundation.
+:::
+
+:::{grid-item-card}
+:text-align: center
+:link: https://fossunited.org/c/scipy-india
+:link-type: url
+
+```{image} _static/partner-logos/fossunited-dark.svg
+:alt: FOSS United Foundation
+:height: 100px
+:class: only-light mb-3 no-scaled-link partner-logo
+```
+
+```{image} _static/partner-logos/fossunited-light.svg
+:alt: FOSS United Foundation
+:height: 100px
+:class: only-dark mb-3 no-scaled-link partner-logo
+```
+
+We are incubated and supported by [the FOSS United Foundation](https://fossunited.org), a Section 8 non-profit organisation that aims to promote and strengthen the Free and Open Source Software (FOSS) ecosystem in India.
+:::
+
+::::
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+
+```{image} _static/partner-logos/fossee.svg
+:alt: FOSSEE
+:width: 200px
+:target: https://fossee.in
+:class: me-4 partner-logo no-scaled-link
+```
+
+```{image} _static/partner-logos/iitb.svg
+:alt: IIT Bombay
+:width: 200px
+:target: https://www.iitb.ac.in
+:class: mb-3 partner-logo no-scaled-link
+```
+
+The [FOSSEE project](https://fossee.in) at the Indian Institute of Technology, Bombay offers hosting for our website domain. [The Indian Institute of Technology, Bombay](https://www.iitb.ac.in) previously hosted several editions of the conference from 2009 to 2021.
 :::
 
 ::::
