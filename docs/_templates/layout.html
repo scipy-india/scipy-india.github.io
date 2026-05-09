@@ -1,3 +1,3 @@
-{% extends "!layout.html" %} {% block docs_sidebar %} {% if pagename != "index"
+{% extends "!layout.html" %} {% block htmltitle %} {% if pagename == "index" %} <title>SciPy India</title> {% else %} {{ super() }} {% endif %} {% endblock htmltitle %} {% block docs_sidebar %} {% if pagename != "index"
 %} {{ super() }} {% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {%
 if pagename != "index" %} {{ super() }} {% endif %} {% endblock %}
