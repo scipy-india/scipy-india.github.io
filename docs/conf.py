@@ -1,6 +1,7 @@
 project = "SciPy India"
-copyright = "2026, SciPy India Contributors"
-author = "SciPy India Contributors"
+html_title = "SciPy India"
+copyright = "2026, The SciPy India team"
+author = "The SciPy India team"
 
 html_theme = "pydata_sphinx_theme"
 
