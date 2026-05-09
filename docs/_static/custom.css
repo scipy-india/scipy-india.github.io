@@ -1,23 +1,23 @@
 img.partner-logo {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 [data-theme="dark"] img.partner-logo {
-    filter: none !important;
+  filter: none !important;
 }
 
 a:has(> img.partner-logo),
 a:hover:has(> img.partner-logo),
 a:focus:has(> img.partner-logo) {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    background: transparent !important;
-    text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  text-decoration: none !important;
 }
 
 a:has(> img.partner-logo)::before,
 a:has(> img.partner-logo)::after {
-    display: none !important;
-    content: none !important;
+  display: none !important;
+  content: none !important;
 }
