@@ -13,6 +13,7 @@ extensions = [
 ]
 
 html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 html_js_files = [
     (
         "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/js/brands.min.js",
