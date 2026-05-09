@@ -65,6 +65,6 @@ Toward the close, Jayita and I pitched [FOSSHack by FOSS United](https://fossuni
 
 Thanks to everyone who showed up, asked questions, and stayed back for discussions. Thanks to all the speakers for their practical talks, to Amadeus for hosting us, and to the BangPypers organizers for making this joint event happen.
 
-If you want to stay involved with SciPy India, join our [Zulip chat](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), follow our [social channels](https://scipy-india.github.io/), and keep an eye out for the next meetup.
+If you want to stay involved with SciPy India, join our [Zulip chat](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), follow our [social channels](https://scipy.in), and keep an eye out for the next meetup.
 
 If you want to stay involved with BangPypers, find them on [LinkedIn](https://www.linkedin.com/company/bangpypers), [Twitter](https://x.com/bangpypers), [Instagram](https://instagram.com/bangpypers), join their [Discord](https://discord.gg/YkvsBBEZgt), or check their [CFP repo](https://github.com/bangpypers/meetup-talks) for upcoming talks.

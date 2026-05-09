@@ -33,7 +33,7 @@ One of the key initiatives we have undertaken to keep the community engaged is t
 
 We kicked off our first community call of 2025 on July 26th, 2025, with an engaging session that included updates from the community, presentations on recent projects, and discussions on future plans. The call was well-received, and we had a great turnout of participants from various backgrounds. We plan to continue these community calls on a regular basis, and we encourage all members to join in and contribute to the discussions.
 
-[Please click here to read more about our first community call](https://scipy-india.github.io/blog/events/community-call-july-2025.html/)).
+[Please click here to read more about our first community call](https://scipy.in/blog/events/community-call-july-2025.html/).
 
 ### Conference
 
@@ -41,15 +41,13 @@ In addition to community calls, we are also exploring other ways to keep the mom
 
 Provided enough interest and support, we aim to host the next edition of the SciPy India conference, in person, in either late 2025 or early 2026. The conference, as always, will feature a mix of keynote speakers, technical sessions, and networking opportunities for attendees. We are currently in the planning stages and will be sharing more details in the coming months as we finalise the venue, dates, and call for proposals, and we could definitely use your help in making this happen!
 
-Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](https://scipy-india.github.io/contact.html).
-
-<!-- link to contact page here, should be at https://scipy-india.github.io/contact.html/ -->
+Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](https://scipy.in/contact).
 
 ## Get involved
 
 There are several ways you can contribute to SciPy India in 2025 and beyond:
 
-- **Join the community**: Participate in our online forum on [Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), and interact with [social media channels](https://scipy-india.github.io#contact) to connect with other members and stay updated on the latest news and events.
+- **Join the community**: Participate in our online forum on [Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), and interact with [social media channels](https://scipy.in) to connect with other members and stay updated on the latest news and events.
 - **Attend events**: Participate in our community calls, workshops, and events to learn about the latest developments in scientific Python, including new libraries, tools, and techniques, and learn new skills and network with like-minded individuals.
 - **Organise events**: Help us organise local meetups, workshops, or conferences in your area to promote scientific computing with Python and foster a sense of community beyond virtual barriers.
 - **Contribute to open source**: Get involved in open source software projects related to scientific computing and data science. You can contribute code, documentation, or help with testing and bug reporting, and eventually, help us with our own website and infrastructure.

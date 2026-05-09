@@ -90,6 +90,6 @@ html_theme_options = {
 # ABlog settings
 blog_path = "blog"
 blog_title = "SciPy India Blog"
-blog_baseurl = "https://scipy-india.github.io"
+blog_baseurl = "https://scipy.in"
 blog_feed_fulltext = True
 blog_post_pattern = "blog/*.md"
