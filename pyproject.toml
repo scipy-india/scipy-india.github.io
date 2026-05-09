@@ -10,6 +10,7 @@ dependencies = [
     "sphinx-design>=0.6",
     "sphinx-copybutton>=0.5",
     "sphinx-togglebutton>=0.3",
+    "sphinx-autobuild",
 ]
 
 [dependency-groups]
