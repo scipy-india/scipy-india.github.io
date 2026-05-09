@@ -58,7 +58,7 @@ A full day of talks on FOSS in scientific research, co-organised at IndiaFOSS 20
 
 :::{grid-item-card}
 :text-align: center
-:link:https://www.python.org/psf
+:link: https://www.python.org/psf
 :link-type: url
 
 ```{image} _static/partner-logos/psf.svg
