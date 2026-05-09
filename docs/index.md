@@ -58,12 +58,11 @@ A full day of talks on FOSS in scientific research, co-organised at IndiaFOSS 20
 
 :::{grid-item-card}
 :text-align: center
-:link: https://www.python.org/psf
-:link-type: url
 
 ```{image} _static/partner-logos/psf.svg
 :alt: Python Software Foundation
 :height: 100px
+:target: https://www.python.org/psf
 :class: mb-3 no-scaled-link partner-logo
 ```
 
@@ -72,18 +71,18 @@ SciPy India is an [official community partner](https://www.python.org/psf/commun
 
 :::{grid-item-card}
 :text-align: center
-:link: https://fossunited.org/c/scipy-india
-:link-type: url
 
 ```{image} _static/partner-logos/fossunited-dark.svg
 :alt: FOSS United Foundation
 :height: 100px
+:target: https://fossunited.org/c/scipy-india
 :class: only-light mb-3 no-scaled-link partner-logo
 ```
 
 ```{image} _static/partner-logos/fossunited-light.svg
 :alt: FOSS United Foundation
 :height: 100px
+:target: https://fossunited.org/c/scipy-india
 :class: only-dark mb-3 no-scaled-link partner-logo
 ```
 
