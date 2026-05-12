@@ -91,6 +91,7 @@ The [FOSSEE project](https://fossee.in) at the Indian Institute of Technology, B
 :hidden:
 :maxdepth: 1
 
+About us <about>
 events/index
 blog/index
 contact
