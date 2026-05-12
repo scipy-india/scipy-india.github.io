@@ -4,5 +4,6 @@
 />{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index" %}
 <title>SciPy India</title> {% else %} {{ super() }} {% endif %} {% endblock
 htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %} {{ super() }}
-{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename !=
-"index" %} {{ super() }} {% endif %} {% endblock %}
+{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename ==
+"index" %} {% include "recent-highlights.html" %} {% else %} {{ super() }} {%
+endif %} {% endblock %}
