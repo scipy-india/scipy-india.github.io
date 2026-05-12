@@ -1,8 +1,8 @@
 # SciPy India
 
-Discover events, read community updates, and stay connected with the local scientific Python ecosystem.
+Discover events, read community updates, and stay connected with the scientific Python ecosystem in India.
 
-[View events](events/index) · [Read the blog](blog/index) · [Join our Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/)
+[About us](about) · [View events](events/index) · [Read the blog](blog/index) · [Join our Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/)
 
 ## Upcoming events
 
