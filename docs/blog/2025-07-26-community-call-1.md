@@ -4,6 +4,7 @@ date: 2025-07-26
 author: Agriya Khetarpal, Aditi Juneja, Srihari Thyagarajan
 category: Community Calls
 tags: [community-call, meetup, pycaret, marimo, causal-ml]
+description: Our first online community call, with talks on PyCaret, marimo, causal ML, and the kinds of conversations that shaped what came next.
 ---
 
 # SciPy India Community Call #1 – July 2025

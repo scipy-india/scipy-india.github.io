@@ -4,6 +4,7 @@ date: 2026-02-21
 author: Srihari Thyagarajan, Agriya Khetarpal
 category: Events
 tags: [meetup, bangpypers, bengaluru, offline]
+description: An afternoon in Bengaluru with talks on reliable LLM systems, NumPy maintenance, Python metaprogramming, and lightning talks.
 ---
 
 # SciPy India × BangPypers Meetup, February 2026

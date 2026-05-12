@@ -4,6 +4,7 @@ date: 2025-09-21
 author: Srihari Thyagarajan, Agriya Khetarpal
 category: Events
 tags: [indiafoss, devroom, bengaluru, foss-in-science]
+description: A full debrief from the FOSS in Science devroom at IndiaFOSS 2025, including the talks, themes, and links to individual recordings.
 ---
 
 # IndiaFOSS 2025 | Devroom – FOSS in Science
