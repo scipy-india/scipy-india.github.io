@@ -39,6 +39,7 @@ html_show_sourcelink = False
 html_sidebars = {
     "index": [],
     "contact": [],
+    "about": [],
     "coc": [],
     "blog": [],
     "blog/**": [],
