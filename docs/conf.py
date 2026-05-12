@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Path for our custom Sphinx extensions
+sys.path.insert(0, os.path.abspath("sphinxext"))
+
 project = "SciPy India"
 html_title = "SciPy India"
 copyright = "2026, The SciPy India team"
@@ -11,6 +17,7 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx_togglebutton",
+    "blog_post_grid",
 ]
 
 html_static_path = ["_static"]
@@ -30,6 +37,7 @@ html_sidebars = {
     "index": [],
     "contact": [],
     "coc": [],
+    "blog": [],
     "blog/**": [],
 }
 
@@ -95,3 +103,18 @@ blog_title = "SciPy India Blog"
 blog_baseurl = "https://scipy.in"
 blog_feed_fulltext = True
 blog_post_pattern = "blog/*.md"
+
+# Add post descriptions to the blog post grid context, because
+# ABlog doesn't do this by default.
+def _add_post_descriptions(app, _pagename, _templatename, context, _doctree):
+    from ablog.blog import Blog
+
+    blog = Blog(app)
+    context["post_descriptions"] = {
+        post.docname: app.env.metadata.get(post.docname, {}).get("description", "")
+        for post in blog.posts
+    }
+
+
+def setup(app):
+    app.connect("html-page-context", _add_post_descriptions)
