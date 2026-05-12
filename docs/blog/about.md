@@ -23,7 +23,7 @@ The first edition of the SciPy India conference was held in 2009 at SPACE Kerala
 
 Post 2020, with the onset of the COVID-19 pandemic, SciPy India adapted to the new normal by transitioning to virtual events. This shift allowed the community to continue this mission of promoting scientific computing in India despite the challenges posed by an online format.
 
-SciPy India 2021 was the last edition of the conference held virtually, and since then, the community has been on a hiatus. However, come to 2025, we are thrilled to announce the revival of SciPy India with plans to host the next conference in 2025. We are currently in the planning stages, and we are excited to announce that we plan to resume in-person conferences in the near future, while also exploring hybrid formats to accommodate a wider audience.
+SciPy India 2021 was the last edition of the conference held virtually, and since then, the community has been on a hiatus. However, come to 2025, we are thrilled to announce the revival of SciPy India with plans to host the next conference in 2026. We are currently in the planning stages, and we are excited to announce that we plan to resume in-person conferences in the near future, while also exploring hybrid formats to accommodate a wider audience.
 
 However, what are we doing in the meantime, you ask? Read on!
 
@@ -33,15 +33,15 @@ One of the key initiatives we have undertaken to keep the community engaged is t
 
 We kicked off our first community call of 2025 on July 26th, 2025, with an engaging session that included updates from the community, presentations on recent projects, and discussions on future plans. The call was well-received, and we had a great turnout of participants from various backgrounds. We plan to continue these community calls on a regular basis, and we encourage all members to join in and contribute to the discussions.
 
-[Please click here to read more about our first community call](https://scipy.in/blog/events/community-call-july-2025.html/).
+[Please click here to read more about our first community call](/blog/2025-07-26-community-call-1).
 
 ### Conference
 
 In addition to community calls, we are also exploring other ways to keep the momentum going and engage with our community. This includes planning for future conferences, workshops, and events that will bring together experts and enthusiasts in the field of scientific computing. We are also looking into collaborations with other organisations and communities across languages and dialects to expand our reach and impact.
 
-Provided enough interest and support, we aim to host the next edition of the SciPy India conference, in person, in either late 2025 or early 2026. The conference, as always, will feature a mix of keynote speakers, technical sessions, and networking opportunities for attendees. We are currently in the planning stages and will be sharing more details in the coming months as we finalise the venue, dates, and call for proposals, and we could definitely use your help in making this happen!
+Provided enough interest and support, we aim to host the next edition of the SciPy India conference, in person, in late 2026. The conference, as always, will feature a mix of keynote speakers, technical sessions, and networking opportunities for attendees. We are currently in the planning stages and will be sharing more details in the coming months as we finalise the venue, dates, and call for proposals, and we could definitely use your help in making this happen!
 
-Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](https://scipy.in/contact).
+Stay tuned for more updates on our upcoming initiatives and events, and keep spreading the word about SciPy India! Please reach out to us if you have any ideas, suggestions, or would like to get involved in our community activities via our [contact page](/contact).
 
 ## Get involved
 
