@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-02-21
 author: Srihari Thyagarajan, Agriya Khetarpal
-category: Events
+category: Debrief
 tags: [meetup, bangpypers, bengaluru, offline]
 ---
 
