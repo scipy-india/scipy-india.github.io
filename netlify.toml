@@ -1,0 +1,3 @@
+[build]
+  command = "pip install uv && uv run sphinx-build -b html -W --keep-going docs/ _build/html"
+  publish = "_build/html"
