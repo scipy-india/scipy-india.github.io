@@ -31,7 +31,7 @@ Details to be announced.
 :link: ../blog/2026-02-21-bangpypers-joint-meetup
 :link-type: doc
 
-📅 21 Feb 2026 · 📍 Amadeus Software Labs, Bengaluru
+📅 21 Feb 2026 • 📍 Amadeus Software Labs, Bengaluru
 
 A joint offline meetup — talks on LLM systems, NumPy contributions, Python t-strings, and lightning talks.
 :::
@@ -40,7 +40,7 @@ A joint offline meetup — talks on LLM systems, NumPy contributions, Python t-s
 :link: 2025/2025-12-06-community-call-4
 :link-type: doc
 
-📅 6 Dec 2025 · 🌐 Online
+📅 6 Dec 2025 • 🌐 Online
 
 Talks on simulation with PhiFlow, computational preservation of Telugu poetry, and Ramanujan-Computing.
 :::
@@ -49,7 +49,7 @@ Talks on simulation with PhiFlow, computational preservation of Telugu poetry, a
 :link: 2025/2025-11-01-community-call-3
 :link-type: doc
 
-📅 1 Nov 2025 · 🌐 Online
+📅 1 Nov 2025 • 🌐 Online
 
 Our third online community call, with the recording embedded on the event page.
 :::
@@ -58,7 +58,7 @@ Our third online community call, with the recording embedded on the event page.
 :link: 2025/2025-10-04-community-call-2
 :link-type: doc
 
-📅 4 Oct 2025 · 🌐 Online
+📅 4 Oct 2025 • 🌐 Online
 
 Our second online community call, with the recording embedded on the event page.
 :::
@@ -67,7 +67,7 @@ Our second online community call, with the recording embedded on the event page.
 :link: ../blog/2025-09-21-indiafoss-science-devroom
 :link-type: doc
 
-📅 21 Sep 2025 · 📍 NIMHANS, Bengaluru
+📅 21 Sep 2025 • 📍 NIMHANS, Bengaluru
 
 A full debrief from the FOSS in Science devroom at IndiaFOSS 2025, including the talks and follow-up links.
 :::
@@ -76,7 +76,7 @@ A full debrief from the FOSS in Science devroom at IndiaFOSS 2025, including the
 :link: ../blog/2025-07-26-community-call-1
 :link-type: doc
 
-📅 26 Jul 2025 · 🌐 Online
+📅 26 Jul 2025 • 🌐 Online
 
 Our first community call — talks on PyCaret, marimo, causal ML, and subgraph matching.
 :::

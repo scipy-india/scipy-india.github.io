@@ -51,4 +51,4 @@ NIMHANS Convention Centre, Bengaluru
 ```
 ````
 
-[Devroom page](https://fossunited.org/indiafoss/2025/devrooms/science) · [Read the event recap](../../blog/2025-09-21-indiafoss-science-devroom)
+[Devroom page](https://fossunited.org/indiafoss/2025/devrooms/science) • [Read the event recap](../../blog/2025-09-21-indiafoss-science-devroom)
