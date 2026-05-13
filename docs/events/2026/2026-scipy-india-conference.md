@@ -13,7 +13,7 @@ Details coming soon.
 
 :::{grid-item-card} Date
 
-Coming soon
+Late 2026
 :::
 
 :::{grid-item-card} Location

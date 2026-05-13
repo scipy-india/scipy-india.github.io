@@ -13,7 +13,7 @@ A quick overview of upcoming and recent events. Open a card for either a debrief
 :link: 2026/2026-scipy-india-conference
 :link-type: doc
 
-**Date**: Coming soon | **Location**: TBA
+**Date**: Coming soon, in later 2026 | **Location**: TBA
 
 Details to be announced.
 :::

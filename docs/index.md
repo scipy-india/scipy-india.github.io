@@ -13,7 +13,7 @@ Discover events, read community updates, and stay connected with the scientific 
 :link: events/2026/2026-scipy-india-conference
 :link-type: doc
 
-**Date**: Coming soon | **Location**: TBA
+**Date**: Coming soon, in late 2026 | **Location**: TBA
 
 Details to be announced. Watch this space.
 :::
