@@ -1,3 +1,9 @@
+---
+myst:
+  html_meta:
+    "description": "SciPy India Events — upcoming and past conferences, community calls, and meetups from the scientific Python community in India."
+---
+
 # Events
 
 A quick overview of upcoming and recent events. Open a card for either a debrief or a short event page with the recording and core details.

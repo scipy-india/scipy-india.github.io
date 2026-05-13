@@ -1,3 +1,9 @@
+---
+myst:
+  html_meta:
+    "description": "SciPy India — discover events, read community updates, and stay connected with the scientific Python ecosystem in India."
+---
+
 # SciPy India
 
 Discover events, read community updates, and stay connected with the scientific Python ecosystem in India.

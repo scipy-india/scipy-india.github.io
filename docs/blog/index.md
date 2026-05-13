@@ -1,5 +1,8 @@
 ---
 blogpost: false
+myst:
+  html_meta:
+    "description": "SciPy India Blog — recaps and write-ups from the scientific Python community in India."
 ---
 
 # Blog

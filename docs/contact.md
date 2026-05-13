@@ -1,3 +1,9 @@
+---
+myst:
+  html_meta:
+    "description": "Contact the SciPy India team — reach out to community organisers and volunteers for inquiries and collaboration."
+---
+
 # Contact
 
 For general inquiries about SciPy India, collaboration opportunities, or if you're unsure who to contact, feel free to reach out through our community organisers and volunteers.
