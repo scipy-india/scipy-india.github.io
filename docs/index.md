@@ -72,7 +72,7 @@ We are incubated and supported by [the FOSS United Foundation](https://fossunite
 :alt: FOSSEE
 :width: 200px
 :target: https://fossee.in
-:class: me-4 partner-logo no-scaled-link
+:class: mb-3 partner-logo no-scaled-link
 ```
 
 ```{image} _static/partner-logos/iitb.svg
