@@ -21,6 +21,9 @@ extensions = [
 ]
 
 html_static_path = ["_static"]
+# Files in _extra/ are copied after the build and overwrite any generated files
+# with the same name. _extra/blog.html replaces ABlog's "All Posts" page with a
+# redirect to blog/index.html to keep a single canonical blog listing page.
 html_extra_path = ["_extra"]
 html_css_files = ["custom.css"]
 html_js_files = [
