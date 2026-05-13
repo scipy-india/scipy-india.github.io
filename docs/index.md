@@ -39,6 +39,7 @@ Details to be announced. Watch this space.
 ```{image} _static/partner-logos/psf.svg
 :alt: Python Software Foundation
 :height: 100px
+:width: 264px
 :target: https://www.python.org/psf
 :class: mb-3 no-scaled-link partner-logo
 ```
