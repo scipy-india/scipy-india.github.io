@@ -9,7 +9,7 @@
         >
       </p>
       <p class="small mb-0">
-        <em>{{ post.date.strftime('%d %b %Y') }}</em>{% if post.category %} · {%
+        <em>{{ post.date.strftime('%d %b %Y') }}</em>{% if post.category %} • {%
         for coll in post.category %}{{ coll }}{% endfor %}{% endif %}
       </p>
     </div>
