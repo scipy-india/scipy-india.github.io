@@ -1,3 +1,27 @@
 [build]
   command = "pip install uv && uv run sphinx-build -b html -W --keep-going docs/ _build/html"
   publish = "_build/html"
+
+# pydata-sphinx-theme JS (cache-busted via ?digest= query param)
+[[headers]]
+  for = "/_static/scripts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# pydata-sphinx-theme CSS (cache-busted via ?digest= query param)
+[[headers]]
+  for = "/_static/styles/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Vendored FontAwesome fonts (cache-busted via digest in parent CSS)
+[[headers]]
+  for = "/_static/vendor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sphinx-processed images (no cache-busting; 1-week TTL)
+[[headers]]
+  for = "/_images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
