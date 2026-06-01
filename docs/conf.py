@@ -102,12 +102,6 @@ html_static_path = ["_static"]
 # redirect to blog/index.html to keep a single canonical blog listing page.
 html_extra_path = ["_extra"]
 html_css_files = ["custom.css"]
-html_js_files = [
-    (
-        "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/js/brands.min.js",
-        {"defer": "defer"},
-    ),
-]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_show_sourcelink = False
