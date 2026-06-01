@@ -41,3 +41,75 @@ a:has(> img.partner-logo)::after {
   display: none !important;
   content: none !important;
 }
+
+/* Event artwork on upcoming-event cards: show the full landscape banner,
+   never crop it. */
+img.event-flyer-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sci-collab-event-hero {
+  margin: 1.5rem 0 3rem;
+  padding: clamp(0.65rem, 2vw, 1.1rem);
+  border: 1px solid color-mix(in srgb, var(--pst-color-primary), transparent 75%);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--pst-color-primary), transparent 91%), transparent 42%),
+    linear-gradient(315deg, color-mix(in srgb, #ffeb3b, transparent 78%), transparent 36%),
+    var(--pst-color-surface);
+  box-shadow: 0 16px 42px color-mix(in srgb, var(--pst-color-primary), transparent 88%);
+}
+
+.sci-collab-event-hero img.event-flyer {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  border-radius: 12px;
+  box-shadow: 0 10px 26px rgba(0, 51, 102, 0.14);
+}
+
+.sci-collab-event-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sci-collab-event-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--pst-color-primary);
+  border-radius: 999px;
+  background: var(--pst-color-primary);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 180ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 180ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sci-collab-event-actions a:hover,
+.sci-collab-event-actions a:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--pst-color-primary), transparent 72%);
+  color: #fff;
+}
+
+html[data-theme="dark"] .sci-collab-event-hero {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--pst-color-primary), transparent 86%), transparent 42%),
+    linear-gradient(315deg, color-mix(in srgb, #ffeb3b, transparent 88%), transparent 36%),
+    var(--pst-color-surface);
+}
+
+@media (max-width: 600px) {
+  .sci-collab-event-hero {
+    margin-bottom: 2.25rem;
+    border-radius: 14px;
+  }
+}
