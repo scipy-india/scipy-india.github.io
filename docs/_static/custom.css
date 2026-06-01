@@ -53,12 +53,15 @@ img.event-flyer-thumb {
 .sci-collab-event-hero {
   margin: 1.5rem 0 3rem;
   padding: clamp(0.65rem, 2vw, 1.1rem);
+  border: 1px solid var(--pst-color-primary);
   border: 1px solid color-mix(in srgb, var(--pst-color-primary), transparent 75%);
   border-radius: 18px;
+  background: var(--pst-color-surface);
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--pst-color-primary), transparent 91%), transparent 42%),
     linear-gradient(315deg, color-mix(in srgb, #ffeb3b, transparent 78%), transparent 36%),
     var(--pst-color-surface);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.12);
   box-shadow: 0 16px 42px color-mix(in srgb, var(--pst-color-primary), transparent 88%);
 }
 
@@ -96,11 +99,13 @@ img.event-flyer-thumb {
 .sci-collab-event-actions a:hover,
 .sci-collab-event-actions a:focus {
   transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
   box-shadow: 0 8px 20px color-mix(in srgb, var(--pst-color-primary), transparent 72%);
   color: #fff;
 }
 
-html[data-theme="dark"] .sci-collab-event-hero {
+[data-theme="dark"] .sci-collab-event-hero {
+  background: var(--pst-color-surface);
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--pst-color-primary), transparent 86%), transparent 42%),
     linear-gradient(315deg, color-mix(in srgb, #ffeb3b, transparent 88%), transparent 36%),
