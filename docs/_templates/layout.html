@@ -13,51 +13,26 @@ pagename == "index" %}
 {% include "partners.html" %} {% else %} {{ super() }} {% endif %} {% endblock
 docs_body %} {% block footer %}
 <footer class="bd-footer">
+  {% if pagename != "past-editions" %}
   <div class="bd-footer__inner bd-page-width" style="justify-content: center">
     <div class="footer-item">
       <p style="margin: 0; text-align: center">
         Past editions:
-        <a
-          href="https://web.archive.org/web/20251016230532/https://scipy.in/2009"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2009
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20251016212905/https://scipy.in/scipyin/2010/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2010
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20250806175159/https://scipy.in/scipyin/2011/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2011
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20260316083619/https://scipy.in/2012"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2012
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20250806185218/https://scipy.in/2013/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2013
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20250820081400/https://scipy.in/2014"
-          target="_blank"
-          rel="noopener noreferrer"
-          >2014
-        </a>
-        •
-        <a
-          href="https://web.archive.org/web/20250716160805/https://scipy.in/2015"
+        {% for year, url in past_editions -%}
+        <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ year }}</a>
+        {%- if not loop.last %} • {% endif -%}
+        {%- endfor -%}
+      </p>
+    </div>
+  </div>
+  {% endif %}
+  <div class="bd-footer__inner bd-page-width">
+    <div class="footer-items__start">
+      <div class="footer-item">{% include "copyright.html" %}</div>
+    </div>
+    <div class="footer-items__end">
+      <div class="footer-item">{% include "theme-version.html" %}</div>
+    </div>
+  </div>
+</footer>
+{% endblock footer %}
