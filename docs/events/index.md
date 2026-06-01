@@ -15,6 +15,17 @@ A quick overview of upcoming and recent events. Open a card for either a debrief
 ::::{grid} 1
 :gutter: 3
 
+:::{grid-item-card} SciPy India × Rust Delhi Meetup
+:link: 2026/2026-08-22-rust-delhi-meetup
+:link-type: doc
+:img-top: ../_static/events/scipy-india-rust-delhi-meetup.jpeg
+:class-img-top: event-flyer-thumb
+
+📅 22 Aug 2026 • 📍 Essentia.dev, Sector 62, Noida
+
+Scientific Computing in Rust and Python, co-organized with Rust Delhi. Registration and the CFP are open.
+:::
+
 :::{grid-item-card} SciPy India Conference 2026
 :link: 2026/2026-scipy-india-conference
 :link-type: doc
