@@ -17,11 +17,11 @@ docs_body %} {% block footer %}
   <div class="bd-footer__inner bd-page-width" style="justify-content: center">
     <div class="footer-item">
       <p style="margin: 0; text-align: center">
-        Past editions:
-        {% for year, url in past_editions -%}
-        <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ year }}</a>
-        {%- if not loop.last %} • {% endif -%}
-        {%- endfor -%}
+        Past editions: {% for year, url in past_editions -%}
+        <a href="{{ url }}" target="_blank" rel="noopener noreferrer"
+          >{{ year }}</a
+        >
+        {%- if not loop.last %} • {% endif -%} {%- endfor -%}
       </p>
     </div>
   </div>

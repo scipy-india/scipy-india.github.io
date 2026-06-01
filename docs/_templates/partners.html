@@ -26,7 +26,10 @@
               />
             </a>
             {% else %}
-            <a class="reference external image-reference" href="{{ partner.url }}">
+            <a
+              class="reference external image-reference"
+              href="{{ partner.url }}"
+            >
               <img
                 alt="{{ partner.logo_alt }}"
                 class="mb-3 no-scaled-link partner-logo"
@@ -51,7 +54,10 @@
         >
           <div class="sd-card-body">
             {% for logo in partner.logos %}
-            <a class="reference external image-reference" href="{{ logo.href }}">
+            <a
+              class="reference external image-reference"
+              href="{{ logo.href }}"
+            >
               <img
                 alt="{{ logo.alt }}"
                 class="mb-3 partner-logo no-scaled-link"
