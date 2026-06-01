@@ -1,7 +1,3 @@
----
-orphan: true
----
-
 # Past editions
 
 The SciPy India conference has been held annually since 2009. Archived websites
