@@ -40,6 +40,7 @@ html_sidebars = {
     "index": [],
     "contact": [],
     "about": [],
+    "past-editions": [],
     "coc": [],
     "blog": [],
     "blog/**": [],

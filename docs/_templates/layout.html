@@ -1,9 +1,63 @@
-{% extends "!layout.html" %} {% block extrahead %}{{ super() }}<link
-  rel="me"
-  href="https://fosstodon.org/@scipyindia"
-/>{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index" %}
-<title>SciPy India</title> {% else %} {{ super() }} {% endif %} {% endblock
-htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %} {{ super() }}
-{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename ==
-"index" %} {% include "recent-highlights.html" %} {% else %} {{ super() }} {%
-endif %} {% endblock %}
+{% extends "!layout.html" %} {% block extrahead %} {{ super() }}
+<link rel="me" href="https://fosstodon.org/@scipyindia" />
+{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index"
+%}<title>SciPy India</title>{% else %}{{ super() }}{% endif %} {% endblock
+htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %}{{ super()
+}}{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename !=
+"index" %}{{ super() }}{% endif %} {% endblock %} {% block docs_body %} {% if
+pagename == "index" %}
+<div class="row gx-4">
+  <div class="col-12 col-lg-8">{{ super() }}</div>
+  <div class="col-12 col-lg-4">{% include "recent-highlights.html" %}</div>
+</div>
+{% include "partners.html" %} {% else %} {{ super() }} {% endif %} {% endblock
+docs_body %} {% block footer %}
+<footer class="bd-footer">
+  <div class="bd-footer__inner bd-page-width" style="justify-content: center">
+    <div class="footer-item">
+      <p style="margin: 0; text-align: center">
+        Past editions:
+        <a
+          href="https://web.archive.org/web/20251016230532/https://scipy.in/2009"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2009
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20251016212905/https://scipy.in/scipyin/2010/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2010
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20250806175159/https://scipy.in/scipyin/2011/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2011
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20260316083619/https://scipy.in/2012"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2012
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20250806185218/https://scipy.in/2013/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2013
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20250820081400/https://scipy.in/2014"
+          target="_blank"
+          rel="noopener noreferrer"
+          >2014
+        </a>
+        •
+        <a
+          href="https://web.archive.org/web/20250716160805/https://scipy.in/2015"
