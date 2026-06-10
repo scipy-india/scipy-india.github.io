@@ -1,9 +1,38 @@
-{% extends "!layout.html" %} {% block extrahead %}{{ super() }}<link
-  rel="me"
-  href="https://fosstodon.org/@scipyindia"
-/>{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index" %}
-<title>SciPy India</title> {% else %} {{ super() }} {% endif %} {% endblock
-htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %} {{ super() }}
-{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename ==
-"index" %} {% include "recent-highlights.html" %} {% else %} {{ super() }} {%
-endif %} {% endblock %}
+{% extends "!layout.html" %} {% block extrahead %} {{ super() }}
+<link rel="me" href="https://fosstodon.org/@scipyindia" />
+{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index"
+%}<title>SciPy India</title>{% else %}{{ super() }}{% endif %} {% endblock
+htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %}{{ super()
+}}{% endif %} {% endblock docs_sidebar %} {% block docs_toc %} {% if pagename !=
+"index" %}{{ super() }}{% endif %} {% endblock %} {% block docs_body %} {% if
+pagename == "index" %}
+<div class="row gx-4">
+  <div class="col-12 col-lg-8">{{ super() }}</div>
+  <div class="col-12 col-lg-4">{% include "recent-highlights.html" %}</div>
+</div>
+{% include "partners.html" %} {% else %} {{ super() }} {% endif %} {% endblock
+docs_body %} {% block footer %}
+<footer class="bd-footer">
+  {% if pagename != "past-editions" %}
+  <div class="bd-footer__inner bd-page-width" style="justify-content: center">
+    <div class="footer-item">
+      <p style="margin: 0; text-align: center">
+        Past editions: {% for year, url in past_editions -%}
+        <a href="{{ url }}" target="_blank" rel="noopener noreferrer"
+          >{{ year }}</a
+        >
+        {%- if not loop.last %} • {% endif -%} {%- endfor -%}
+      </p>
+    </div>
+  </div>
+  {% endif %}
+  <div class="bd-footer__inner bd-page-width">
+    <div class="footer-items__start">
+      <div class="footer-item">{% include "copyright.html" %}</div>
+    </div>
+    <div class="footer-items__end">
+      <div class="footer-item">{% include "theme-version.html" %}</div>
+    </div>
+  </div>
+</footer>
+{% endblock footer %}
