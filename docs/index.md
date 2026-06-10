@@ -19,6 +19,7 @@ Discover events, read community updates, and stay connected with the scientific 
 :link: events/2026/2026-08-22-rust-delhi-meetup
 :link-type: doc
 :img-top: _static/events/scipy-india-rust-delhi-meetup.png
+:img-alt: SciPy India × Rust Delhi Meetup flyer — Scientific Computing in Rust and Python, sponsored by the Rust Foundation. 22 August 2026, Essentia.dev, Sector 62, Noida.
 :class-img-top: event-flyer-thumb
 
 **Date**: 22 Aug 2026, 2:00 PM – 5:00 PM IST | **Location**: Essentia.dev, Sector 62, Noida (sponsored by the [Rust Foundation](https://rustfoundation.org/))
