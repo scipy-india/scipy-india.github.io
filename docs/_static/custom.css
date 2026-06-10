@@ -53,6 +53,14 @@ img.event-flyer-thumb {
   margin: 0 auto;
 }
 
+/* Clickable cards use a stretched-link overlay (z-index: 1) that covers the
+   whole card. Lift real inline links in the card body above it so they stay
+   clickable, while the rest of the card still routes to the card link. */
+.sd-card-body a.reference:not(.sd-stretched-link) {
+  position: relative;
+  z-index: 2;
+}
+
 .sci-collab-event-hero {
   margin: 1.5rem 0 3rem;
   padding: clamp(0.65rem, 2vw, 1.1rem);
