@@ -40,70 +40,12 @@ Details to be announced. Watch this space.
 
 [View all events →](events/index)
 
-## Partners & support
-
-::::{grid} 1 1 2 2
-:gutter: 3
-
-:::{grid-item-card}
-:text-align: center
-
-```{image} _static/partner-logos/psf.svg
-:alt: Python Software Foundation
-:height: 100px
-:width: 264px
-:target: https://www.python.org/psf
-:class: mb-3 no-scaled-link partner-logo
-```
-
-SciPy India is an [official community partner](https://www.python.org/psf/community-partners/) of the Python Software Foundation.
-:::
-
-:::{grid-item-card}
-:text-align: center
-
-```{raw} html
-<a href="https://fossunited.org/c/scipy-india" aria-label="FOSS United Foundation">
-  <img alt="" class="only-light mb-3 no-scaled-link partner-logo" src="_static/partner-logos/fossunited-dark.svg" style="height: 100px;" />
-  <img alt="" class="only-dark mb-3 no-scaled-link partner-logo" src="_static/partner-logos/fossunited-light.svg" style="height: 100px;" />
-</a>
-```
-
-We are incubated and supported by [the FOSS United Foundation](https://fossunited.org), a Section 8 non-profit organisation that aims to promote and strengthen the Free and Open Source Software (FOSS) ecosystem in India.
-:::
-
-::::
-
-::::{grid} 1
-:gutter: 3
-
-:::{grid-item-card}
-:text-align: center
-
-```{image} _static/partner-logos/fossee.svg
-:alt: FOSSEE
-:width: 200px
-:target: https://fossee.in
-:class: mb-3 partner-logo no-scaled-link
-```
-
-```{image} _static/partner-logos/iitb.svg
-:alt: IIT Bombay
-:width: 200px
-:target: https://www.iitb.ac.in
-:class: mb-3 partner-logo no-scaled-link
-```
-
-The [FOSSEE project](https://fossee.in) at the Indian Institute of Technology, Bombay offers hosting for our website domain. [The Indian Institute of Technology, Bombay](https://www.iitb.ac.in) previously hosted several editions of the conference from 2009 to 2021.
-:::
-
-::::
-
 ```{toctree}
 :hidden:
 :maxdepth: 1
 
 About us <about>
+Past editions <past-editions>
 events/index
 blog/index
 contact
