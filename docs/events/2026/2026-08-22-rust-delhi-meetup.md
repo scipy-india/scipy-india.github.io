@@ -14,7 +14,7 @@ Registration and the CFP are open.
 
 ::::{div} sci-collab-event-hero
 
-```{image} ../../_static/events/scipy-india-rust-delhi-meetup.jpeg
+```{image} ../../_static/events/scipy-india-rust-delhi-meetup.png
 :alt: SciPy India × Rust Delhi Meetup — Scientific Computing in Rust and Python, Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida. RSVPs and CFPs open.
 :align: center
 :class: event-flyer
