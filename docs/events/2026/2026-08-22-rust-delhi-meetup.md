@@ -8,14 +8,14 @@ status: upcoming
 
 # SciPy India × Rust Delhi Meetup
 
-A collaborative meetup with [Rust Delhi](https://rustdelhi.in/) on Scientific Computing in Rust and Python. We're bringing together researchers, scientists, and developers for deep technical sessions on real-world scientific computing problems.
+A collaborative meetup with [Rust Delhi](https://rustdelhi.in/) on Scientific Computing in Rust and Python (sponsored by the [Rust Foundation](https://rustfoundation.org/)). We're bringing together researchers, scientists, and developers for deep technical sessions on real-world scientific computing problems.
 
 Registration and the CFP are open.
 
 ::::{div} sci-collab-event-hero
 
 ```{image} ../../_static/events/scipy-india-rust-delhi-meetup.png
-:alt: SciPy India × Rust Delhi Meetup — Scientific Computing in Rust and Python, Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida. RSVPs and CFPs open.
+:alt: SciPy India × Rust Delhi Meetup — Scientific Computing in Rust and Python, sponsored by the Rust Foundation. Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida. RSVPs and CFPs open.
 :align: center
 :class: event-flyer
 ```

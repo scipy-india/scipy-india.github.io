@@ -21,7 +21,7 @@ Discover events, read community updates, and stay connected with the scientific 
 :img-top: _static/events/scipy-india-rust-delhi-meetup.png
 :class-img-top: event-flyer-thumb
 
-**Date**: 22 Aug 2026, 2:00 PM – 5:00 PM IST | **Location**: Essentia.dev, Sector 62, Noida
+**Date**: 22 Aug 2026, 2:00 PM – 5:00 PM IST | **Location**: Essentia.dev, Sector 62, Noida (sponsored by the [Rust Foundation](https://rustfoundation.org/))
 
 Scientific Computing in Rust and Python, co-organized with Rust Delhi. Registration and the CFP are open.
 :::
