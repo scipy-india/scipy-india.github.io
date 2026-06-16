@@ -15,3 +15,8 @@ dependencies = [
 
 [dependency-groups]
 dev = []
+
+[tool.uv]
+# This is a website, not a distributable package, so there is no wheel to build.
+# Tell uv to install only the dependencies, never the project itself.
+package = false
