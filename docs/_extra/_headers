@@ -1,0 +1,21 @@
+# Cloudflare Pages headers. Like _redirects, this must live in the build output
+# root (_build/html), so we keep it under docs/_extra, which Sphinx copies there
+# via html_extra_path.
+#
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+
+# pydata-sphinx-theme JS (cache-busted via ?digest= query param)
+/_static/scripts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# pydata-sphinx-theme CSS (cache-busted via ?digest= query param)
+/_static/styles/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Vendored FontAwesome fonts (cache-busted via digest in parent CSS)
+/_static/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Sphinx-processed images (no cache-busting; 1-week TTL)
+/_images/*
+  Cache-Control: public, max-age=604800
