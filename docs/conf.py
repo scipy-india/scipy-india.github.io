@@ -33,19 +33,19 @@ extensions = [
 
 html_context = {
     "past_editions": [
-        (2009, "https://web.archive.org/web/20251016230532/https://scipy.in/2009"),
-        (2010, "https://web.archive.org/web/20251016212905/https://scipy.in/scipyin/2010/"),
-        (2011, "https://web.archive.org/web/20250806175159/https://scipy.in/scipyin/2011/"),
-        (2012, "https://web.archive.org/web/20260316083619/https://scipy.in/2012"),
-        (2013, "https://web.archive.org/web/20250806185218/https://scipy.in/2013/"),
-        (2014, "https://web.archive.org/web/20250820081400/https://scipy.in/2014"),
-        (2015, "https://web.archive.org/web/20250716160805/https://scipy.in/2015"),
-        (2016, "https://web.archive.org/web/20250903154429/http://scipy.in/2016"),
-        (2017, "https://web.archive.org/web/20260208082549/https://scipy.in/2017"),
-        (2018, "https://web.archive.org/web/20251207222647/https://scipy.in/2018"),
-        (2019, "https://web.archive.org/web/20260125032611/https://scipy.in/2019"),
-        (2020, "https://web.archive.org/web/20250903153752/https://scipy.in/2020"),
-        (2021, "https://web.archive.org/web/20260316083156/https://scipy.in/2021"),
+        (2009, "/2009"),
+        (2010, "/2010"),
+        (2011, "/2011"),
+        (2012, "/2012"),
+        (2013, "/2013"),
+        (2014, "/2014"),
+        (2015, "/2015"),
+        (2016, "/2016"),
+        (2017, "/2017"),
+        (2018, "/2018"),
+        (2019, "/2019"),
+        (2020, "/2020"),
+        (2021, "/2021"),
     ],
     "partners": [
         {
