@@ -3,51 +3,52 @@
 # So we keep it under docs/_extra, which Sphinx copies there via html_extra_path.
 #
 # Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+# Format: <source> <destination> <status>
+#
+# The limits are 2,100 redirects total. 2000 can be static, and a maximum of 100
+# can be dynamic. We use roughly 29 rules, out of which 15 are dynamic.
+#
+# The rules are evaluated top to bottom and the first match wins. Cloudflare
+# resolves static rules faster when they sit above any splat/placeholder lines,
+# so all the exact-path rules come first, then the splat rules.
+
+# Static rules for exact paths
 
 # Rust Delhi x SciPy India meetup for August 2026
-/sci-py-rs/* https://sci-py-rs.scipy.in/:splat 301
 /sci-py-rs https://sci-py-rs.scipy.in 301
 
 # Past editions that map to Internet Archive snapshots
 
 /2009 https://web.archive.org/web/20251016230532/https://scipy.in/2009 301
-/2009/* https://web.archive.org/web/*/https://scipy.in/2009/:splat 301
-
 /2010 https://web.archive.org/web/20251016212905/https://scipy.in/scipyin/2010/ 301
-/2010/* https://web.archive.org/web/*/https://scipy.in/scipyin/2010/:splat 301
-
 /2011 https://web.archive.org/web/20250806175159/https://scipy.in/scipyin/2011/ 301
-/2011/* https://web.archive.org/web/*/https://scipy.in/scipyin/2011/:splat 301
+/2012 https://web.archive.org/web/20260316083619/https://scipy.in/2012 301
+/2013 https://web.archive.org/web/20250806185218/https://scipy.in/2013/ 301
+/2014 https://web.archive.org/web/20250820081400/https://scipy.in/2014 301
+/2015 https://web.archive.org/web/20250716160805/https://scipy.in/2015 301
+/2016 https://web.archive.org/web/20250903154429/http://scipy.in/2016 301
+/2017 https://web.archive.org/web/20260208082549/https://scipy.in/2017 301
+/2018 https://web.archive.org/web/20251207222647/https://scipy.in/2018 301
+/2019 https://web.archive.org/web/20260125032611/https://scipy.in/2019 301
+/2020 https://web.archive.org/web/20250903153752/https://scipy.in/2020 301
+/2021 https://web.archive.org/web/20260316083156/https://scipy.in/2021 301
 
+# Dynamic rules
+
+/sci-py-rs/* https://sci-py-rs.scipy.in/:splat 301
+
+/2009/* https://web.archive.org/web/*/https://scipy.in/2009/:splat 301
+/2010/* https://web.archive.org/web/*/https://scipy.in/scipyin/2010/:splat 301
+/2011/* https://web.archive.org/web/*/https://scipy.in/scipyin/2011/:splat 301
 # 2010 and 2011 originally lived under /scipyin/<year>/. We catch those legacy links too.
 /scipyin/* https://web.archive.org/web/*/https://scipy.in/scipyin/:splat 301
-
-/2012 https://web.archive.org/web/20260316083619/https://scipy.in/2012 301
 /2012/* https://web.archive.org/web/*/https://scipy.in/2012/:splat 301
-
-/2013 https://web.archive.org/web/20250806185218/https://scipy.in/2013/ 301
 /2013/* https://web.archive.org/web/*/https://scipy.in/2013/:splat 301
-
-/2014 https://web.archive.org/web/20250820081400/https://scipy.in/2014 301
 /2014/* https://web.archive.org/web/*/https://scipy.in/2014/:splat 301
-
-/2015 https://web.archive.org/web/20250716160805/https://scipy.in/2015 301
 /2015/* https://web.archive.org/web/*/https://scipy.in/2015/:splat 301
-
-/2016 https://web.archive.org/web/20250903154429/http://scipy.in/2016 301
 /2016/* https://web.archive.org/web/*/http://scipy.in/2016/:splat 301
-
-/2017 https://web.archive.org/web/20260208082549/https://scipy.in/2017 301
 /2017/* https://web.archive.org/web/*/https://scipy.in/2017/:splat 301
-
-/2018 https://web.archive.org/web/20251207222647/https://scipy.in/2018 301
 /2018/* https://web.archive.org/web/*/https://scipy.in/2018/:splat 301
-
-/2019 https://web.archive.org/web/20260125032611/https://scipy.in/2019 301
 /2019/* https://web.archive.org/web/*/https://scipy.in/2019/:splat 301
-
-/2020 https://web.archive.org/web/20250903153752/https://scipy.in/2020 301
 /2020/* https://web.archive.org/web/*/https://scipy.in/2020/:splat 301
-
-/2021 https://web.archive.org/web/20260316083156/https://scipy.in/2021 301
 /2021/* https://web.archive.org/web/*/https://scipy.in/2021/:splat 301
