@@ -6,7 +6,7 @@
 # Format: <source> <destination> <status>
 #
 # The limits are 2,100 redirects total. 2000 can be static, and a maximum of 100
-# can be dynamic. We use roughly 29 rules, out of which 15 are dynamic.
+# can be dynamic. We use roughly 35 rules, out of which 21 are dynamic.
 #
 # The rules are evaluated top to bottom and the first match wins. Cloudflare
 # resolves static rules faster when they sit above any splat/placeholder lines,
@@ -17,6 +17,15 @@
 # the closest capture, i.e., the most recent one. This always lands on the last
 # archived version of the page instead of "web/*/", which shows a calendar list.
 #
+# The exact legacy prefixes below (years, /scipyin/, the static asset dirs) come
+# from the structure of the old site, mirrored at
+# https://github.com/FOSSEE/scipy-archive
+# which looks like an incomplete attempt but still gets us to pretty far.
+#
+# There is a quirk taken from the old site's actual structure. 2010 and 2011 have
+# no /2010 or /2011 landing; their homepages live under /scipyin/2010/ and
+# /scipyin/2011/. Their /2010/ and /2011/ trees only hold static assets, so the
+# /YYYY/* subpath rules still point there.
 
 # Static rules for exact paths
 
@@ -29,7 +38,7 @@
 /2010 https://web.archive.org/web/3000/https://scipy.in/scipyin/2010/ 301
 /2011 https://web.archive.org/web/3000/https://scipy.in/scipyin/2011/ 301
 /2012 https://web.archive.org/web/3000/https://scipy.in/2012 301
-/2013 https://web.archive.org/web/3000/https://scipy.in/2013/ 301
+/2013 https://web.archive.org/web/3000/https://scipy.in/2013 301
 /2014 https://web.archive.org/web/3000/https://scipy.in/2014 301
 /2015 https://web.archive.org/web/3000/https://scipy.in/2015 301
 /2016 https://web.archive.org/web/3000/https://scipy.in/2016 301
@@ -44,10 +53,8 @@
 /sci-py-rs/* https://sci-py-rs.scipy.in/:splat 301
 
 /2009/* https://web.archive.org/web/3000/https://scipy.in/2009/:splat 301
-/2010/* https://web.archive.org/web/3000/https://scipy.in/scipyin/2010/:splat 301
-/2011/* https://web.archive.org/web/3000/https://scipy.in/scipyin/2011/:splat 301
-# 2010 and 2011 originally lived under /scipyin/<year>/. We catch those legacy links too.
-/scipyin/* https://web.archive.org/web/3000/https://scipy.in/scipyin/:splat 301
+/2010/* https://web.archive.org/web/3000/https://scipy.in/2010/:splat 301
+/2011/* https://web.archive.org/web/3000/https://scipy.in/2011/:splat 301
 /2012/* https://web.archive.org/web/3000/https://scipy.in/2012/:splat 301
 /2013/* https://web.archive.org/web/3000/https://scipy.in/2013/:splat 301
 /2014/* https://web.archive.org/web/3000/https://scipy.in/2014/:splat 301
@@ -58,3 +65,14 @@
 /2019/* https://web.archive.org/web/3000/https://scipy.in/2019/:splat 301
 /2020/* https://web.archive.org/web/3000/https://scipy.in/2020/:splat 301
 /2021/* https://web.archive.org/web/3000/https://scipy.in/2021/:splat 301
+
+# 2010 and 2011 originally lived under /scipyin/<year>/. We catch those legacy links too.
+/scipyin/* https://web.archive.org/web/3000/https://scipy.in/scipyin/:splat 301
+
+# Old static asset directories (referenced by deep links into them)
+/static/* https://web.archive.org/web/3000/https://scipy.in/static/:splat 301
+/static2016/* https://web.archive.org/web/3000/https://scipy.in/static2016/:splat 301
+/static2017/* https://web.archive.org/web/3000/https://scipy.in/static2017/:splat 301
+/static2018/* https://web.archive.org/web/3000/https://scipy.in/static2018/:splat 301
+/2019static/* https://web.archive.org/web/3000/https://scipy.in/2019static/:splat 301
+/2020static/* https://web.archive.org/web/3000/https://scipy.in/2020static/:splat 301
