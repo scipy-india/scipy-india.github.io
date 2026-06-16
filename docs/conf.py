@@ -45,7 +45,7 @@ html_context = {
         (2018, "https://web.archive.org/web/20251207222647/https://scipy.in/2018"),
         (2019, "https://web.archive.org/web/20260125032611/https://scipy.in/2019"),
         (2020, "https://web.archive.org/web/20250903153752/https://scipy.in/2020"),
-        (2021, "https://web.archive.org/web/20260316083156/scipy.in/2021"),
+        (2021, "https://web.archive.org/web/20260316083156/https://scipy.in/2021"),
     ],
     "partners": [
         {
@@ -100,6 +100,8 @@ html_static_path = ["_static"]
 # Files in _extra/ are copied after the build and overwrite any generated files
 # with the same name. _extra/blog.html replaces ABlog's "All Posts" page with a
 # redirect to blog/index.html to keep a single canonical blog listing page.
+# Our Cloudflare Pages redirects are also set up in _extra/_redirects, so
+# be careful with modifying this.
 html_extra_path = ["_extra"]
 html_css_files = ["custom.css"]
 templates_path = ["_templates"]
