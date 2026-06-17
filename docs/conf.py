@@ -138,6 +138,12 @@ html_theme_options = {
     "secondary_sidebar_items": ["page-toc"],
     "icon_links": [
         {
+            "name": "RSS",
+            "url": "/atom.xml",
+            "icon": "fa-solid fa-rss",
+            "type": "fontawesome",
+        },
+        {
             "name": "GitHub",
             "url": "https://github.com/scipy-india",
             "icon": "fab fa-github",
