@@ -70,6 +70,12 @@ def _entry_updated(entry):
         return datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
 
 
+def _entry_sort_key(entry):
+    """Sort by <updated>, then <id>, so ties (e.g. upcoming events clamped to the
+    build time) stay in a stable, reproducible order across builds."""
+    return (_entry_updated(entry), entry.findtext(_q("id")) or "")
+
+
 def _merge_events_into_feed(app, exception):
     if exception is not None or app.builder.format != "html":
         return
@@ -84,8 +90,9 @@ def _merge_events_into_feed(app, exception):
     ist = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
     now = datetime.datetime.now(datetime.timezone.utc)
 
+    # found_docs is a set, so sort it for a deterministic build order.
     new_entries = []
-    for docname in app.env.found_docs:
+    for docname in sorted(app.env.found_docs):
         if not docname.startswith("events/") or docname == "events/index":
             continue
 
@@ -100,7 +107,9 @@ def _merge_events_into_feed(app, exception):
         title_node = app.env.titles.get(docname)
         title = title_node.astext() if title_node else docname
         summary = fm.get("description") or fm.get("summary") or title
-        url = f"{baseurl}/{docname}.html"
+        # Use the builder's target URI so links track Sphinx URL config
+        # (html_file_suffix, directory-style URLs) instead of a hardcoded .html.
+        url = f"{baseurl}/{app.builder.get_target_uri(docname)}"
         published = datetime.datetime.combine(date, datetime.time(0, 0, tzinfo=ist))
         # <updated> means "entry last modified", so never let an upcoming event put a
         # future timestamp in the feed. The event date lives in <published>.
@@ -122,13 +131,21 @@ def _merge_events_into_feed(app, exception):
     tree = ET.parse(feed_file)
     root = tree.getroot()
 
+    # Skip events already in the feed, so an incremental build (e.g. sphinx-autobuild)
+    # that doesn't fully rewrite atom.xml can't end up with duplicate entries.
+    existing = root.findall(_q("entry"))
+    existing_ids = {e.findtext(_q("id")) for e in existing}
+    new_entries = [e for e in new_entries if e.findtext(_q("id")) not in existing_ids]
+    if not new_entries:
+        return
+
     # Interleave events with blog posts by date. We leave the feed-level <updated>
     # alone: ABlog sets it to the build time, which is the correct "feed last built"
     # semantic (an upcoming event's date would otherwise push it into the future).
-    entries = root.findall(_q("entry")) + new_entries
-    for entry in root.findall(_q("entry")):
+    entries = existing + new_entries
+    for entry in existing:
         root.remove(entry)
-    entries.sort(key=_entry_updated, reverse=True)
+    entries.sort(key=_entry_sort_key, reverse=True)
     for entry in entries:
         root.append(entry)
 
