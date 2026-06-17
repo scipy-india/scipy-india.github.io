@@ -1,15 +1,16 @@
 """
-A Sphinx extension to merge event pages into ABlog's generated Atom feed.
+A Sphinx extension that builds a site-wide Atom feed from blog posts and events.
 
-ABlog only feeds blog posts (``docs/blog/*.md``). Our events (``docs/events/**``)
-are plain pages, so they never reach ``blog/atom.xml``. We want the feed to also
-announce events, while the website keeps showing only blog posts in the blog grid,
-sidebar, and archives.
+ABlog generates a blog-only feed at ``blog/atom.xml`` (driven by ``docs/blog/*.md``
+posts). Our events (``docs/events/**``) are plain pages, so they never reach that
+feed. We want a single feed that announces both, without changing what the website
+shows: the blog grid, sidebar, and archives stay blog-only.
 
-Rather than turning events into ABlog posts (which would leak them into every
-on-site listing), this extension post-processes the generated feed on
-``build-finished``: it reads each event's frontmatter, builds an Atom ``<entry>``,
-and appends it to ``blog/atom.xml``. The on-site display is left untouched.
+So this extension leaves ``blog/atom.xml`` untouched as the internal blog feed, and on
+``build-finished`` derives a combined site feed at the site root ``atom.xml``: it reads
+ABlog's generated blog feed, builds an Atom ``<entry>`` for each eligible event, and
+writes the merged result to ``atom.xml``. The blog-only feed is never advertised; pages
+point to the site feed instead (see ``_use_site_feed_link`` below).
 
 Convention: an event page is in the feed when it has a ``date`` in its frontmatter.
 Set ``feed: false`` to keep one out. Use that on event stubs that mirror a blog
@@ -76,14 +77,27 @@ def _entry_sort_key(entry):
     return (_entry_updated(entry), entry.findtext(_q("id")) or "")
 
 
-def _merge_events_into_feed(app, exception):
+def _use_site_feed_link(app, pagename, templatename, context, doctree):
+    """Point pages at the site feed instead of ABlog's blog-only feed.
+
+    ABlog's ``page.html`` renders the ``<link rel="alternate">`` from ``feed_path``,
+    which defaults to ``blog/atom.xml``. Blanking it suppresses that link; our
+    ``layout.html`` adds the site-wide ``atom.xml`` link in its place, so every page
+    advertises exactly one feed. Registered to run after ABlog's context handler.
+    """
+    context["feed_path"] = ""
+    context["feed_title"] = ""
+
+
+def _build_site_feed(app, exception):
     if exception is not None or app.builder.format != "html":
         return
 
     blog_path = app.config.blog_path
     baseurl = app.config.blog_baseurl.rstrip("/")
-    feed_file = os.path.join(app.outdir, blog_path, "atom.xml")
-    if not os.path.exists(feed_file):
+    blog_feed = os.path.join(app.outdir, blog_path, "atom.xml")
+    site_feed = os.path.join(app.outdir, "atom.xml")
+    if not os.path.exists(blog_feed):
         return
 
     # IST midnight, matching how ABlog stamps blog entries.
@@ -124,20 +138,25 @@ def _merge_events_into_feed(app, exception):
         ET.SubElement(entry, _q("summary")).text = summary
         new_entries.append(entry)
 
-    if not new_entries:
-        return
-
     ET.register_namespace("", ATOM)
-    tree = ET.parse(feed_file)
+    # Read ABlog's blog feed, but write the combined result to atom.xml so the
+    # blog-only feed stays intact.
+    tree = ET.parse(blog_feed)
     root = tree.getroot()
 
-    # Skip events already in the feed, so an incremental build (e.g. sphinx-autobuild)
-    # that doesn't fully rewrite atom.xml can't end up with duplicate entries.
+    # Present the root feed as the SciPy India site feed, not "SciPy India Blog":
+    # retitle it and repoint the self link at atom.xml.
+    title_el = root.find(_q("title"))
+    if title_el is not None:
+        title_el.text = app.config.project
+    for link in root.findall(_q("link")):
+        if link.get("rel") == "self":
+            link.set("href", f"{baseurl}/atom.xml")
+
+    # Skip events already in the feed, so a partial rebuild can't duplicate entries.
     existing = root.findall(_q("entry"))
     existing_ids = {e.findtext(_q("id")) for e in existing}
     new_entries = [e for e in new_entries if e.findtext(_q("id")) not in existing_ids]
-    if not new_entries:
-        return
 
     # Interleave events with blog posts by date. We leave the feed-level <updated>
     # alone: ABlog sets it to the build time, which is the correct "feed last built"
@@ -149,9 +168,12 @@ def _merge_events_into_feed(app, exception):
     for entry in entries:
         root.append(entry)
 
-    tree.write(feed_file, encoding="UTF-8", xml_declaration=True)
+    tree.write(site_feed, encoding="UTF-8", xml_declaration=True)
 
 
 def setup(app):
-    app.connect("build-finished", _merge_events_into_feed)
+    # Priority 900 so this runs after ABlog's html-page-context handler (which sets
+    # feed_path) and can override it.
+    app.connect("html-page-context", _use_site_feed_link, priority=900)
+    app.connect("build-finished", _build_site_feed)
     return {"parallel_read_safe": True, "parallel_write_safe": True}
