@@ -8,7 +8,7 @@ myst:
 
 Discover events, read community updates, and stay connected with the scientific Python ecosystem in India.
 
-[About us](about) • [View events](events/index) • [Read the blog](blog/index) • [Join our Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/) • <a href="atom.xml">Subscribe via RSS</a>
+[About us](about) • [View events](events/index) • [Read the blog](blog/index) • [Join our Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/) • [Subscribe via RSS](atom.xml)
 
 ## Upcoming events
 
