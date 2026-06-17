@@ -46,6 +46,10 @@ jobs:
             --no-progress
             --exclude-path '_build/html/_static/.*\.html$'
             --root-dir _build/html
+            --max-concurrency 4
+            --max-retries 4
+            --retry-wait-time 10
+            --accept '200..=299,429'
             './_build/html/**/*.html'
             docs/_extra/_redirects
 
