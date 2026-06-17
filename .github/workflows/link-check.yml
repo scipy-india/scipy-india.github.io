@@ -1,0 +1,85 @@
+name: Check links
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 3 * * 1"
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  link-check:
+    name: Run lychee
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write # to create scheduled broken-link reports
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39 # v8.2.0
+        with:
+          enable-cache: false
+
+      - name: Install docs dependencies
+        run: uv sync --frozen
+
+      - name: Build site
+        run: uv run sphinx-build -b html docs _build/html
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
+        with:
+          fail: false
+          output: lychee/out.md
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-path '_build/html/_static/.*\.html$'
+            --root-dir _build/html
+            './_build/html/**/*.html'
+            docs/_extra/_redirects
+
+      - name: Open issue for failing links
+        if: |
+          always()
+          && steps.lychee.outputs.exit_code != '0'
+          && github.repository == 'scipy-india/scipy-india.github.io'
+          && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          now="$(date -u +'%Y-%m-%d')"
+          title="Automated link checker report for ${now}"
+          report_file="$(mktemp)"
+
+          {
+            echo "# Broken links detected"
+            echo
+            echo "- Workflow run: ${RUN_URL}"
+            echo "- Trigger: schedule"
+            echo "- Date (UTC): ${now}"
+            echo
+            cat lychee/out.md
+          } > "${report_file}"
+
+          gh issue create \
+            --title "${title}" \
+            --body-file "${report_file}"
+
+      - name: Fail the run for broken links
+        if: |
+          always()
+          && steps.lychee.outputs.exit_code != '0'
+        run: exit 1
