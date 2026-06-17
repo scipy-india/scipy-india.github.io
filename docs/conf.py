@@ -29,6 +29,7 @@ extensions = [
     "sphinx_togglebutton",
     "blog_post_grid",
     "past_editions_list",
+    "events_feed",
 ]
 
 html_context = {
