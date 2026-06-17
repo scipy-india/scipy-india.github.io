@@ -5,6 +5,7 @@ time: "10:00 AM to 1:00 PM IST / 04:30 AM – 07:30 AM UTC"
 location: Online
 livestream_link: "https://www.youtube.com/watch?v=FCSsohzaP4s"
 status: past
+feed: false
 ---
 
 # SciPy India Virtual Meetup #1

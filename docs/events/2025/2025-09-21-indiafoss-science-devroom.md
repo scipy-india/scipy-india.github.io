@@ -5,6 +5,7 @@ time: "10:00 AM to 1:00 PM IST / 04:30 AM – 07:30 AM UTC"
 location: "NIMHANS Convention Centre, Bengaluru, India"
 livestream_link: "https://www.youtube.com/playlist?list=PLOGilj110oly_VPJ7pz0avjyxiLjiTJTP"
 status: past
+feed: false
 ---
 
 # FOSS in Science Devroom at IndiaFOSS 2025
