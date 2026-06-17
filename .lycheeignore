@@ -1,0 +1,11 @@
+file://.*/_build/html/(2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|2021)$
+https://sci-py-rs\.scipy\.in/:splat$
+https://web\.archive\.org/web/3000/https://scipy\.in/.+:splat$
+https://www\.linkedin\.com/.*
+https://x\.com/.*
+https://instagram\.com/.*
+https://discord\.gg/.*
+https://ebird\.org/home$
+https://stateofindiasbirds\.in/?$
+https://osmapp\.org/way/1219285692#15\.37/12\.9430/77\.5956$
+https://osmapp\.org/node/4672131190$
