@@ -11,6 +11,7 @@ dependencies = [
     "sphinx-copybutton>=0.5",
     "sphinx-togglebutton>=0.3",
     "sphinx-autobuild",
+    "pyyaml>=6",
 ]
 
 [dependency-groups]
