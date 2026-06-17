@@ -29,6 +29,7 @@ extensions = [
     "sphinx_togglebutton",
     "blog_post_grid",
     "past_editions_list",
+    "events_feed",
 ]
 
 html_context = {
@@ -136,6 +137,12 @@ html_theme_options = {
     "show_prev_next": False,
     "secondary_sidebar_items": ["page-toc"],
     "icon_links": [
+        {
+            "name": "RSS",
+            "url": "/atom.xml",
+            "icon": "fa-solid fa-rss",
+            "type": "fontawesome",
+        },
         {
             "name": "GitHub",
             "url": "https://github.com/scipy-india",

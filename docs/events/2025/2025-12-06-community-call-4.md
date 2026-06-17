@@ -6,6 +6,7 @@ location: Online
 livestream_link: "https://www.youtube.com/live/KGo8JRmydTQ?si=_tvKBVjwCMoh_gt0"
 event_page: "https://fossunited.org/c/scipy-india/community-call-4"
 status: past
+description: Talks on simulation with PhiFlow, computational preservation of Telugu poetry, and Ramanujan-Computing.
 ---
 
 # SciPy India Community Call #4

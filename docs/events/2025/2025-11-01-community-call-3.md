@@ -5,6 +5,7 @@ time: "2:00 PM – 4:00 PM IST / 8:30 AM – 10:30 AM UTC"
 location: Online
 livestream_link: "https://www.youtube.com/watch?v=6SoLgkFVkIg"
 status: past
+description: Our third online community call, with the recording embedded on the event page.
 ---
 
 # SciPy India Community Call #3

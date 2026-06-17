@@ -4,6 +4,7 @@ day: Saturday
 time: "11:00 AM – 2:00 PM IST"
 location: "Amadeus Software Labs, Bengaluru"
 status: past
+feed: false
 ---
 
 # BangPypers × SciPy India Meetup

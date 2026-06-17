@@ -4,6 +4,7 @@ day: Saturday
 time: "2:00 PM – 5:00 PM IST"
 location: "Essentia.dev, Sector 62, Noida"
 status: upcoming
+description: A collaborative meetup with Rust Delhi on Scientific Computing in Rust and Python, sponsored by the Rust Foundation. Registration and the CFP are open.
 ---
 
 # SciPy India × Rust Delhi Meetup
