@@ -1,5 +1,11 @@
 {% extends "!layout.html" %} {% block extrahead %} {{ super() }}
 <link rel="me" href="https://fosstodon.org/@scipyindia" />
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  title="SciPy India"
+  href="{{ pathto('atom.xml', 1) }}"
+/>
 {% endblock extrahead %} {% block htmltitle %} {% if pagename == "index"
 %}<title>SciPy India</title>{% else %}{{ super() }}{% endif %} {% endblock
 htmltitle %} {% block docs_sidebar %} {% if pagename != "index" %}{{ super()

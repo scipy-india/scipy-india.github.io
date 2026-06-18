@@ -1,7 +1,7 @@
 ---
-date: 2025-12-31
 location: TBA
 status: upcoming
+feed: false
 ---
 
 # SciPy India Conference 2026
