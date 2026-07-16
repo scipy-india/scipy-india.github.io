@@ -6,7 +6,7 @@ myst:
 
 # Contact
 
-For general inquiries about SciPy India, collaboration opportunities, or if you're unsure who to contact, feel free to reach out through our community organisers and volunteers.
+For general inquiries about SciPy India, collaboration opportunities, or if you're unsure who to contact, write to us at [info@scipy.in](mailto:info@scipy.in). You can also reach out to our community organisers and volunteers directly.
 
 ::::{grid} 2
 :gutter: 3

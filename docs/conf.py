@@ -138,6 +138,12 @@ html_theme_options = {
     "secondary_sidebar_items": ["page-toc"],
     "icon_links": [
         {
+            "name": "Email",
+            "url": "mailto:info@scipy.in",
+            "icon": "fa-solid fa-envelope",
+            "type": "fontawesome",
+        },
+        {
             "name": "RSS",
             "url": "/atom.xml",
             "icon": "fa-solid fa-rss",
