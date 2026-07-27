@@ -105,6 +105,7 @@ html_static_path = ["_static"]
 # be careful with modifying this.
 html_extra_path = ["_extra"]
 html_css_files = ["custom.css"]
+html_js_files = [("team-shuffle.js", {"defer": "defer"})]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_show_sourcelink = False
