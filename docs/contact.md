@@ -34,17 +34,6 @@ For general inquiries about SciPy India, collaboration opportunities, or if you'
 [{fab}`linkedin`](https://www.linkedin.com/in/agriyakhetarpal/)
 :::
 
-<!-- :::{grid-item-card}
-:img-top: https://github.com/Schefflera-Arboricola.png?size=400
-:img-alt: Aditi Juneja
-
-**Aditi Juneja**
-
-+++
-[{fab}`github`](https://github.com/Schefflera-Arboricola)
-[{fab}`linkedin`](https://linkedin.com/in/aditi-juneja-940838204)
-::: -->
-
 :::{grid-item-card}
 :img-top: https://github.com/rahulporuri.png?size=400
 :img-alt: Sai Rahul Poruri
@@ -68,3 +57,17 @@ For general inquiries about SciPy India, collaboration opportunities, or if you'
 :::
 
 ::::
+
+<!--
+
+:::{grid-item-card}
+:img-top: https://github.com/Schefflera-Arboricola.png?size=400
+:img-alt: Aditi Juneja
+
+**Aditi Juneja**
+
++++
+[{fab}`github`](https://github.com/Schefflera-Arboricola)
+[{fab}`linkedin`](https://linkedin.com/in/aditi-juneja-940838204)
+:::
+-->
