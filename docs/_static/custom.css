@@ -61,6 +61,56 @@ img.event-flyer-thumb {
   z-index: 2;
 }
 
+/* These are the volunteers' cards on the contact page: a circular GitHub avatar,
+   the person's name, and a row of icon links (GitHub, LinkedIn, email) in the
+   card footer. */
+.sci-team-grid .sd-card {
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.sci-team-grid .sd-card-img-top {
+  flex: 0 0 auto;
+  align-self: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sci-team-grid .sd-card-body {
+  padding-bottom: 0.5rem;
+}
+
+/* Increase the font size of the card footer for the icon links to be larger */
+.bd-content .sci-team-grid .sd-card .sd-card-footer {
+  font-size: 1.25rem;
+}
+
+.sci-team-grid .sd-card-footer p {
+  display: flex;
+  gap: 0.35rem;
+  justify-content: center;
+  margin: 0;
+}
+
+.sci-team-grid .sd-card-footer a {
+  display: inline-flex;
+  justify-content: center;
+  width: 1.5em;
+  padding: 0.15em 0;
+  border-top: max(3px, 0.1875rem, 0.12em) solid transparent;
+  border-bottom: max(3px, 0.1875rem, 0.12em) solid transparent;
+  color: var(--pst-color-text-muted);
+  text-decoration: none;
+}
+
+.sci-team-grid .sd-card-footer a:hover,
+.sci-team-grid .sd-card-footer a:focus-visible {
+  border-bottom-color: currentcolor;
+  color: var(--pst-color-link-hover);
+}
+
 .sci-collab-event-hero {
   margin: 1.5rem 0 3rem;
   padding: clamp(0.65rem, 2vw, 1.1rem);
