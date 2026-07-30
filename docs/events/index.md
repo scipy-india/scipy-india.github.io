@@ -10,7 +10,7 @@ myst:
 
 ### SciPy India Conference 2026
 
-📅 19–20 Dec 2026 • 📍 IC&SR Building, Indian Institute of Technology Madras, Chennai, 600036, India
+📅 19–20 Dec 2026 • 📍 IC&SR Building, Indian Institute of Technology Madras, Chennai 600036, India
 
 [Visit the conference website](https://scipy.in/2026/) for the programme, call for proposals, registration, and travel details.
 
