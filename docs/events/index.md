@@ -15,6 +15,15 @@ A quick overview of upcoming and recent events. Open a card for either a debrief
 ::::{grid} 1
 :gutter: 3
 
+:::{grid-item-card} SciPy India Conference 2026
+:link: 2026/scipy-india-conference
+:link-type: doc
+
+📅 19–20 Dec 2026 • 📍 IC&SR Building, Indian Institute of Technology Madras, Chennai, 600036, India
+
+[Visit the conference website](https://scipy.in/2026/) for the programme, call for proposals, registration, and travel details.
+:::
+
 :::{grid-item-card} SciPy India × Rust Delhi Meetup
 :link: 2026/2026-08-22-rust-delhi-meetup
 :link-type: doc
@@ -22,15 +31,6 @@ A quick overview of upcoming and recent events. Open a card for either a debrief
 📅 22 Aug 2026 • 📍 Essentia.dev, Sector 62, Noida
 
 Scientific Computing in Rust and Python, co-organized with Rust Delhi. Registration and the CFP are open.
-:::
-
-:::{grid-item-card} SciPy India Conference 2026
-:link: 2026/2026-scipy-india-conference
-:link-type: doc
-
-**Date**: Coming soon, in later 2026 | **Location**: TBA
-
-Details to be announced.
 :::
 
 ::::
