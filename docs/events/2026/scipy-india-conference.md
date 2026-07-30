@@ -8,7 +8,7 @@ description: Workshops on Saturday 19 December and a conference day on Sunday 20
 
 # SciPy India Conference 2026
 
-Visit the conference website for the programme, call for proposals, registration, and travel details: [https://scipy.in/2026](https://scipy.in/2026/)
+[Visit the conference website](https://scipy.in/2026/) for the programme, call for proposals, registration, and travel details.
 
 ::::{grid} 1 1 2 2
 :gutter: 3
