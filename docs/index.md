@@ -23,7 +23,7 @@ We are elated to announce that the next edition of the SciPy India Conference. C
 <hr>
 
 - **Date:** 19th–20th December 2026
-- **Venue:** [IC&SR Building, Indian Institute of Technology, Madras, Chennai, 600036, India](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9)
+- **Venue:** [Indian Institute of Technology, Madras, Chennai, 600036, India](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9)
 
 :::
 
