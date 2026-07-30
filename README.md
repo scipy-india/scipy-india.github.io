@@ -4,16 +4,26 @@
 
 This is the source for the SciPy India website. The site is built with Sphinx, the PyData Sphinx Theme, MyST, and ABlog.
 
+There are two Sphinx projects in this repository:
+
+| Source  | Output              | Served at         |
+| ------- | ------------------- | ----------------- |
+| `docs/` | `_build/html`       | `scipy.in`        |
+| `2026/` | `_build/html/2026`  | `scipy.in/2026`   |
+
+`2026/` is the website for the 2026 edition of the conference.
+
 Install the project once with:
 
 ```bash
 uv sync
 ```
 
-Build the site with:
+Build the websites with:
 
 ```bash
 uv run sphinx-build -b html docs _build/html
+uv run sphinx-build -b html 2026 _build/html/2026
 ```
 
 If you want to preview the generated files locally:
