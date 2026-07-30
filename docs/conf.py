@@ -116,6 +116,7 @@ html_sidebars = {
     "about": [],
     "past-editions": [],
     "coc": [],
+    "events/index": [],
     "blog": [],
     "blog/**": [],
 }

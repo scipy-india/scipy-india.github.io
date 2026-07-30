@@ -32,6 +32,18 @@
 # Rust Delhi x SciPy India meetup for August 2026
 /sci-py-rs https://sci-py-rs.scipy.in 301
 
+# To keep old links for per-event pages under events/YYYY working which are now on events/index.html directly
+
+/events/2025/2025-07-26-virtual-meetup-1.html /events/#scipy-india-virtual-meetup-1 301
+/events/2025/2025-09-21-indiafoss-science-devroom.html /events/#foss-in-science-devroom-at-indiafoss-2025 301
+/events/2025/2025-10-04-community-call-2.html /events/#scipy-india-community-call-2 301
+/events/2025/2025-11-01-community-call-3.html /events/#scipy-india-community-call-3 301
+/events/2025/2025-12-06-community-call-4.html /events/#scipy-india-community-call-4 301
+/events/2026/2026-02-21-bangpypers-joint-meetup.html /events/#bangpypers-scipy-india-meetup 301
+/events/2026/2026-08-22-rust-delhi-meetup.html /events/#scipy-india-rust-delhi-meetup 301
+/events/2026/2026-scipy-india-conference.html /events/#scipy-india-conference-2026 301
+/events/2026/scipy-india-conference.html /events/#scipy-india-conference-2026 301
+
 # Past editions that map to Internet Archive snapshots
 
 /2009 https://web.archive.org/web/3000/https://scipy.in/2009 301
@@ -51,6 +63,9 @@
 # Dynamic rules
 
 /sci-py-rs/* https://sci-py-rs.scipy.in/:splat 301
+
+/events/2025/* /events/index.html 301
+/events/2026/* /events/index.html 301
 
 /2009/* https://web.archive.org/web/3000/https://scipy.in/2009/:splat 301
 /2010/* https://web.archive.org/web/3000/https://scipy.in/2010/:splat 301
