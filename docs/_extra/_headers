@@ -19,3 +19,17 @@
 # Sphinx-processed images (no cache-busting; 1-week TTL)
 /_images/*
   Cache-Control: public, max-age=604800
+
+# Per-edition conference sites are served from a subdirectory
+
+/:edition/_static/scripts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/:edition/_static/styles/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/:edition/_static/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/:edition/_images/*
+  Cache-Control: public, max-age=604800
