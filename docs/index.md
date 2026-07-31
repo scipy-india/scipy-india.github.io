@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "SciPy India — discover events, read community updates, and stay connected with the scientific Python ecosystem in India."
+    "description": "SciPy India – discover events, read community updates, and stay connected with the scientific Python ecosystem in India."
 ---
 
 # SciPy India
@@ -30,7 +30,7 @@ We are elated to announce our plans for the next edition of the SciPy India 2026
 :::{grid-item-card} SciPy India × Rust Delhi Meetup
 :link: /events/#scipy-india-rust-delhi-meetup
 :img-top: _static/events/scipy-india-rust-delhi-meetup.png
-:img-alt: SciPy India × Rust Delhi Meetup flyer — Scientific Computing in Rust and Python, sponsored by the Rust Foundation. 22 August 2026, Essentia.dev, Sector 62, Noida.
+:img-alt: SciPy India × Rust Delhi Meetup flyer – Scientific Computing in Rust and Python, sponsored by the Rust Foundation. 22 August 2026, Essentia.dev, Sector 62, Noida.
 :class-img-top: event-flyer-thumb
 
 _Scientific Computing in Rust and Python_, co-organised with Rust Delhi. Sponsored by the [Rust Foundation](https://rustfoundation.org/). Registrations and the CFP are open!

@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Contact the SciPy India team — reach out to community organisers and volunteers for inquiries and collaboration."
+    "description": "Contact the SciPy India team – reach out to community organisers and volunteers for inquiries and collaboration."
 ---
 
 # Contact

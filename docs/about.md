@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "About SciPy India — a community-driven initiative promoting scientific computing and open source software in India."
+    "description": "About SciPy India – a community-driven initiative promoting scientific computing and open source software in India."
 ---
 
 # About
