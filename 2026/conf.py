@@ -55,21 +55,14 @@ templates_path = ["_templates"]
 
 html_context = {
     "conference_nav": [
-        {
-            "label": "Programme",
-            "children": [
-                ("programme", "Programme"),
-                ("speakers", "Speakers"),
-                ("cfp", "Call for proposals"),
-            ],
-        },
+        {"label": "Programme", "page": "programme"},
         {
             "label": "Attend",
             "children": [
                 ("register", "Register"),
                 ("venue", "Venue and travel"),
                 ("financial-aid", "Financial aid"),
-                ("faq", "FAQ"),
+                ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
         {"label": "Sponsor us", "page": "sponsor"},
@@ -92,7 +85,6 @@ html_show_sourcelink = False
 html_sidebars = {
     "index": [],
     "programme": [],
-    "speakers": [],
     "cfp": [],
     "register": [],
     "venue": [],
