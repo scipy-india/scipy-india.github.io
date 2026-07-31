@@ -1,0 +1,225 @@
+/* Handling for the FlipDown time. This was not nice at all to figure out and
+I hope that we don't need to do this again for the foreseeable future */
+.sci-countdown {
+  margin: 1.75rem 0 2rem;
+  text-align: center;
+}
+
+.sci-countdown .flipdown {
+  display: inline-block;
+  width: auto;
+  zoom: 0.72;
+}
+
+/* Remove Sphinx's padding from figures that causes issues with the flip leaves */
+.flipdown figure {
+  padding: 0;
+}
+
+/* Recoloured to the PyData theme primary teal */
+.bd-content .flipdown.flipdown__theme-dark .rotor,
+.bd-content .flipdown.flipdown__theme-dark .rotor-top,
+.bd-content .flipdown.flipdown__theme-dark .rotor-leaf-front {
+  background-color: var(--pst-color-primary);
+  color: var(--pst-color-on-background);
+}
+
+/* The lower half is darkened to ensure that the fold stays visible mid-flip */
+.bd-content .flipdown.flipdown__theme-dark .rotor-bottom,
+.bd-content .flipdown.flipdown__theme-dark .rotor-leaf-rear {
+  background-color: color-mix(in srgb, var(--pst-color-primary), #000 14%);
+  color: var(--pst-color-on-background);
+}
+
+.bd-content .flipdown.flipdown__theme-dark .rotor:after {
+  border-top-color: color-mix(in srgb, #000, transparent 60%);
+}
+
+.bd-content .flipdown.flipdown__theme-dark .rotor-group-heading:before {
+  color: var(--pst-color-text-base);
+}
+
+.bd-content
+  .flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
+.bd-content
+  .flipdown.flipdown__theme-dark
+  .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
+  background-color: var(--pst-color-primary);
+}
+
+/* Social icon links, moved from the navbar to the footer */
+.footer-items__center .navbar-icon-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The theme pads each icon for the navbar, which is too airy in a footer row. */
+.footer-items__center .navbar-icon-links .nav-link {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+/* Venue stuff */
+
+.sci-venue-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.sci-venue-media > * {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.bd-content .sci-venue-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.sci-venue-media iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  .sci-venue-media {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Supporters and logos */
+
+/* Don't dim the logos in dark mode */
+[data-theme="dark"] img.partner-logo {
+  filter: none !important;
+}
+
+a:has(> img.partner-logo),
+a:hover:has(> img.partner-logo),
+a:focus:has(> img.partner-logo) {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  text-decoration: none !important;
+}
+
+a:has(> img.partner-logo)::before,
+a:has(> img.partner-logo)::after {
+  display: none !important;
+  content: none !important;
+}
+
+html:not([data-theme]) .bd-content a:has(> img.partner-logo.only-dark),
+html[data-theme="light"] .bd-content a:has(> img.partner-logo.only-dark),
+html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
+  display: none !important;
+}
+
+.bd-content img.sci-supporter-logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 96px;
+  height: auto;
+  margin: 0.25rem auto 1rem;
+  padding: 6px;
+}
+
+.bd-content img.sci-logo-tall {
+  max-height: 124px;
+}
+
+.sci-sponsor-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 96px;
+  padding: 1rem;
+  border: 2px dashed
+    color-mix(in srgb, var(--pst-color-primary), transparent 60%);
+  border-radius: 12px;
+  color: var(--pst-color-text-muted);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* volunteer/organiser cards copied from main website */
+.sci-team-grid .sd-card {
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.sci-team-grid .sd-card-img-top {
+  flex: 0 0 auto;
+  align-self: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sci-team-grid .sd-card-body {
+  padding-bottom: 0.5rem;
+}
+
+.bd-content .sci-team-grid .sd-card .sd-card-footer {
+  font-size: 1.25rem;
+}
+
+.sci-team-grid .sd-card-footer p {
+  display: flex;
+  gap: 0.35rem;
+  justify-content: center;
+  margin: 0;
+}
+
+.sci-team-grid .sd-card-footer a {
+  display: inline-flex;
+  justify-content: center;
+  width: 1.5em;
+  padding: 0.15em 0;
+  border-top: max(3px, 0.1875rem, 0.12em) solid transparent;
+  border-bottom: max(3px, 0.1875rem, 0.12em) solid transparent;
+  color: var(--pst-color-text-muted);
+  text-decoration: none;
+}
+
+.sci-team-grid .sd-card-footer a:hover,
+.sci-team-grid .sd-card-footer a:focus-visible {
+  border-bottom-color: currentcolor;
+  color: var(--pst-color-link-hover);
+}
+
+/* Open slot */
+.sci-team-grid .sci-team-open .sd-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: color-mix(in srgb, var(--pst-color-primary), transparent 60%);
+  background: transparent;
+  box-shadow: none;
+}
+
+.sci-team-grid .sci-team-open .sd-card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
