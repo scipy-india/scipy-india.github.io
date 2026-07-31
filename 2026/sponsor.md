@@ -19,6 +19,37 @@ Our proceeds will go into the following areas:
 - Video and photography
 - All other costs of running a scientific conference
 
+## Current sponsors
+
+::::{grid} 1 1 3 3
+:gutter: 3
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+::::
+
 ## Attendee outlook
 
 - Researchers and scientists in academia, industry, and government laboratories
@@ -93,37 +124,6 @@ If none of the tiers fit, you can fund one thing and be named against it.
 - Printing, signage, and merchandise (T-shirts, stickers, etc.)
 - Video and photography needs for marketing and documentation
 - Cloud or compute credits for workshops that need them
-
-## Sponsors so far
-
-::::{grid} 1 1 3 3
-:gutter: 3
-
-:::{grid-item}
-
-```{raw} html
-<div class="sci-sponsor-slot">Your logo here!</div>
-```
-
-:::
-
-:::{grid-item}
-
-```{raw} html
-<div class="sci-sponsor-slot">Your logo here!</div>
-```
-
-:::
-
-:::{grid-item}
-
-```{raw} html
-<div class="sci-sponsor-slot">Your logo here!</div>
-```
-
-:::
-
-::::
 
 ## What sponsorship does not include
 
