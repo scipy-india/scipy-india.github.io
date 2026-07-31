@@ -59,11 +59,8 @@ Forms opening soon!
 
 ## Review process
 
-A small group of organisers reads the applications and we do not share them beyond
-that group. Applying for aid, or receiving it, has no bearing on whether we accept
-your proposal, and the [programme committee](team) does not see financial aid
-applications.
+To be announced
 
 ## Funding it
 
-Are you a sponsor or an individual who would like to support the conference? Or, do you work for an organisation that would like to sponsor the conference? Please see the [sponsorship page](sponsor) for details on how to contribute. We can earmark a contribution for financial aid if you ask.
+Are you a sponsor or an individual who would like to support the conference? Or, do you work for an organisation, institution, or enterprise that would like to sponsor the conference? Please see the [sponsorship page](sponsor) for details on how to contribute. We can earmark a contribution for financial aid if you ask.
