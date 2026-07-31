@@ -9,9 +9,9 @@ Build both sites, and build the main website first:
     uv run sphinx-build -b html 2026 _build/html/2026
 """
 
-project = "SciPy India 2026 conference"
-html_title = "SciPy India 2026 conference"
-copyright = "2026, The SciPy India team"
+project = "SciPy India 2026"
+html_title = "SciPy India 2026"
+copyright = "2026, the SciPy India team"
 author = "The SciPy India team"
 
 html_baseurl = "https://scipy.in/2026/"
