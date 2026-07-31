@@ -33,18 +33,15 @@ Indian Institute of Technology Madras, Chennai 600036, India
 
 :::{grid-item-card} From the Chennai International Airport (MAA)
 
-**By taxi/car:** The quickest way to reach IIT Madras is by taxi or ride-sharing
-services such as Uber or Ola.
+**By taxi/car:** The quickest way to reach IIT Madras is by taxi or ride-sharing services such as Uber or Ola.
 
 **Travel time:** Approximately 30-45 minutes depending on traffic.
 
 **Distance:** Around 15 km.
 
-**By bus:** Take a bus from the airport to Thiruvanmiyur or Adyar. Bus numbers
-that serve this route include 21G, 21L, and 21H.
+**By bus:** Take a bus from the airport to Thiruvanmiyur or Adyar. Bus numbers that serve this route include 21G, 21L, and 21H.
 
-From Thiruvanmiyur or Adyar, you can take an auto-rickshaw or a local bus to
-IIT Madras.
+From Thiruvanmiyur or Adyar, you can take an auto-rickshaw or a local bus to IIT Madras.
 
 **By metro:** Take the Chennai Metro from the airport to Alandur station.
 
@@ -55,37 +52,32 @@ From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 
 :::{grid-item-card} From the Chennai Central Railway Station
 
-**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are readily
-available outside the station.
+**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are readily available outside the station.
 
 **Travel time:** Approximately 45-60 minutes depending on traffic.
 
 **Distance:** Around 13 km.
 
-**By bus:** Take a bus from Chennai Central to Adyar or Guindy. Bus numbers
-include 21G, 18B, and 19B.
+**By bus:** Take a bus from Chennai Central to Adyar or Guindy. Bus numbers include 21G, 18B, and 19B.
 
 From Adyar or Guindy, take an auto-rickshaw or a local bus to IIT Madras.
 
 **By metro:** Take the metro from Chennai Central to Anna Nagar East.
 
-Change to the Blue Line at Egmore Metro station towards Washermanpet and get off
-at Guindy.
+Change to the Blue Line at Egmore Metro station towards Washermanpet and get off at Guindy.
 
 From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 :::
 
 :::{grid-item-card} From the Chennai Egmore Railway Station
 
-**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are
-available outside the station.
+**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are available outside the station.
 
 **Travel time:** Approximately 35-50 minutes depending on traffic.
 
 **Distance:** Around 10 km.
 
-**By bus:** Take a bus from Egmore to Adyar. Bus numbers include 23C, 23E,
-and 23A.
+**By bus:** Take a bus from Egmore to Adyar. Bus numbers include 23C, 23E, and 23A.
 
 From Adyar, take an auto-rickshaw or a local bus to IIT Madras.
 
@@ -98,8 +90,7 @@ From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 
 :::{grid-item-card} Popular bus routes to IIT Madras
 
-Bus numbers that frequently stop near IIT Madras include 5C, 21G, 21L, 23C,
-47A, and 49C.
+Bus numbers that frequently stop near IIT Madras include 5C, 21G, 21L, 23C, 47A, and 49C.
 
 Major bus stops near IIT Madras include Adyar, Guindy, and Thiruvanmiyur.
 :::
@@ -127,8 +118,7 @@ We are in the process of checking step-free access, lifts, accessible restrooms,
 :::{admonition} Recommendations coming soon
 :class: note
 
-We will list options at several price points near campus, in Adyar, Guindy, and
-Velachery, along with anything we can arrange as a block booking.
+We will list options at several price points near campus, in Adyar, Guindy, and Velachery, along with anything we can arrange as a block booking.
 :::
 
 % TODO: finalise Taramani and Bose-Einstein guest house availability for attendees

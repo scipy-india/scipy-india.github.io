@@ -8,5 +8,4 @@ myst:
 
 To be announced.
 
-We will publish the timetable for both days of the conference here once the [programme](programme) is
-settled, which we expect by October 2026.
+We will publish the timetable for both days of the conference here once the [programme](programme) is settled, which we expect by October 2026.

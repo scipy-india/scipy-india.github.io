@@ -22,8 +22,7 @@ Nope! The conference is open to anyone, whether in academia, industry, or indepe
 
 :::{dropdown} Can I attend just one day of the conference?
 
-Yes. We plan to sell a single-day ticket for the workshop day on Saturday, a ticket for the
-conference day on Sunday, and a combined ticket for both days. See [registration](register).
+Yes. We plan to sell a single-day ticket for the workshop day on Saturday, a ticket for the conference day on Sunday, and a combined ticket for both days. See [registration](register).
 :::
 
 :::{dropdown} When does the registration open?
@@ -137,8 +136,7 @@ We would like to make this work and we will confirm nearer the date. It depends 
 ## Speaking
 
 :::{dropdown} When is the call for proposals opening?
-The dates are on the ["Important dates" table](index), and we will announce the opening on
-the [news page](news/index). The [call for proposals](cfp) will open with more information.
+The dates are on the ["Important dates" table](index), and we will announce the opening on the [news page](news/index). The [call for proposals](cfp) will open with more information.
 :::
 
 :::{dropdown} Can I submit if I have not spoken at a conference before?
@@ -180,25 +178,19 @@ Yes, we require that all slides be made available under a permissive license, an
 ## Getting there and staying
 
 :::{dropdown} Where exactly is the conference?
-IIT Madras, Chennai 600036. The workshops on Saturday are at the Department of
-Physics and the conference day on Sunday is at the IC&SR Building, about 400
-metres apart. The [venue and travel page](venue) has directions.
+IIT Madras, Chennai 600036. The workshops on Saturday are at the Department of Physics and the conference day on Sunday is at the IC&SR Building, about 400 metres apart. The [venue and travel page](venue) has directions.
 :::
 
 :::{dropdown} How do I get to the campus from the airport or the railway station?
-The [venue and travel page](venue) has routes by taxi, bus, and metro from the
-airport and from both main railway stations.
+The [venue and travel page](venue) has routes by taxi, bus, and metro from the airport and from both main railway stations.
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-We are confirming what campus entry involves, including which gate to use, and we
-will publish it on the [venue page](venue). We will issue a conference badge to all
-attendees at the registration desk.
+We are confirming what campus entry involves, including which gate to use, and we will publish it on the [venue page](venue). We will issue a conference badge to all attendees at the registration desk.
 :::
 
 :::{dropdown} Where should I stay?
-We will list options at a range of prices near the campus on the
-[venue page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed on the [venue page](venue). You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
+We will list options at a range of prices near the campus on the [venue page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed on the [venue page](venue). You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
 :::
 
 :::{dropdown} Can you send a letter of invitation for a visa application?
@@ -220,8 +212,7 @@ Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss s
 :::
 
 :::{dropdown} Can I sponsor as an individual?
-Yes. Please write to [info@scipy.in](mailto:info@scipy.in), and say if you want your
-contribution earmarked for [financial aid](financial-aid) or for general sponsorship. We are happy to discuss sponsorship options and how you can support the conference as an individual. Your contribution will help us make the conference more accessible and inclusive for attendees from diverse backgrounds.
+Yes. Please write to [info@scipy.in](mailto:info@scipy.in), and say if you want your contribution earmarked for [financial aid](financial-aid) or for general sponsorship. We are happy to discuss sponsorship options and how you can support the conference as an individual. Your contribution will help us make the conference more accessible and inclusive for attendees from diverse backgrounds.
 :::
 
 :::{dropdown} Can I volunteer for the conference?
@@ -239,19 +230,15 @@ Yes. It applies to both days, the stream, and social events around the conferenc
 :::
 
 :::{dropdown} Who runs the conference?
-The SciPy India community, through the [programme committee](team). Afrost, the
-Association for Promotion of Free and Open Source Technologies, is our organising
-partner and fiscal host.
+The SciPy India community, through the [programme committee](team). Afrost, the Association for Promotion of Free and Open Source Technologies, is our organising partner and fiscal host.
 :::
 
 :::{dropdown} How is this related to the other SciPy conferences?
-SciPy India is its conference with its organisers, run in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to https://scipy.org/community/#conferences for more. This is the fourteenth edition, and the first
-since 2021. For more details, see [past editions](https://scipy.in/past-editions).
+SciPy India is its conference with its organisers, run in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to https://scipy.org/community/#conferences for more. This is the fourteenth edition, and the first since 2021. For more details, see [past editions](https://scipy.in/past-editions).
 :::
 
 :::{dropdown} How do I keep in touch afterwards?
-You may join us on [Zulip](https://zulip.scipy.in), where the community carries on between
-conferences. Thank you for your interest!
+You may join us on [Zulip](https://zulip.scipy.in), where the community carries on between conferences. Thank you for your interest!
 :::
 
 :::{dropdown} My question is not answered here. Who may I reach out to?
