@@ -1,0 +1,144 @@
+---
+myst:
+  html_meta:
+    "description": "Sponsor the SciPy India 2026 conference"
+---
+
+# Sponsor us
+
+We are looking for sponsors to help us organise the SciPy India 2026 conference. Sponsorship helps us cover our costs and allows us to keep ticket prices low and provide financial aid to attendees who need it.
+
+Our proceeds will go into the following areas:
+
+- The venue cost, the audio-visual setup, and livestreaming
+- Food and refreshments (tea/coffee) on both days
+- [Financial aid](financial-aid): travel, accommodation, tickets, visa fees, and other support for attendees who would otherwise be unable to attend
+- Keeping ticket prices low
+- Printing and signage
+- Merchandise such as t-shirts, stickers, and other items for attendees
+- Video and photography
+- All other costs of running a scientific conference
+
+## Attendee outlook
+
+- Researchers and scientists in academia, industry, and government laboratories
+- Research software engineers, and maintainers of open source scientific libraries
+- Educators and faculty who teach computational work
+- Engineers working in modelling and simulation of physical systems
+- HPC specialists and system administrators
+- Students and early-career contributors to scientific open source software
+
+### About previous editions
+
+- 250 to 300 attendees, including students, researchers, faculty, and engineers from academia and industry
+- Thirteen editions from 2009 to 2021
+- Held at venues such as SPACE Kerala, ISB Hyderabad, and IIT Bombay
+- Satellite conferences in educational institutions in cities across India
+
+## Why sponsor us
+
+- **Reach the people who choose the tools.** Our attendees pick the libraries, the platforms, and the hardware their labs and teams end up standardising on.
+- **Hire.** Two days in a room with researchers, engineers, and maintainers, with a job posting on our channels at the higher tiers.
+- **Support the community.** Your contribution keeps tickets cheap and pays for [financial aid](financial-aid), so people come who otherwise could not.
+- **Spend less than an ad campaign would cost** for an audience that is already paying attention!
+
+## Tiers
+
+:::{warning}
+We have not set the amounts yet for each tier. We will update this page once we have the figures. Please write to [info@scipy.in](mailto:info@scipy.in) for details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We are open to custom sponsorship arrangements.
+:::
+
+% TODO: we need to set the amounts, the ticket allocations, and the number of sponsors at each tier
+
+| What you get                           | Gold                 | Silver          | Bronze          | Community       |
+| -------------------------------------- | -------------------- | --------------- | --------------- | --------------- |
+| Amount                                 | To be confirmed      | To be confirmed | To be confirmed | To be confirmed |
+| Tickets                                | To be confirmed      | To be confirmed | To be confirmed | To be confirmed |
+| A group rate to bring your team        | To be confirmed      | To be confirmed | ✗               | ✗               |
+| Logo on this website                   | ✓                    | ✓               | ✓               | ✓               |
+| Logo in the programme                  | Large                | Medium          | Medium          | Small           |
+| Logo on screen between sessions        | A screen of your own | ✓               | ✗               | ✗               |
+| A short video between sessions         | Up to 30 seconds     | ✗               | ✗               | ✗               |
+| Logo on the talk recordings            | ✓                    | ✓               | ✗               | ✗               |
+| A stall or table                       | Both days            | Conference day  | ✗               | ✗               |
+| Something of yours in the attendee bag | ✓                    | ✓               | ✗               | ✗               |
+| Logo on the conference T-shirt         | ✓                    | ✗               | ✗               | ✗               |
+| A job posting shared on our channels   | ✓                    | ✓               | ✗               | ✗               |
+
+We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
+
+The Community tier is for non-profits, student groups, other communities, and small companies. A sponsor at any tier can earmark their contribution for [financial aid](financial-aid).
+
+**Open source contributor discount.** Organisations that contribute materially to open source are eligible for a 50% reduction on the Silver and Bronze tiers. You qualify if you operate an open source programme office, release your principal product under an OSI-approved licence, or employ staff to maintain open source projects during working hours. Please indicate which criterion applies when you contact us.
+
+Don't see a tier that fits your needs? Please write to [info@scipy.in](mailto:info@scipy.in) to discuss your requirements and how we can accommodate them.
+
+## Sponsor one part of the conference
+
+If none of the tiers fit, you can fund one thing and be named against it.
+
+% TODO: set amounts for each of these, or decide to quote on request.
+
+- **[Financial aid](financial-aid)**, at any amount. This pays for travel, accommodation, and tickets for people who could not otherwise come.
+- **Lunch or refreshments** on one of the two days.
+- **Recording and publishing the talks.** Your logo goes on the title card of every recording, which stays online long after the conference.
+- **The [poster session](programme)**, if it goes ahead.
+- **T-shirts and other merchandise.**
+
+## In-kind contributions
+
+- A venue or rooms for satellite events around the two days
+- Catering contributions for lunch or refreshments
+- Travel or accommodation for speakers and financial aid recipients
+- Printing, signage, and merchandise (T-shirts, stickers, etc.)
+- Video and photography needs for marketing and documentation
+- Cloud or compute credits for workshops that need them
+
+## Sponsors so far
+
+::::{grid} 1 1 3 3
+:gutter: 3
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+:::{grid-item}
+
+```{raw} html
+<div class="sci-sponsor-slot">Your logo here!</div>
+```
+
+:::
+
+::::
+
+## What sponsorship does not include
+
+- We are unable to provide speaking slots. Please submit a talk proposal through the [call for proposals](cfp) process. We will consider all proposals on their merit, and we do not give preference to sponsors.
+- We do not place sponsor content within the programme itself. Sponsor branding appears between sessions rather than during them, and sessions are not used for product promotion. Where your tier includes a video, it is played during a break and not from the stage.
+% - We will not share attendees' contact information with sponsors.
+
+## Getting in touch
+
+Write to [info@scipy.in](mailto:info@scipy.in). We will send you the current tier figures and arrange a call.
+
+Our fiscal host is the [Association for Promotion of Free and Open Source Technologies](https://afrost.org). All sponsorship contributions are made to AFROST, which is a registered non-profit in India.
+
+Contributions will be acknowledged on our website and in our programme, and we will provide a receipt for your contribution. We are happy to discuss custom sponsorship arrangements, and we welcome sponsors from various industries who share our commitment to scientific computing and data science.
+
+:::{important}
+Payments will be directed through our ticketing platform, [KonfHub](https://konfhub.com). We will provide you with a link to make your contribution through KonfHub, and you will receive a receipt for your payment.
+:::
