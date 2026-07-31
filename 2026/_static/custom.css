@@ -48,23 +48,6 @@ I hope that we don't need to do this again for the foreseeable future */
   background-color: var(--pst-color-primary);
 }
 
-/* Social icon links, moved from the navbar to the footer */
-.footer-items__center .navbar-icon-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* The theme pads each icon for the navbar, which is too airy in a footer row. */
-.footer-items__center .navbar-icon-links .nav-link {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 /* Venue stuff */
 
 .sci-venue-media {
