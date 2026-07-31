@@ -6,7 +6,7 @@ myst:
 
 # Code of Conduct
 
-The SciPy India 2026 conference runs under the SciPy India community code of conduct, which
+The SciPy India 2026 conference runs under the SciPy India community Code of Conduct, which
 follows the [NumFOCUS Code of Conduct](https://numfocus.org/code-of-conduct). It
 applies to both days, to the workshops, to the stream and its chat, and to any
 social events around the conference.

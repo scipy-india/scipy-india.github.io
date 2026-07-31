@@ -78,7 +78,7 @@ html_context = {
                 ("news/index", "News"),
                 ("team", "Team"),
                 ("volunteer", "Volunteer"),
-                ("coc", "Code of conduct"),
+                ("coc", "Code of Conduct"),
             ],
             "links": [("https://scipy.in", "scipy.in")],
         },
