@@ -150,7 +150,7 @@ html_theme_options = {
         },
         {
             "name": "Bluesky",
-            "url": "https://bsky.app/profile/scipyindia.bsky.social",
+            "url": "https://bsky.app/profile/scipy.in",
             "icon": "fa-brands fa-bluesky",
             "type": "fontawesome",
         },
