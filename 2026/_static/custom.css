@@ -220,6 +220,7 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
 
 .sci-team-grid .sci-team-open .sd-card-body {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  text-align: left;
 }
