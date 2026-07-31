@@ -77,7 +77,7 @@ html_context = {
             "children": [
                 ("news/index", "News"),
                 ("team", "Team"),
-                ("get-involved", "Get involved"),
+                ("volunteer", "Volunteer"),
                 ("coc", "Code of conduct"),
             ],
             "links": [("https://scipy.in", "scipy.in")],
@@ -98,7 +98,7 @@ html_sidebars = {
     "sponsor": [],
     "faq": [],
     "financial-aid": [],
-    "get-involved": [],
+    "volunteer": [],
     "coc": [],
     "team": [],
     "news/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/tagcloud.html"],
