@@ -55,7 +55,13 @@ templates_path = ["_templates"]
 
 html_context = {
     "conference_nav": [
-        {"label": "Programme", "page": "programme"},
+        {
+            "label": "Programme",
+            "children": [
+                ("programme", "Programme"),
+                ("schedule", "Schedule"),
+            ],
+        },
         {
             "label": "Attend",
             "children": [
@@ -85,6 +91,7 @@ html_show_sourcelink = False
 html_sidebars = {
     "index": [],
     "programme": [],
+    "schedule": [],
     "cfp": [],
     "register": [],
     "venue": [],
