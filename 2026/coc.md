@@ -41,8 +41,8 @@ There are three ways to report a problem during the conference:
   anonymously
 - Write to [info@scipy.in](mailto:info@scipy.in).
 
-<!-- TODO: we need some on-site CoC contacts and add mobile numbers here.
-Also print the same on the badges and other insignia... -->
+% TODO: we need some on-site CoC contacts and add mobile numbers here.
+% Also print the same on the badges and other insignia...
 
 ## What happens after a report
 
