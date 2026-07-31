@@ -1,0 +1,60 @@
+<!-- Hack to add custom dropdowns with the PST. TODO: upstream this someday -->
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    {% for group in conference_nav %} {% if group.page %} {% set external =
+    "://" in group.page %}
+    <li
+      class="nav-item {% if not external and pagename == group.page %}current active{% endif %}"
+    >
+      <a
+        class="nav-link nav-{{ 'external' if external else 'internal' }}"
+        href="{{ group.page if external else pathto(group.page) }}"
+        target="{{ '_blank' if external else '_self' }}"
+        rel="{{ 'noopener' if external else '' }}"
+      >
+        {{ group.label }}
+      </a>
+    </li>
+    {% else %} {% set state = namespace(active=false) %} {% for child in
+    group.children %} {% if pagename == child[0] %}{% set state.active = true
+    %}{% endif %} {% endfor %} {% set dropdown_id = "pst-nav-" ~ group.label |
+    lower | replace(" ", "-") %}
+    <li
+      class="nav-item dropdown {% if state.active %}current active{% endif %}"
+    >
+      <button
+        class="btn dropdown-toggle nav-item"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        aria-controls="{{ dropdown_id }}"
+      >
+        {{ group.label }}
+      </button>
+      <ul id="{{ dropdown_id }}" class="dropdown-menu">
+        {% for child in group.children %}
+        <li class="{% if pagename == child[0] %}current active{% endif %}">
+          <a
+            class="nav-link dropdown-item nav-internal"
+            href="{{ pathto(child[0]) }}"
+          >
+            {{ child[1] }}
+          </a>
+        </li>
+        {% endfor %} {% for link in group.get("links", []) %}
+        <li>
+          <a
+            class="nav-link dropdown-item nav-external"
+            href="{{ link[0] }}"
+            target="_blank"
+            rel="noopener"
+          >
+            {{ link[1] }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</nav>

@@ -23,3 +23,36 @@ html_js_files = [
         },
     ),
 ]
+html_context = {
+    "conference_nav": [
+        {
+            "label": "Programme",
+            "children": [
+                ("programme", "Programme"),
+                ("speakers", "Speakers"),
+                ("cfp", "Call for proposals"),
+            ],
+        },
+        {
+            "label": "Attend",
+            "children": [
+                ("register", "Register"),
+                ("venue", "Venue and travel"),
+                ("financial-aid", "Financial aid"),
+                ("faq", "FAQ"),
+            ],
+        },
+        {"label": "Sponsor us", "page": "sponsor"},
+        {
+            "label": "About",
+            "children": [
+                ("news/index", "News"),
+                ("team", "Team"),
+                ("get-involved", "Get involved"),
+                ("coc", "Code of conduct"),
+            ],
+            "links": [("https://scipy.in", "scipy.in")],
+        },
+        {"label": "Past editions", "page": "https://scipy.in/past-editions"},
+    ],
+}
