@@ -4,7 +4,7 @@ date: 2026-07-30
 author: The SciPy India team
 category: Announcement
 tags: [conference, 2026, chennai, iit-madras]
-description: SciPy India 2026 is on 19 and 20 December at IIT Madras, Chennai. Workshops on the Saturday, talks on the Sunday, and the call for proposals opens on 9 August.
+description: The SciPy India 2026 conference is on 19 and 20 December at IIT Madras, Chennai. Workshops on the Saturday, talks on the Sunday, and the call for proposals opens on 9 August.
 ---
 
 # Announcing the SciPy India 2026 conference

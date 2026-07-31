@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Meet the SciPy India 2026 programme committee"
+    "description": "Meet the programme committee for the SciPy India 2026 conference"
 ---
 
 # Team
@@ -61,14 +61,14 @@ myst:
 
 <hr>
 <!-- TODO add Jotform link here and make this clickable -->
-Join the programme committee and volunteer towards making SciPy India 2026 a success (forms opening soon!)
+Join the programme committee and volunteer towards making the SciPy India 2026 conference a success (forms opening soon!)
 :::
 
 ::::
 
 <!-- ## Join the programme committee
 
-We are looking for volunteers to join the programme committee for SciPy India 2026. As a member of the programme committee, you will have the opportunity to help shape the conference by reviewing proposals, providing feedback, and contributing to the overall success of the event.
+We are looking for volunteers to join the programme committee for the SciPy India 2026 conference. As a member of the programme committee, you will have the opportunity to help shape the conference by reviewing proposals, providing feedback, and contributing to the overall success of the event.
 
 We need help with:
 
@@ -86,6 +86,6 @@ We need help with:
 
 There are many ways to contribute, and we welcome volunteers with a range of skills and experience. You do not need to be an expert in Python or scientific computing to join the programme committee. We value diversity and inclusivity, and we encourage people from all backgrounds to apply.
 
-If you are interested in joining the programme committee, please fill out the [volunteer form](https://forms.gle/7g1Z5y6z5z5z5z5z5) and we will get in touch with you. We look forward to working with you to make SciPy India 2026 a success!
+If you are interested in joining the programme committee, please fill out the [volunteer form](https://forms.gle/7g1Z5y6z5z5z5z5z5) and we will get in touch with you. We look forward to working with you to make the SciPy India 2026 conference a success!
 
 If you have any questions or would like more information about the programme committee, please contact us at [info@scipy.in](mailto:info@scipy.in), and we would be happy to hear from you. -->

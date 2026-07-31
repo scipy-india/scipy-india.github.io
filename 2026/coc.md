@@ -1,12 +1,12 @@
 ---
 myst:
   html_meta:
-    "description": "The Code of Conduct for SciPy India 2026. What we expect, and how to report a problem during the conference."
+    "description": "The Code of Conduct for the SciPy India 2026 conference"
 ---
 
 # Code of Conduct
 
-SciPy India 2026 runs under the SciPy India community code of conduct, which
+The SciPy India 2026 conference runs under the SciPy India community code of conduct, which
 follows the [NumFOCUS Code of Conduct](https://numfocus.org/code-of-conduct). It
 applies to both days, to the workshops, to the stream and its chat, and to any
 social events around the conference.
