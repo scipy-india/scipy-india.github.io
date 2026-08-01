@@ -24,11 +24,11 @@ We expect to form the programme for the SciPy India 2026 conference by October 2
 
 % We are discussing an evening gathering/dinner after the conference. It is not yet confirmed.
 
-## Streaming and recordings
+## Recordings
 
-% We stream the conference day on
-% [YouTube](https://www.youtube.com/@scipy-india) and publish the talks on the same
-% channel afterwards. Workshops are in person only.
+% We will not livestream the conference. We publish the conference day talks on
+% [YouTube](https://www.youtube.com/@scipy-india) after the conference. Workshops
+% are in person only and are not recorded.
 %
-% If you would prefer not to be recorded, tell us and we will keep your session off
-% the stream.
+% If you would prefer not to be recorded, tell us and we will keep your session out
+% of the published recordings.

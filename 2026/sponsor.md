@@ -10,7 +10,7 @@ We are looking for sponsors to help us organise the SciPy India 2026 conference.
 
 Our proceeds will go into the following areas:
 
-- The venue cost, the audio-visual setup, and livestreaming
+- The venue cost, the audio-visual setup, and recording the talks
 - Food and refreshments (tea/coffee) on both days
 - [Financial aid](financial-aid): travel, accommodation, tickets, visa fees, and other support for attendees who would otherwise be unable to attend
 - Keeping ticket prices low

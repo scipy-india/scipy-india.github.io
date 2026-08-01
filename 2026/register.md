@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Registration for the SciPy India 2026 conference at IIT Madras, Chennai. Opens closer to the date. Watching online is free."
+    "description": "Registration for the SciPy India 2026 conference at IIT Madras, Chennai. Opens closer to the date. Recordings will be published free after the conference."
 ---
 
 # Registrations
@@ -16,7 +16,7 @@ Early bird discounts will be available for those who register early, so keep an 
 
 If your attendance is supported by your institution or company, please sign up for a corporate ticket at slightly higher pricing. This helps us keep the conference accessible to students, independent researchers, and those from underrepresented groups.
 
-If you are unable to attend in person, you may watch the conference day online. We will stream the talks on our [YouTube channel](https://www.youtube.com/@scipy-india).
+If you are unable to attend in person, we will publish recordings of the conference day talks on our [YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
 
 ## What a ticket covers
 
@@ -29,11 +29,11 @@ A ticket to the SciPy India 2026 conference covers the following:
 
 We do not provide accommodation or travel support as part of the ticket. Please refer to our [venue and travel](venue) page for information on nearby hotels and transportation options, and our [financial aid](financial-aid) page in case you need support for travel and accommodation.
 
-## Watching online
+## Recordings
 
-We plan to host a livestream for the conference day on [YouTube](https://www.youtube.com/@scipy-india). You do not need a ticket or an account to watch the proceedings online. The livestream will be free and open to all.
+We will not be livestreaming the conference. We plan to publish recordings of the conference day talks on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
 
-Workshops will be in person only and will not be streamed. If you are interested in attending a workshop, please register for the conference and book a ticket.
+Workshops are in person only and will not be recorded. If you are interested in attending a workshop, please register for the conference and book a ticket.
 
 ## Financial aid
 

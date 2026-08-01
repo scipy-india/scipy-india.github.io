@@ -114,10 +114,10 @@ Yes. A workshop-day ticket covers Saturday on its own.
 ## Watching online
 
 :::{dropdown} Can I watch the conference remotely?
-Yes. We will stream the conference day on Sunday on [YouTube](https://www.youtube.com/@scipy-india). You do not need a ticket or an account to watch the proceedings online. The livestream will be free and open to all.
+Not live. We will not be livestreaming the conference, but we will publish recordings of the conference day sessions on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
 :::
 
-:::{dropdown} Are the workshops streamed?
+:::{dropdown} Are the workshops recorded?
 No. Workshops are in person only.
 :::
 
@@ -126,7 +126,7 @@ India Standard Time, which is UTC+5:30.
 :::
 
 :::{dropdown} Will talks be recorded?
-Yes, and we will publish them on our YouTube channel afterwards. If you are a speaker and would prefer not to be recorded, please tell us and we will keep your session off the stream.
+Yes, and we will publish them on our YouTube channel after the conference. If you are a speaker and would prefer not to be recorded, please tell us and we will keep your session out of the published recordings.
 :::
 
 :::{dropdown} Can online viewers ask questions?
@@ -226,7 +226,7 @@ You may post about us somewhere we are not already reaching, such as a lab maili
 ## Anything else
 
 :::{dropdown} Is there a Code of Conduct?
-Yes. It applies to both days, the stream, and social events around the conference and all activities of the conference and community, in person and online. Please refer to the [Code of Conduct](coc) page for details.
+Yes. It applies to both days, and social events around the conference and all activities of the conference and community, in person and online. Please refer to the [Code of Conduct](coc) page for details.
 :::
 
 :::{dropdown} Who runs the conference?

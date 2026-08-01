@@ -42,7 +42,7 @@ In the meantime, if you would like to help, please write to [info@scipy.in](mail
 % - Registration desk on both mornings
 % - Session chairs, to introduce speakers and keep sessions to time
 % - Room runners, coordinating between the rooms
-% - Audio-visual and livestream operation
+% - Audio-visual and recording operation
 % - Photography
 % - Workshop assistants
 % - Code of Conduct contacts

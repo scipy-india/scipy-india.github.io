@@ -78,7 +78,7 @@ Join the programme committee and volunteer towards making the SciPy India 2026 c
 % - providing feedback to speakers and workshop organisers
 % - helping with the conference schedule and logistics online and/or on-site
 % - assisting with the conference day, including helping speakers and attendees, the registration desk and ensuring that the event runs smoothly
-% - helping with the livestream A/V and online streaming of the conference day
+% - helping with the A/V setup and recording of the conference day
 % - designing the conference website, including updating content and managing the programme schedule
 % - helping with social media and marketing for the conference
 % - sponsorship and outreach to potential sponsors and partners for the conference
