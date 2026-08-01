@@ -40,13 +40,13 @@ myst:
 
 <hr>
 
-**In person and online**
+**In person**
 
 <hr>
 
-The conference will be held in an in-person format.
+The conference will be held in an in-person format. We will not be livestreaming the workshops or the conference day.
 
-We plan to livestream the workshops and the conference day on YouTube. The sessions will also be recorded and made available on the SciPy India YouTube channel after the event.
+Talks from the conference day will be recorded and made available on the SciPy India YouTube channel after the event.
 :::
 
 ::::
