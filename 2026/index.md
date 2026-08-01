@@ -12,7 +12,12 @@ An international scientific computing and open source software conference
 <br>
 Indian Institute of Technology Madras, Chennai 600036, India
 
-[Go back to SciPy India's main website](https://scipy.in)
+```{button-link} https://scipy.in
+:color: secondary
+:outline:
+
+{octicon}`arrow-left` Go back to SciPy India's main website
+```
 
 % A countdown to the conference using FlipDown.
 % This is currently set to 9 AM on 19th December 2026
@@ -101,29 +106,29 @@ We are committed to providing a safe and welcoming environment for all attendees
 % yet. Add a row for it here if we decide to go ahead. This is a MyST comment,
 % so unlike an HTML one it does not reach the page source.
 
-| Date                      | Information                                                    |
-| ------------------------- | -------------------------------------------------------------- |
-| To be announced           | The call for volunteers opens                                  |
-| To be announced           | The call for proposals opens                                   |
-| To be announced           | Registration opens: early bird ticket sales                    |
-| To be announced           | Financial aid programme opens                                  |
-| To be announced           | The call for proposals closes                                  |
-| To be announced           | Early bird ticket sales end                                    |
-| To be announced           | Financial aid programme deadline                               |
-| To be announced           | Regular ticket sales open                                      |
-| To be announced           | Speakers notified of acceptance                                |
-| To be announced           | Deadline for speakers to confirm their session                 |
-| To be announced           | Financial aid decisions announced                              |
-| To be announced           | Programme announcement                                         |
-| To be announced           | Workshop sign-up opens for registered attendees                |
-| To be announced           | Volunteer sign-up opens                                        |
-| To be announced           | Regular ticket sales end                                       |
-| To be announced           | Late ticket sales start                                        |
-| To be announced           | The schedule is published                                      |
-| To be announced           | Registration closes                                            |
-| Saturday 19 December 2026 | Workshops at the Department of Physics, IIT Madras             |
-| Sunday 20 December 2026   | Conference day at the IC&SR Building, IIT Madras (and online!) |
-| To be announced           | Talk recordings published                                      |
+| Date                      | Information                                        |
+| ------------------------- | -------------------------------------------------- |
+| To be announced           | The call for volunteers opens                      |
+| To be announced           | The call for proposals opens                       |
+| To be announced           | Registration opens: early bird ticket sales        |
+| To be announced           | Financial aid programme opens                      |
+| To be announced           | The call for proposals closes                      |
+| To be announced           | Early bird ticket sales end                        |
+| To be announced           | Financial aid programme deadline                   |
+| To be announced           | Regular ticket sales open                          |
+| To be announced           | Speakers notified of acceptance                    |
+| To be announced           | Deadline for speakers to confirm their session     |
+| To be announced           | Financial aid decisions announced                  |
+| To be announced           | Programme announcement                             |
+| To be announced           | Workshop sign-up opens for registered attendees    |
+| To be announced           | Volunteer sign-up opens                            |
+| To be announced           | Regular ticket sales end                           |
+| To be announced           | Late ticket sales start                            |
+| To be announced           | The schedule is published                          |
+| To be announced           | Registration closes                                |
+| Saturday 19 December 2026 | Workshops at the Department of Physics, IIT Madras |
+| Sunday 20 December 2026   | Conference day at the IC&SR Building, IIT Madras   |
+| To be announced           | Talk recordings published                          |
 
 % Four rows we are holding back, each waiting on a decision. They have to sit
 % out here rather than in the table: a comment line inside a pipe table ends the
@@ -203,21 +208,32 @@ Please refer to the [venue and travel page](venue) for detailed information on d
 </div>
 ```
 
-[Open in Google Maps](https://maps.app.goo.gl/ND5Bg5HP9Waayoc88)
+```{button-link} https://maps.app.goo.gl/ND5Bg5HP9Waayoc88
+:color: primary
+:outline:
+
+{octicon}`link-external` Open in Google Maps
+```
 
 ## Call for proposals
 
 We will soon be opening our call for proposals (CFP) for talks and workshops. Please keep an eye on this webpage and our social media for updates!
 
-[Read more about our call for proposals](cfp)
+```{button-ref} cfp
+:ref-type: doc
+:color: primary
+:outline:
+
+Read more about our call for proposals
+```
 
 ## Registration
 
 To be announced. Tickets sales starting soon!
 
-## Attending online
+## Recordings
 
-We plan to host livestreams of the conference on [our YouTube channel](https://www.youtube.com/@scipy-india), and we will publish the recordings of the sessions after the conference.
+We will not be livestreaming the conference. We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
 
 ## Our partners, supporters, and sponsors
 
