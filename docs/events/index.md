@@ -1,36 +1,74 @@
 ---
 myst:
   html_meta:
-    "description": "SciPy India Events — upcoming and past conferences, community calls, and meetups from the scientific Python community in India."
+    "description": "SciPy India Events – upcoming and past conferences, community calls, and meetups from the scientific Python community in India."
 ---
 
 # Events
 
-A quick overview of upcoming and recent events. Open a card for either a debrief or a short event page with the recording and core details.
+## Upcoming events
 
----
+### SciPy India 2026 conference
 
-## Upcoming
+📅 19–20 Dec 2026 • 📍 IC&SR Building, Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
-::::{grid} 1
+[Visit the conference website](https://scipy.in/2026/) for the programme, call for proposals, registration, and travel details.
+
+::::{grid} 1 1 2 2
 :gutter: 3
 
-:::{grid-item-card} SciPy India × Rust Delhi Meetup
-:link: 2026/2026-08-22-rust-delhi-meetup
-:link-type: doc
+:::{grid-item-card} Dates
 
-📅 22 Aug 2026 • 📍 Essentia.dev, Sector 62, Noida
+<hr>
 
-Scientific Computing in Rust and Python, co-organized with Rust Delhi. Registration and the CFP are open.
+**Workshops**
+<br>
+[Department of Physics, IIT Madras](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7)
+<br>
+19th December, 2026 (Saturday)
+
+<hr>
+
+**Conference**
+<br>
+[IC&SR Building, IIT Madras](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9)
+<br>
+20th December, 2026 (Sunday)
 :::
 
-:::{grid-item-card} SciPy India Conference 2026
-:link: 2026/2026-scipy-india-conference
-:link-type: doc
+:::{grid-item-card} Attending
 
-**Date**: Coming soon, in later 2026 | **Location**: TBA
+<hr>
 
-Details to be announced.
+**In person**
+
+<hr>
+
+The conference will be held in an in-person format. We will not be livestreaming the workshops or the conference day.
+
+Talks from the conference day will be recorded and made available on the SciPy India YouTube channel after the event.
+:::
+
+::::
+
+### SciPy India × Rust Delhi Meetup
+
+📅 22 Aug 2026, 2:00 PM – 5:00 PM IST • 📍 Essentia.dev, Third Floor, C56/A28, C Block, Phase 2, Sector 62, Noida
+
+A collaborative meetup with [Rust Delhi](https://rustdelhi.in/) on Scientific Computing in Rust and Python (sponsored by the [Rust Foundation](https://rustfoundation.org/)). We're bringing together researchers, scientists, and developers for deep technical sessions on real-world scientific computing problems.
+
+Registration and the CFP are open.
+
+::::{div} sci-collab-event-hero
+
+```{image} ../_static/events/scipy-india-rust-delhi-meetup.png
+:alt: SciPy India × Rust Delhi Meetup – Scientific Computing in Rust and Python, sponsored by the Rust Foundation. Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida. RSVPs and CFPs open.
+:align: center
+:class: event-flyer
+```
+
+:::{div} sci-collab-event-actions
+[Submit a proposal or RSVP](https://scipy.in/sci-py-rs/)
 :::
 
 ::::
@@ -39,70 +77,136 @@ Details to be announced.
 
 ## Past events
 
-::::{grid} 1
-:gutter: 3
+### BangPypers × SciPy India Meetup
 
-:::{grid-item-card} BangPypers × SciPy India Meetup
-:link: ../blog/2026-02-21-bangpypers-joint-meetup
-:link-type: doc
+📅 21 Feb 2026, 11:00 AM – 2:00 PM IST • 📍 Amadeus Software Labs, Bengaluru
 
-📅 21 Feb 2026 • 📍 Amadeus Software Labs, Bengaluru
+A joint offline meetup with BangPypers – we had presentations on LLM systems, NumPy contributions, Python t-strings, and more.
 
-A joint offline meetup — talks on LLM systems, NumPy contributions, Python t-strings, and lightning talks.
-:::
+[Read the event recap](../blog/2026-02-21-bangpypers-joint-meetup)
 
-:::{grid-item-card} SciPy India Community Call #4
-:link: 2025/2025-12-06-community-call-4
-:link-type: doc
+### SciPy India Community Call #4
 
-📅 6 Dec 2025 • 🌐 Online
+📅 6 Dec 2025, 2:00 PM – 4:00 PM IST • 🌐 Online
 
-Talks on simulation with PhiFlow, computational preservation of Telugu poetry, and Ramanujan-Computing.
-:::
+Our fourth online community call! We had talks on simulation with PhiFlow, the computational preservation of Telugu poetry, and the Ramanujan-Computing project.
 
-:::{grid-item-card} SciPy India Community Call #3
-:link: 2025/2025-11-01-community-call-3
-:link-type: doc
+````{admonition} Watch on YouTube
+:class: dropdown
 
-📅 1 Nov 2025 • 🌐 Online
-
-Our third online community call, with the recording embedded on the event page.
-:::
-
-:::{grid-item-card} SciPy India Community Call #2
-:link: 2025/2025-10-04-community-call-2
-:link-type: doc
-
-📅 4 Oct 2025 • 🌐 Online
-
-Our second online community call, with the recording embedded on the event page.
-:::
-
-:::{grid-item-card} FOSS in Science Devroom at IndiaFOSS 2025
-:link: ../blog/2025-09-21-indiafoss-science-devroom
-:link-type: doc
-
-📅 21 Sep 2025 • 📍 NIMHANS, Bengaluru
-
-A full debrief from the FOSS in Science devroom at IndiaFOSS 2025, including the talks and follow-up links.
-:::
-
-:::{grid-item-card} SciPy India Virtual Meetup #1
-:link: ../blog/2025-07-26-community-call-1
-:link-type: doc
-
-📅 26 Jul 2025 • 🌐 Online
-
-Our first community call — talks on PyCaret, marimo, causal ML, and subgraph matching.
-:::
-
-::::
-
-```{toctree}
-:hidden:
-:maxdepth: 1
-:glob:
-
-2025/*
-2026/*
+```{raw} html
+<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/KGo8JRmydTQ"
+    title="SciPy India Community Call 4 video"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width: 100%; height: 100%; border: 0;"
+  ></iframe>
+</div>
 ```
+````
+
+[Event page](https://fossunited.org/c/scipy-india/community-call-4)
+
+### SciPy India Community Call #3
+
+📅 1 Nov 2025, 2:00 PM – 4:00 PM IST • 🌐 Online
+
+Our third online community call!
+
+````{admonition} Watch on YouTube
+:class: dropdown
+
+```{raw} html
+<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/6SoLgkFVkIg"
+    title="SciPy India Community Call 3 video"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width: 100%; height: 100%; border: 0;"
+  ></iframe>
+</div>
+```
+````
+
+### SciPy India Community Call #2
+
+📅 4 Oct 2025, 2:00 PM – 4:00 PM IST • 🌐 Online
+
+Our second online community call!
+
+````{admonition} Watch on YouTube
+:class: dropdown
+
+```{raw} html
+<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/EJfvfNSBVDU"
+    title="SciPy India Community Call 2 video"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width: 100%; height: 100%; border: 0;"
+  ></iframe>
+</div>
+```
+````
+
+### FOSS in Science Devroom at IndiaFOSS 2025
+
+📅 21 Sep 2025, 10:00 AM – 1:00 PM IST • 📍 NIMHANS Convention Centre, Bengaluru
+
+SciPy India co-organised the FOSS in Science devroom at IndiaFOSS 2025 in Bengaluru – a full day of talks on open-source software in scientific research.
+
+````{admonition} Watch on YouTube
+:class: dropdown
+
+```{raw} html
+<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/NyQced4oJVM"
+    title="IndiaFOSS 2025 FOSS in Science devroom video"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width: 100%; height: 100%; border: 0;"
+  ></iframe>
+</div>
+```
+````
+
+[Devroom page](https://fossunited.org/indiafoss/2025/devrooms/science) • [Read the event recap](../blog/2025-09-21-indiafoss-science-devroom)
+
+### SciPy India Virtual Meetup #1
+
+📅 26 Jul 2025, 10:00 AM – 1:00 PM IST • 🌐 Online
+
+Our first online community call – talks on PyCaret, marimo, causal ML with pgmpy, and subgraph matching.
+
+````{admonition} Watch on YouTube
+:class: dropdown
+
+```{raw} html
+<div style="aspect-ratio: 16/9; border-radius: 12px; overflow: hidden; margin: 0.5rem 0;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/FCSsohzaP4s"
+    title="SciPy India Community Call 1 video"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width: 100%; height: 100%; border: 0;"
+  ></iframe>
+</div>
+```
+````
+
+[Read the event recap](../blog/2025-07-26-community-call-1)

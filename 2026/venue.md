@@ -1,0 +1,139 @@
+---
+myst:
+  html_meta:
+    "description": "Venue and travel information for the SciPy India 2026 conference"
+---
+
+# Venue and travel
+
+Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
+
+<iframe
+  class="sci-map"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
+  width="100%"
+  height="450"
+  title="Map of the IC&amp;SR Building at IIT Madras, Chennai"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+<hr>
+
+- Saturday 19 December, workshops: [Department of Physics](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7)
+- Sunday 20 December, conference: [IC&SR Building](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9)
+
+% TODO: confirm which gate to send people to and which entrance to use at each
+% building
+
+## How to reach IIT Madras
+
+::::{grid} 1 1 2 2
+:gutter: 4
+
+:::{grid-item-card} From the Chennai International Airport (MAA)
+
+**By taxi/car:** The quickest way to reach IIT Madras is by taxi or ride-sharing services such as Uber or Ola.
+
+**Travel time:** Approximately 30-45 minutes depending on traffic.
+
+**Distance:** Around 15 km.
+
+**By bus:** Take a bus from the airport to Thiruvanmiyur or Adyar. Bus numbers that serve this route include 21G, 21L, and 21H.
+
+From Thiruvanmiyur or Adyar, you can take an auto-rickshaw or a local bus to IIT Madras.
+
+**By metro:** Take the Chennai Metro from the airport to Alandur station.
+
+Change to the Blue Line towards Washermanpet and get off at Guindy station.
+
+From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
+:::
+
+:::{grid-item-card} From the Chennai Central Railway Station
+
+**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are readily available outside the station.
+
+**Travel time:** Approximately 45-60 minutes depending on traffic.
+
+**Distance:** Around 13 km.
+
+**By bus:** Take a bus from Chennai Central to Adyar or Guindy. Bus numbers include 21G, 18B, and 19B.
+
+From Adyar or Guindy, take an auto-rickshaw or a local bus to IIT Madras.
+
+**By metro:** Take the metro from Chennai Central to Anna Nagar East.
+
+Change to the Blue Line at Egmore Metro station towards Washermanpet and get off at Guindy.
+
+From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
+:::
+
+:::{grid-item-card} From the Chennai Egmore Railway Station
+
+**By taxi/car:** Taxis and ride-sharing services such as Uber and Ola are available outside the station.
+
+**Travel time:** Approximately 35-50 minutes depending on traffic.
+
+**Distance:** Around 10 km.
+
+**By bus:** Take a bus from Egmore to Adyar. Bus numbers include 23C, 23E, and 23A.
+
+From Adyar, take an auto-rickshaw or a local bus to IIT Madras.
+
+**By metro:** Walk to Egmore Metro station.
+
+Take the metro towards St. Thomas Mount and get off at Guindy station.
+
+From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
+:::
+
+:::{grid-item-card} Popular bus routes to IIT Madras
+
+Bus numbers that frequently stop near IIT Madras include 5C, 21G, 21L, 23C, 47A, and 49C.
+
+Major bus stops near IIT Madras include Adyar, Guindy, and Thiruvanmiyur.
+:::
+
+::::
+
+## Getting onto campus
+
+:::{admonition} Details yet to be confirmed
+:class: note
+
+We will information related to campus entry, including which gate to use, how to find the IC&SR Building once you are inside, and any ID or registration requirements. We will also provide information on parking for those who are driving to the venue.
+:::
+
+## Accessibility information
+
+:::{admonition} To be confirmed
+:class: note
+
+We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find here. If you have a specific accessibility requirement, please write to [info@scipy.in](mailto:info@scipy.in).
+:::
+
+## Accommodation
+
+:::{admonition} Recommendations coming soon
+:class: note
+
+We will list options at several price points near campus, in Adyar, Guindy, and Velachery, along with anything we can arrange as a block booking.
+:::
+
+% TODO: finalise Taramani and Bose-Einstein guest house availability for attendees
+
+## Travelling from outside India as an international attendee
+
+In case you are travelling to India as an international attendee, you may require a visa based on your nationality. The e-visa is available for many nationalities and can be applied for online. However, some nationalities may require a regular visa, which must be applied for at an Indian consulate or embassy in your country. Please check the [official Indian visa website](https://indianvisaonline.gov.in/visa/) for the most up-to-date information on visa requirements, application procedures, and applicable fees.
+
+We will be able to provide a letter of invitation for visa applications, shall you require one, in light of your participation in the conference's activities as a spreaker, attendee, or volunteer. Please write to [info@scipy.in](mailto:info@scipy.in) with your name as it appears on your passport, your nationality, and all relevant details. The letter will be sent to you in PDF format by email. Please allow a few days for us to process your request.
+
+As it stands, we are unable to provide guidance on visa applications, and we cannot guarantee that a visa will be issued. It is recommended that you apply for your visa well in advance of the conference, as processing times at embassies and consulates can vary and may take several weeks.
+
+Please also check the latest travel advisories and entry requirements for India, as these may change due to ongoing public health considerations or other factors.
+
+## Weather
+
+Chennai experiences pleasant, humid weather in mid-December. We expect to have comfortable, warm days and mild evenings. We recommend preparing for high humidity and the occasional brief, passing shower. Please check the weather forecast closer to the conference date and pack accordingly, including light, breathable clothing, sun protection, and an umbrella or raincoat!

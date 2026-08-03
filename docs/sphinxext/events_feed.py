@@ -2,7 +2,7 @@
 A Sphinx extension that builds a site-wide Atom feed from blog posts and events.
 
 ABlog generates a blog-only feed at ``blog/atom.xml`` (driven by ``docs/blog/*.md``
-posts). Our events (``docs/events/**``) are plain pages, so they never reach that
+posts). Our events are sections on ``docs/events/index.md``, so they never reach that
 feed. We want a single feed that announces both, without changing what the website
 shows: the blog grid, sidebar, and archives stay blog-only.
 
@@ -12,9 +12,18 @@ ABlog's generated blog feed, builds an Atom ``<entry>`` for each eligible event,
 writes the merged result to ``atom.xml``. The blog-only feed is never advertised; pages
 point to the site feed instead (see ``_use_site_feed_link`` below).
 
-Convention: an event page is in the feed when it has a ``date`` in its frontmatter.
-Set ``feed: false`` to keep one out. Use that on event stubs that mirror a blog
-post (so the event doesn't show twice) and on placeholder pages whose date is TBA.
+An event is a section on ``docs/events/index.md`` with a paragraph, as a direct
+child, whose text starts with the calendar emoji. The date comes from that
+paragraph, reading only the text before the first bullet separator, and a date range
+uses its first day. The summary is the next paragraph, and the entry links to the
+section's anchor.
+
+A section whose meta line has no parseable date is skipped, and the build logs a
+warning naming the section.
+
+A section that links to a post under ``blog_path`` is also skipped, because the post
+is in the feed already. Adding a recap link to a past event replaces its event entry
+with the blog entry.
 
 Each event entry carries ``<published>`` set to the event date, and ``<updated>``
 clamped to the build time so an upcoming event never lands a future timestamp in the
@@ -24,42 +33,115 @@ pins an upcoming event to the top until it happens.
 
 import datetime
 import os
+import re
 from xml.etree import ElementTree as ET
 
-import yaml
+from docutils import nodes
+from sphinx.util import logging as sphinx_logging
+
+logger = sphinx_logging.getLogger(__name__)
 
 ATOM = "http://www.w3.org/2005/Atom"
+
+# The only page scanned for event sections.
+EVENTS_DOC = "events/index"
+
+# Every event's meta line starts with this.
+CALENDAR = "\N{CALENDAR}"
+
+# Separates the date from the location on a meta line.
+BULLET = "\N{BULLET}"
+
+# A day, an optional second day for a range, a month name, and a year. The captured
+# day is the first one, which is when the event starts.
+DATE_RE = re.compile(
+    r"(?P<day>\d{1,2})\s*(?:[-‐-―]\s*\d{1,2}\s*)?"
+    r"(?P<month>[A-Za-z]{3,})\s+(?P<year>\d{4})"
+)
 
 
 def _q(tag):
     return f"{{{ATOM}}}{tag}"
 
 
-def _read_frontmatter(path):
-    """Return the YAML frontmatter of a markdown file as a dict (empty if none)."""
-    with open(path, encoding="utf-8") as f:
-        text = f.read()
-    if not text.startswith("---"):
-        return {}
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return {}
-    data = yaml.safe_load(parts[1])
-    return data if isinstance(data, dict) else {}
-
-
-def _as_date(value):
-    """Coerce a frontmatter date value to a datetime.date, or None."""
-    if isinstance(value, datetime.datetime):
-        return value.date()
-    if isinstance(value, datetime.date):
-        return value
-    if isinstance(value, str):
+def _parse_meta_date(text):
+    """Return the start date from an event meta line, or None if there isn't one."""
+    # Only the text before the first bullet, which leaves out any time range.
+    match = DATE_RE.search(text.split(BULLET)[0])
+    if match is None:
+        return None
+    for month_format in ("%b", "%B"):
         try:
-            return datetime.date.fromisoformat(value.strip()[:10])
+            month = datetime.datetime.strptime(match["month"][:3], month_format).month
+        except ValueError:
+            continue
+        try:
+            return datetime.date(int(match["year"]), month, int(match["day"]))
         except ValueError:
             return None
     return None
+
+
+def _links_to_blog(section, blog_path):
+    """True when the section links to a blog post.
+
+    Doctrees read back from the environment still hold unresolved ``pending_xref``
+    nodes for internal links, so both those and plain references are checked.
+    """
+    prefix = f"{blog_path}/"
+    # Element, because the default also yields Text nodes, which have no attributes.
+    for node in section.findall(nodes.Element):
+        target = node.get("reftarget") or node.get("refuri") or ""
+        if not isinstance(target, str):
+            continue
+        normalised = target.lstrip("./")
+        if normalised.startswith(prefix) or f"/{prefix}" in target:
+            return True
+    return False
+
+
+def _iter_events(doctree):
+    """Yield (section, meta paragraph, paragraphs) for every event section."""
+    for section in doctree.findall(nodes.section):
+        # Direct children only, so an enclosing section does not match on a meta
+        # line further down the tree.
+        paragraphs = [c for c in section.children if isinstance(c, nodes.paragraph)]
+        meta = next(
+            (p for p in paragraphs if p.astext().lstrip().startswith(CALENDAR)), None
+        )
+        if meta is not None:
+            yield section, meta, paragraphs
+
+
+def _collect_events(app, blog_path):
+    """Return (date, title, anchor, summary) for each event to announce."""
+    if EVENTS_DOC not in app.env.found_docs:
+        return []
+
+    collected = []
+    for section, meta, paragraphs in _iter_events(app.env.get_doctree(EVENTS_DOC)):
+        title_node = section.next_node(nodes.title)
+        title = title_node.astext() if title_node else ""
+
+        date = _parse_meta_date(meta.astext())
+        if date is None:
+            logger.warning(
+                "no date found in the meta line for event %r on %s, so it is not in "
+                "the feed: %r",
+                title,
+                EVENTS_DOC,
+                meta.astext()[:80],
+                location=EVENTS_DOC,
+            )
+            continue
+
+        if _links_to_blog(section, blog_path):
+            continue
+
+        body = next((p for p in paragraphs if p is not meta), None)
+        anchor = section["ids"][0] if section["ids"] else ""
+        collected.append((date, title, anchor, body.astext() if body else title))
+    return collected
 
 
 def _entry_updated(entry):
@@ -104,29 +186,17 @@ def _build_site_feed(app, exception):
     ist = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
     now = datetime.datetime.now(datetime.timezone.utc)
 
-    # found_docs is a set, so sort it for a deterministic build order.
+    # Use the builder's target URI so links track Sphinx URL config
+    # (html_file_suffix, directory-style URLs) instead of a hardcoded .html.
+    events_url = f"{baseurl}/{app.builder.get_target_uri(EVENTS_DOC)}"
+
     new_entries = []
-    for docname in sorted(app.env.found_docs):
-        if not docname.startswith("events/") or docname == "events/index":
-            continue
-
-        fm = _read_frontmatter(app.env.doc2path(docname))
-        if fm.get("feed") is False:
-            continue
-
-        date = _as_date(fm.get("date"))
-        if date is None:
-            continue
-
-        title_node = app.env.titles.get(docname)
-        title = title_node.astext() if title_node else docname
-        summary = fm.get("description") or fm.get("summary") or title
-        # Use the builder's target URI so links track Sphinx URL config
-        # (html_file_suffix, directory-style URLs) instead of a hardcoded .html.
-        url = f"{baseurl}/{app.builder.get_target_uri(docname)}"
+    # Sort for a deterministic build order, oldest first.
+    for date, title, anchor, summary in sorted(_collect_events(app, blog_path)):
+        url = f"{events_url}#{anchor}" if anchor else events_url
         published = datetime.datetime.combine(date, datetime.time(0, 0, tzinfo=ist))
         # <updated> means "entry last modified", so never let an upcoming event put a
-        # future timestamp in the feed. The event date lives in <published>.
+        # future timestamp in the feed. The event date goes in <published>.
         updated = min(published, now)
 
         entry = ET.Element(_q("entry"))

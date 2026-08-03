@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "SciPy India Code of Conduct — our commitment to a welcoming, inclusive, and safe community for everyone."
+    "description": "SciPy India Code of Conduct – our commitment to a welcoming, inclusive, and safe community for everyone."
 ---
 
 # Code of Conduct

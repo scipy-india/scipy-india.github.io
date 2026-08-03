@@ -35,6 +35,9 @@ jobs:
       - name: Build site
         run: uv run sphinx-build -b html docs _build/html
 
+      - name: Build the 2026 conference site
+        run: uv run sphinx-build -b html 2026 _build/html/2026
+
       - name: Check links
         id: lychee
         uses: lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411 # v2.8.0
