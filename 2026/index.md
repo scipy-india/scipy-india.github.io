@@ -112,7 +112,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
-| Early bird ticket prices end                              | To be announced                       |
+| Early bird ticket prices end                       | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
 | Programme announcement                             | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
