@@ -160,7 +160,7 @@ Lightning talks do not go through the call for proposals. We will explain how to
 :::
 
 :::{dropdown} Can I present a poster?
-A poster session is [tentative](programme). If it goes ahead, we will announce it before the date.
+Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](cfp)!
 :::
 
 :::{dropdown} Will slides be published?

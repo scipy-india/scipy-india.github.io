@@ -151,7 +151,7 @@ To be announced
 % - Two keynotes
 % - Talks of 30 minutes including questions (planning ongoing)
 % - Five-minute Lightning talks/three-minute theses session (planning ongoing)
-% - Poster session (tentative)
+% - Poster session
 
 To be announced
 
