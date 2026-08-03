@@ -12,12 +12,23 @@ An international scientific computing and open source software conference
 <br>
 Indian Institute of Technology Madras, Chennai 600036, India
 
+:::{div} sci-hero-buttons
+
 ```{button-link} https://scipy.in
 :color: secondary
 :outline:
 
 {octicon}`arrow-left` Go back to SciPy India's main website
 ```
+
+```{button-link} https://scipy.in/past-editions
+:color: secondary
+:outline:
+
+{octicon}`history` Past editions
+```
+
+:::
 
 % A countdown to the conference using FlipDown.
 % This is currently set to 9 AM on 19th December 2026

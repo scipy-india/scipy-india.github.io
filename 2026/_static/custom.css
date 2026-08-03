@@ -84,6 +84,17 @@ I hope that we don't need to do this again for the foreseeable future */
   }
 }
 
+.sci-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.sci-hero-buttons p {
+  margin: 0;
+}
+
 .bd-content iframe.sci-map {
   display: block;
   width: 100%;
