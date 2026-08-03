@@ -31,7 +31,7 @@ We do not provide accommodation or travel support as part of the ticket. Please 
 
 ## Recordings
 
-We will not be livestreaming the conference. We plan to publish recordings of the conference day talks on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
+We plan to publish recordings of the conference day talks on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
 
 Workshops are in person only and will not be recorded. If you are interested in attending a workshop, please register for the conference and book a ticket.
 
