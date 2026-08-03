@@ -372,6 +372,7 @@ schedule
 Call for proposals <cfp>
 register
 Venue <venue>
+jobs
 Sponsor us <sponsor>
 News <news/index>
 faq

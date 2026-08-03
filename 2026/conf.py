@@ -60,6 +60,7 @@ html_context = {
             "children": [
                 ("programme", "Programme"),
                 ("schedule", "Schedule"),
+                ("cfp", "Call for proposals"),
             ],
         },
         {
@@ -67,6 +68,7 @@ html_context = {
             "children": [
                 ("register", "Register"),
                 ("venue", "Venue and travel"),
+                ("jobs", "Jobs"),
                 ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
@@ -92,6 +94,7 @@ html_sidebars = {
     "programme": [],
     "schedule": [],
     "cfp": [],
+    "jobs": [],
     "register": [],
     "venue": [],
     "sponsor": [],
