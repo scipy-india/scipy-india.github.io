@@ -351,7 +351,7 @@ SciPy India is an [official community partner](https://www.python.org/psf/commun
 
 ## Updates
 
-Our announcements will go out frequently on our [conference news page](news/index). There is an [Atom feed](https://scipy.in/2026/news/atom.xml) available.
+Our announcements will go out frequently on our [conference news page](news/index). There is an <a href="news/atom.xml">Atom feed</a> available.
 
 If you would like to receive updates about the conference, please watch this space and follow us on our social media channels:
 
