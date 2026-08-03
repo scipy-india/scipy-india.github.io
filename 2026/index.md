@@ -102,46 +102,41 @@ We are committed to providing a safe and welcoming environment for all attendees
 
 % TODO finalise these dates
 
-% A CFP deadline extension to 17-18 October is on the cards but is not public
-% yet. Add a row for it here if we decide to go ahead. This is a MyST comment,
-% so unlike an HTML one it does not reach the page source.
+```{eval-rst}
++----------------------------------------------------+-------------------+-------------------+
+| What                                               | Opens             | Closes            |
++====================================================+===================+===================+
+| Call for volunteers                                | To be announced   | To be announced   |
++----------------------------------------------------+-------------------+-------------------+
+| Call for proposals                                 | To be announced   | To be announced   |
++----------------------------------------------------+-------------------+-------------------+
+| Registration                                       | To be announced   | To be announced   |
++----------------------------------------------------+-------------------+-------------------+
+| Early bird price ends                              | To be announced                       |
++----------------------------------------------------+---------------------------------------+
+| Programme announcement                             | To be announced                       |
++----------------------------------------------------+---------------------------------------+
+| Workshops at the Department of Physics, IIT Madras | Saturday 19 December 2026             |
++----------------------------------------------------+---------------------------------------+
+| Conference day at the IC&SR Building, IIT Madras   | Sunday 20 December 2026               |
++----------------------------------------------------+---------------------------------------+
+| Talk recordings published                          | To be announced                       |
++----------------------------------------------------+-------------------+-------------------+
+```
 
-| Date                      | Information                                        |
-| ------------------------- | -------------------------------------------------- |
-| To be announced           | The call for volunteers opens                      |
-| To be announced           | The call for proposals opens                       |
-| To be announced           | Registration opens: early bird ticket sales        |
-| To be announced           | The call for proposals closes                      |
-| To be announced           | Early bird ticket sales end                        |
-| To be announced           | Regular ticket sales open                          |
-| To be announced           | Speakers notified of acceptance                    |
-| To be announced           | Deadline for speakers to confirm their session     |
-| To be announced           | Programme announcement                             |
-| To be announced           | Workshop sign-up opens for registered attendees    |
-| To be announced           | Volunteer sign-up opens                            |
-| To be announced           | Regular ticket sales end                           |
-| To be announced           | Late ticket sales start                            |
-| To be announced           | The schedule is published                          |
-| To be announced           | Registration closes                                |
-| Saturday 19 December 2026 | Workshops at the Department of Physics, IIT Madras |
-| Sunday 20 December 2026   | Conference day at the IC&SR Building, IIT Madras   |
-| To be announced           | Talk recordings published                          |
-
-% Four rows we are holding back, each waiting on a decision. They have to sit
-% out here rather than in the table: a comment line inside a pipe table ends the
-% table, and every row after it is dropped with no warning.
+% Held-back rows, waiting on a decision:
 %
-% After "Late ticket sales start", once register.md has a refund policy:
-% | To be announced | Deadline to cancel or transfer a ticket |
+% Once register.md has a refund policy:
+%   Cancelling or transferring a ticket | To be announced | To be announced
 %
-% Also around there, if the guest houses or a hotel block booking come through:
-% | To be announced | Accommodation block booking closes |
+% If the guest houses or a hotel block booking come through:
+%   Accommodation block booking | To be announced | To be announced
 %
-% After "Registration closes", if we collect these separately from the form:
-% | To be announced | Deadline for dietary requirements and T-shirt sizes |
+% If we collect these separately from the registration form:
+%   Deadline for dietary requirements and T-shirt sizes | To be announced (spanning)
 %
-% Before the conference day, if the evening gathering is confirmed:
-% | Saturday 19 December 2026 | Conference social dinner |
+% If the evening gathering is confirmed:
+%   Conference social dinner | Saturday 19 December 2026 (spanning)
 
 ## Programme
 
