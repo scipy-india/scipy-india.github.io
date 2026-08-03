@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Registration for the SciPy India 2026 conference at IIT Madras, Chennai. Opens closer to the date. Recordings will be published free after the conference."
+    "description": "Registrations for the SciPy India 2026 conference"
 ---
 
 # Registrations
