@@ -74,32 +74,27 @@ Our proceeds will go into the following areas:
 
 ## Tiers
 
-:::{warning}
-We have not set the amounts yet for each tier. We will update this page once we have the figures. Please write to [info@scipy.in](mailto:info@scipy.in) for details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We are open to custom sponsorship arrangements.
-:::
+% TODO: keep the "slots available" row current as sponsors sign. It is the one row on
+% this page that goes stale, and a stale one is worse than none.
 
-% TODO: we need to set the amounts, the ticket allocations, and the number of sponsors at each tier
-
-| What you get                           | Gold                 | Silver          | Bronze          | Community       |
-| -------------------------------------- | -------------------- | --------------- | --------------- | --------------- |
-| Amount                                 | To be confirmed      | To be confirmed | To be confirmed | To be confirmed |
-| Tickets                                | To be confirmed      | To be confirmed | To be confirmed | To be confirmed |
-| A group rate to bring your team        | To be confirmed      | To be confirmed | ✗               | ✗               |
-| Logo on this website                   | ✓                    | ✓               | ✓               | ✓               |
-| Logo in the programme                  | Large                | Medium          | Medium          | Small           |
-| Logo on screen between sessions        | A screen of your own | ✓               | ✗               | ✗               |
-| A short video between sessions         | Up to 30 seconds     | ✗               | ✗               | ✗               |
-| Logo on the talk recordings            | ✓                    | ✓               | ✗               | ✗               |
-| A stall or table                       | Both days            | Conference day  | ✗               | ✗               |
-| Something of yours in the attendee bag | ✓                    | ✓               | ✗               | ✗               |
-| Logo on the conference T-shirt         | ✓                    | ✗               | ✗               | ✗               |
-| A job posting shared on our channels   | ✓                    | ✓               | ✗               | ✗               |
+| What you get                           | Gold                 | Silver          | Bronze          |
+| -------------------------------------- | -------------------- | --------------- | --------------- |
+| Amount                                 | ₹2,50,000            | ₹1,00,000       | ₹50,000         |
+| Slots available                        | 1                    | 3               | 5               |
+| Tickets                                | 10                   | 5               | 2               |
+| Logo on this website                   | ✓                    | ✓               | ✓               |
+| Logo in the programme                  | Large                | Medium          | Small           |
+| Logo on screen between sessions        | A screen of your own | ✓               | ✗               |
+| A short video between sessions         | Up to 30 seconds     | ✗               | ✗               |
+| Logo on the talk recordings            | ✓                    | ✓               | ✗               |
+| A stall or table                       | Both days            | Conference day  | ✗               |
+| Something of yours in the attendee bag | ✓                    | ✓               | ✗               |
+| Logo on the conference T-shirt         | ✓                    | ✗               | ✗               |
+| A job posting shared on our channels   | ✓                    | ✓               | ✗               |
 
 We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
 
-The Community tier is for non-profits, student groups, other communities, and small companies.
-
-**Open source contributor discount.** Organisations that contribute materially to open source are eligible for a 50% reduction on the Silver and Bronze tiers. You qualify if you operate an open source programme office, release your principal product under an OSI-approved licence, or employ staff to maintain open source projects during working hours. Please indicate which criterion applies when you contact us.
+**Startup and small business discount.** Startups and small businesses are eligible for a 50% reduction on the Silver and Bronze tiers. You qualify if your organisation is under five years old and has fewer than twenty-five employees. Please tell us when you contact us! If you are just outside those limits and the full amount is out of reach, write to us anyway and we will see what we can arrange.
 
 Don't see a tier that fits your needs? Please write to [info@scipy.in](mailto:info@scipy.in) to discuss your requirements and how we can accommodate them.
 
