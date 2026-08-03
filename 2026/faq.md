@@ -225,8 +225,8 @@ Yes. It applies to both days, and social events around the conference and all ac
 The SciPy India community, through the [programme committee](team). Afrost, the Association for Promotion of Free and Open Source Technologies, is our organising partner and fiscal host.
 :::
 
-:::{dropdown} How is this related to the other SciPy conferences?
-SciPy India is a conference that runs in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to [https://scipy.org/community/#conferences](https://scipy.org/community/#conferences) for more. This is the fourteenth edition, and the first since 2021. For more details, see [past editions](https://scipy.in/past-editions).
+:::{dropdown} How is this conference related to the other SciPy conferences?
+The SciPy India conference that runs in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to [https://scipy.org/community/#conferences](https://scipy.org/community/#conferences) for more. This is the fourteenth edition, and the first since 2021. For more details, see [past editions](https://scipy.in/past-editions).
 :::
 
 :::{dropdown} How do I keep in touch afterwards?
