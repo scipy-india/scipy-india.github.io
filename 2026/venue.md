@@ -6,7 +6,7 @@ myst:
 
 # Venue and travel
 
-Indian Institute of Technology Madras, Chennai 600036, India
+Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
 <iframe
   class="sci-map"

@@ -170,7 +170,7 @@ Yes, we require that all slides be made available under a permissive license, an
 ## Getting there and staying
 
 :::{dropdown} Where exactly is the conference?
-IIT Madras, Chennai 600036. The workshops on Saturday are at the Department of Physics and the conference day on Sunday is at the IC&SR Building, about 400 metres apart. The [venue and travel page](venue) has directions.
+We are excited to be bringing the conference to the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India. The workshops on Saturday are at the Department of Physics and the conference day on Sunday is at the IC&SR Building, about 400 metres apart. The [venue and travel page](venue) has directions.
 :::
 
 :::{dropdown} How do I get to the campus from the airport or the railway station?
