@@ -316,7 +316,7 @@ To be announced. We will be opening a call for sponsors soon, and we will be loo
 :target: https://fossunited.org
 ```
 
-[The FOSS United Foundation](https://fossunited.org), for providing their open source software platform to manage our calls for proposals (CFP).
+[The FOSS United Foundation](https://fossunited.org), for providing their open source software platform to manage our call for proposals (CFP).
 :::
 
 :::{grid-item-card}
