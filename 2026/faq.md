@@ -178,11 +178,11 @@ The [venue and travel page](venue) has routes by taxi, bus, and metro from the a
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-We are confirming what campus entry involves, including which gate to use, and we will publish it on the [venue page](venue). We will issue a conference badge to all attendees at the registration desk.
+We are confirming what campus entry involves, including which gate to use, and we will publish it on the [venue and travel page](venue). We will issue a conference badge to all attendees at the registration desk.
 :::
 
 :::{dropdown} Where should I stay?
-We will list options at a range of prices near the campus on the [venue page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed on the [venue page](venue). You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
+We will list options at a range of prices near the campus on the [venue and travel page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed as well. You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
 :::
 
 :::{dropdown} Can you send a letter of invitation for a visa application?
@@ -190,11 +190,11 @@ Yes. Please see the [venue and travel page](venue) for details on how to request
 :::
 
 :::{dropdown} Is the venue accessible?
-We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find on the [venue page](venue). If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
+We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find on the [venue and travel page](venue). If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
 :::
 
 :::{dropdown} What is the weather like in December?
-Warm and humid, with mild evenings and the occasional passing shower! Please see the [venue page](venue).
+Warm and humid, with mild evenings and the occasional passing shower! Please see the [venue and travel page](venue).
 :::
 
 ## Sponsorship and volunteering
@@ -226,7 +226,7 @@ The SciPy India community, through the [programme committee](team). Afrost, the 
 :::
 
 :::{dropdown} How is this related to the other SciPy conferences?
-SciPy India is its conference with its organisers, run in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to https://scipy.org/community/#conferences for more. This is the fourteenth edition, and the first since 2021. For more details, see [past editions](https://scipy.in/past-editions).
+SciPy India is a conference that runs in the same spirit as the SciPy conferences elsewhere such as SciPy US, EuroSciPy, SciPy Japan and SciPyData Japan, SciPy Latam, and SciPy Korea, and several PyData conferences and meetups all around the planet. Please refer to https://scipy.org/community/#conferences for more. This is the fourteenth edition, and the first since 2021. For more details, see [past editions](https://scipy.in/past-editions).
 :::
 
 :::{dropdown} How do I keep in touch afterwards?
