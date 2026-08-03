@@ -114,7 +114,7 @@ Yes. A workshop-day ticket covers Saturday on its own.
 ## Watching online
 
 :::{dropdown} Can I watch the conference remotely?
-Not live. We will not be livestreaming the conference, but we will publish recordings of the conference day sessions on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
+Unfortunately, no. We do not plan to livestream the conference. However, we will publish recordings of the conference day sessions on [YouTube](https://www.youtube.com/@scipy-india) after the conference, free for anyone to watch.
 :::
 
 :::{dropdown} Are the workshops recorded?

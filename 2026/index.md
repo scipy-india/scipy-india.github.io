@@ -233,7 +233,7 @@ To be announced. Tickets sales starting soon!
 
 ## Recordings
 
-We will not be livestreaming the conference. We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
+We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
 
 ## Our partners, supporters, and sponsors
 
