@@ -112,15 +112,3 @@ Coming soon!
 ## Review process
 
 To be announced!
-
-## Financial aid
-
-To be announced!
-
-% TODO:
-% - Explain what financial aid covers (tickets, travel, accommodation)
-% - Explain how to apply for financial aid (application form, deadlines, review process)
-% - Eligibility criteria (students, underrepresented groups, independent researchers, etc.)
-% - When to apply
-% - Criteria for selection (need-based, diversity, speaker diversity, speaking or volunteering or not, etc.)
-% - When applicants will be notified

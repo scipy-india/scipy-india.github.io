@@ -67,7 +67,6 @@ html_context = {
             "children": [
                 ("register", "Register"),
                 ("venue", "Venue and travel"),
-                ("financial-aid", "Financial aid"),
                 ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
@@ -97,7 +96,6 @@ html_sidebars = {
     "venue": [],
     "sponsor": [],
     "faq": [],
-    "financial-aid": [],
     "volunteer": [],
     "coc": [],
     "team": [],

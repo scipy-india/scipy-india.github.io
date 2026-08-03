@@ -6,13 +6,12 @@ myst:
 
 # Sponsor us
 
-We are looking for sponsors to help us organise the SciPy India 2026 conference. Sponsorship helps us cover our costs and allows us to keep ticket prices low and provide financial aid to attendees who need it.
+We are looking for sponsors to help us organise the SciPy India 2026 conference. Sponsorship helps us cover our costs and allows us to keep ticket prices low.
 
 Our proceeds will go into the following areas:
 
 - The venue cost, the audio-visual setup, and recording the talks
 - Food and refreshments (tea/coffee) on both days
-- [Financial aid](financial-aid): travel, accommodation, tickets, visa fees, and other support for attendees who would otherwise be unable to attend
 - Keeping ticket prices low
 - Printing and signage
 - Merchandise such as t-shirts, stickers, and other items for attendees
@@ -70,7 +69,7 @@ Our proceeds will go into the following areas:
 
 - **Reach the people who choose the tools.** Our attendees pick the libraries, the platforms, and the hardware their labs and teams end up standardising on.
 - **Hire.** Two days in a room with researchers, engineers, and maintainers, with a job posting on our channels at the higher tiers.
-- **Support the community.** Your contribution keeps tickets cheap and pays for [financial aid](financial-aid), so people come who otherwise could not.
+- **Support the community.** Your contribution keeps ticket prices low, so that more people can attend.
 - **Spend less than an ad campaign would cost** for an audience that is already paying attention!
 
 ## Tiers
@@ -98,7 +97,7 @@ We have not set the amounts yet for each tier. We will update this page once we 
 
 We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
 
-The Community tier is for non-profits, student groups, other communities, and small companies. A sponsor at any tier can earmark their contribution for [financial aid](financial-aid).
+The Community tier is for non-profits, student groups, other communities, and small companies.
 
 **Open source contributor discount.** Organisations that contribute materially to open source are eligible for a 50% reduction on the Silver and Bronze tiers. You qualify if you operate an open source programme office, release your principal product under an OSI-approved licence, or employ staff to maintain open source projects during working hours. Please indicate which criterion applies when you contact us.
 
@@ -110,7 +109,6 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 % TODO: set amounts for each of these, or decide to quote on request.
 
-- **[Financial aid](financial-aid)**, at any amount. This pays for travel, accommodation, and tickets for people who could not otherwise come.
 - **Lunch or refreshments** on one of the two days.
 - **Recording and publishing the talks.** Your logo goes on the title card of every recording, which stays online long after the conference.
 - **The [poster session](programme)**, if it goes ahead.
@@ -120,7 +118,7 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 - A venue or rooms for satellite events around the two days
 - Catering contributions for lunch or refreshments
-- Travel or accommodation for speakers and financial aid recipients
+- Travel or accommodation for speakers
 - Printing, signage, and merchandise (T-shirts, stickers, etc.)
 - Video and photography needs for marketing and documentation
 - Cloud or compute credits for workshops that need them

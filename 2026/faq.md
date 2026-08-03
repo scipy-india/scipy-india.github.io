@@ -63,10 +63,6 @@ For the workshop day, yes, and it is close to essential. For the conference day,
 We expect to have Wi-Fi at the venue. We recommend having a mobile connection as a fallback, particularly if you are presenting or following along in a workshop.
 :::
 
-:::{dropdown} Is there help with the ticket price?
-Yes. See [financial aid](financial-aid). We are still working out what it covers and how much we have, which depends on what our sponsorship will bring in this year. We will announce the details on our [news page](news/index) and on our social media channels once we have a clearer picture of our budget.
-:::
-
 :::{dropdown} Will I get a certificate of participation?
 We will confirm this before registration opens. If you need one for your institution, please inform us at [info@scipy.in](mailto:info@scipy.in) so that we can consider it in our planning and accommodate your request.
 :::
@@ -167,10 +163,6 @@ Lightning talks do not go through the call for proposals. We will explain how to
 A poster session is [tentative](programme). If it goes ahead, we will announce it before the date.
 :::
 
-:::{dropdown} Is speaker travel covered?
-Speakers can apply for [financial aid](financial-aid), either when they submit or after we accept the proposal. Whether we can provide it depends on our sponsorship and budget, and we will confirm the details when we open the financial aid application process.
-:::
-
 :::{dropdown} Will slides be published?
 Yes, we require that all slides be made available under a permissive license, and we will publish them on our website after the conference. We encourage speakers to share their slides and any accompanying materials to benefit the wider community.
 :::
@@ -212,7 +204,7 @@ Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss s
 :::
 
 :::{dropdown} Can I sponsor as an individual?
-Yes. Please write to [info@scipy.in](mailto:info@scipy.in), and say if you want your contribution earmarked for [financial aid](financial-aid) or for general sponsorship. We are happy to discuss sponsorship options and how you can support the conference as an individual. Your contribution will help us make the conference more accessible and inclusive for attendees from diverse backgrounds.
+Yes. Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss how you can support the conference as an individual.
 :::
 
 :::{dropdown} Can I volunteer for the conference?

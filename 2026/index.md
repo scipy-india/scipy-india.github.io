@@ -111,14 +111,11 @@ We are committed to providing a safe and welcoming environment for all attendees
 | To be announced           | The call for volunteers opens                      |
 | To be announced           | The call for proposals opens                       |
 | To be announced           | Registration opens: early bird ticket sales        |
-| To be announced           | Financial aid programme opens                      |
 | To be announced           | The call for proposals closes                      |
 | To be announced           | Early bird ticket sales end                        |
-| To be announced           | Financial aid programme deadline                   |
 | To be announced           | Regular ticket sales open                          |
 | To be announced           | Speakers notified of acceptance                    |
 | To be announced           | Deadline for speakers to confirm their session     |
-| To be announced           | Financial aid decisions announced                  |
 | To be announced           | Programme announcement                             |
 | To be announced           | Workshop sign-up opens for registered attendees    |
 | To be announced           | Volunteer sign-up opens                            |
@@ -378,7 +375,6 @@ Venue <venue>
 Sponsor us <sponsor>
 News <news/index>
 faq
-Financial aid <financial-aid>
 volunteer
 Code of Conduct <coc>
 team
