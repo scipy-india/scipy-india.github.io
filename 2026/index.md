@@ -50,7 +50,7 @@ Indian Institute of Technology Madras, Chennai 600036, India
 
 ## Welcome
 
-We are elated to announce the **fourteenth edition** of the annual convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 conference".
+We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 conference".
 
 ::::{grid} 1 1 2 2
 :gutter: 3
