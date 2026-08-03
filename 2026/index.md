@@ -216,6 +216,7 @@ Please refer to the [venue and travel page](venue) for detailed information on d
 ```{button-link} https://maps.app.goo.gl/ND5Bg5HP9Waayoc88
 :color: primary
 :outline:
+:class: sci-new-tab
 
 {octicon}`link-external` Open in Google Maps
 ```
