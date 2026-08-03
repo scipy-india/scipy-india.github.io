@@ -112,7 +112,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
-| Early bird price ends                              | To be announced                       |
+| Early bird ticket prices end                              | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
 | Programme announcement                             | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
@@ -127,16 +127,16 @@ We are committed to providing a safe and welcoming environment for all attendees
 % Held-back rows, waiting on a decision:
 %
 % Once register.md has a refund policy:
-%   Cancelling or transferring a ticket | To be announced | To be announced
+% Cancelling or transferring a ticket | To be announced | To be announced
 %
 % If the guest houses or a hotel block booking come through:
-%   Accommodation block booking | To be announced | To be announced
+% Accommodation block booking | To be announced | To be announced
 %
 % If we collect these separately from the registration form:
-%   Deadline for dietary requirements and T-shirt sizes | To be announced (spanning)
+% Deadline for dietary requirements and T-shirt sizes | To be announced (spanning)
 %
 % If the evening gathering is confirmed:
-%   Conference social dinner | Saturday 19 December 2026 (spanning)
+% Conference social dinner | Saturday 19 December 2026 (spanning)
 
 ## Programme
 
