@@ -55,13 +55,7 @@ templates_path = ["_templates"]
 
 html_context = {
     "conference_nav": [
-        {
-            "label": "Programme",
-            "children": [
-                ("programme", "Programme"),
-                ("cfp", "Call for proposals"),
-            ],
-        },
+        {"label": "Programme", "page": "programme"},
         {
             "label": "Attend",
             "children": [
@@ -71,6 +65,7 @@ html_context = {
                 ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
+        {"label": "Call for proposals", "page": "cfp"},
         {"label": "Sponsor us", "page": "sponsor"},
         {
             "label": "About",
@@ -80,9 +75,11 @@ html_context = {
                 ("volunteer", "Volunteer"),
                 ("coc", "Code of Conduct"),
             ],
-            "links": [("https://scipy.in", "scipy.in")],
+            "links": [
+                ("https://scipy.in/past-editions", "Past editions"),
+                ("https://scipy.in", "scipy.in"),
+            ],
         },
-        {"label": "Past editions", "page": "https://scipy.in/past-editions"},
     ],
 }
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "README.md"]
