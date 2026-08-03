@@ -177,3 +177,18 @@ blog_baseurl = "https://scipy.in/2026"
 blog_feed_fulltext = True
 blog_post_pattern = "news/*.md"
 post_date_format = "%d %B %Y"
+
+
+# sphinx-design's button-link directive has no option for a target
+# attribute for a link (how shocking?!) TODO: contribute to add this
+# to sphinx-design
+def _buttons_open_in_new_tab(app, doctree, docname):
+    from docutils import nodes
+
+    for node in doctree.findall(nodes.reference):
+        if "sci-new-tab" in node.get("classes", []):
+            node["target"] = "_blank"
+
+
+def setup(app):
+    app.connect("doctree-resolved", _buttons_open_in_new_tab)

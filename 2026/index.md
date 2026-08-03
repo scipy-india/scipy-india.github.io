@@ -17,6 +17,7 @@ Indian Institute of Technology Madras, Chennai 600036, India
 ```{button-link} https://scipy.in
 :color: secondary
 :outline:
+:class: sci-new-tab
 
 {octicon}`arrow-left` Go back to SciPy India's main website
 ```
@@ -24,6 +25,7 @@ Indian Institute of Technology Madras, Chennai 600036, India
 ```{button-link} https://scipy.in/past-editions
 :color: secondary
 :outline:
+:class: sci-new-tab
 
 {octicon}`history` Past editions
 ```
