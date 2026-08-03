@@ -9,6 +9,7 @@ myst:
 Indian Institute of Technology Madras, Chennai 600036, India
 
 <iframe
+  class="sci-map"
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
   width="100%"
   height="450"

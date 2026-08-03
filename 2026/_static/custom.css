@@ -84,6 +84,13 @@ I hope that we don't need to do this again for the foreseeable future */
   }
 }
 
+.bd-content iframe.sci-map {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
 /* Supporters and logos */
 
 /* Don't dim the logos in dark mode */
