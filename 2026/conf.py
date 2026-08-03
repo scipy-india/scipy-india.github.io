@@ -59,7 +59,6 @@ html_context = {
             "label": "Programme",
             "children": [
                 ("programme", "Programme"),
-                ("schedule", "Schedule"),
                 ("cfp", "Call for proposals"),
             ],
         },
@@ -92,7 +91,6 @@ html_show_sourcelink = False
 html_sidebars = {
     "index": [],
     "programme": [],
-    "schedule": [],
     "cfp": [],
     "jobs": [],
     "register": [],

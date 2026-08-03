@@ -92,7 +92,7 @@ We have not settled the policy yet. It will be on the [registration page](regist
 ## Workshops
 
 :::{dropdown} How do I choose which workshop to attend?
-Places in each workshop are limited, so we will ask you to pick one when the programme is out. We will announce how that works alongside the [schedule](schedule). Since the workshops will be conducted in parallel, you will be able to attend two workshops on the Saturday, one in the morning and one in the afternoon. Please read the workshop descriptions and prerequisites carefully to choose the ones that best match your interests and skill level.
+Places in each workshop are limited, so we will ask you to pick one when the programme is out. We will announce how that works alongside the [programme](programme). Since the workshops will be conducted in parallel, you will be able to attend two workshops on the Saturday, one in the morning and one in the afternoon. Please read the workshop descriptions and prerequisites carefully to choose the ones that best match your interests and skill level.
 :::
 
 :::{dropdown} Do I need to install anything beforehand?
