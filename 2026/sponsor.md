@@ -104,10 +104,9 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 % TODO: set amounts for each of these, or decide to quote on request.
 
-- **Lunch or refreshments** on one of the two days.
-- **Recording and publishing the talks.** Your logo goes on the title card of every recording, which stays online long after the conference.
-- **The [poster session](programme)**, if it goes ahead.
-- **T-shirts and other merchandise.**
+- Lunch or refreshments on one or both days of the conference
+- Recording and publishing the talks
+- T-shirts and other merchandise
 
 ## In-kind contributions
 
