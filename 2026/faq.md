@@ -125,10 +125,6 @@ India Standard Time, which is UTC+5:30.
 Yes, and we will publish them on our YouTube channel after the conference. If you are a speaker and would prefer not to be recorded, please tell us and we will keep your session out of the published recordings.
 :::
 
-:::{dropdown} Can online viewers ask questions?
-We would like to make this work and we will confirm nearer the date. It depends on what the audio-visual setup in the auditorium allows.
-:::
-
 ## Speaking
 
 :::{dropdown} When is the call for proposals opening?
