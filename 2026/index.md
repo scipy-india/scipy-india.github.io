@@ -172,7 +172,7 @@ To be announced
 
 The SciPy India 2026 conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
 
-The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan Auditorium at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
+The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan and A.M.M. Arunachalam auditoriums at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
 
 The campus is about 15 kilometres from the Chennai International Airport (MAA), 13 kilometres from the Chennai Central Railway Station, and 10 kilometres from the Chennai Egmore Railway Station.
 
