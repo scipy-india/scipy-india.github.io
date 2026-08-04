@@ -53,7 +53,7 @@ Stay tuned for more updates on our upcoming initiatives and events, and keep spr
 
 There are several ways you can contribute to SciPy India in 2025 and beyond:
 
-- **Join the community**: Participate in our online forum on [Zulip](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), and interact with [social media channels](https://scipy.in) to connect with other members and stay updated on the latest news and events.
+- **Join the community**: Participate in our online forum on [Zulip](https://zulip.scipy.in), and interact with [social media channels](https://scipy.in) to connect with other members and stay updated on the latest news and events.
 - **Attend events**: Participate in our community calls, workshops, and events to learn about the latest developments in scientific Python, including new libraries, tools, and techniques, and learn new skills and network with like-minded individuals.
 - **Organise events**: Help us organise local meetups, workshops, or conferences in your area to promote scientific computing with Python and foster a sense of community beyond virtual barriers.
 - **Contribute to open source**: Get involved in open source software projects related to scientific computing and data science. You can contribute code, documentation, or help with testing and bug reporting, and eventually, help us with our own website and infrastructure.

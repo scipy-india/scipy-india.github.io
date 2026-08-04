@@ -147,7 +147,7 @@ html_theme_options = {
         },
         {
             "name": "Zulip",
-            "url": "https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/",
+            "url": "https://zulip.scipy.in",
             "icon": "fa-brands fa-zulip",
             "type": "fontawesome",
         },

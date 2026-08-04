@@ -92,7 +92,7 @@ Jigyasu Krishnan closed out the technical program with his talk on [benchmarking
 
 ## Closing remarks
 
-After a full day of talks spanning hardware hacking, infrastructure design, data analysis, policy, and everything in between, the devroom concluded with announcements about the SciPy India community. We shared information about our first community call in July, our upcoming plans for more community calls and workshops, and our hopes for an _in-person_ conference later this year or early next year. We encouraged attendees to join our [Zulip chat](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/), check out our open-source repositories, and fill out the feedback form with their thoughts on the community and preferences for future events.
+After a full day of talks spanning hardware hacking, infrastructure design, data analysis, policy, and everything in between, the devroom concluded with announcements about the SciPy India community. We shared information about our first community call in July, our upcoming plans for more community calls and workshops, and our hopes for an _in-person_ conference later this year or early next year. We encouraged attendees to join our [Zulip chat](https://zulip.scipy.in), check out our open-source repositories, and fill out the feedback form with their thoughts on the community and preferences for future events.
 
 ## Livestream
 
@@ -122,4 +122,4 @@ Individual talk recordings are now available in the [FOSS in Science devroom pla
 
 Thank you to everyone who spoke, attended, asked questions, and contributed to making the FOSS in Science devroom at IndiaFOSS 2025 a success. To the speakers who travelled to Bengaluru and prepared thoughtful presentations showcasing their work: your contributions made the day what it was. To FOSS United for organizing IndiaFOSS and providing us with the platform and infrastructure to host the devroom: we're grateful for your continued support of the FOSS community in India.
 
-We look forward to seeing you at future community events, whether online or in person! To stay updated, join our [Zulip chat](https://scipyindia.zulipchat.com/join/4mesdxfbbpl4titgtdzx4iwv/) and follow us on our social channels. And to you, the reader, thank you for taking the time to read about our day in Bengaluru. We hope it inspires you to explore, contribute, and connect with the scientific FOSS community.
+We look forward to seeing you at future community events, whether online or in person! To stay updated, join our [Zulip chat](https://zulip.scipy.in) and follow us on our social channels. And to you, the reader, thank you for taking the time to read about our day in Bengaluru. We hope it inspires you to explore, contribute, and connect with the scientific FOSS community.
