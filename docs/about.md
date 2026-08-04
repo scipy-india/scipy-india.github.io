@@ -29,7 +29,7 @@ The first edition of the SciPy India conference was held in 2009 at SPACE Kerala
 
 Post 2020, with the onset of the COVID-19 pandemic, SciPy India adapted to the new normal by transitioning to virtual events. This shift allowed the community to continue this mission of promoting scientific computing in India despite the challenges posed by an online format.
 
-SciPy India 2021 was the last edition of the conference held virtually, and since then, the community has been on a hiatus. However, come to 2025, we are thrilled to announce the revival of SciPy India with plans to host the next conference in 2026. We are currently in the planning stages, and we are excited to announce that we plan to resume in-person conferences in the near future, while also exploring hybrid formats to accommodate a wider audience.
+SciPy India 2021 was the last edition of the conference held virtually, and since then, the community has been on a hiatus. However, come to 2025, we are thrilled to announce the revival of SciPy India with [plans to host the next conference in 2026](https://scipy.in/2026). We are currently in the planning stages, and we are excited to announce that we plan to resume in-person conferences in the near future, while also exploring hybrid formats to accommodate a wider audience.
 
 However, what are we doing in the meantime, you ask? Read on!
 
