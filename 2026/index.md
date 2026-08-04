@@ -94,13 +94,14 @@ We expect to form the final [programme](programme) in October 2026. We will publ
 
 ## Who is this conference for?
 
-The SciPy India 2026 conference is for anyone who writes code, or depends on code, to do scientific and technical work, including but not limited to:
+The SciPy India 2026 conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
 
 - **Researchers and scientists** in academia, industry, and government laboratories;
 - **Educators and faculty** involved in teaching and mentoring the practice of computational work and free and open source software (FOSS) in science and engineering;
 - **Software developers** building and maintaining scientific libraries, tools, and infrastructure for research and education;
 - **Research software engineers (RSEs)** supporting the development of scientific software, computing workflows, and reproducible research practices;
-- **Engineers** reaching for the Python programming language and allied languages for modelling, simulating, and analysis of a wide range of mechanical, electrical, chemical, and civil systems;
+- **Engineers** reaching for the Python programming language and allied languages for modelling, simulating, and analysis of a wide range of mechanical, electrical, chemical, biological, and civil systems;
+- **Data scientists and machine learning practitioners** building models and applying statistical and AI methods to extract insights from complex data;
 - **HPC specialists and system administrators** building, running, and supporting distributed and cluster computing facilities in labs, universities, and industry;
 - **Students** at any stage of training towards a career in scientific computing, data science and artificial intelligence, and research software;
 - just about anyone with an enthusiasm for scientific computing, free and open source software (FOSS), and open science
