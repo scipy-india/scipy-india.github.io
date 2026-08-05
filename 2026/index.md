@@ -61,7 +61,7 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 :link: cfp
 :link-type: doc
 
-Details coming soon! We expect to receive proposals for workshops and presentations on scientific computing and research software, and AI/ML applications with a scientific flavour.
+Open! We're looking for proposals for workshops and talks on scientific computing, research software, and AI/ML applications with a scientific flavour.
 :::
 
 :::{grid-item-card} Registrations
@@ -122,7 +122,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +====================================================+===================+===================+
 | Call for volunteers                                | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
-| Call for proposals                                 | To be announced   | To be announced   |
+| Call for proposals                                 | 06th August, 2025 | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+

@@ -95,6 +95,10 @@ I hope that we don't need to do this again for the foreseeable future */
   margin: 0;
 }
 
+.bd-content .sd-btn.sci-btn-icon-end .sd-octicon {
+  margin-left: 0.4em;
+}
+
 .bd-content iframe.sci-map {
   display: block;
   width: 100%;
