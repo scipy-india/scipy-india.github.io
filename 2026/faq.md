@@ -155,9 +155,9 @@ We are planning an in-person programme, and we will not be able to accommodate r
 Lightning talks do not go through the call for proposals. We will explain how to sign up, and confirm whether there is a lightning talk session, when the [programme](programme) is out.
 :::
 
-:::{dropdown} Can I present a poster?
-Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](cfp)!
-:::
+% :::{dropdown} Can I present a poster?
+% Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](cfp)!
+% :::
 
 :::{dropdown} Will slides be published?
 Yes, we require that all slides be made available under a permissive license, and we will publish them on our website after the conference. We encourage speakers to share their slides and any accompanying materials to benefit the wider community.
@@ -204,7 +204,7 @@ Yes. Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to disc
 :::
 
 :::{dropdown} Can I volunteer for the conference?
-Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. We plan to open a volunteer form soon, and we will announce it on our [news page](news/index) and on our social media channels. Please keep an eye out for updates. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team! For more information on volunteering, please refer to our [volunteer page](team).
+Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. We plan to open a volunteer form soon, and we will announce it on our [news page](news/index) and on our social media channels. Please keep an eye out for updates. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team! For more information on volunteering, please refer to our [volunteer page](volunteer).
 :::
 
 :::{dropdown} How can I help spread the word?

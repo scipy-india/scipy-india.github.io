@@ -18,14 +18,16 @@ Opening soon!
 
 - Talks
 - Workshops
-- Lightning talks
-- Posters
+
+% - Lightning talks
+
+% - Posters
 
 % - **Talks:** we expect talks to be ~25 minutes long, with 5 minutes for questions. Talks should be on topics relevant to scientific computing community. We welcome talks on any topic related to scientific computing, data science, machine learning, AI, and related fields, with a computational focus.
 % - **Workshops:** we expect workshops to be ~180 minutes long, with time for questions and hands-on exercises. Workshops facilitators should provide practical skills and knowledge that attendees can apply in their own work and research.
 
-### Poster session
-
+% ### Poster session
+%
 % We plan to have a poster session on Sunday 20 December, where attendees can present their work in a dedicated setting. Posters should be designed to fit on a standard poster board and should be visually engaging. More details will be provided closer to the conference date.
 
 ## Themes

@@ -90,7 +90,7 @@ Visit this page for information on how to reach the venue, accommodation options
 
 Previous editions of the SciPy India conference ran from 2009 to 2021, at venues all across the country and consistently several times at the Indian Institute of Technology Bombay. We are pleased that 2026 is the first time the conference is being organised since 2021, and that it will be our first time in Chennai.
 
-We expect to form the final [programme](programme) in October 2026. We will publish it, along with the session times, and announce the keynote presentations, selected talks and workshops, and posters once it is finalised.
+We expect to form the final [programme](programme) in October 2026. We will publish it, along with the session times, and announce the keynote presentations, selected talks, and workshops once it is finalised.
 
 ## Who is this conference for?
 

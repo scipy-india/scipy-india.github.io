@@ -18,7 +18,7 @@ We expect to form the programme for the SciPy India 2026 conference by October 2
 
 ### Lightning talks
 
-### Poster session
+% ### Poster session
 
 ### Social (tentative)
 
