@@ -89,8 +89,9 @@ Our proceeds will go into the following areas:
 | Logo on the talk recordings            | ✓                    | ✓               | ✗               |
 | A stall or table                       | Both days            | Conference day  | ✗               |
 | Something of yours in the attendee bag | ✓                    | ✓               | ✗               |
-| Logo on the conference T-shirt         | ✓                    | ✗               | ✗               |
-| A job posting shared on our channels   | ✓                    | ✓               | ✗               |
+| Job postings shared on our channels    | ✓                    | ✓               | ✗               |
+
+% | Logo on the conference T-shirt         | ✓                    | ✗               | ✗               |
 
 We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
 
