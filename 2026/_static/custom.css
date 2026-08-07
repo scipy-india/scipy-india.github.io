@@ -12,6 +12,16 @@ I hope that we don't need to do this again for the foreseeable future */
   zoom: 0.72;
 }
 
+/* Anchors the "Important dates" instance of the add-to-calendar button
+next to the heading, the same way .sci-countdown does for the one up top */
+#important-dates {
+  position: relative;
+}
+
+#important-dates > .sci-add-to-calendar {
+  margin-top: 0;
+}
+
 /* Remove Sphinx's padding from figures that causes issues with the flip leaves */
 .flipdown figure {
   padding: 0;

@@ -126,6 +126,21 @@ We are committed to providing a safe and welcoming environment for all attendees
 
 ## Important dates
 
+```{raw} html
+<details class="sci-add-to-calendar">
+  <summary>+ Add to calendar</summary>
+  <div class="sci-add-to-calendar-menu">
+    <a
+      href="https://www.google.com/calendar/render?action=TEMPLATE&text=SciPy+India+2026&dates=20261219/20261221&details=An+international+scientific+computing+and+open+source+software+conference.+Workshops+on+Saturday+19+December%2C+main+conference+day+on+Sunday+20+December.&location=IIT+Madras%2C+Chennai+600036%2C+India"
+      target="_blank"
+      rel="noopener"
+      >Google Calendar</a
+    >
+    <a href="_static/scipy-india-2026.ics" download>Apple / Outlook (.ics)</a>
+  </div>
+</details>
+```
+
 % TODO finalise these dates
 
 ```{eval-rst}
