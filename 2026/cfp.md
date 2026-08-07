@@ -55,7 +55,20 @@ This track is for proposals that do not clearly fit within another track, and fo
 
 ### Scientific computing in the sciences and engineering
 
-This track showcases the applications of developing and using open source software across the sciences and engineering, using Python and related languages such as R, C++, Julia, Fortran, and Rust. Relevant topics include, but are not limited to, physics and astrophysics, chemistry and materials science, biology and bioinformatics, medicine and medical imaging, health data analysis, environmental, earth, and climate science, mechanical, electrical, civil, and aerospace engineering, complex systems, and quantum computing. Proposals that apply machine learning or artificial intelligence methods to a specific scientific domain are also welcome here.
+This track showcases the applications of developing and using open source software across the sciences and engineering, using Python and related languages such as R, C++, Julia, Fortran, and Rust. Relevant topics include, but are not limited to:
+
+- physics and astrophysics
+- chemistry and materials science
+- biology and bioinformatics
+- medicine and medical imaging
+- health data analysis
+- environmental, earth, atmospheric, and climate science
+- remote sensing and geospatial analysis
+- mechanical, electrical, civil, and aerospace engineering
+- complex systems
+- quantum computing
+
+Proposals that apply machine learning or artificial intelligence methods to a specific scientific domain are also welcome here.
 
 ### Numerical and computational tools
 
