@@ -1,6 +1,7 @@
 /* Handling for the FlipDown time. This was not nice at all to figure out and
 I hope that we don't need to do this again for the foreseeable future */
 .sci-countdown {
+  position: relative;
   margin: 1.75rem 0 2rem;
   text-align: center;
 }
@@ -9,6 +10,16 @@ I hope that we don't need to do this again for the foreseeable future */
   display: inline-block;
   width: auto;
   zoom: 0.72;
+}
+
+/* Anchors the "Important dates" instance of the add-to-calendar button
+next to the heading, the same way .sci-countdown does for the one up top */
+#important-dates {
+  position: relative;
+}
+
+#important-dates > .sci-add-to-calendar {
+  margin-top: 0;
 }
 
 /* Remove Sphinx's padding from figures that causes issues with the flip leaves */
@@ -37,6 +48,83 @@ I hope that we don't need to do this again for the foreseeable future */
 
 .bd-content .flipdown.flipdown__theme-dark .rotor-group-heading:before {
   color: var(--pst-color-text-base);
+}
+
+/* Add-to-calendar dropdown below the countdown */
+.sci-add-to-calendar {
+  position: relative;
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+.sci-add-to-calendar summary {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 999px;
+  color: var(--pst-color-text-base);
+  font-size: 0.9rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.sci-add-to-calendar summary::-webkit-details-marker {
+  display: none;
+}
+
+.sci-add-to-calendar summary:hover {
+  border-color: var(--pst-color-primary);
+  color: var(--pst-color-primary);
+}
+
+.sci-add-to-calendar[open] summary {
+  border-color: var(--pst-color-primary);
+  color: var(--pst-color-primary);
+}
+
+.sci-add-to-calendar a {
+  display: block;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.sci-add-to-calendar a:not(:last-child) {
+  border-bottom: 1px solid var(--pst-color-border);
+}
+
+@media (min-width: 480px) {
+  .sci-add-to-calendar {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .sci-add-to-calendar[open]::before {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    content: "";
+  }
+
+  .sci-add-to-calendar[open] .sci-add-to-calendar-menu,
+  .sci-add-to-calendar[open] summary {
+    position: relative;
+    z-index: 2;
+  }
+
+  .sci-add-to-calendar[open] .sci-add-to-calendar-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 12rem;
+    margin-top: 0.25rem;
+    background: var(--pst-color-background);
+    border: 1px solid var(--pst-color-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px color-mix(in srgb, black, transparent 85%);
+    overflow: hidden;
+  }
 }
 
 .bd-content

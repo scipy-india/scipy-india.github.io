@@ -38,6 +38,18 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 ```{raw} html
 <div class="sci-countdown">
   <div id="flipdown" class="flipdown"></div>
+  <details class="sci-add-to-calendar">
+    <summary>+ Add to calendar</summary>
+    <div class="sci-add-to-calendar-menu">
+      <a
+        href="https://www.google.com/calendar/render?action=TEMPLATE&text=SciPy+India+2026&dates=20261219/20261221&details=An+international+scientific+computing+and+open+source+software+conference.+Workshops+on+Saturday+19+December%2C+main+conference+day+on+Sunday+20+December.&location=IIT+Madras%2C+Chennai+600036%2C+India"
+        target="_blank"
+        rel="noopener"
+        >Google Calendar</a
+      >
+      <a href="_static/scipy-india-2026.ics" download>Apple / Outlook (.ics)</a>
+    </div>
+  </details>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -113,6 +125,21 @@ We strive to make the conference accessible to all, and we welcome attendees fro
 We are committed to providing a safe and welcoming environment for all attendees, speakers, sponsors, and volunteers. We expect everyone to adhere to our [Code of Conduct](coc) and treat each other with respect and professionalism.
 
 ## Important dates
+
+```{raw} html
+<details class="sci-add-to-calendar">
+  <summary>+ Add to calendar</summary>
+  <div class="sci-add-to-calendar-menu">
+    <a
+      href="https://www.google.com/calendar/render?action=TEMPLATE&text=SciPy+India+2026&dates=20261219/20261221&details=An+international+scientific+computing+and+open+source+software+conference.+Workshops+on+Saturday+19+December%2C+main+conference+day+on+Sunday+20+December.&location=IIT+Madras%2C+Chennai+600036%2C+India"
+      target="_blank"
+      rel="noopener"
+      >Google Calendar</a
+    >
+    <a href="_static/scipy-india-2026.ics" download>Apple / Outlook (.ics)</a>
+  </div>
+</details>
+```
 
 % TODO finalise these dates
 
