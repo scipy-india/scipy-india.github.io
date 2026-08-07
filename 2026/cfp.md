@@ -10,17 +10,22 @@ myst:
 **Please read through the instructions below carefully before submitting.** This page contains important information about the session formats, tracks, and what we are looking for in a proposal. We encourage you to submit your proposal early, as we will be reviewing submissions on a rolling basis.
 ```
 
-````{tip}
-Our call for proposals is now open! Please add your submission(s) through our form. We're excited! Click the button below to submit your proposal:
-
-```{button-link} https://www.submitcfp.com/cfp/scipy-india-2026
-:color: primary
-:shadow:
-:class: sci-new-tab sci-btn-icon-end
-
-Submit your proposal {octicon}`paper-airplane`
+```{tip}
+Our call for proposals will open shortly. We will announce it on our [news page](news/index) and on our social media channels. In the meantime, please read through the information below so that you are ready to submit.
 ```
-````
+
+%
+% ````{tip}
+% Our call for proposals is now open! Please add your submission(s) through our form. We're excited! Click the button below to submit your proposal:
+%
+% ```{button-link} https://www.submitcfp.com/cfp/scipy-india-2026
+% :color: primary
+% :shadow:
+% :class: sci-new-tab sci-btn-icon-end
+%
+% Submit your proposal {octicon}`paper-airplane`
+% ```
+%````
 
 ## Timeline
 
