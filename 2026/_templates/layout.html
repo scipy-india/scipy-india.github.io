@@ -5,6 +5,88 @@
   title="SciPy India 2026 news"
   href="{{ pathto('news/atom.xml', 1) }}"
 />
-{% endblock extrahead %} {% block htmltitle %} {% if pagename == "index"
-%}<title>SciPy India 2026 conference</title>{% else %}{{ super() }}{% endif %}
-{% endblock htmltitle %}
+{# Event metadata for conference aggregators, as recommended by
+https://github.com/python-organizers/conferences. TODO: add "availabilityEnds"
+to the CFP offer once we have a closing date #} {% if pagename == "index" %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Event", "ConferenceEvent"],
+    "name": "SciPy India 2026 conference",
+    "description": "An international scientific computing and open source software conference",
+    "url": "{{ site_baseurl }}",
+    "startDate": "2026-12-19T08:30:00+05:30",
+    "endDate": "2026-12-20T18:00:00+05:30",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "organizer": {
+      "@type": "Organization",
+      "name": "SciPy India",
+      "url": "https://scipy.in"
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Indian Institute of Technology Madras",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600036",
+        "addressCountry": "IN"
+      }
+    },
+    "subEvent": [
+      {
+        "@type": "Event",
+        "name": "SciPy India 2026 workshops day",
+        "description": "A day of hands-on, three-hour workshops, run in two parallel tracks",
+        "startDate": "2026-12-19T08:30:00+05:30",
+        "endDate": "2026-12-19T18:00:00+05:30",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Department of Physics, Indian Institute of Technology Madras",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600036",
+            "addressCountry": "IN"
+          }
+        }
+      },
+      {
+        "@type": "Event",
+        "name": "SciPy India 2026 conference day",
+        "description": "Keynote presentations and 30-minute talks, scheduled in parallel across two auditoriums",
+        "startDate": "2026-12-20T08:30:00+05:30",
+        "endDate": "2026-12-20T18:00:00+05:30",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "IC&SR Building, Indian Institute of Technology Madras",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600036",
+            "addressCountry": "IN"
+          }
+        }
+      }
+    ],
+    "hasParticipationOffer": {
+      "@type": "Offer",
+      "name": "Call for Proposals",
+      "url": "{{ site_baseurl }}cfp.html"
+    },
+    "hasSponsorshipOffer": {
+      "@type": "Offer",
+      "name": "Sponsor Packages",
+      "url": "{{ site_baseurl }}sponsor.html"
+    }
+  }
+</script>
+{% endif %} {% endblock extrahead %} {% block htmltitle %} {% if pagename ==
+"index" %}<title>SciPy India 2026 conference</title>{% else %}{{ super() }}{%
+endif %} {% endblock htmltitle %}

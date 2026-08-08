@@ -9,12 +9,20 @@ Build both sites, and build the main website first:
     uv run sphinx-build -b html 2026 _build/html/2026
 """
 
+import os
+
 project = "SciPy India 2026"
 html_title = "SciPy India 2026"
 copyright = "2026, the SciPy India team"
 author = "The SciPy India team"
 
 html_baseurl = "https://scipy.in/2026/"
+
+# Cloudflare Pages handling
+site_baseurl = html_baseurl
+_cf_url = os.environ.get("CF_PAGES_URL")
+if _cf_url and os.environ.get("CF_PAGES_BRANCH") != "main":
+    site_baseurl = f"{_cf_url.rstrip('/')}/2026/"
 
 html_theme = "pydata_sphinx_theme"
 
@@ -24,7 +32,20 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "sphinx_togglebutton",
+    "sphinxext.opengraph",
 ]
+
+# Link previews
+ogp_site_url = site_baseurl
+ogp_site_name = "SciPy India 2026 conference"
+ogp_type = "website"
+# N.B. this needs to be PNG (raster) instead of vector because the
+# SciPy logo SVG loses the snake during conversion for social cards
+ogp_social_cards = {
+    "image": "_static/logo.png",
+    "image_mini": "_static/logo.png",
+    "line_color": "#2b55a1",
+}
 
 html_static_path = ["_static"]
 _FLIPDOWN_CSS = "https://unpkg.com/flipdown@0.3.2/dist/flipdown.min.css"
@@ -54,6 +75,7 @@ html_js_files = [
 templates_path = ["_templates"]
 
 html_context = {
+    "site_baseurl": site_baseurl,
     "conference_nav": [
         {"label": "Programme", "page": "programme"},
         {
@@ -190,5 +212,30 @@ def _buttons_open_in_new_tab(app, doctree, docname):
             node["target"] = "_blank"
 
 
+# sphinxext-opengraph derives its description by walking the body of the page.
+# I want to use the html_meta.description for the social card caption instead.
+# TODO: this uses sphinxext-opengraph internals, figure out what to do about it...
+def _prefer_html_meta_description():
+    import sphinxext.opengraph as opengraph
+    from docutils import nodes
+
+    if getattr(opengraph.get_description, "_uses_html_meta", False):
+        return
+
+    walk_the_page_body = opengraph.get_description
+
+    def get_description(doctree, description_length, known_titles=frozenset()):
+        for node in doctree.findall(nodes.Element):
+            if node.tagname == "meta" and node.get("name") == "description":
+                description = node.get("content", "").strip()
+                if description:
+                    return description
+        return walk_the_page_body(doctree, description_length, known_titles)
+
+    get_description._uses_html_meta = True
+    opengraph.get_description = get_description
+
+
 def setup(app):
     app.connect("doctree-resolved", _buttons_open_in_new_tab)
+    _prefer_html_meta_description()
