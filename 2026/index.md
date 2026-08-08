@@ -147,7 +147,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | What                                               | Opens             | Closes            |
 +====================================================+===================+===================+
-| Call for volunteers                                | To be announced   | To be announced   |
+| Call for volunteers                                | 08th August, 2026 | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
 | Call for proposals                                 | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+

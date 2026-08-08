@@ -204,7 +204,7 @@ Yes. Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to disc
 :::
 
 :::{dropdown} Can I volunteer for the conference?
-Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. We plan to open a volunteer form soon, and we will announce it on our [news page](news/index) and on our social media channels. Please keep an eye out for updates. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team! For more information on volunteering, please refer to our [volunteer page](volunteer).
+Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. Please visit our [volunteer page](volunteer) page for more information. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team!
 :::
 
 :::{dropdown} How can I help spread the word?

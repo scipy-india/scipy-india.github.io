@@ -70,11 +70,9 @@ myst:
 
 **Could be you!**
 
-% TODO add Jotform link here and make this clickable
-
 <hr>
 
-Join the programme committee and volunteer towards making the SciPy India 2026 conference a success (forms opening soon!)
+Join the programme committee and volunteer towards making the SciPy India 2026 conference a success (see our [volunteer page](volunteer) for more information!)
 :::
 
 ::::
