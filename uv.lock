@@ -1212,7 +1212,7 @@ requires-dist = [
     { name = "sphinx-copybutton", specifier = ">=0.5" },
     { name = "sphinx-design", specifier = ">=0.6" },
     { name = "sphinx-togglebutton", specifier = ">=0.3" },
-    { name = "sphinxext-opengraph", specifier = ">=0.9" },
+    { name = "sphinxext-opengraph", specifier = "==0.13.0" },
 ]
 
 [package.metadata.requires-dev]
