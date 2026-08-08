@@ -8,6 +8,30 @@ myst:
 
 Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
+The two days will be held in different buildings on the campus, which are about 400 metres apart.
+
+% TODO: confirm which gate to send people to and which entrance to use at each
+% building
+
+## Workshops on Saturday, 19th December
+
+The workshops will be held at the [Department of Physics](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7).
+
+<iframe
+  class="sci-map"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.719169094031!2d80.23129513504304!3d12.989720525729387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8002066921%3A0x72ac64139aeaf118!2sDepartment%20Of%20Physics%2C%20Indian%20Institute%20Of%20Technology%20Madras!5e0!3m2!1sen!2sin!4v1786197155204!5m2!1sen!2sin"
+  width="100%"
+  height="450"
+  title="Map of the Department of Physics at IIT Madras, Chennai"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+## Conference on Sunday, 20th December
+
+The conference day will be held at the [IC&SR Building](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9).
+
 <iframe
   class="sci-map"
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
@@ -18,14 +42,6 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
   loading="lazy"
   referrerpolicy="strict-origin-when-cross-origin">
 </iframe>
-
-<hr>
-
-- Saturday 19 December, workshops: [Department of Physics](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7)
-- Sunday 20 December, conference: [IC&SR Building](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9)
-
-% TODO: confirm which gate to send people to and which entrance to use at each
-% building
 
 ## How to reach IIT Madras
 
