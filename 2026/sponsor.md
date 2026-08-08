@@ -97,7 +97,7 @@ We name every sponsor in the closing remarks and thank you afterwards on our cha
 
 **Startup and small business discount.** Startups and small businesses are eligible for a 50% reduction on the Silver and Bronze tiers. You qualify if your organisation is under five years old and has fewer than twenty-five employees. Please tell us when you contact us! If you are just outside those limits and the full amount is out of reach, write to us anyway and we will see what we can arrange.
 
-Don't see a tier that fits your needs? Please write to [info@scipy.in](mailto:info@scipy.in) to discuss your requirements and how we can accommodate them.
+Don't see a tier that fits your needs? Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in) to discuss your requirements and how we can accommodate them.
 
 ## Sponsor one part of the conference
 

@@ -196,11 +196,11 @@ Warm and humid, with mild evenings and the occasional passing shower! Please see
 ## Sponsorship and volunteering
 
 :::{dropdown} How does my company sponsor?
-Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss sponsorship options and how your company can support the conference. We will provide details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We welcome sponsors from various industries who share our commitment to scientific computing and data science.
+Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We are happy to discuss sponsorship options and how your company can support the conference. We will provide details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We welcome sponsors from various industries who share our commitment to scientific computing and data science.
 :::
 
 :::{dropdown} Can I sponsor as an individual?
-Yes. Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss how you can support the conference as an individual.
+Yes. Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We are happy to discuss how you can support the conference as an individual.
 :::
 
 :::{dropdown} Can I volunteer for the conference?
