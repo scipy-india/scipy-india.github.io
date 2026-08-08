@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "The SciPy India 2026 conference home page"
+    "description": "An international scientific computing and open source software conference, on 19th-20th December 2026 at the Indian Institute of Technology Madras, Chennai, India."
 ---
 
 # SciPy India 2026

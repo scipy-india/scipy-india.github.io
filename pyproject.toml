@@ -10,6 +10,7 @@ dependencies = [
     "sphinx-design>=0.6",
     "sphinx-copybutton>=0.5",
     "sphinx-togglebutton>=0.3",
+    # bump with caution. see _prefer_html_meta_description in 2026/conf.py
     "sphinxext-opengraph==0.13.0",
     # to render the per-page social cards that sphinxext-opengraph generates
     "matplotlib>=3.8",
