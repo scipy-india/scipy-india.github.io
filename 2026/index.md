@@ -345,7 +345,7 @@ To be announced. We will be opening a call for sponsors soon, and we will be loo
 :target: https://fossunited.org
 ```
 
-[The FOSS United Foundation](https://fossunited.org), for providing their open source software platform to manage our call for proposals (CFP).
+We are incubated and supported by [the FOSS United Foundation](https://fossunited.org), a Section 8 non-profit organisation  that aims to promote and strengthen the free and open source software (FOSS) ecosystem in India.
 :::
 
 :::{grid-item-card}
