@@ -9,12 +9,20 @@ Build both sites, and build the main website first:
     uv run sphinx-build -b html 2026 _build/html/2026
 """
 
+import os
+
 project = "SciPy India 2026"
 html_title = "SciPy India 2026"
 copyright = "2026, the SciPy India team"
 author = "The SciPy India team"
 
 html_baseurl = "https://scipy.in/2026/"
+
+# Cloudflare Pages handling
+site_baseurl = html_baseurl
+_cf_url = os.environ.get("CF_PAGES_URL")
+if _cf_url and os.environ.get("CF_PAGES_BRANCH") != "main":
+    site_baseurl = f"{_cf_url.rstrip('/')}/2026/"
 
 html_theme = "pydata_sphinx_theme"
 
@@ -28,7 +36,7 @@ extensions = [
 ]
 
 # Link previews
-ogp_site_url = html_baseurl
+ogp_site_url = site_baseurl
 ogp_site_name = "SciPy India 2026 conference"
 ogp_type = "website"
 # N.B. this needs to be PNG (raster) instead of vector because the
@@ -67,6 +75,7 @@ html_js_files = [
 templates_path = ["_templates"]
 
 html_context = {
+    "site_baseurl": site_baseurl,
     "conference_nav": [
         {"label": "Programme", "page": "programme"},
         {

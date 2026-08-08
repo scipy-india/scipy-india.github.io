@@ -14,7 +14,7 @@ to the CFP offer once we have a closing date #} {% if pagename == "index" %}
     "@type": ["Event", "ConferenceEvent"],
     "name": "SciPy India 2026 conference",
     "description": "An international scientific computing and open source software conference",
-    "url": "https://scipy.in/2026/",
+    "url": "{{ site_baseurl }}",
     "startDate": "2026-12-19T08:30:00+05:30",
     "endDate": "2026-12-20T18:00:00+05:30",
     "eventStatus": "https://schema.org/EventScheduled",
@@ -78,12 +78,12 @@ to the CFP offer once we have a closing date #} {% if pagename == "index" %}
     "hasParticipationOffer": {
       "@type": "Offer",
       "name": "Call for Proposals",
-      "url": "https://scipy.in/2026/cfp.html"
+      "url": "{{ site_baseurl }}cfp.html"
     },
     "hasSponsorshipOffer": {
       "@type": "Offer",
       "name": "Sponsor Packages",
-      "url": "https://scipy.in/2026/sponsor.html"
+      "url": "{{ site_baseurl }}sponsor.html"
     }
   }
 </script>
