@@ -126,7 +126,7 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 ## Getting in touch
 
-Write to [info@scipy.in](mailto:info@scipy.in). We will send you the current tier figures and arrange a call.
+Write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We will send you the current tier figures and arrange a call.
 
 Our fiscal host is the [Association for Promotion of Free and Open Source Technologies](https://afrost.org). All sponsorship contributions are made to AFROST, which is a registered non-profit in India.
 

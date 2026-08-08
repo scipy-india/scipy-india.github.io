@@ -293,7 +293,7 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 
 ### Sponsors
 
-To be announced. We will be opening a call for sponsors soon, and we will be looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [info@scipy.in](mailto:info@scipy.in).
+To be announced. We will be opening a call for sponsors soon, and we will be looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
 
 ::::{grid} 1 3 3 3
 :gutter: 3
@@ -394,7 +394,7 @@ If you would like to receive updates about the conference, please watch this spa
 - [Mastodon](https://fosstodon.org/@scipyindia)
 - [LinkedIn](https://www.linkedin.com/company/scipyindia)
 
-- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in)
+- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in). For sponsorship inquiries, please contact [sponsor@scipy.in].
 
 Thank you for your interest in the SciPy India 2026 conference! We look forward to seeing you in December!
 
