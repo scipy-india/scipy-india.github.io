@@ -55,6 +55,17 @@ myst:
 :::
 
 :::{grid-item-card}
+:img-top: /_static/images/shubham-sharma.jpeg
+:img-alt: Shubham Sharma
+
+**Shubham Sharma**
+
++++
+<!-- [{fab}`github`](https://github.com/shubham-scisar) -->
+[{fab}`linkedin`](https://www.linkedin.com/in/shubham-sharma-54685780/)
+:::
+
+:::{grid-item-card}
 :class-item: sci-team-open
 
 **Could be you!**
