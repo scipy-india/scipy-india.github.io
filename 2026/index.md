@@ -363,6 +363,26 @@ SciPy India is an [official community partner](https://www.python.org/psf/commun
 
 ::::
 
+### Tooling sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/pretalx.svg
+:alt: pretalx
+:class: partner-logo sci-supporter-logo
+:target: https://pretalx.com
+```
+
+[pretalx](https://pretalx.com) is a tooling sponsor of the conference, supporting us with their open source conference management software.
+:::
+
+::::
+
 ### Institutional sponsors
 
 ::::{grid} 1
