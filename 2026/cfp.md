@@ -14,11 +14,12 @@ myst:
 Our call for proposals will open shortly. We will announce it on our [news page](news/index) and on our social media channels. In the meantime, please read through the information below so that you are ready to submit.
 ```
 
+% TODO: confirm the pretalx slug below before we uncomment
 %
 % ````{tip}
 % Our call for proposals is now open! Please add your submission(s) through our form. We're excited! Click the button below to submit your proposal:
 %
-% ```{button-link} https://www.submitcfp.com/cfp/scipy-india-2026
+% ```{button-link} https://pretalx.com/scipy-india-2026/cfp
 % :color: primary
 % :shadow:
 % :class: sci-new-tab sci-btn-icon-end
