@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Venue and travel information for the SciPy India 2026 conference"
+    "description": "Venue and travel information for the SciPy India 2026 Conference"
 ---
 
 # Venue and travel

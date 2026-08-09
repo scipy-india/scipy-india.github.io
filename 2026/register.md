@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Registrations for the SciPy India 2026 conference"
+    "description": "Registrations for the SciPy India 2026 Conference"
 ---
 
 # Registrations
@@ -20,7 +20,7 @@ If you are unable to attend in person, we will publish recordings of the confere
 
 ## What a ticket covers
 
-A ticket to the SciPy India 2026 conference covers the following:
+A ticket to the SciPy India 2026 Conference covers the following:
 
 - Access to all conference talks and workshops (in-person only)
 - Conference materials (programme, schedule, and any digital resources)

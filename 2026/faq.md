@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Frequently asked questions about the SciPy India 2026 conference"
+    "description": "Frequently asked questions about the SciPy India 2026 Conference"
 ---
 
 # Frequently Asked Questions

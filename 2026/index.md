@@ -64,7 +64,7 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
 ## Welcome
 
-We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 conference".
+We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 Conference".
 
 ::::{grid} 1 1 2 2
 :gutter: 3
@@ -87,7 +87,7 @@ Opening soon!
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 conference will be be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English.
+The SciPy India 2026 Conference will be be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English.
 
 :::
 
@@ -106,7 +106,7 @@ We expect to form the final [programme](programme) in October 2026. We will publ
 
 ## Who is this conference for?
 
-The SciPy India 2026 conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
+The SciPy India 2026 Conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
 
 - **Researchers and scientists** in academia, industry, and government laboratories;
 - **Educators and faculty** involved in teaching and mentoring the practice of computational work and free and open source software (FOSS) in science and engineering;
@@ -198,7 +198,7 @@ To be announced
 
 ## Venue
 
-The SciPy India 2026 conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
+The SciPy India 2026 Conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
 
 The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan and A.M.M. Arunachalam auditoriums at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
 
@@ -416,7 +416,7 @@ If you would like to receive updates about the conference, please watch this spa
 
 - You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in). For sponsorship inquiries, please contact [sponsor@scipy.in].
 
-Thank you for your interest in the SciPy India 2026 conference! We look forward to seeing you in December!
+Thank you for your interest in the SciPy India 2026 Conference! We look forward to seeing you in December!
 
 % Mostly just to make warnings go away:
 

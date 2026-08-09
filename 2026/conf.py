@@ -37,7 +37,7 @@ extensions = [
 
 # Link previews
 ogp_site_url = site_baseurl
-ogp_site_name = "SciPy India 2026 conference"
+ogp_site_name = "SciPy India 2026 Conference"
 ogp_type = "website"
 # N.B. this needs to be PNG (raster) instead of vector because the
 # SciPy logo SVG loses the snake during conversion for social cards

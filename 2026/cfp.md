@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Call for proposals for the SciPy India 2026 conference"
+    "description": "Call for proposals for the SciPy India 2026 Conference"
 ---
 
 # Call for proposals

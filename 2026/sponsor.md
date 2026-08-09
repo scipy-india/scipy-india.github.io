@@ -1,12 +1,12 @@
 ---
 myst:
   html_meta:
-    "description": "Sponsor the SciPy India 2026 conference"
+    "description": "Sponsor the SciPy India 2026 Conference"
 ---
 
 # Sponsor us
 
-We are looking for sponsors to help us organise the SciPy India 2026 conference. Sponsorship helps us cover our costs and allows us to keep ticket prices low.
+We are looking for sponsors to help us organise the SciPy India 2026 Conference. Sponsorship helps us cover our costs and allows us to keep ticket prices low.
 
 Our proceeds will go into the following areas:
 

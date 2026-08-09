@@ -1,12 +1,12 @@
 ---
 myst:
   html_meta:
-    "description": "Volunteer for the SciPy India 2026 conference"
+    "description": "Volunteer for the SciPy India 2026 Conference"
 ---
 
 # Volunteer
 
-We are looking to form a programme committee for the SciPy India 2026 conference. The committee is made up of volunteers who help with the conference in various ways, from reviewing proposals to running sessions on the day. We welcome volunteers from all backgrounds and levels of experience.
+We are looking to form a programme committee for the SciPy India 2026 Conference. The committee is made up of volunteers who help with the conference in various ways, from reviewing proposals to running sessions on the day. We welcome volunteers from all backgrounds and levels of experience.
 
 ::::{admonition} The call for volunteers is now open!
 :class: tip
@@ -18,7 +18,7 @@ Please fill in our volunteer form and tell us a little about how you would like 
 :shadow:
 :class: sci-new-tab sci-btn-icon-end
 
-Volunteer for the SciPy India 2026 conference {octicon}`people`
+Volunteer for the SciPy India 2026 Conference {octicon}`people`
 ```
 
 ::::
