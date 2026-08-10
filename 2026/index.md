@@ -361,6 +361,19 @@ We are incubated and supported by [the FOSS United Foundation](https://fossunite
 SciPy India is an [official community partner](https://www.python.org/psf/community-partners/) of the Python Software Foundation.
 :::
 
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/rseaa.png
+:alt: RSE Asia Association
+:class: partner-logo sci-supporter-logo
+:target: https://rseaa.org
+```
+
+The RSE Asia Association supports research software engineers across Asia. Do check out [RSAA26](https://rseaa.org), their Research Software Asia Australia Conference, held online from 25 to 28 August 2026 with the RSE Association of Australia and New Zealand!
+:::
+
 ::::
 
 ### Tooling sponsors
