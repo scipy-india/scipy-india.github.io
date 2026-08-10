@@ -1,9 +1,9 @@
-img.partner-logo {
-  vertical-align: top;
+html[data-theme="dark"] img:not(.only-dark):not(.dark-light) {
+  filter: none;
 }
 
-[data-theme="dark"] img.partner-logo {
-  filter: none !important;
+img.partner-logo {
+  vertical-align: top;
 }
 
 a:has(> img.partner-logo),
@@ -58,8 +58,18 @@ img.event-flyer-thumb {
   object-fit: cover;
 }
 
+html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
+  border-radius: 50%;
+  background-color: transparent;
+}
+
 .sci-team-grid .sd-card-body {
   padding-bottom: 0.5rem;
+}
+
+.bd-content .sci-team-grid .sd-card .sd-card-body,
+.bd-content .sci-team-grid .sd-card .sd-card-footer {
+  background-color: transparent;
 }
 
 /* Increase the font size of the card footer for the icon links to be larger */

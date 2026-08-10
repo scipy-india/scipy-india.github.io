@@ -1,3 +1,7 @@
+html[data-theme="dark"] img:not(.only-dark):not(.dark-light) {
+  filter: none;
+}
+
 /* Handling for the FlipDown time. This was not nice at all to figure out and
 I hope that we don't need to do this again for the foreseeable future */
 .sci-countdown {
@@ -196,11 +200,6 @@ next to the heading, the same way .sci-countdown does for the one up top */
 
 /* Supporters and logos */
 
-/* Don't dim the logos in dark mode */
-[data-theme="dark"] img.partner-logo {
-  filter: none !important;
-}
-
 a:has(> img.partner-logo),
 a:hover:has(> img.partner-logo),
 a:focus:has(> img.partner-logo) {
@@ -266,8 +265,18 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
   object-fit: cover;
 }
 
+html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
+  border-radius: 50%;
+  background-color: transparent;
+}
+
 .sci-team-grid .sd-card-body {
   padding-bottom: 0.5rem;
+}
+
+.bd-content .sci-team-grid .sd-card .sd-card-body,
+.bd-content .sci-team-grid .sd-card .sd-card-footer {
+  background-color: transparent;
 }
 
 .bd-content .sci-team-grid .sd-card .sd-card-footer {
