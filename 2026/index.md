@@ -204,50 +204,7 @@ The workshops on 19th December 2026 will be held at the seminar halls of the Dep
 
 The campus is about 15 kilometres from the Chennai International Airport (MAA), 13 kilometres from the Chennai Central Railway Station, and 10 kilometres from the Chennai Egmore Railway Station.
 
-Please refer to the [venue and travel page](venue) for detailed information on directions, notes on accommodation, and general travel guidance.
-
-% The photo and the map sit in one row of two equal cells. Both cells are 4:3,
-% which is the photo's own ratio and also Google's default 600x450 embed, so the
-% photo fills its cell with no cropping and no stretching. See .sci-venue-media
-% in \_static/custom.css. The photo carries the theme's dark-light class to opt
-% out of the brightness filter the theme puts on images in dark mode.
-%
-% Source: https://ge.iitm.ac.in/oedai-2024/icsr.png. The /\_next/image?url=... form
-% of that URL returns 400 without Next's w and q parameters, so it is not
-% hotlinked. Re-encode with:
-%
-% magick icsr.png -resize 1400x -strip -interlace Plane \
-% -sampling-factor 4:2:0 -quality 82 \_static/venue/icsr.jpg
-%
-% 1400px is twice the widest the image is ever displayed, which covers retina.
-% Keep the result under 500 KB or pre-commit's check-added-large-files rejects it.
-
-```{raw} html
-<div class="sci-venue-media">
-  <img
-    src="_static/venue/icsr.jpg"
-    class="dark-light"
-    alt="The entrance to the Office of Industrial Consultancy and Sponsored Research at IIT Madras"
-    loading="lazy" />
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
-    width="600"
-    height="450"
-    title="Map of the IC&amp;SR Building at IIT Madras, Chennai"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin">
-  </iframe>
-</div>
-```
-
-```{button-link} https://maps.app.goo.gl/ND5Bg5HP9Waayoc88
-:color: primary
-:outline:
-:class: sci-new-tab
-
-{octicon}`link-external` Open in Google Maps
-```
+Please refer to the [venue and travel page](venue) for maps of both buildings, directions, notes on accommodation, and general travel guidance.
 
 ## Call for proposals
 

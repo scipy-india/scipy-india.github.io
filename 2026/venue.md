@@ -15,33 +15,47 @@ The two days will be held in different buildings on the campus, which are about 
 
 ## Workshops on Saturday, 19th December
 
-The workshops will be held at the [Department of Physics](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7).
+The workshops will be held in the seminar halls of the [Department of Physics](https://maps.app.goo.gl/a6xVyb4dyofsjUcL7).
 
-<iframe
-  class="sci-map"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.719169094031!2d80.23129513504304!3d12.989720525729387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8002066921%3A0x72ac64139aeaf118!2sDepartment%20Of%20Physics%2C%20Indian%20Institute%20Of%20Technology%20Madras!5e0!3m2!1sen!2sin!4v1786197155204!5m2!1sen!2sin"
-  width="100%"
-  height="450"
-  title="Map of the Department of Physics at IIT Madras, Chennai"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="strict-origin-when-cross-origin">
-</iframe>
+```{raw} html
+<div class="sci-venue-media">
+  <img
+    src="_static/venue/physics-department.jpg"
+    alt="The entrance to the Department of Physics at IIT Madras, its sign in Hindi and English, with bicycles parked along the tree-lined path outside"
+    loading="lazy" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.719169094031!2d80.23129513504304!3d12.989720525729387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d8002066921%3A0x72ac64139aeaf118!2sDepartment%20Of%20Physics%2C%20Indian%20Institute%20Of%20Technology%20Madras!5e0!3m2!1sen!2sin!4v1786197155204!5m2!1sen!2sin"
+    width="600"
+    height="450"
+    title="Map of the Department of Physics at IIT Madras, Chennai"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
+</div>
+```
 
 ## Conference on Sunday, 20th December
 
-The conference day will be held at the [IC&SR Building](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9).
+The conference day will be held at the [IC&SR Building](https://maps.app.goo.gl/t8mo1UV9Rknef6qk9), in the T.T. Jagannathan and A.M.M. Arunachalam auditoriums.
 
-<iframe
-  class="sci-map"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
-  width="100%"
-  height="450"
-  title="Map of the IC&amp;SR Building at IIT Madras, Chennai"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="strict-origin-when-cross-origin">
-</iframe>
+```{raw} html
+<div class="sci-venue-media">
+  <img
+    src="_static/venue/icsr.jpg"
+    alt="The entrance to the Office of Industrial Consultancy and Sponsored Research at IIT Madras"
+    loading="lazy" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
+    width="600"
+    height="450"
+    title="Map of the IC&amp;SR Building at IIT Madras, Chennai"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
+</div>
+```
 
 ## How to reach IIT Madras
 
