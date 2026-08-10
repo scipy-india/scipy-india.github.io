@@ -77,21 +77,21 @@ Our proceeds will go into the following areas:
 % TODO: keep the "slots available" row current as sponsors sign. It is the one row on
 % this page that goes stale, and a stale one is worse than none.
 
-| What you get                           | Gold                 | Silver          | Bronze          |
-| -------------------------------------- | -------------------- | --------------- | --------------- |
-| Amount                                 | ₹2,50,000            | ₹1,00,000       | ₹50,000         |
-| Slots available                        | 1                    | 3               | 5               |
-| Tickets                                | 10                   | 5               | 2               |
-| Logo on this website                   | ✓                    | ✓               | ✓               |
-| Logo in the programme                  | Large                | Medium          | Small           |
-| Logo on screen between sessions        | A screen of your own | ✓               | ✗               |
-| A short video between sessions         | Up to 30 seconds     | ✗               | ✗               |
-| Logo on the talk recordings            | ✓                    | ✓               | ✗               |
-| A stall or table                       | Both days            | Conference day  | ✗               |
-| Something of yours in the attendee bag | ✓                    | ✓               | ✗               |
-| Job postings shared on our channels    | ✓                    | ✓               | ✗               |
+| What you get                           | Title                     | Gold                      | Silver                |
+| -------------------------------------- | ------------------------- | ------------------------- | --------------------- |
+| Amount                                 | ₹2,50,000 / €2500 / $2750 | ₹1,00,000 / €1000 / $1100 | ₹50,000 / €500 / $550 |
+| Slots available                        | 1                         | 3                         | 5                     |
+| Tickets                                | 10                        | 5                         | 2                     |
+| Logo on this website                   | ✓                         | ✓                         | ✓                     |
+| Logo in the programme                  | Large                     | Medium                    | Small                 |
+| Logo on screen between sessions        | A screen of your own      | ✓                         | ✗                     |
+| A short video between sessions         | Up to 30 seconds          | ✗                         | ✗                     |
+| Logo on the talk recordings            | ✓                         | ✓                         | ✗                     |
+| A stall or table                       | Both days                 | Conference day            | ✗                     |
+| Something of yours in the attendee bag | ✓                         | ✓                         | ✗                     |
+| Job postings shared on our channels    | ✓                         | ✓                         | ✗                     |
 
-% | Logo on the conference T-shirt         | ✓                    | ✗               | ✗               |
+% | Logo on the conference T-shirt | ✓ | ✗ | ✗ |
 
 We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
 
