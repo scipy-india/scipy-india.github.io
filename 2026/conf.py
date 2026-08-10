@@ -39,11 +39,15 @@ extensions = [
 ogp_site_url = site_baseurl
 ogp_site_name = "SciPy India 2026 Conference"
 ogp_type = "website"
-# N.B. this needs to be PNG (raster) instead of vector because the
-# SciPy logo SVG loses the snake during conversion for social cards
+# N.B. these need to be PNG (raster) instead of vector because the
+# SciPy logo SVG loses the snake during conversion for social cards.
+# The card has two logo slots, top right and bottom right, and
+# filling both draws the logo twice. There is no way to switch one
+# off. An unset image_mini falls back to the Eye of Horus
+# which I don't like.
 ogp_social_cards = {
     "image": "_static/logo.png",
-    "image_mini": "_static/logo.png",
+    "image_mini": "_static/_social-card-blank.png",
     "line_color": "#2b55a1",
 }
 
