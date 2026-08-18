@@ -75,7 +75,7 @@ Previous editions of the conference have been supported by a wide range of organ
 - [J.P. Morgan](https://www.jpmorgan.com/)
 - [Kerala State IT Mission](https://itmission.kerala.gov.in/)
 - [Ministry of Education, Government of India](https://www.education.gov.in/)
-- [The Python Software Foundation](https://www.python.org/)
+- [The Python Software Foundation](https://www.python.org/psf/)
 - [SPACE, the Society for Promotion of Alternative Computing and Employment, Kerala](https://www.space-kerala.org/)
 - [Tech Mahindra](https://www.techmahindra.com/)
 
