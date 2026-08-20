@@ -76,6 +76,13 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 Opening soon! We will be looking for proposals for workshops and talks on scientific computing, research software, and AI/ML applications with a scientific flavour.
 :::
 
+:::{grid-item-card} Sponsor us
+:link: sponsor
+:link-type: doc
+
+Read about our sponsorship tiers and options, the audience you would reach, and how you can support the conference.
+:::
+
 :::{grid-item-card} Registrations
 :link: register
 :link-type: doc
@@ -96,7 +103,6 @@ The SciPy India 2026 Conference will be be hosted across two days. The first day
 :link-type: doc
 
 Visit this page for information on how to reach the venue, accommodation options, travel guidance, and visa requirements for international attendees.
-:::
 
 ::::
 
@@ -250,7 +256,27 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 
 ### Sponsors
 
-To be announced. We will be opening a call for sponsors soon, and we will be looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
+We are looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
+
+:::{div} sci-hero-buttons
+
+```{button-link} _static/scipy-india-2026-sponsorship-prospectus.pdf
+:color: primary
+:shadow:
+:class: sci-new-tab sci-btn-icon-end
+
+Download our sponsorship prospectus (PDF) {octicon}`download`
+```
+
+```{button-ref} sponsor
+:ref-type: doc
+:color: secondary
+:outline:
+
+Read about our sponsorship tiers
+```
+
+:::
 
 ::::{grid} 1 3 3 3
 :gutter: 3
@@ -384,7 +410,7 @@ If you would like to receive updates about the conference, please watch this spa
 - [Mastodon](https://fosstodon.org/@scipyindia)
 - [LinkedIn](https://www.linkedin.com/company/scipyindia)
 
-- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in). For sponsorship inquiries, please contact [sponsor@scipy.in].
+- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in). For sponsorship inquiries, please contact [sponsor@scipy.in](mailto:sponsor@scipy.in).
 
 Thank you for your interest in the SciPy India 2026 Conference! We look forward to seeing you in December!
 
