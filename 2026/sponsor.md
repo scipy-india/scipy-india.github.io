@@ -170,7 +170,7 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 ## What sponsorship does not include
 
-- We are unable to provide speaking slots. Please submit a talk proposal through the [call for proposals](cfp) process. We will consider all proposals on their merit, and we do not give preference to sponsors.
+- We are unable to provide speaking slots. Please submit a talk proposal through the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) process. We will consider all proposals on their merit, and we do not give preference to sponsors.
 - We do not place sponsor content within the programme itself. Sponsor branding appears between sessions rather than during them, and sessions are not used for product promotion. Where your tier includes a video, it is played during a break and not from the stage.
   % - We will not share attendees' contact information with sponsors.
 

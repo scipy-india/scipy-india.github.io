@@ -91,7 +91,7 @@ html_context = {
                 ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
-        {"label": "Call for proposals", "page": "cfp"},
+        {"label": "Call for proposals", "page": "https://cfp.scipy.in/scipy-india-2026/"},
         {"label": "Sponsor us", "page": "sponsor"},
         {
             "label": "About",
@@ -114,7 +114,6 @@ html_show_sourcelink = False
 html_sidebars = {
     "index": [],
     "programme": [],
-    "cfp": [],
     "jobs": [],
     "register": [],
     "venue": [],

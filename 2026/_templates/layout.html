@@ -6,8 +6,8 @@
   href="{{ pathto('news/atom.xml', 1) }}"
 />
 {# Event metadata for conference aggregators, as recommended by
-https://github.com/python-organizers/conferences. TODO: add "availabilityEnds"
-to the CFP offer once we have a closing date #} {% if pagename == "index" %}
+https://github.com/python-organizers/conferences. #} {% if pagename == "index"
+%}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -58,7 +58,7 @@ to the CFP offer once we have a closing date #} {% if pagename == "index" %}
       {
         "@type": "Event",
         "name": "SciPy India 2026 conference day",
-        "description": "Keynote presentations and 30-minute talks, scheduled in parallel across two auditoriums",
+        "description": "Keynote presentations, 30-minute talks scheduled in parallel across two auditoriums, and a poster session",
         "startDate": "2026-12-20T08:30:00+05:30",
         "endDate": "2026-12-20T18:00:00+05:30",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
@@ -78,7 +78,9 @@ to the CFP offer once we have a closing date #} {% if pagename == "index" %}
     "hasParticipationOffer": {
       "@type": "Offer",
       "name": "Call for Proposals",
-      "url": "{{ site_baseurl }}cfp.html"
+      "url": "https://cfp.scipy.in/scipy-india-2026/",
+      "availabilityStarts": "2026-08-25T00:00:00+05:30",
+      "availabilityEnds": "2026-10-19T23:59:00+05:30"
     },
     "hasSponsorshipOffer": {
       "@type": "Offer",
