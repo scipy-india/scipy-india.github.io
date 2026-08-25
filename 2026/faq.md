@@ -127,8 +127,8 @@ Yes, and we will publish them on our YouTube channel after the conference. If yo
 
 ## Speaking
 
-:::{dropdown} When is the call for proposals opening?
-The dates are on the ["Important dates" table](index), and we will announce the opening on the [news page](news/index). The [call for proposals](cfp) will open with more information.
+:::{dropdown} When does the call for proposals close?
+The [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 :::
 
 :::{dropdown} Can I submit if I have not spoken at a conference before?
@@ -136,7 +136,7 @@ Yes, we love first-time speakers! We will work with you to solidify your proposa
 :::
 
 :::{dropdown} How long is a talk or a workshop?
-The length of a talk will be 30 minutes, including time for questions. Workshops will be 3 hours long, with a short break in the middle. We will provide more details on the [call for proposals](cfp) page.
+The length of a talk will be 30 minutes, including time for questions. Workshops will be 3 hours long, with a short break in the middle. Posters do not have a set duration, and will be presented during a dedicated poster session on the conference day. We will provide more details on the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) page.
 :::
 
 :::{dropdown} Can I submit more than one proposal, or co-present?
@@ -144,7 +144,7 @@ Yes to both. Please submit each proposal separately, and name every presenter on
 :::
 
 :::{dropdown} Do speakers get a free ticket?
-We will confirm this when we publish the call for proposals.
+Yes. If your proposal is accepted, your conference ticket is free. However, please note that if you purchase tickets, they are non-refundable, and we gratefully count them as support for the conference.
 :::
 
 :::{dropdown} Can I present remotely or send a pre-recorded talk?
@@ -155,9 +155,9 @@ We are planning an in-person programme, and we will not be able to accommodate r
 Lightning talks do not go through the call for proposals. We will explain how to sign up, and confirm whether there is a lightning talk session, when the [programme](programme) is out.
 :::
 
-% :::{dropdown} Can I present a poster?
-% Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](cfp)!
-% :::
+:::{dropdown} Can I present a poster?
+Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](https://cfp.scipy.in/scipy-india-2026/)! You do not need to submit the final design of your poster, only an abstract. Posters should fit on a standard poster board (ISO A0 size).
+:::
 
 :::{dropdown} Will slides be published?
 Yes, we require that all slides be made available under a permissive license, and we will publish them on our website after the conference. We encourage speakers to share their slides and any accompanying materials to benefit the wider community.

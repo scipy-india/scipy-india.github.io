@@ -22,7 +22,7 @@ If you are unable to attend in person, we will publish recordings of the confere
 
 A ticket to the SciPy India 2026 Conference covers the following:
 
-- Access to all conference talks and workshops (in-person only)
+- Access to all conference talks, workshops, and the poster session (in-person only)
 - Conference materials (programme, schedule, and any digital resources)
 - Networking opportunities with fellow attendees, speakers, and sponsors
 - Meals: lunch and coffee/tea breaks on the workshop and conference days

@@ -70,10 +70,10 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 :gutter: 3
 
 :::{grid-item-card} Call for proposals (CFP)
-:link: cfp
-:link-type: doc
+:link: https://cfp.scipy.in/scipy-india-2026/
+:link-type: url
 
-Opening soon! We will be looking for proposals for workshops and talks on scientific computing, research software, and AI/ML applications with a scientific flavour.
+Now open! We are looking for proposals for workshops, talks, and posters on scientific computing, research software, and AI/ML applications with a scientific flavour. Submissions close on 19th October 2026.
 :::
 
 :::{grid-item-card} Sponsor us
@@ -155,7 +155,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +====================================================+===================+===================+
 | Call for volunteers                                | 08th August, 2026 | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
-| Call for proposals                                 | To be announced   | To be announced   |
+| Call for proposals                                 | 25th August, 2026 | 19th October, 2026|
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
@@ -214,14 +214,13 @@ Please refer to the [venue and travel page](venue) for maps of both buildings, d
 
 ## Call for proposals
 
-We will soon be opening our call for proposals (CFP) for talks and workshops. Please keep an eye on this webpage and our social media for updates!
+Our call for proposals (CFP) for talks, workshops, and posters is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 
-```{button-ref} cfp
-:ref-type: doc
+```{button-link} https://cfp.scipy.in/scipy-india-2026/
 :color: primary
-:outline:
+:class: sci-new-tab
 
-Read more about our call for proposals
+Submit your proposal
 ```
 
 ## Registration
@@ -421,7 +420,6 @@ Thank you for your interest in the SciPy India 2026 Conference! We look forward 
 :maxdepth: 1
 
 programme
-Call for proposals <cfp>
 register
 Venue <venue>
 jobs

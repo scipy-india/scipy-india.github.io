@@ -30,7 +30,7 @@ The areas in which we expect to need assistance are set out below. There is no n
 ## Before the conference
 
 Reviewing proposals
-: Reading submissions as part of our [call for proposals](cfp), and contributing to the decisions that shape the programme. Familiarity with one or some of the tracks is sufficient. We do not require prior experience of reviewing proposals, and we will provide guidance on how to do so.
+: Reading submissions as part of our [call for proposals](https://cfp.scipy.in/scipy-india-2026/), and contributing to the decisions that shape the programme. Familiarity with one or some of the tracks is sufficient. We do not require prior experience of reviewing proposals, and we will provide guidance on how to do so.
 
 Spreading the word
 : Circulating information about the conference, and about the call for proposals, among communities we may not otherwise reach, such as research lab mailing lists, university departments, internal channels at an employer, or local meetups, as part of SciPy India's outreach and communications team. We will provide you with the information to share, and you can help us reach a wider audience.
