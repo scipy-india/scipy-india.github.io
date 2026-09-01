@@ -63,6 +63,18 @@ The conference day will be held at the [IC&SR Building](https://maps.app.goo.gl/
 
 ## How to reach IIT Madras
 
+:::{admonition} Please check your route before you travel
+:class: Important
+
+The directions below are provided on a best-effort basis and may not be completely accurate. Bus numbers, metro services, and journey times change, and we cannot vouch for the veracity of everything below. Please confirm your route with the operator or a maps application outside of this site before you travel and factor in extra time for delays, traffic, and other contingencies.
+
+Parts of this are adapted from:
+
+- [LLL 2026 at IIT Madras](https://ge.iitm.ac.in/lll-2026/how-to-reach)
+- [ICOE 2025 at IIT Madras](https://ge.iitm.ac.in/icoe2025/contact.html)
+
+:::
+
 ::::{grid} 1 1 2 2
 :gutter: 4
 
@@ -78,9 +90,7 @@ The conference day will be held at the [IC&SR Building](https://maps.app.goo.gl/
 
 From Thiruvanmiyur or Adyar, you can take an auto-rickshaw or a local bus to IIT Madras.
 
-**By metro:** Take the Chennai Metro from the airport to Alandur station.
-
-Change to the Blue Line towards Washermanpet and get off at Guindy station.
+**By metro:** Take the Blue Line from the airport towards Wimco Nagar Depot and get off at Guindy.
 
 From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 :::
@@ -97,9 +107,7 @@ From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 
 From Adyar or Guindy, take an auto-rickshaw or a local bus to IIT Madras.
 
-**By metro:** Take the metro from Chennai Central to Anna Nagar East.
-
-Change to the Blue Line at Egmore Metro station towards Washermanpet and get off at Guindy.
+**By metro:** Take the Blue Line from Chennai Central (MGR Central) towards the airport and get off at Guindy.
 
 From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 :::
@@ -116,9 +124,7 @@ From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 
 From Adyar, take an auto-rickshaw or a local bus to IIT Madras.
 
-**By metro:** Walk to Egmore Metro station.
-
-Take the metro towards St. Thomas Mount and get off at Guindy station.
+**By metro:** Take the Green Line from Egmore to Chennai Central (MGR Central). Change to the Blue Line towards the airport and get off at Guindy.
 
 From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 :::
@@ -127,7 +133,16 @@ From Guindy, take a bus (5C, 47A, or 49C) or an auto-rickshaw to IIT Madras.
 
 Bus numbers that frequently stop near IIT Madras include 5C, 21G, 21L, 23C, 47A, and 49C.
 
-Major bus stops near IIT Madras include Adyar, Guindy, and Thiruvanmiyur.
+The stops closest to the campus are CLRI and Adyar Gate, on Sardar Patel Road by the main gate. Adyar, Guindy, and Thiruvanmiyur are the larger interchanges nearby.
+:::
+
+:::{grid-item-card} Arriving by intercity coach
+
+Long-distance coaches arrive at the Chennai Mofussil Bus Terminus (CMBT) in Koyambedu.
+
+**By metro:** Take the Green Line from CMBT to Chennai Central (MGR Central), change to the Blue Line towards the airport, and get off at Guindy.
+
+**By taxi/car:** Simpler if you are carrying luggage!
 :::
 
 ::::
