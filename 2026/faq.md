@@ -174,11 +174,19 @@ The [venue and travel page](venue) has routes by taxi, bus, and metro from the a
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-We are confirming what campus entry involves, including which gate to use, and we will publish it on the [venue and travel page](venue). We will issue a conference badge to all attendees at the registration desk.
+Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Please bring your ID. We will issue conference badges to all attendees at the registration desk, which will be in the foyer of the IC&SR Building. For the workshop day, we will have a registration desk at the Department of Physics. Please wear your badge at all times during the conference and workshops.
+:::
+
+:::{dropdown} How far is the venue from the campus gate?
+It is about 2.4 km from the main gate to Gajendra Circle at the centre of the campus. An internal campus bus runs the route and we would recommend it over walking, though it does fill up, so please allow extra time when you arrive on the workshop and conference days. Please see the [venue and travel page](venue).
+:::
+
+:::{dropdown} Can I drive in and park?
+Yes. Parking at the main gate is free. There is a limited number of spaces, but we expect there to be reasonable room.
 :::
 
 :::{dropdown} Where should I stay?
-We will list options at a range of prices near the campus on the [venue and travel page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed as well. You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
+We will list options at a range of prices near the campus on the [venue and travel page](venue). The guest house rooms on campus are limited, and we expect to need them for speakers and volunteers, so please plan on staying off campus for now. You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
 :::
 
 :::{dropdown} Can you send a letter of invitation for a visa application?
@@ -186,7 +194,7 @@ Yes. Please see the [venue and travel page](venue) for details on how to request
 :::
 
 :::{dropdown} Is the venue accessible?
-We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find on the [venue and travel page](venue). If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
+Yes, the venue is partly accessible. We have confirmed that the workshop building (the Department of Physics) has a ramp, a lift, and an accessible restroom. The conference day building (the IC&SR Building) has a lift, and every session will be in the auditoriums on the ground floor. However, there is no ramp at its entrance, and we are still confirming the accessibility of the restrooms. The [venue and travel page](venue) has the detail for each building, along with a note on the distance across the campus, which is the other thing you should plan for. If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
 :::
 
 :::{dropdown} What is the weather like in December?
