@@ -10,8 +10,12 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
 The two days will be held in different buildings on the campus, which are about 400 metres apart.
 
-% TODO: confirm which gate to send people to and which entrance to use at each
-% building
+% TODO: Still need:
+% - the entrance to use at each building
+% - whether anyone is asked for ID at the gate
+% - HSB is not signposted so we need standees or something to help people find it. Maybe a few volunteers to meet people at the gate and point them in the right direction...
+
+% TODO: chasing the IC&SR accessible restroom stuff. HSB confirmed
 
 ## Workshops on Saturday, 19th December
 
@@ -130,26 +134,64 @@ Major bus stops near IIT Madras include Adyar, Guindy, and Thiruvanmiyur.
 
 ## Getting onto campus
 
-:::{admonition} Details yet to be confirmed
+Please come in through the main gate. The campus is large, and it is about 2.4 km from the gate to Gajendra Circle at the centre of the campus.
+
+An internal campus bus runs through this route and should take you from the main gate to Gajendra Circle, close to the IC&SR Building and roughly 400 metres from the Department of Physics. We recommend taking the bus over walking. While the walk is manageable if you would prefer, it takes long, so please plan accordingly and allow for extra time on the mornings of both days. Note that the bus fills up quickly and you may have to wait to board for the next one.
+
+### Parking
+
+Parking at the main gate is available and free. There is a limited number of spaces, but we expect there to be enough room in the third week of December if you are driving in. Please allow extra time to find a space, and consider carpooling if you are coming with colleagues or friends.
+
+### Registration desk
+
+On the conference day (20th December 2026), the registration desk will be in the foyer at the entrance to the IC&SR Building, where you can collect your conference badge.
+
+On the workshop day (19th December 2026), the registration desk will be at the Department of Physics, where the workshops are held. The conference badge will also be available there for those attending the workshops.
+
+Please wear your badge at all times during the conference and workshops.
+
+### Wi-Fi
+
+We expect guest Wi-Fi to be available to all attendees at the IC&SR Building and will be working towards setting it up. However, we would still recommend carrying a mobile connection as a fallback, particularly if you are presenting or otherwise need to stay connected for the duration of the conference.
+
+### Refreshments and food nearby
+
+There is a Café Coffee Day branch at a very short walk from the IC&SR Building, which is the nearest place to get a coffee or a quick bite between sessions.
+
+:::{admonition} Note on campus access
 :class: note
 
-We will information related to campus entry, including which gate to use, how to find the IC&SR Building once you are inside, and any ID or registration requirements. We will also provide information on parking for those who are driving to the venue.
+We are checking whether you will be asked for ID at the gate. We will publish both here once we have this information, along with a route map for the campus and the timings for the campus bus.
 :::
 
 ## Accessibility information
 
-:::{admonition} To be confirmed
-:class: note
+The distance across the campus is the first thing to plan for. It is about 2.4 km from the main gate to Gajendra Circle, and we cannot guarantee you a seat on the internal bus. If neither the bus nor the walk is workable for you, please write to us at [info@scipy.in](mailto:info@scipy.in) and we will do our best to arrange a drop-off closer to the building with applicable arrangements.
 
-We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find here. If you have a specific accessibility requirement, please write to [info@scipy.in](mailto:info@scipy.in).
-:::
+This is what we have confirmed at each building so far:
+
+### IC&SR Building, for the conference day on Sunday, 20th December 2026
+
+- Step-free access: no, there is no ramp at the entrance.
+- Lift: yes, although both auditoriums are on the ground floor, so you should not need it.
+- Restrooms: segregated by gender. We have asked about an accessible restroom and will update this once we hear back.
+
+### HSB, for the workshops on Saturday, 19th December 2026
+
+- Step-free access: yes, there is a ramp.
+- Lift: yes.
+- Restrooms: segregated by gender, and there is an accessible restroom.
+
+We have not yet confirmed what is available by way of child care, and we will publish that here once we have this information.
+
+If you have a specific accessibility requirement, please write to [info@scipy.in](mailto:info@scipy.in) ahead of time so that we can make arrangements for you.
 
 ## Accommodation
 
 :::{admonition} Recommendations coming soon
 :class: note
 
-We will list options at several price points near campus, in Adyar, Guindy, and Velachery, along with anything we can arrange as a block booking.
+We will list options at several price points near campus, in Adyar, Guindy, and Velachery. The availability of guest house rooms on campus is limited. Please plan on staying off campus at this time and book early if you are coming from outside Chennai.
 :::
 
 % TODO: finalise Taramani and Bose-Einstein guest house availability for attendees
