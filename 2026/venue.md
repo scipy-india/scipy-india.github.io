@@ -191,7 +191,7 @@ This is what we have confirmed at each building so far:
 - Lift: yes, although both auditoriums are on the ground floor, so you should not need it.
 - Restrooms: segregated by gender. We have asked about an accessible restroom and will update this once we hear back.
 
-### HSB, for the workshops on Saturday, 19th December 2026
+### Department of Physics, for the workshops on Saturday, 19th December 2026
 
 - Step-free access: yes, there is a ramp.
 - Lift: yes.
