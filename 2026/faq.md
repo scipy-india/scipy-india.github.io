@@ -60,7 +60,7 @@ For the workshop day, yes, and it is close to essential. For the conference day,
 :::
 
 :::{dropdown} Will there be Wi-Fi?
-We expect to have Wi-Fi at the venue. We recommend having a mobile connection as a fallback, particularly if you are presenting or following along in a workshop.
+Yes, we are expecting to have, and will be working towards, guest Wi-Fi for attendees at the IC&SR Building on the conference day, and we will confirm it here once it is arranged. We recommend having a mobile connection as a fallback, particularly if you are presenting or following along in a workshop, or if you are relying on cloud-based tools or resources as part of your participation at the conference.
 :::
 
 :::{dropdown} Will I get a certificate of participation?
