@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Jobs board for the SciPy India 2026 conference"
+    "description": "Jobs board for the SciPy India 2026 Conference"
 ---
 
 # Jobs

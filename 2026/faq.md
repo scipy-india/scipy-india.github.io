@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "Frequently asked questions about the SciPy India 2026 conference"
+    "description": "Frequently asked questions about the SciPy India 2026 Conference"
 ---
 
 # Frequently Asked Questions
@@ -60,7 +60,7 @@ For the workshop day, yes, and it is close to essential. For the conference day,
 :::
 
 :::{dropdown} Will there be Wi-Fi?
-We expect to have Wi-Fi at the venue. We recommend having a mobile connection as a fallback, particularly if you are presenting or following along in a workshop.
+Yes, we are expecting to have, and will be working towards, guest Wi-Fi for attendees at the IC&SR Building on the conference day, and we will confirm it here once it is arranged. We recommend having a mobile connection as a fallback, particularly if you are presenting or following along in a workshop, or if you are relying on cloud-based tools or resources as part of your participation at the conference.
 :::
 
 :::{dropdown} Will I get a certificate of participation?
@@ -127,8 +127,8 @@ Yes, and we will publish them on our YouTube channel after the conference. If yo
 
 ## Speaking
 
-:::{dropdown} When is the call for proposals opening?
-The dates are on the ["Important dates" table](index), and we will announce the opening on the [news page](news/index). The [call for proposals](cfp) will open with more information.
+:::{dropdown} When does the call for proposals close?
+The [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 :::
 
 :::{dropdown} Can I submit if I have not spoken at a conference before?
@@ -136,7 +136,7 @@ Yes, we love first-time speakers! We will work with you to solidify your proposa
 :::
 
 :::{dropdown} How long is a talk or a workshop?
-The length of a talk will be 30 minutes, including time for questions. Workshops will be 3 hours long, with a short break in the middle. We will provide more details on the [call for proposals](cfp) page.
+The length of a talk will be 30 minutes, including time for questions. Workshops will be 3 hours long, with a short break in the middle. Posters do not have a set duration, and will be presented during a dedicated poster session on the conference day. We will provide more details on the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) page.
 :::
 
 :::{dropdown} Can I submit more than one proposal, or co-present?
@@ -144,7 +144,7 @@ Yes to both. Please submit each proposal separately, and name every presenter on
 :::
 
 :::{dropdown} Do speakers get a free ticket?
-We will confirm this when we publish the call for proposals.
+Yes. If your proposal is accepted, your conference ticket is free. However, please note that if you purchase tickets, they are non-refundable, and we gratefully count them as support for the conference.
 :::
 
 :::{dropdown} Can I present remotely or send a pre-recorded talk?
@@ -155,9 +155,9 @@ We are planning an in-person programme, and we will not be able to accommodate r
 Lightning talks do not go through the call for proposals. We will explain how to sign up, and confirm whether there is a lightning talk session, when the [programme](programme) is out.
 :::
 
-% :::{dropdown} Can I present a poster?
-% Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](cfp)!
-% :::
+:::{dropdown} Can I present a poster?
+Yes. There will be a poster session on the conference day. Please submit through the [call for proposals](https://cfp.scipy.in/scipy-india-2026/)! You do not need to submit the final design of your poster, only an abstract. Posters should fit on a standard poster board (ISO A0 size).
+:::
 
 :::{dropdown} Will slides be published?
 Yes, we require that all slides be made available under a permissive license, and we will publish them on our website after the conference. We encourage speakers to share their slides and any accompanying materials to benefit the wider community.
@@ -174,11 +174,19 @@ The [venue and travel page](venue) has routes by taxi, bus, and metro from the a
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-We are confirming what campus entry involves, including which gate to use, and we will publish it on the [venue and travel page](venue). We will issue a conference badge to all attendees at the registration desk.
+Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Please bring your ID. We will issue conference badges to all attendees at the registration desk, which will be in the foyer of the IC&SR Building. For the workshop day, we will have a registration desk at the Department of Physics. Please wear your badge at all times during the conference and workshops.
+:::
+
+:::{dropdown} How far is the venue from the campus gate?
+It is about 2.4 km from the main gate to Gajendra Circle at the centre of the campus. An internal campus bus runs the route and we would recommend it over walking, though it does fill up, so please allow extra time when you arrive on the workshop and conference days. Please see the [venue and travel page](venue).
+:::
+
+:::{dropdown} Can I drive in and park?
+Yes. Parking at the main gate is free. There is a limited number of spaces, but we expect there to be reasonable room.
 :::
 
 :::{dropdown} Where should I stay?
-We will list options at a range of prices near the campus on the [venue and travel page](venue). As we get closer to the conference, we will also try to arrange a block booking at a guest house on campus or a nearby hotel. Any nearby hotels worth considering will be listed as well. You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
+We will list options at a range of prices near the campus on the [venue and travel page](venue). The guest house rooms on campus are limited, and we expect to need them for speakers and volunteers, so please plan on staying off campus for now. You are welcome to make your own arrangements, but please book early if you are coming from outside Chennai.
 :::
 
 :::{dropdown} Can you send a letter of invitation for a visa application?
@@ -186,7 +194,7 @@ Yes. Please see the [venue and travel page](venue) for details on how to request
 :::
 
 :::{dropdown} Is the venue accessible?
-We are in the process of checking step-free access, lifts, accessible restrooms, and child care at the venue and we will publish what we find on the [venue and travel page](venue). If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
+Yes, the venue is partly accessible. We have confirmed that the workshop building (the Department of Physics) has a ramp, a lift, and an accessible restroom. The conference day building (the IC&SR Building) has a lift, and every session will be in the auditoriums on the ground floor. However, there is no ramp at its entrance, and we are still confirming the accessibility of the restrooms. The [venue and travel page](venue) has the detail for each building, along with a note on the distance across the campus, which is the other thing you should plan for. If you have a specific accessibility requirement, please write to us pre-emptively at [info@scipy.in](mailto:info@scipy.in) so that we can make arrangements to accommodate your needs.
 :::
 
 :::{dropdown} What is the weather like in December?
@@ -196,15 +204,15 @@ Warm and humid, with mild evenings and the occasional passing shower! Please see
 ## Sponsorship and volunteering
 
 :::{dropdown} How does my company sponsor?
-Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss sponsorship options and how your company can support the conference. We will provide details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We welcome sponsors from various industries who share our commitment to scientific computing and data science.
+Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We are happy to discuss sponsorship options and how your company can support the conference. We will provide details on sponsorship packages, benefits, and opportunities for visibility and engagement with the conference attendees. We welcome sponsors from various industries who share our commitment to scientific computing and data science.
 :::
 
 :::{dropdown} Can I sponsor as an individual?
-Yes. Please write to [info@scipy.in](mailto:info@scipy.in). We are happy to discuss how you can support the conference as an individual.
+Yes. Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We are happy to discuss how you can support the conference as an individual.
 :::
 
 :::{dropdown} Can I volunteer for the conference?
-Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. We plan to open a volunteer form soon, and we will announce it on our [news page](news/index) and on our social media channels. Please keep an eye out for updates. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team! For more information on volunteering, please refer to our [volunteer page](volunteer).
+Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. Please visit our [volunteer page](volunteer) page for more information. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team!
 :::
 
 :::{dropdown} How can I help spread the word?

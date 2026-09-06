@@ -133,7 +133,7 @@ html_theme_options = {
         "alt_text": "SciPy India logo",
     },
     "announcement": (
-        "<b>The SciPy India 2026 conference</b> will be held on 19th–20th December, 2026 at the Indian Institute of Technology, Madras, in Chennai, India! <a href='/2026/'>Visit the conference website</a>"
+        "<b>The SciPy India 2026 Conference</b> will be held on 19th–20th December, 2026 at the Indian Institute of Technology, Madras, in Chennai, India! <a href='/2026/'>Visit the conference website</a>"
     ),
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],

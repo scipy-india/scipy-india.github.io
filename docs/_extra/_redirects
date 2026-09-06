@@ -32,6 +32,12 @@
 # Rust Delhi x SciPy India meetup for August 2026
 /sci-py-rs https://sci-py-rs.scipy.in 301
 
+# The 2026 call for proposals page moved from this site to pretalx
+
+/2026/cfp https://cfp.scipy.in/scipy-india-2026/cfp 301
+/2026/cfp/ https://cfp.scipy.in/scipy-india-2026/cfp 301
+/2026/cfp.html https://cfp.scipy.in/scipy-india-2026/cfp 301
+
 # To keep old links for per-event pages under events/YYYY working which are now on events/index.html directly
 
 /events/2025/2025-07-26-virtual-meetup-1.html /events/#scipy-india-virtual-meetup-1 301

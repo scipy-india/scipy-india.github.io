@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SciPy India//2026 Conference//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:scipy-india-2026@scipy.in
+DTSTAMP:20260807T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261221
+SUMMARY:SciPy India 2026
+DESCRIPTION:An international scientific computing and open source software conference. Workshops on Saturday 19 December\, main conference day on Sunday 20 December.
+LOCATION:IIT Madras\, Chennai 600036\, India
+URL:https://scipy.in/2026/
+END:VEVENT
+END:VCALENDAR

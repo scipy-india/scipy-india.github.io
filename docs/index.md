@@ -15,10 +15,10 @@ Discover events, read community updates, and stay connected with the scientific 
 ::::{grid} 1
 :gutter: 3
 
-:::{grid-item-card} SciPy India 2026 conference
+:::{grid-item-card} SciPy India 2026 Conference
 :link: /2026/
 
-We are elated to announce our plans for the next edition of the SciPy India 2026 conference. Click this card to learn more about the conference, the call for proposals, and registrations!
+We are elated to announce our plans for the next edition of the SciPy India 2026 Conference. Click this card to learn more about the conference, the call for proposals, and registrations!
 
 <hr>
 

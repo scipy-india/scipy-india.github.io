@@ -1,7 +1,7 @@
 ---
 myst:
   html_meta:
-    "description": "The SciPy India 2026 conference home page"
+    "description": "An international scientific computing and open source software conference, on 19th-20th December 2026 at the Indian Institute of Technology Madras, Chennai, India."
 ---
 
 # SciPy India 2026
@@ -38,6 +38,18 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 ```{raw} html
 <div class="sci-countdown">
   <div id="flipdown" class="flipdown"></div>
+  <details class="sci-add-to-calendar">
+    <summary>+ Add to calendar</summary>
+    <div class="sci-add-to-calendar-menu">
+      <a
+        href="https://www.google.com/calendar/render?action=TEMPLATE&text=SciPy+India+2026&dates=20261219/20261221&details=An+international+scientific+computing+and+open+source+software+conference.+Workshops+on+Saturday+19+December%2C+main+conference+day+on+Sunday+20+December.&location=IIT+Madras%2C+Chennai+600036%2C+India"
+        target="_blank"
+        rel="noopener"
+        >Google Calendar</a
+      >
+      <a href="_static/scipy-india-2026.ics" download>Apple / Outlook (.ics)</a>
+    </div>
+  </details>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -52,16 +64,23 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
 ## Welcome
 
-We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 conference".
+We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 Conference".
 
 ::::{grid} 1 1 2 2
 :gutter: 3
 
 :::{grid-item-card} Call for proposals (CFP)
-:link: cfp
+:link: https://cfp.scipy.in/scipy-india-2026/
+:link-type: url
+
+Now open! We are looking for proposals for workshops, talks, and posters on scientific computing, research software, and AI/ML applications with a scientific flavour. Submissions close on 19th October 2026.
+:::
+
+:::{grid-item-card} Sponsor us
+:link: sponsor
 :link-type: doc
 
-Open! We're looking for proposals for workshops and talks on scientific computing, research software, and AI/ML applications with a scientific flavour.
+Read about our sponsorship tiers and options, the audience you would reach, and how you can support the conference.
 :::
 
 :::{grid-item-card} Registrations
@@ -75,7 +94,7 @@ Opening soon!
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 conference will be be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English.
+The SciPy India 2026 Conference will be be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English.
 
 :::
 
@@ -84,7 +103,6 @@ The SciPy India 2026 conference will be be hosted across two days. The first day
 :link-type: doc
 
 Visit this page for information on how to reach the venue, accommodation options, travel guidance, and visa requirements for international attendees.
-:::
 
 ::::
 
@@ -94,7 +112,7 @@ We expect to form the final [programme](programme) in October 2026. We will publ
 
 ## Who is this conference for?
 
-The SciPy India 2026 conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
+The SciPy India 2026 Conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
 
 - **Researchers and scientists** in academia, industry, and government laboratories;
 - **Educators and faculty** involved in teaching and mentoring the practice of computational work and free and open source software (FOSS) in science and engineering;
@@ -114,15 +132,30 @@ We are committed to providing a safe and welcoming environment for all attendees
 
 ## Important dates
 
+```{raw} html
+<details class="sci-add-to-calendar">
+  <summary>+ Add to calendar</summary>
+  <div class="sci-add-to-calendar-menu">
+    <a
+      href="https://www.google.com/calendar/render?action=TEMPLATE&text=SciPy+India+2026&dates=20261219/20261221&details=An+international+scientific+computing+and+open+source+software+conference.+Workshops+on+Saturday+19+December%2C+main+conference+day+on+Sunday+20+December.&location=IIT+Madras%2C+Chennai+600036%2C+India"
+      target="_blank"
+      rel="noopener"
+      >Google Calendar</a
+    >
+    <a href="_static/scipy-india-2026.ics" download>Apple / Outlook (.ics)</a>
+  </div>
+</details>
+```
+
 % TODO finalise these dates
 
 ```{eval-rst}
 +----------------------------------------------------+-------------------+-------------------+
 | What                                               | Opens             | Closes            |
 +====================================================+===================+===================+
-| Call for volunteers                                | To be announced   | To be announced   |
+| Call for volunteers                                | 08th August, 2026 | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
-| Call for proposals                                 | 06th August, 2026 | To be announced   |
+| Call for proposals                                 | 25th August, 2026 | 19th October, 2026|
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | To be announced   | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
@@ -171,67 +204,23 @@ To be announced
 
 ## Venue
 
-The SciPy India 2026 conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
+The SciPy India 2026 Conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
 
 The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan and A.M.M. Arunachalam auditoriums at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
 
 The campus is about 15 kilometres from the Chennai International Airport (MAA), 13 kilometres from the Chennai Central Railway Station, and 10 kilometres from the Chennai Egmore Railway Station.
 
-Please refer to the [venue and travel page](venue) for detailed information on directions, notes on accommodation, and general travel guidance.
-
-% The photo and the map sit in one row of two equal cells. Both cells are 4:3,
-% which is the photo's own ratio and also Google's default 600x450 embed, so the
-% photo fills its cell with no cropping and no stretching. See .sci-venue-media
-% in \_static/custom.css. The photo carries the theme's dark-light class to opt
-% out of the brightness filter the theme puts on images in dark mode.
-%
-% Source: https://ge.iitm.ac.in/oedai-2024/icsr.png. The /\_next/image?url=... form
-% of that URL returns 400 without Next's w and q parameters, so it is not
-% hotlinked. Re-encode with:
-%
-% magick icsr.png -resize 1400x -strip -interlace Plane \
-% -sampling-factor 4:2:0 -quality 82 \_static/venue/icsr.jpg
-%
-% 1400px is twice the widest the image is ever displayed, which covers retina.
-% Keep the result under 500 KB or pre-commit's check-added-large-files rejects it.
-
-```{raw} html
-<div class="sci-venue-media">
-  <img
-    src="_static/venue/icsr.jpg"
-    class="dark-light"
-    alt="The entrance to the Office of Industrial Consultancy and Sponsored Research at IIT Madras"
-    loading="lazy" />
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724988089748!2d80.22952707620642!3d12.991701387325474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526780281bed21%3A0xd860742c9f32f3f4!2sCentre%20for%20Industrial%20Consultancy%20and%20Sponsored%20Research!5e0!3m2!1sen!2sin!4v1785406100996!5m2!1sen!2sin"
-    width="600"
-    height="450"
-    title="Map of the IC&amp;SR Building at IIT Madras, Chennai"
-    allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="strict-origin-when-cross-origin">
-  </iframe>
-</div>
-```
-
-```{button-link} https://maps.app.goo.gl/ND5Bg5HP9Waayoc88
-:color: primary
-:outline:
-:class: sci-new-tab
-
-{octicon}`link-external` Open in Google Maps
-```
+Please refer to the [venue and travel page](venue) for maps of both buildings, directions, notes on accommodation, and general travel guidance.
 
 ## Call for proposals
 
-We will soon be opening our call for proposals (CFP) for talks and workshops. Please keep an eye on this webpage and our social media for updates!
+Our call for proposals (CFP) for talks, workshops, and posters is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 
-```{button-ref} cfp
-:ref-type: doc
+```{button-link} https://cfp.scipy.in/scipy-india-2026/
 :color: primary
-:outline:
+:class: sci-new-tab
 
-Read more about our call for proposals
+Submit your proposal
 ```
 
 ## Registration
@@ -266,7 +255,27 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 
 ### Sponsors
 
-To be announced. We will be opening a call for sponsors soon, and we will be looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [info@scipy.in](mailto:info@scipy.in).
+We are looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
+
+:::{div} sci-hero-buttons
+
+```{button-link} _static/scipy-india-2026-sponsorship-prospectus.pdf
+:color: primary
+:shadow:
+:class: sci-new-tab sci-btn-icon-end
+
+Download our sponsorship prospectus (PDF) {octicon}`download`
+```
+
+```{button-ref} sponsor
+:ref-type: doc
+:color: secondary
+:outline:
+
+Read about our sponsorship tiers
+```
+
+:::
 
 ::::{grid} 1 3 3 3
 :gutter: 3
@@ -318,7 +327,7 @@ To be announced. We will be opening a call for sponsors soon, and we will be loo
 :target: https://fossunited.org
 ```
 
-[The FOSS United Foundation](https://fossunited.org), for providing their open source software platform to manage our call for proposals (CFP).
+We are incubated and supported by [the FOSS United Foundation](https://fossunited.org), a Section 8 non-profit organisation  that aims to promote and strengthen the free and open source software (FOSS) ecosystem in India.
 :::
 
 :::{grid-item-card}
@@ -332,6 +341,39 @@ To be announced. We will be opening a call for sponsors soon, and we will be loo
 ```
 
 SciPy India is an [official community partner](https://www.python.org/psf/community-partners/) of the Python Software Foundation.
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/rseaa.png
+:alt: RSE Asia Association
+:class: partner-logo sci-supporter-logo
+:target: https://rseaa.org
+```
+
+The RSE Asia Association supports research software engineers across Asia. Do check out [RSAA26](https://rseaa.org), their Research Software Asia Australia Conference, held online from 25 to 28 August 2026 with the RSE Association of Australia and New Zealand!
+:::
+
+::::
+
+### Tooling sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/pretalx.svg
+:alt: pretalx
+:class: partner-logo sci-supporter-logo
+:target: https://pretalx.com
+```
+
+[pretalx](https://pretalx.com) is a tooling sponsor of the conference, supporting us with their open source conference management software.
 :::
 
 ::::
@@ -367,9 +409,9 @@ If you would like to receive updates about the conference, please watch this spa
 - [Mastodon](https://fosstodon.org/@scipyindia)
 - [LinkedIn](https://www.linkedin.com/company/scipyindia)
 
-- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in)
+- You may also reach out to us via email at [info@scipy.in](mailto:info@scipy.in). For sponsorship inquiries, please contact [sponsor@scipy.in](mailto:sponsor@scipy.in).
 
-Thank you for your interest in the SciPy India 2026 conference! We look forward to seeing you in December!
+Thank you for your interest in the SciPy India 2026 Conference! We look forward to seeing you in December!
 
 % Mostly just to make warnings go away:
 
@@ -378,7 +420,6 @@ Thank you for your interest in the SciPy India 2026 conference! We look forward 
 :maxdepth: 1
 
 programme
-Call for proposals <cfp>
 register
 Venue <venue>
 jobs
