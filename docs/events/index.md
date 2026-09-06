@@ -51,31 +51,35 @@ Talks from the conference day will be recorded and made available on the SciPy I
 
 ::::
 
+---
+
+## Past events
+
 ### SciPy India × Rust Delhi Meetup
 
 📅 22 Aug 2026, 2:00 PM – 5:00 PM IST • 📍 Essentia.dev, Third Floor, C56/A28, C Block, Phase 2, Sector 62, Noida
 
-A collaborative meetup with [Rust Delhi](https://rustdelhi.in/) on Scientific Computing in Rust and Python (sponsored by the [Rust Foundation](https://rustfoundation.org/)). We're bringing together researchers, scientists, and developers for deep technical sessions on real-world scientific computing problems.
-
-Registration and the CFP are open.
+A collaborative meetup with [Rust Delhi](https://rustdelhi.in/) on Scientific Computing in Rust and Python (sponsored by the [Rust Foundation](https://rustfoundation.org/)). We brought together researchers, scientists, and developers for deep technical sessions on real-world scientific computing problems.
 
 ::::{div} sci-collab-event-hero
 
 ```{image} ../_static/events/scipy-india-rust-delhi-meetup.png
-:alt: SciPy India × Rust Delhi Meetup – Scientific Computing in Rust and Python, sponsored by the Rust Foundation. Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida. RSVPs and CFPs open.
+:alt: SciPy India × Rust Delhi Meetup – Scientific Computing in Rust and Python, sponsored by the Rust Foundation. Saturday 22 August, 2:00–5:00 PM, Essentia.dev, Sector 62, Noida.
 :align: center
 :class: event-flyer
 ```
 
 :::{div} sci-collab-event-actions
-[Submit a proposal or RSVP](https://scipy.in/sci-py-rs/)
+<span class="sci-collab-event-actions-disabled" aria-disabled="true">Submissions and RSVPs closed</span>
 :::
 
 ::::
 
----
+```{admonition} Event recap coming soon
+:class: note
 
-## Past events
+The blog post for this event is on its way. Check back here soon for the full recap.
+```
 
 ### BangPypers × SciPy India Meetup
 
