@@ -326,3 +326,38 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
   justify-content: center;
   text-align: left;
 }
+
+/* Past sponsors logo wall */
+.sci-logo-wall .sd-card {
+  height: 100%;
+}
+
+.bd-content .sci-logo-wall .sd-card .sd-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem;
+}
+
+.bd-content .sci-logo-wall a:has(> img.sci-past-logo) {
+  display: block;
+  width: 100%;
+}
+
+.bd-content .sci-logo-wall img.sci-past-logo {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 104px;
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+  background-color: #fff;
+  object-fit: contain;
+}
+
+.bd-content .sci-logo-wall .sd-card-body p {
+  margin: 0;
+}

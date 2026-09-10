@@ -65,19 +65,180 @@ Our proceeds will go into the following areas:
 
 Previous editions of the conference have been supported by a wide range of organisations and institutions, both financially and in-kind. These include the following:
 
-- [The Computer Society of India (CSI)](https://csiindia.org/)
-- [Enthought Inc.](https://www.enthought.com/)
-- [FOSSEE](https://fossee.in/)
-- [ICFOSS, the International Centre for Free and Open Source Software, a Government of Kerala initiative](https://icfoss.in/)
-- [Indian Institute of Technology Bombay](https://www.iitb.ac.in/)
-- [Indian School of Business, Hyderabad](https://isb.edu/)
-- [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/)
-- [J.P. Morgan](https://www.jpmorgan.com/)
-- [Kerala State IT Mission](https://itmission.kerala.gov.in/)
-- [Ministry of Education, Government of India](https://www.education.gov.in/)
-- [The Python Software Foundation](https://www.python.org/psf/)
-- [SPACE, the Society for Promotion of Alternative Computing and Employment, Kerala](https://www.space-kerala.org/)
-- [Tech Mahindra](https://www.techmahindra.com/)
+::::{grid} 1 2 3 4
+:gutter: 3
+:class-container: sci-logo-wall
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/csi.jpg
+:alt: The Computer Society of India (CSI)
+:class: partner-logo sci-past-logo
+:target: https://csiindia.org/
+```
+
+[Computer Society of India](https://csiindia.org/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/enthought.png
+:alt: Enthought Inc.
+:class: partner-logo sci-past-logo
+:target: https://www.enthought.com/
+```
+
+[Enthought](https://www.enthought.com/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/fossee.svg
+:alt: FOSSEE
+:class: partner-logo sci-past-logo
+:target: https://fossee.in/
+```
+
+[FOSSEE](https://fossee.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/icfoss.svg
+:alt: ICFOSS, the International Centre for Free and Open Source Software, a Government of Kerala initiative
+:class: partner-logo sci-past-logo
+:target: https://icfoss.in/
+```
+
+[ICFOSS](https://icfoss.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/iit-bombay.webp
+:alt: Indian Institute of Technology Bombay
+:class: partner-logo sci-past-logo
+:target: https://www.iitb.ac.in/
+```
+
+[IIT Bombay](https://www.iitb.ac.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/isb.svg
+:alt: Indian School of Business, Hyderabad
+:class: partner-logo sci-past-logo
+:target: https://isb.edu/
+```
+
+[ISB Hyderabad](https://isb.edu/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/iiit-hyderabad.jpg
+:alt: International Institute of Information Technology, Hyderabad
+:class: partner-logo sci-past-logo
+:target: https://www.iiit.ac.in/
+```
+
+[IIIT Hyderabad](https://www.iiit.ac.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/jpmorgan.svg
+:alt: J.P. Morgan
+:class: partner-logo sci-past-logo
+:target: https://www.jpmorgan.com/
+```
+
+[J.P. Morgan](https://www.jpmorgan.com/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/kerala-state-it-mission.png
+:alt: Kerala State IT Mission
+:class: partner-logo sci-past-logo
+:target: https://itmission.kerala.gov.in/
+```
+
+[Kerala State IT Mission](https://itmission.kerala.gov.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/ministry-of-education.svg
+:alt: Ministry of Education, Government of India
+:class: partner-logo sci-past-logo
+:target: https://www.education.gov.in/
+```
+
+[Ministry of Education](https://www.education.gov.in/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/psf.svg
+:alt: The Python Software Foundation
+:class: partner-logo sci-past-logo
+:target: https://www.python.org/psf/
+```
+
+[Python Software Foundation](https://www.python.org/psf/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/space.png
+:alt: SPACE, the Society for Promotion of Alternative Computing and Employment, Kerala
+:class: partner-logo sci-past-logo
+:target: https://www.space-kerala.org/
+```
+
+[SPACE Kerala](https://www.space-kerala.org/)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/sponsors/tech-mahindra.png
+:alt: Tech Mahindra
+:class: partner-logo sci-past-logo
+:target: https://www.techmahindra.com/
+```
+
+[Tech Mahindra](https://www.techmahindra.com/)
+:::
+
+::::
 
 ## Attendee outlook
 
