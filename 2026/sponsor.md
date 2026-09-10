@@ -109,25 +109,25 @@ Previous editions of the conference have been supported by a wide range of organ
 % TODO: keep the "slots available" row current as sponsors sign. It is the one row on
 % this page that goes stale, and a stale one is worse than none.
 
-| What you get                           | Title (exclusive!)        | Gold                      | Silver                |
-| -------------------------------------- | ------------------------- | ------------------------- | --------------------- |
-| Amount                                 | ₹2,50,000 / €2500 / $2750 | ₹1,00,000 / €1000 / $1100 | ₹50,000 / €500 / $550 |
-| Slots available                        | 1                         | 3                         | 5                     |
-| Free tickets                           | 10                        | 5                         | 2                     |
-| Logo on this website                   | ✓                         | ✓                         | ✓                     |
-| Logo in the programme                  | Large                     | Medium                    | Small                 |
-| Logo on screen between sessions        | A screen of your own      | ✓                         | ✗                     |
-| A short video between sessions         | Up to 30 seconds          | ✗                         | ✗                     |
-| Logo on the talk recordings            | ✓                         | ✓                         | ✗                     |
-| A stall or table                       | Conference day            | Conference day            | ✗                     |
-| Something of yours in the attendee bag | ✓                         | ✓                         | ✗                     |
-| Job postings shared on our channels    | ✓                         | ✓                         | ✗                     |
+| What you get                           | Title (exclusive!)                              | Gold                                            | Silver                                      |
+| -------------------------------------- | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
+| Amount                                 | ₹2,50,000 / €2500 / $2750 (plus applicable GST) | ₹1,00,000 / €1000 / $1100 (plus applicable GST) | ₹50,000 / €500 / $550 (plus applicable GST) |
+| Slots available                        | 1                                               | 3                                               | 5                                           |
+| Free tickets                           | 10                                              | 5                                               | 2                                           |
+| Logo on this website                   | ✓                                               | ✓                                               | ✓                                           |
+| Logo in the programme                  | Large                                           | Medium                                          | Small                                       |
+| Logo on screen between sessions        | A screen of your own                            | ✓                                               | ✗                                           |
+| A short video between sessions         | Up to 30 seconds                                | ✗                                               | ✗                                           |
+| Logo on the talk recordings            | ✓                                               | ✓                                               | ✗                                           |
+| A stall or table                       | Conference day                                  | Conference day                                  | ✗                                           |
+| Something of yours in the attendee bag | ✓                                               | ✓                                               | ✗                                           |
+| Job postings shared on our channels    | ✓                                               | ✓                                               | ✗                                           |
 
 % | Logo on the conference T-shirt | ✓ | ✗ | ✗ |
 
-We name every sponsor in the closing remarks and thank you afterwards on our channels, whatever the tier.
+We name every sponsor in the closing remarks and thank you afterwards on our channels on all tiers.
 
-**Startup and small business discount.** Startups and small businesses are eligible for a 50% reduction on the Gold and Silver tiers. You qualify if your organisation is under five years old and has fewer than twenty-five employees. Please tell us when you contact us! If you are just outside those limits and the full amount is out of reach, write to us anyway and we will see what we can arrange.
+**Startup and small business discount:** Startups and small businesses are eligible for a 50% reduction on the Gold and Silver tiers. You qualify if your organisation is under five years old and has fewer than twenty-five employees. Please tell us when you contact us! If you are just outside those limits and the full amount is out of reach, write to us anyway and we will see what we can arrange.
 
 Don't see a tier that fits your needs? Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in) to discuss your requirements and how we can accommodate them.
 
