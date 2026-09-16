@@ -361,3 +361,11 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
 .bd-content .sci-logo-wall .sd-card-body p {
   margin: 0;
 }
+
+.bd-content iframe.sci-pdf-viewer {
+  display: block;
+  width: 100%;
+  height: min(80vh, 60rem);
+  border: 0;
+  border-radius: 0.25rem;
+}

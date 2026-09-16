@@ -20,6 +20,33 @@ Download our sponsorship prospectus (PDF) {octicon}`download`
 
 :::
 
+:::{dropdown} Preview the sponsorship prospectus in your browser
+:icon: book
+
+```{raw} html
+<iframe
+  id="sci-prospectus-viewer"
+  class="sci-pdf-viewer"
+  data-src="_static/scipy-india-2026-sponsorship-prospectus.pdf"
+  title="SciPy India 2026 sponsorship prospectus"></iframe>
+<script>
+  // Defer the 3.6 MB fetch until someone actually opens the dropdown
+  (() => {
+    const frame = document.getElementById("sci-prospectus-viewer");
+    const details = frame.closest("details");
+    const load = () => {
+      if (details.open && !frame.src) {
+        frame.src = frame.dataset.src;
+      }
+    };
+    details.addEventListener("toggle", load);
+    load();
+  })();
+</script>
+```
+
+:::
+
 Our proceeds will go into the following areas:
 
 - The venue cost, the audio-visual setup, and recording the talks
