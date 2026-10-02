@@ -97,6 +97,6 @@ Join the programme committee and volunteer towards making the SciPy India 2026 C
 %
 % There are many ways to contribute, and we welcome volunteers with a range of skills and experience. You do not need to be an expert in Python or scientific computing to join the programme committee. We value diversity and inclusivity, and we encourage people from all backgrounds to apply.
 %
-% If you are interested in joining the programme committee, please fill out the [volunteer form](https://forms.gle/7g1Z5y6z5z5z5z5z5) and we will get in touch with you. We look forward to working with you to make the SciPy India 2026 Conference a success!
+% If you are interested in joining the programme committee, please fill out the [volunteer form](https://form.jotform.com/262181979068066) and we will get in touch with you. We look forward to working with you to make the SciPy India 2026 Conference a success!
 %
 % If you have any questions or would like more information about the programme committee, please contact us at [info@scipy.in](mailto:info@scipy.in), and we would be happy to hear from you.

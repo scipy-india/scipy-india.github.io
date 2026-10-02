@@ -22,7 +22,7 @@ Nope! The conference is open to anyone, whether in academia, industry, or indepe
 
 :::{dropdown} Can I attend just one day of the conference?
 
-Yes. We plan to sell a single-day ticket for the workshop day on Saturday, a ticket for the conference day on Sunday, and a combined ticket for both days. See [registration](register).
+Yes. We sell a single-day ticket for the workshop day on Saturday, a ticket for the conference day on Sunday, and a combined ticket for both days. See [registration](register).
 :::
 
 :::{dropdown} When does the registration open?
@@ -47,7 +47,7 @@ Yes. We plan to provide lunch and light refreshments, including tea/coffee on bo
 
 :::{dropdown} Can you cater for my dietary requirements?
 
-We plan to ask about this on the registration form. Please let us know if you have any dietary restrictions or preferences, and we will do our best to accommodate them. We cannot guarantee that we can meet all dietary requirements, but we will make every effort to provide suitable options for attendees with specific needs.
+We are not collecting dietary requirements yet, and the registration form does not ask about them. We will ask closer to the conference and post on our [news page](news/index) when we do. We will do our best to accommodate dietary restrictions and preferences. We cannot guarantee that we can meet all dietary requirements, but we will make every effort to provide suitable options for attendees with specific needs.
 :::
 
 :::{dropdown} Is there a dress code?
@@ -64,13 +64,13 @@ Yes, we are expecting to have, and will be working towards, guest Wi-Fi for atte
 :::
 
 :::{dropdown} Will I get a certificate of participation?
-We will confirm this before registration opens. If you need one for your institution, please inform us at [info@scipy.in](mailto:info@scipy.in) so that we can consider it in our planning and accommodate your request.
+We are still working this out and will update this answer once it is decided. If you need one for your institution, please inform us at [info@scipy.in](mailto:info@scipy.in) so that we can consider it in our planning and accommodate your request.
 :::
 
 ## Tickets
 
 :::{dropdown} How much is a ticket?
-Early bird tickets start at ₹699 for a single day and ₹1,199 for both days. The full price table, including student, corporate, and contributor tickets, is on the [registration page](register). GST and platform fees are added at checkout. We are keeping prices low to make the conference accessible, so please book early to get the early bird price.
+Early bird tickets start at ₹699 for a single day and ₹1,199 for both days. The full price table, including student, corporate, and contributor tickets, is on the [registration page](register). GST and platform fees are added at checkout. Early bird prices are available until 19th October 2026. We are keeping prices low to make the conference accessible, so please book early to get the early bird price.
 :::
 
 :::{dropdown} What does a ticket cover?
@@ -212,7 +212,7 @@ Yes. Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We are happy t
 :::
 
 :::{dropdown} Can I volunteer for the conference?
-Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. Please visit our [volunteer page](volunteer) page for more information. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team!
+Yes! We are looking for volunteers to join the programme committee and help with various aspects of the conference. Please fill in our [volunteer form](https://form.jotform.com/262181979068066), and see our [volunteer page](volunteer) for the areas where we need help. We welcome volunteers with a range of skills and experience, and we value diversity and inclusivity in our volunteer team!
 :::
 
 :::{dropdown} How can I help spread the word?

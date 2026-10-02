@@ -9,6 +9,14 @@ description: The SciPy India 2026 Conference will be held on 19th–20th Decembe
 
 # Announcing the SciPy India 2026 Conference
 
+**Update, 8th August 2026:** the [call for volunteers](../volunteer.md) is open, with no deadline. Please fill in the [volunteer form](https://form.jotform.com/262181979068066) if you would like to help.
+
+**Update, 25th August 2026:** the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is open until 19th October 2026.
+
+**Update, 16th September 2026:** the [call for sponsors](../sponsor) is open, and our sponsorship prospectus is on that page.
+
+**Update, 3rd October 2026:** [tickets are on sale](../register) on KonfHub. Early bird prices are available until 19th October 2026.
+
 We are happy to announce that the SciPy India 2026 Conference will be held on **Saturday 19th and Sunday 20th December 2026**, at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
 
 ## What happens next

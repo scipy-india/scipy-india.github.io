@@ -20,9 +20,7 @@ Buy your tickets
 
 ## Early bird prices
 
-Early bird tickets start at **₹699** for a single day and **₹1,199** for both days, and students pay the same. These prices are available for a limited time and the number of tickets is limited, so please book early.
-
-% TODO: add the early bird cut-off date once it is set, here and on the home page.
+Early bird tickets start at **₹699** for a single day and **₹1,199** for both days, and students pay the same. These prices are available until **19th October 2026**, and the number of tickets is limited, so please book early.
 
 | Ticket category | Conference day only | Workshop day only | Both days |
 | :-------------- | ------------------: | ----------------: | --------: |

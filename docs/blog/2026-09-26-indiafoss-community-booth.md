@@ -54,7 +54,7 @@ The weekend also gave us something we rarely get: the whole [SciPy India team](h
 
 ## Submit a proposal
 
-If you work on scientific computing, research software, or open source tools for science, we'd love to hear from you. The [call for proposals](https://cfp.scipy.in/scipy-india-2026) for SciPy India 2026 is open until **19 October 2026**, for both talks and workshops. Tickets go live soon, so keep an eye on the [conference news page](https://scipy.in/2026/news/) for that and everything else.
+If you work on scientific computing, research software, or open source tools for science, we'd love to hear from you. The [call for proposals](https://cfp.scipy.in/scipy-india-2026) for SciPy India 2026 is open until **19 October 2026**, for both talks and workshops. Tickets are [now on sale](https://scipy.in/2026/register/), and the [conference news page](https://scipy.in/2026/news/) has everything else.
 
 ## Thank you
 

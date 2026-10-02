@@ -87,7 +87,7 @@ Read about our sponsorship tiers and options, the audience you would reach, and 
 :link: register
 :link-type: doc
 
-Opening soon!
+Tickets are now on sale on KonfHub. Early bird prices are available until 19th October 2026, so please book early.
 :::
 
 :::{grid-item-card} Programme
@@ -153,13 +153,13 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | What                                               | Opens             | Closes            |
 +====================================================+===================+===================+
-| Call for volunteers                                | 08th August, 2026 | To be announced   |
+| Call for volunteers                                | 08th August, 2026 | No deadline       |
 +----------------------------------------------------+-------------------+-------------------+
 | Call for proposals                                 | 25th August, 2026 | 19th October, 2026|
 +----------------------------------------------------+-------------------+-------------------+
-| Registration                                       | Now open          | To be announced   |
+| Registration                                       | Now open          | 18th December 2026|
 +----------------------------------------------------+-------------------+-------------------+
-| Early bird ticket prices end                       | To be announced                       |
+| Early bird ticket prices end                       | 19th October, 2026                    |
 +----------------------------------------------------+---------------------------------------+
 | Programme announcement                             | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
