@@ -339,9 +339,7 @@ You may also earmark a part of your contribution for scholarships. We would espe
 
 ## Sponsor one part of the conference
 
-If none of the tiers fit, you can fund one thing and be named against it.
-
-% TODO: set amounts for each of these, or decide to quote on request.
+If none of the tiers fit, you can fund one thing and be named against it. Prices are available on request, so please write to [sponsor@scipy.in](mailto:sponsor@scipy.in).
 
 - Lunch or refreshments on one or both days of the conference
 - Recording and publishing the talks
@@ -364,7 +362,7 @@ If none of the tiers fit, you can fund one thing and be named against it.
 
 ## Getting in touch
 
-Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We will send you the current tier figures and arrange a call. Our <a href="_static/scipy-india-2026-sponsorship-prospectus.pdf" target="_blank" rel="noopener">sponsorship prospectus</a> is also available as a PDF, should you need something to circulate internally.
+Please write to [sponsor@scipy.in](mailto:sponsor@scipy.in). We will confirm which slots are still available and arrange a call. Our <a href="_static/scipy-india-2026-sponsorship-prospectus.pdf" target="_blank" rel="noopener">sponsorship prospectus</a> is also available as a PDF, should you need something to circulate internally.
 
 Our fiscal host is the [Association for Promotion of Free and Open Source Technologies](https://afrost.org). All sponsorship contributions are made to AFROST, which is a registered non-profit in India.
 

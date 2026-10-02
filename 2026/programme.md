@@ -6,7 +6,7 @@ myst:
 
 # Programme
 
-We expect to form the programme for the SciPy India 2026 Conference by October 2026. The sessions and their times will be published here once it is finalised.
+We expect to announce the programme for the SciPy India 2026 Conference after the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) closes on 19th October 2026. The sessions and their times will be published here once it is finalised.
 
 ## Saturday 19 December, workshops
 
