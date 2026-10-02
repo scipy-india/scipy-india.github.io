@@ -90,6 +90,13 @@ Read about our sponsorship tiers and options, the audience you would reach, and 
 Tickets are now on sale on KonfHub. Early bird prices are available until 19th October 2026, so please book early.
 :::
 
+:::{grid-item-card} Volunteer
+:link: volunteer
+:link-type: doc
+
+The call for volunteers is open, with no deadline. Help with reviewing proposals, outreach, the website, or on the two days of the conference. Fill in the volunteer form to get involved.
+:::
+
 :::{grid-item-card} Programme
 :link: programme
 :link-type: doc
