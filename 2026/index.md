@@ -101,8 +101,7 @@ The call for volunteers is open, with no deadline. Help with reviewing proposals
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 Conference will be be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English.
-
+The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We expect to announce the programme after the call for proposals closes on 19th October 2026.
 :::
 
 :::{grid-item-card} Venue and travel
