@@ -247,14 +247,14 @@ for each past edition are linked below.
 
 **Workshops**
 
-| Instructor          | Workshop                                       |
-| ------------------- | ---------------------------------------------- |
-| Prabhu Ramachandran | Introductory Scientific Computing with Python  |
-| –                   | Introduction to Automated Testing in Python    |
-| –                   | Python for Microcontrollers                    |
-| –                   | Algorithm to Application: Using Traits and ETS |
-| –                   | Introduction to Git                            |
-| –                   | ExpEYES                                        |
+| Instructor                                        | Workshop                                       |
+| ------------------------------------------------- | ---------------------------------------------- |
+| Prabhu Ramachandran                               | Introductory Scientific Computing with Python  |
+| Poruri Sai Rahul (Enthought)                      | Introduction to Automated Testing in Python    |
+| Akshai M, Srikant Patnaik (FOSSEE)                | Python for Microcontrollers                    |
+| Pankaj Pandey (Enthought)                         | Algorithm to Application: Using Traits and ETS |
+| Poruri Sai Rahul (Enthought)                      | Introduction to Git                            |
+| Ajith Kumar (Inter-University Accelerator Centre) | ExpEYES                                        |
 
 ## 2015
 
