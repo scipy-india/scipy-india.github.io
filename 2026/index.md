@@ -157,7 +157,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Call for proposals                                 | 25th August, 2026 | 19th October, 2026|
 +----------------------------------------------------+-------------------+-------------------+
-| Registration                                       | To be announced   | To be announced   |
+| Registration                                       | Now open          | To be announced   |
 +----------------------------------------------------+-------------------+-------------------+
 | Early bird ticket prices end                       | To be announced                       |
 +----------------------------------------------------+---------------------------------------+
@@ -172,9 +172,6 @@ We are committed to providing a safe and welcoming environment for all attendees
 ```
 
 % Held-back rows, waiting on a decision:
-%
-% Once register.md has a refund policy:
-% Cancelling or transferring a ticket | To be announced | To be announced
 %
 % If the guest houses or a hotel block booking come through:
 % Accommodation block booking | To be announced | To be announced
@@ -225,7 +222,16 @@ Submit your proposal
 
 ## Registration
 
-To be announced. Tickets sales starting soon!
+Tickets are now on sale on KonfHub. Please see the [registration page](register) for prices and what a ticket covers. By buying a ticket, you agree to our [terms and conditions](terms).
+
+**Please note that tickets are non-refundable and cannot be transferred to another person. All ticket sales are final. We have limited spots available, so please book early to secure your attendance.**
+
+```{button-link} https://konfhub.com/scipy-india-2026
+:color: primary
+:class: sci-new-tab
+
+Buy your tickets
+```
 
 ## Recordings
 
@@ -421,6 +427,7 @@ Thank you for your interest in the SciPy India 2026 Conference! We look forward 
 
 programme
 register
+Terms and conditions <terms>
 Venue <venue>
 jobs
 Sponsor us <sponsor>

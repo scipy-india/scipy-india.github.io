@@ -27,7 +27,7 @@ Yes. We plan to sell a single-day ticket for the workshop day on Saturday, a tic
 
 :::{dropdown} When does the registration open?
 
-We will announce the opening of registrations and ticket sales on our [news page](news/index) and on our social media channels. Please keep an eye out for updates.
+Registration is open! Tickets are on sale on [KonfHub](https://konfhub.com/scipy-india-2026). Please see the [registration page](register) for prices and what a ticket covers.
 :::
 
 :::{dropdown} What language is the conference in?
@@ -70,7 +70,7 @@ We will confirm this before registration opens. If you need one for your institu
 ## Tickets
 
 :::{dropdown} How much is a ticket?
-The ticket price is not set yet. We are keeping prices low to make the conference accessible. We will announce the ticket prices on our [news page](news/index) and on our social media channels once they are finalised. Please keep an eye out for updates.
+Early bird tickets start at ₹699 for a single day and ₹1,199 for both days. The full price table, including student, corporate, and contributor tickets, is on the [registration page](register). GST and platform fees are added at checkout. We are keeping prices low to make the conference accessible, so please book early to get the early bird price.
 :::
 
 :::{dropdown} What does a ticket cover?
@@ -82,11 +82,11 @@ Yes. If your institution or company is covering your attendance, please buy a co
 :::
 
 :::{dropdown} Can I get an invoice or a receipt for reimbursement?
-Yes. We will explain how on the [registration page](register) once we have picked a ticketing platform.
+Yes. KonfHub emails you a receipt after your purchase. If you need anything further, please write to [info@scipy.in](mailto:info@scipy.in).
 :::
 
 :::{dropdown} Can I get a refund or pass my ticket to someone else?
-We have not settled the policy yet. It will be on the [registration page](register) before tickets go on sale.
+No. **All ticket sales are final, and tickets cannot be refunded, cancelled, exchanged, or transferred to another person.** Please see our [terms and conditions](terms) before you purchase your ticket.
 :::
 
 ## Workshops
@@ -174,7 +174,7 @@ The [venue and travel page](venue) has routes by taxi, bus, and metro from the a
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Please bring your ID. We will issue conference badges to all attendees at the registration desk, which will be in the foyer of the IC&SR Building. For the workshop day, we will have a registration desk at the Department of Physics. Please wear your badge at all times during the conference and workshops.
+Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Either way, please bring your ID: you will need to show your ticket and a valid ID at the registration desk to collect your conference badge, and attendees must be 18 or older. The registration desk will be in the foyer of the IC&SR Building on the conference day, and at the Department of Physics on the workshop day. Please wear your badge at all times during the conference and workshops.
 :::
 
 :::{dropdown} How far is the venue from the campus gate?
