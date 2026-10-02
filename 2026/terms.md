@@ -34,17 +34,25 @@ This summary is for your convenience. Please read the full terms and conditions 
 
 1. The prices of tickets to the SciPy India 2026 Conference are as follows:
 
-   | Ticket category                                     | Conference day only | Workshop day only | Both days |
-   | :-------------------------------------------------- | ------------------: | ----------------: | --------: |
-   | Early bird                                          |                ₹699 |              ₹699 |    ₹1,199 |
-   | Regular                                             |                ₹999 |              ₹999 |    ₹1,699 |
-   | Late bird and on-the-spot (subject to availability) |              ₹1,499 |            ₹1,499 |    ₹2,499 |
-   | Student                                             |                ₹699 |              ₹699 |    ₹1,199 |
-   | Corporate                                           |              ₹2,499 |            ₹2,499 |    ₹3,999 |
-   | Contributor                                         |                 N/A |               N/A |    ₹3,999 |
+   | Ticket category | Conference day only | Workshop day only | Both days |
+   | :-------------- | ------------------: | ----------------: | --------: |
+   | Early bird      |                ₹699 |              ₹699 |    ₹1,199 |
+   | Regular         |                ₹999 |              ₹999 |    ₹1,699 |
+   | Late bird       |              ₹1,499 |            ₹1,499 |    ₹2,499 |
+   | On-the-spot     |              ₹1,499 |            ₹1,499 |       N/A |
+   | Student         |                ₹699 |              ₹699 |    ₹1,199 |
+   | Corporate       |              ₹2,499 |            ₹2,499 |    ₹3,999 |
+   | Contributor     |                 N/A |               N/A |    ₹3,999 |
 
-2. These prices are **exclusive of taxes and fees**: Goods and Services Tax (GST) and KonfHub's platform fees are added to these prices at the checkout page.
-3. Our ticket prices are final.
+2. The ticket categories are sold in the following windows:
+   - Early bird: until 19th October 2026.
+   - Regular: 20th October 2026 to 8th December 2026.
+   - Late bird: 9th December 2026 to 18th December 2026, subject to availability.
+   - On-the-spot: we may sell these at the venue on 19th December 2026 for the workshop day and on 20th December 2026 for the conference day, for that day only and subject to availability. We do not guarantee that on-the-spot tickets will be sold on either day. On-the-spot tickets do not include lunch or a conference T-shirt.
+   - Student, corporate, and contributor: throughout the sales period.
+3. Student tickets are for students only. You will need to show a valid student ID at the registration desk, and if you cannot, you will not be granted entry on a student ticket.
+4. These prices are **exclusive of taxes and fees**: Goods and Services Tax (GST) and KonfHub's platform fees are added to these prices at the checkout page.
+5. Our ticket prices are final.
 
 ## 3. What a ticket is
 

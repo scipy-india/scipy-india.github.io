@@ -19,20 +19,21 @@ By buying a ticket, you hereby agree to our [terms and conditions](terms). In sh
 
 ## Tickets
 
-| Ticket category           | Conference day only | Workshop day only | Both days |
-| :------------------------ | ------------------: | ----------------: | --------: |
-| Early bird                |                ₹699 |              ₹699 |    ₹1,199 |
-| Regular                   |                ₹999 |              ₹999 |    ₹1,699 |
-| Late bird and on-the-spot |              ₹1,499 |            ₹1,499 |    ₹2,499 |
-| Student                   |                ₹699 |              ₹699 |    ₹1,199 |
-| Corporate                 |              ₹2,499 |            ₹2,499 |    ₹3,999 |
-| Contributor               |       Not available |     Not available |    ₹3,999 |
+| Ticket category | Conference day only | Workshop day only |     Both days |
+| :-------------- | ------------------: | ----------------: | ------------: |
+| Early bird      |                ₹699 |              ₹699 |        ₹1,199 |
+| Regular         |                ₹999 |              ₹999 |        ₹1,699 |
+| Late bird       |              ₹1,499 |            ₹1,499 |        ₹2,499 |
+| On-the-spot     |              ₹1,499 |            ₹1,499 | Not available |
+| Student         |                ₹699 |              ₹699 |        ₹1,199 |
+| Corporate       |              ₹2,499 |            ₹2,499 |        ₹3,999 |
+| Contributor     |       Not available |     Not available |        ₹3,999 |
 
 Applicable Goods and Services Tax (GST) and KonfHub's platform fees are added at checkout.
 
-Early bird prices are available for a limited time, so keep an eye on our [news page](news/index) for the cut-off date.
+Early bird prices are available until **19th October 2026**. Regular prices apply from 20th October to 8th December, and late bird prices from 9th to 18th December, subject to availability. We may also sell a limited number of on-the-spot tickets at the venue on each day, for that day only, if seats remain. This is not guaranteed, so please do not rely on it. On-the-spot tickets do not include lunch or a conference T-shirt.
 
-- **Student:** if you are a student, please pick the student ticket. We may ask you to show a student ID at the registration desk.
+- **Student:** if you are a student, please pick the student ticket. You will need to show a valid student ID at the registration desk.
 - **Corporate:** if your attendance is supported by your institution or company, please sign up for a corporate ticket at slightly higher pricing. This helps us keep the conference accessible to students, independent researchers, and those from underrepresented groups.
 - **Contributor:** a both-days ticket at a higher price for those who would like to support the conference beyond the cost of their own attendance. Thank you!
 

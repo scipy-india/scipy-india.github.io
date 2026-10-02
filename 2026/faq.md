@@ -174,7 +174,7 @@ The [venue and travel page](venue) has routes by taxi, bus, and metro from the a
 :::
 
 :::{dropdown} Do I need identification to get onto campus?
-Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Either way, please bring your ID: you will need to show your ticket and a valid ID at the registration desk to collect your conference badge, and attendees must be 18 or older. The registration desk will be in the foyer of the IC&SR Building on the conference day, and at the Department of Physics on the workshop day. Please wear your badge at all times during the conference and workshops.
+Please come in through the main gate. We are still confirming whether you will be asked for identification there, and we will publish it on the [venue and travel page](venue) once we have this information. Either way, please bring your ID: you will need to show your ticket and a valid ID at the registration desk to collect your conference badge, and attendees must be 18 or older. If you bought a student ticket, please also bring your student ID. The registration desk will be in the foyer of the IC&SR Building on the conference day, and at the Department of Physics on the workshop day. Please wear your badge at all times during the conference and workshops.
 :::
 
 :::{dropdown} How far is the venue from the campus gate?
