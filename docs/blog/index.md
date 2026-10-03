@@ -19,4 +19,5 @@ Here is a list of recaps and write-ups from the SciPy India community. If you ha
 2025-07-26-community-call-1
 2025-09-21-indiafoss-science-devroom
 2026-02-21-bangpypers-joint-meetup
+2026-09-26-indiafoss-community-booth
 ```

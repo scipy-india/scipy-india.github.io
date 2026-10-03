@@ -55,6 +55,14 @@ Talks from the conference day will be recorded and made available on the SciPy I
 
 ## Past events
 
+### SciPy India at IndiaFOSS 2026
+
+📅 26 and 27 Sep 2026 • 📍 NIMHANS Convention Centre, Bengaluru
+
+We ran a community booth across both days of IndiaFOSS 2026, talking to people about SciPy India and our conference at IIT Madras in December.
+
+[Read the event recap](../blog/2026-09-26-indiafoss-community-booth)
+
 ### SciPy India × Rust Delhi Meetup
 
 📅 22 Aug 2026, 2:00 PM – 5:00 PM IST • 📍 Essentia.dev, Third Floor, C56/A28, C Block, Phase 2, Sector 62, Noida
