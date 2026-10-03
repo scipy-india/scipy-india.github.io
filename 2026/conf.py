@@ -86,6 +86,7 @@ html_context = {
             "label": "Attend",
             "children": [
                 ("register", "Register"),
+                ("terms", "Terms and conditions"),
                 ("venue", "Venue and travel"),
                 ("jobs", "Jobs"),
                 ("faq", "Frequently asked questions (FAQ)"),
@@ -116,6 +117,7 @@ html_sidebars = {
     "programme": [],
     "jobs": [],
     "register": [],
+    "terms": [],
     "venue": [],
     "sponsor": [],
     "faq": [],
