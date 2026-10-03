@@ -7,6 +7,123 @@ for each past edition are linked below.
 
 ```
 
+---
+
+Names, titles, and affiliations are reproduced as listed at the time of each conference or event. From 2025 onwards, this page also lists sessions held at SciPy India community calls and events.
+
+## 2026
+
+**SciPy India × Rust Delhi**
+
+- Date: 22 August 2026
+- Venue: Essentia.dev, Sector 62, Noida
+- Co-organiser: Rust Delhi
+- [Event page](https://scipy.in/sci-py-rs)
+
+| Speaker            | Title                                                                         |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Pranav Saxena      | Ramanujan-Computing: Harnessing idle computational power for scientific works |
+| Ujjwal Kumar Singh | Finding What Your Tests Miss: Property Based Testing in Python                |
+| Devansh Mehrotra   | Writing and Optimizing Schoolbook Multiplication Algorithm for Big-Integers   |
+
+**BangPypers × SciPy India**
+
+- Date: 21 February 2026
+- Venue: Amadeus Software Labs, Bengaluru
+- Co-organiser: BangPypers
+- [Event recap](blog/2026-02-21-bangpypers-joint-meetup)
+
+| Speaker                      | Title                                                                                   |
+| ---------------------------- | --------------------------------------------------------------------------------------- |
+| Anirudh Sethuraman (Amadeus) | Garbage In, Garbage Out: Engineering Reliable LLM Systems Beyond the Prompt             |
+| Ganesh Kathiresan (Amazon)   | From User to Maintainer: My NumPy Journey                                               |
+| Tushar Sadhwani (Macroscope) | Python Annotations and t-strings: Python metaprogramming in the modern age              |
+| Nischal Jain                 | Load balancing (lightning talk)                                                         |
+| Anand Reddy Pandikunta       | Metagenomics: classifying a billion base pairs per second with Kraken2 (lightning talk) |
+
+## 2025
+
+**SciPy India Community Call #4**
+
+- Date: 6 December 2025
+- Venue: Online
+- [Event page](https://fossunited.org/c/scipy-india/community-call-4)
+- [Recording](https://www.youtube.com/watch?v=KGo8JRmydTQ)
+
+| Speaker(s)                                     | Title                                                                            |
+| ---------------------------------------------- | -------------------------------------------------------------------------------- |
+| Sadhana Thirumangai Kalidoss, Abel Abraham     | Simulating Complex Dynamical Systems Using PhiFlow: Fluids, Patterns, and Meshes |
+| Boddu Sri Pavan (Inductive Quotient Analytics) | Computational Preservation of Telugu Chandassu Poetry                            |
+| Pranav Saxena                                  | Ramanujan-Computing: Harnessing idle computational power for scientific works    |
+
+**SciPy India Community Call #3**
+
+- Date: 1 November 2025
+- Venue: Online
+- [Event page](https://fossunited.org/c/scipy-india/community-call-3)
+- [Recording](https://www.youtube.com/watch?v=6SoLgkFVkIg)
+
+| Speaker                                       | Title                                                                                              |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Philip Cherian (Ashoka University)            | Astrolab: Teaching undergraduates to analyse amateur astronomical data                             |
+| Yuvraj Muralichandran (University of Potsdam) | Python Meets the Cosmic Web: Galaxy Alignments with Filaments                                      |
+| Vivekanandan KS                               | Nix for Python: Unleash Cross Ecosystem Dependency Management, breaking free from venv limitations |
+| Navya Sai Sadu (ACE Engineering College)      | A Node Editor for OpenFOAM Case Files Generation (Lightning talk)                                  |
+
+**SciPy India Community Call #2**
+
+- Date: 4 October 2025
+- Venue: Online
+- [Event page](https://fossunited.org/c/scipy-india/community-call-2)
+- [Recording](https://www.youtube.com/watch?v=EJfvfNSBVDU)
+
+| Speaker                                | Title                                                                              |
+| -------------------------------------- | ---------------------------------------------------------------------------------- |
+| Monica Dhyani (Shiv Nadar University)  | Understanding Online Innovation Networks using Network Science Approach            |
+| Indranil Ghosh                         | Time series analysis for coupled neurons                                           |
+| Manideep Pendyala (Rutgers University) | AI-Driven Drug Repurposing Using Multi-Modal Deep Learning & Graph Neural Networks |
+| Mridul Jain                            | Sales & Inventory Forecasting with sktime: A Robust Time Series Toolkit            |
+| Abhijeet Mote                          | Mojo and AI/ML: The Future of Pythonic Performance (Lightning talk)                |
+
+**FOSS in Science Devroom at IndiaFOSS 2025**
+
+- Date: 21 September 2025
+- Venue: NIMHANS Convention Centre, Bengaluru
+- Co-organiser: FOSS United
+- [Devroom page](https://fossunited.org/indiafoss/2025/devrooms/science)
+- [Event recap](blog/2025-09-21-indiafoss-science-devroom)
+- [Recordings](https://www.youtube.com/playlist?list=PLOGilj110oly_VPJ7pz0avjyxiLjiTJTP)
+
+| Speaker          | Title                                                                                                                       |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Jithin B.P.      | KuttyPy: A no cost transformation of the ubiquitous Arduino into an affordable data acquisition system for STEM             |
+| Aditi Juneja     | Understanding API dispatching in Scientific Python Ecosystem                                                                |
+| Pradyot Ranjan   | The Array API Standard: One ring to rule them all                                                                           |
+| Sanket Verma     | Zarr: Cloud-optimised, N-dimensional, typed array storage                                                                   |
+| Pradeep Koulgi   | Assessing the State of India's Birds using FOSS                                                                             |
+| Arjun Verma      | Collaborative CAD & GIS in JupyterLab                                                                                       |
+| Aaditeshwar Seth | The CoRE stack open-source initiative                                                                                       |
+| Sagnik Saha      | Formalizing Mathematics and Scientific Computing with an Open-Source Theorem Prover                                         |
+| Kriyanshi Shah   | Empowering Open Science with Scalable Interactive Computing Environments in India                                           |
+| Agriya Khetarpal | Beyond the smokescreen: interactive in-browser FOSS tools for science communication and evidence-based environmental policy |
+| Aftab S          | The Observability of Everything: Instrumenting Science with DevOps Tools                                                    |
+| Alosh Denny      | Breaking into the Black Box: Making LLMs Transparent for Science                                                            |
+| Jigyasu Krishnan | Signal Over Noise: Benchmarking Time Series Models with sktime                                                              |
+
+**SciPy India Community Call #1**
+
+- Date: 26 July 2025
+- Venue: Online
+- [Event recap](blog/2025-07-26-community-call-1)
+- [Recording](https://www.youtube.com/watch?v=FCSsohzaP4s)
+
+| Speaker             | Title                                                               |
+| ------------------- | ------------------------------------------------------------------- |
+| Manjunath Janardhan | Automating ML with PyCaret                                          |
+| Srihari Thyagarajan | marimo: an open-source, reactive Python notebook                    |
+| Mohammad Razak      | Introduction to Causal Machine Learning and pgmpy (Lightning talk)  |
+| Varuni H K          | Subgraph Matching: The Needle-in-a-Network Problem (Lightning talk) |
+
 ## 2021
 
 - Dates: 21 and 22 January 2022
