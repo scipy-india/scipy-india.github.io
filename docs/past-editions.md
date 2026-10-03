@@ -4,6 +4,7 @@ The SciPy India conference has been held annually since 2009. Archived websites
 for each past edition are linked below.
 
 ```{past-editions-list}
+
 ```
 
 ## 2021
@@ -20,18 +21,18 @@ for each past edition are linked below.
 
 **Talks**
 
-| Speaker                           | Title                                                                          |
-| --------------------------------- | ------------------------------------------------------------------------------ |
-| Arun Thiagarajan                  | The DeepChem Project                                                           |
-| Harsh Shroff, Om Makwana          | A Python-based Dashboard to Assist Athletes in Analysing Their Performances    |
-| Rashmi Kadam, Sneha Patil         | Analysis of Hindlish Data                                                      |
-| Gajendra Deshpande                | Security considerations in Python Packaging                                    |
-| Rajdeep Adak, Kartik Kumar Thakur | Venturial: A Python-based OpenFOAM GUI for CFD Simulations on Blender          |
-| Rutvij Wamanse, Tushuli Patil     | Analysis of various climate change parameters in India using machine learning  |
-| Souvik Manik, Sabyasachi Pal      | Epidpy: A Python Package for Modelling and Forecasting Epidemics               |
-| Jithin B.P.                       | Remote access and control of Lab equipment for science education               |
-| Saif Ali, Mohd. Itqan Ullah       | Inferring Traffic Congestion Events from the Delhi Traffic Police Twitter Feed |
-| Harshdeep Singh                   | Variational Quantum Algorithms: applications in Quantum Chemistry using Python |
+| Speaker                                                                          | Title                                                                          |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Arun Thiagarajan (IIT Madras)                                                    | The DeepChem Project                                                           |
+| Harsh Shroff, Om Makwana (Vishwakarma Government Engineering College, Ahmedabad) | A Python-based Dashboard to Assist Athletes in Analysing Their Performances    |
+| Rashmi Kadam, Sneha Patil (KLS Gogte Institute of Technology, Belagavi)          | Analysis of Hindlish Data                                                      |
+| Gajendra Deshpande                                                               | Security considerations in Python Packaging                                    |
+| Rajdeep Adak, Kartik Kumar Thakur (FOSSEE, IIT Bombay)                           | Venturial: A Python-based OpenFOAM GUI for CFD Simulations on Blender          |
+| Rutvij Wamanse, Tushuli Patil (Pune Institute of Computer Technology)            | Analysis of various climate change parameters in India using machine learning  |
+| Souvik Manik, Sabyasachi Pal                                                     | Epidpy: A Python Package for Modelling and Forecasting Epidemics               |
+| Jithin B.P. (CSpark Research)                                                    | Remote access and control of Lab equipment for science education               |
+| Saif Ali (IIIT Delhi), Mohd. Itqan Ullah                                         | Inferring Traffic Congestion Events from the Delhi Traffic Police Twitter Feed |
+| Harshdeep Singh (IIT Kharagpur)                                                  | Variational Quantum Algorithms: applications in Quantum Chemistry using Python |
 
 **Workshops**
 
@@ -92,8 +93,8 @@ for each past edition are linked below.
 
 | Speaker                                           | Session      | Title                                |
 | ------------------------------------------------- | ------------ | ------------------------------------ |
-| Michael Droettboom (Mozilla)                      | Keynote      | –                                    |
-| Asokan Pichai                                     | Invited talk | Training with Python: My Experiences |
+| Michael Droettboom (Mozilla)                      | Keynote      | The future of Python on the Web      |
+| Asokan Pichai (TalentSprint)                      | Invited talk | Training with Python: My Experiences |
 | Ajith Kumar (Inter-University Accelerator Centre) | Invited talk | Importance of Free Software          |
 
 **Talks**
@@ -184,8 +185,10 @@ for each past edition are linked below.
 
 **Keynotes and invited talks**
 
-- Nelle Varoquaux (BIDS, UC Berkeley)
-- Ajith Kumar (Inter-University Accelerator Centre)
+| Speaker                                           | Session      | Title                                                    |
+| ------------------------------------------------- | ------------ | -------------------------------------------------------- |
+| Nelle Varoquaux (BIDS, UC Berkeley)               | Keynote      | A scientific approach to studying opensource communities |
+| Ajith Kumar (Inter-University Accelerator Centre) | Invited talk | –                                                        |
 
 **Talks**
 
@@ -266,12 +269,12 @@ for each past edition are linked below.
 
 **Keynotes and invited talks**
 
-| Speaker                                                       | Session      | Title                                |
-| ------------------------------------------------------------- | ------------ | ------------------------------------ |
-| Andreas Klöckner (University of Illinois at Urbana-Champaign) | Keynote      | –                                    |
-| Jarrod Millman (UC Berkeley)                                  | Invited talk | Python for Statisticians             |
-| Ajith Kumar (Inter-University Accelerator Centre)             | Invited talk | Concept of a Python based Laboratory |
-| Ted Ralphs                                                    | Invited talk | –                                    |
+| Speaker                                                       | Session      | Title                                                                                      |
+| ------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------ |
+| Andreas Klöckner (University of Illinois at Urbana-Champaign) | Keynote      | Domain-specific languages to Manycore and GPU: Building High-Performance Tools with Python |
+| Jarrod Millman (UC Berkeley)                                  | Invited talk | Python for Statisticians                                                                   |
+| Ajith Kumar (Inter-University Accelerator Centre)             | Invited talk | Concept of a Python based Laboratory                                                       |
+| Ted Ralphs                                                    | Invited talk | Open Source Tools for Optimization in Python                                               |
 
 **Talks**
 
@@ -353,8 +356,10 @@ for each past edition are linked below.
 
 **Keynotes and invited talks**
 
-- Ondrej Certik (Los Alamos National Laboratory)
-- Ajith Kumar (Inter-University Accelerator Centre)
+| Speaker                                           | Session      | Title                          |
+| ------------------------------------------------- | ------------ | ------------------------------ |
+| Ondrej Certik (Los Alamos National Laboratory)    | Keynote      | Python in Scientific Computing |
+| Ajith Kumar (Inter-University Accelerator Centre) | Invited talk | expEYES                        |
 
 **Talks**
 
@@ -395,36 +400,46 @@ for each past edition are linked below.
 
 **Keynotes and invited talks**
 
-| Speaker                                           | Session      | Title                                  |
-| ------------------------------------------------- | ------------ | -------------------------------------- |
-| Ole Nielsen (AusAID)                              | Keynote      | –                                      |
-| Ajith Kumar (Inter-University Accelerator Centre) | Invited talk | expEYES: A portable Science Laboratory |
+| Speaker              | Session | Title                                                                                                    |
+| -------------------- | ------- | -------------------------------------------------------------------------------------------------------- |
+| Ole Nielsen (AusAID) | Keynote | Open Source – Of Course! Lessons Learned from two decades of Scientific Open Source Software development |
 
 **Talks**
 
-| Speaker                                                                                                    | Title                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Kunal Puri (IIT Bombay)                                                                                    | PyZoltan: Wrapping Zoltan with Cython                                                                                 |
-| Rupak Rokade (IIT Bombay)                                                                                  | SBHS Virtual labs using Python                                                                                        |
-| Srikant Patnaik, Sachin (IIT Bombay)                                                                       | Python on Aakash                                                                                                      |
-| Samarth Shah                                                                                               | Raspberry Pi and Scientific Computing                                                                                 |
-| Madhu Sharma (DIT, Dehradun)                                                                               | Python based implementation of a chaos based cryptosystem using external key                                          |
-| Ami Tavory (Final)                                                                                         | Scientific Data Analysis Pipelines: Push, Pull, React, or Schedule?                                                   |
-| Prasanta Mohapatra, B. N. Singh (IIT Kharagpur)                                                            | OCAMSS: An open platform for structural sizing of composite aircraft wing                                             |
-| Ashish Kumar Sharma (Sikkim Manipal Institute of Technology)                                               | Design of Analytic Hierarchy Process Algorithm and Its Application for Vertical Handover in Cellular Communication    |
-| Nirmal Sahuji, Gajanan A. Dhanorkar, Anil S. Disale (Vidya Pratishthan's College of Engineering, Baramati) | Solving Differential Equation with Graphical Data Visualization using Python                                          |
-| Arjun Sanu M, B. Kanoj, Vijaybabu, A. B. Raju (B. V. B. College of Engineering and Technology, Hubli)      | Simulation of Stand-alone Photovoltaic System using Python                                                            |
-| Kanoj B, Arjun M, A. B. Raju, Satish Annigeri (B. V. B. College of Engineering and Technology, Hubli)      | Steady State Analysis of Autonomous Wind Energy Conversion System Employing Induction Machines for Irrigation Purpose |
-| Pooja Tiwari, Priyanka Mudliyar, Archana Harad, Ambuja Salgaonkar                                          | ScrabelLight: An edu-game in the language of your choice                                                              |
-| Priyank Tiwari (Institute of Chemical Technology, Mumbai)                                                  | Free Chemical Process Simulator Toolkit using Scipy                                                                   |
+| Speaker                                                                                                    | Title                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Kannan Moudgalya (IIT Bombay)                                                                              | Collaborative FOSSEE Support Through NMEICT                                                                                         |
+| Rupak Rokade (IIT Bombay)                                                                                  | SBHS Virtual labs using Python                                                                                                      |
+| Abdulmadjid Ansari                                                                                         | Enhancing Open Source Blender Using Python                                                                                          |
+| Samarth Shah                                                                                               | Raspberry Pi and Scientific Computing                                                                                               |
+| Srikant Patnaik, Sachin (IIT Bombay)                                                                       | Python on Aakash                                                                                                                    |
+| Krishnakant Mane                                                                                           | Python, A Powerful Language                                                                                                         |
+| Jaidev Deshpande                                                                                           | Time Frequency Analysis with Python                                                                                                 |
+| Krishnakant Mane                                                                                           | GNUKhata: a Case Study                                                                                                              |
+| Madhu Sharma (DIT, Dehradun)                                                                               | Python based implementation of a chaos based cryptosystem using external key                                                        |
+| Ami Tavory (Final)                                                                                         | Scientific Data Analysis Pipelines: Push, Pull, React, or Schedule?                                                                 |
+| Pooja Tiwari, Priyanka Mudliyar, Archana Harad, Ambuja Salgaonkar                                          | ScrabelLight: An edu-game in the language of your choice                                                                            |
+| Arjun Sanu M, B. Kanoj, Vijaybabu, A. B. Raju (B. V. B. College of Engineering and Technology, Hubli)      | Simulation of Stand-alone Photovoltaic System using Python (Pecha Kucha)                                                            |
+| Kanoj B, Arjun M, A. B. Raju, Satish Annigeri (B. V. B. College of Engineering and Technology, Hubli)      | Steady State Analysis of Autonomous Wind Energy Conversion System Employing Induction Machines for Irrigation Purpose (Pecha Kucha) |
+| Nirmal Sahuji, Gajanan A. Dhanorkar, Anil S. Disale (Vidya Pratishthan's College of Engineering, Baramati) | Solving Differential Equation with Graphical Data Visualization using Python (Pecha Kucha)                                          |
+| Ashish Kumar Sharma (Sikkim Manipal Institute of Technology)                                               | Design of Analytic Hierarchy Process Algorithm and Its Application for Vertical Handover in Cellular Communication (Pecha Kucha)    |
+| Ashish Sharma                                                                                              | A simple Python based tool for preparing randomized multi-set MCQ (Pecha Kucha)                                                     |
+| Priyank Tiwari (Institute of Chemical Technology, Mumbai)                                                  | Free Chemical Process Simulator Toolkit using Scipy                                                                                 |
+| Prasanta Mohapatra, B. N. Singh (IIT Kharagpur)                                                            | OCAMSS: An open platform for structural sizing of composite aircraft wing                                                           |
+| Kunal Puri (IIT Bombay)                                                                                    | PyZoltan: Wrapping Zoltan with Cython                                                                                               |
 
 **Tutorials**
 
-| Instructor                                  | Tutorial                          |
-| ------------------------------------------- | --------------------------------- |
-| Ole Nielsen (AusAID)                        | Geoprocessing with ANUGA          |
-| Prabhu Ramachandran (IIT Bombay, Enthought) | 3D Data visualization with Mayavi |
-| Prabhu Ramachandran (IIT Bombay, Enthought) | Quick introduction to Cython      |
+| Instructor                                        | Tutorial                                                |
+| ------------------------------------------------- | ------------------------------------------------------- |
+| Puneeth Chaganti, Prashant                        | Basics of Python, IPython, NumPy, SciPy, Matplotlib (1) |
+| Madhusudan, Prashant                              | Basics of Python, IPython, NumPy, SciPy, Matplotlib (2) |
+| Puneeth Chaganti                                  | Basics of Python, IPython, NumPy, SciPy, Matplotlib (3) |
+| Prabhu Ramachandran (IIT Bombay, Enthought)       | 3D Data visualization with Mayavi                       |
+| Prabhu Ramachandran (IIT Bombay, Enthought)       | Quick introduction to Cython                            |
+| Ajith Kumar (Inter-University Accelerator Centre) | expEYES Demonstration                                   |
+| Ajith Kumar (Inter-University Accelerator Centre) | expEYES Tutorial                                        |
+| Ole Nielsen (AusAID)                              | Putting stuff on maps 101                               |
 
 ## 2011
 
@@ -521,6 +536,7 @@ for each past edition are linked below.
 | Ajith Kumar (Inter-University Accelerator Centre) | Python in Science Experiments using Phoenix                                                    |
 | Harikrishna                                       | Python based Galaxy workflow integration on GARUDA Grid                                        |
 | Arun C. H.                                        | Automation of an Optical Spectrometer                                                          |
+| Arun C. H.                                        | Usb Connectivity Using Python                                                                  |
 | Krishnakant Mane                                  | Convincing Universities to include Python                                                      |
 | Shantanu Choudhary                                | "Python" Swiss army knife for Prototyping, Research and Fun                                    |
 | Puneeth Chaganti (FOSSEE)                         | Pictures, Songs and Python                                                                     |
@@ -531,18 +547,23 @@ for each past edition are linked below.
 
 **Tutorials**
 
-| Instructor            | Tutorial                            |
-| --------------------- | ----------------------------------- |
-| Asokan Pichai         | Python basics and data structures   |
-| Madhusudan C S        | Advanced Python, version control    |
-| Perry Greenfield      | Arrays                              |
-| Fernando Pérez        | Plotting with pylab                 |
-| Puneeth Chaganti      | Plotting experimental data          |
-| John Hunter           | SciPy                               |
-| Stéfan van der Walt   | NumPy, Cython, documentation editor |
-| Prabhu Ramachandran   | Sage notebook, Mayavi               |
-| Bhanukiran Perbhatini | Sage symbolics and plotting         |
-| Nishanth Amuluru      | Sage linear algebra                 |
+| Instructor            | Tutorial                                      |
+| --------------------- | --------------------------------------------- |
+| Prabhu Ramachandran   | Getting started with Sage notebook            |
+| Bhanukiran Perbhatini | Sage: symbolics, calculus, and basic plotting |
+| Nishanth Amuluru      | Sage: linear algebra                          |
+| Fernando Pérez        | Basic plotting using pylab                    |
+| Puneeth Chaganti      | Plotting experimental data                    |
+| Perry Greenfield      | Arrays                                        |
+| John Hunter           | SciPy                                         |
+| Asokan Pichai         | Python language: basics                       |
+| Asokan Pichai         | Python language: data structures              |
+| Madhusudan C S        | Python language: advanced                     |
+| Stéfan van der Walt   | More NumPy                                    |
+| Prabhu Ramachandran   | Mayavi                                        |
+| Stéfan van der Walt   | Cython                                        |
+| Madhusudan C S        | Version control (Hg/Git)                      |
+| Stéfan van der Walt   | ReST and SciPy/NumPy documentation editor     |
 
 ## 2009
 
@@ -556,6 +577,30 @@ for each past edition are linked below.
 
 **Keynotes and invited talks**
 
-- Travis Oliphant (Enthought)
-- David Cournapeau
-- Chris Burns
+| Speaker                                             | Session      | Title                                                                                  |
+| --------------------------------------------------- | ------------ | -------------------------------------------------------------------------------------- |
+| Travis Oliphant (Enthought)                         | Keynote      | SciPy Beginnings and Applications                                                      |
+| Travis Oliphant (Enthought)                         | Talk         | Chaco and Traits                                                                       |
+| David Cournapeau (Kyoto University)                 | Invited talk | An update on the NumPy/SciPy projects & a discussion of build and distribution systems |
+| Chris Burns (UC Berkeley Neuroscience Institute)    | Invited talk | Nipype                                                                                 |
+| Jarrod Millman (UC Berkeley Neuroscience Institute) | Invited talk | The SciPy web and documentation tools                                                  |
+| Prabhu Ramachandran (IIT Bombay)                    | Invited talk | A brief introduction to Sage                                                           |
+| Prabhu Ramachandran (IIT Bombay)                    | Invited talk | Mayavi                                                                                 |
+| Asokan Pichai (FOSSEE)                              | Invited talk | The FOSSEE project                                                                     |
+
+**Talks**
+
+| Speaker                                | Title                                                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Kannan Moudgalya                       | Spoken Tutorials: Strategies for promoting open source software and bridging digital divide |
+| Chandrashekhar Kaushik                 | A Python based SPH framework                                                                |
+| Praneeth Bodduluri, Suryajith Chillara | Experimentation with python - why not do it the FOSS way?                                   |
+| Debayan Banerjee                       | Digital Image Processing with Python                                                        |
+| Abhishek Pathak                        | 3D object recognition from 2D view-aspects using similarity measures                        |
+| Senthil Kumaran                        | Understanding GIL and How it affects your processing speed                                  |
+| Kumaran M                              | Language Detector for Python using n-gram                                                   |
+| Farhat Habib                           | Finding candidate transcription factors involved in gene regulation                         |
+| Akshay Srinivasan                      | Python and AVRs: Perfect way to make cheap and functional instrumentation                   |
+| Deepak Nath                            | Brain computer                                                                              |
+| Abhishek Pathak                        | SODAR data using fuzzy rule-base expert system package implemented in python                |
+| Abhishek Pathak                        | A graph matching approach to classification of SODAR data                                   |
