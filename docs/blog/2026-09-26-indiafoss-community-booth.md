@@ -19,14 +19,6 @@ Last year, SciPy India was at IndiaFOSS with the [FOSS in Science devroom](2025-
 - **Venue**: [NIMHANS Convention Centre, Bengaluru](https://osmapp.org/way/1219285692#15.37/12.9430/77.5956)
 - **Conference page**: [IndiaFOSS 2026](https://fossunited.org/indiafoss/2026)
 
-## Photo album
-
-<!--
-ALBUM EMBED
-Replace with the ente.io iframe, in the same format as the BangPypers post:
-<iframe src="https://embed.ente.io/?t=...#..." width="100%" height="500" frameborder="0" allowfullscreen></iframe>
--->
-
 ## At the booth
 
 [Malayaja Chutani](https://www.linkedin.com/in/malayajachutani/), [Agriya Khetarpal](https://agriyakhetarp.al/), [Aditi Juneja](https://www.linkedin.com/in/aditi-juneja-940838204/), and I (Srihari) ran the booth. Agriya and I spent Saturday morning running the [docs devroom](https://fossunited.org/indiafoss/2026/devrooms/docs), so we joined the others that afternoon once it wrapped up.
@@ -44,6 +36,21 @@ Most of them started with what SciPy India is these days and ended with SciPy In
 One question came up more than a few times (we got a lot of practice answering this one): is SciPy India about the SciPy library? Not quite. It shares the name, but the community and the conference are about scientific computing as a whole, in the same spirit as the SciPy conferences elsewhere (SciPy US, EuroSciPy, etc.). Libraries like SciPy are very much part of that, just not all of it.
 
 The weekend also gave us something we rarely get: the whole [SciPy India team](https://scipy.in/2026/team) in one place, with [Rahul Poruri](https://rahulporuri.in/) dropping by the booth too. Most of our planning happens over calls, so it was good to talk through conference work in person and sort out priorities for the run-up to December!!
+
+## Photo album
+
+<div class="photo-carousel-wrap">
+<button class="photo-carousel-btn prev" aria-label="Previous photo" onclick="var c=this.parentElement.querySelector('.photo-carousel');c.scrollBy({left:-c.clientWidth,behavior:'smooth'})">&#8249;</button>
+<button class="photo-carousel-btn next" aria-label="Next photo" onclick="var c=this.parentElement.querySelector('.photo-carousel');c.scrollBy({left:c.clientWidth,behavior:'smooth'})">&#8250;</button>
+<div class="photo-carousel" tabindex="0" aria-label="Photos from the booth">
+<img src="../_static/blog/2026-indiafoss-booth/team.jpg" alt="The SciPy India team at the booth, holding up the hand-drawn signs" loading="lazy">
+<img src="../_static/blog/2026-indiafoss-booth/signs.jpg" alt="Hand-drawn signs on the booth table about the community and the SciPy India 2026 conference" loading="lazy">
+<img src="../_static/blog/2026-indiafoss-booth/booth-crowd.jpg" alt="People gathered around the SciPy India booth table, reading the signs" loading="lazy">
+<img src="../_static/blog/2026-indiafoss-booth/conversations.jpg" alt="The team talking to visitors at the booth" loading="lazy">
+<img src="../_static/blog/2026-indiafoss-booth/united-by-foss-frame.jpg" alt="Three people posing inside the &quot;United by FOSS&quot; photo frame at IndiaFOSS 2026" loading="lazy">
+<img src="../_static/blog/2026-indiafoss-booth/stickers.jpg" alt="A fan of SciPy India 2026 stickers on a dark tablecloth" loading="lazy">
+</div>
+</div>
 
 ## Submit a proposal
 
