@@ -369,3 +369,36 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
   border: 0;
   border-radius: 0.25rem;
 }
+
+/* Terms and conditions: number the clauses */
+#terms-and-conditions {
+  counter-reset: sci-terms-section;
+}
+
+#terms-and-conditions > section {
+  counter-increment: sci-terms-section;
+}
+
+#terms-and-conditions > section > ol {
+  list-style: none;
+  counter-reset: sci-terms-clause;
+  padding-left: 0;
+}
+
+#terms-and-conditions > section > ol > li {
+  counter-increment: sci-terms-clause;
+  display: grid;
+  grid-template-columns: 3.25em minmax(0, 1fr);
+  column-gap: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+#terms-and-conditions > section > ol > li::before {
+  content: counter(sci-terms-section) "." counter(sci-terms-clause);
+  font-weight: 600;
+  color: var(--pst-color-text-muted);
+}
+
+#terms-and-conditions > section > ol > li > * {
+  grid-column: 2;
+}
