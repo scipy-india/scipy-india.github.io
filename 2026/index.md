@@ -73,7 +73,7 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 :link: https://cfp.scipy.in/scipy-india-2026/
 :link-type: url
 
-Now open! We are looking for proposals for workshops, talks, and posters on scientific computing, research software, and AI/ML applications with a scientific flavour. Submissions close on 19th October 2026.
+Now open! We are looking for proposals for workshops, talks, and posters on scientific computing, research software, and AI/ML applications with a scientific flavour. Submissions close on 1st November 2026.
 :::
 
 :::{grid-item-card} Sponsor us
@@ -101,7 +101,7 @@ The call for volunteers is open, with no deadline. Help with reviewing proposals
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We expect to announce the programme after the call for proposals closes on 19th October 2026.
+The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We expect to announce the programme after the call for proposals closes on 1st November 2026.
 :::
 
 :::{grid-item-card} Venue and travel
@@ -161,7 +161,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +====================================================+===================+===================+
 | Call for volunteers                                | 08th August, 2026 | No deadline       |
 +----------------------------------------------------+-------------------+-------------------+
-| Call for proposals                                 | 25th August, 2026 | 19th October, 2026|
+| Call for proposals                                 | 25th August, 2026 | 1st November, 2026|
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | Now open          | 18th December 2026|
 +----------------------------------------------------+-------------------+-------------------+
@@ -217,7 +217,7 @@ Please refer to the [venue and travel page](venue) for maps of both buildings, d
 
 ## Call for proposals
 
-Our call for proposals (CFP) for talks, workshops, and posters is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
+Our call for proposals (CFP) for talks, workshops, and posters is now open, and will close on 1st November 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 
 ```{button-link} https://cfp.scipy.in/scipy-india-2026/
 :color: primary

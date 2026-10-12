@@ -128,7 +128,7 @@ Yes, and we will publish them on our YouTube channel after the conference. If yo
 ## Speaking
 
 :::{dropdown} When does the call for proposals close?
-The [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is now open, and will close on 19th October 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
+The [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is now open, and will close on 1st November 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
 :::
 
 :::{dropdown} Can I submit if I have not spoken at a conference before?
