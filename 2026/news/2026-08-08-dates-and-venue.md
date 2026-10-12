@@ -11,7 +11,7 @@ description: The SciPy India 2026 Conference will be held on 19th–20th Decembe
 
 **Update, 8th August 2026:** the [call for volunteers](../volunteer.md) is open, with no deadline. Please fill in the [volunteer form](https://form.jotform.com/262181979068066) if you would like to help.
 
-**Update, 25th August 2026:** the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is open until 19th October 2026.
+**Update, 25th August 2026:** the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) is open until 1st November 2026.
 
 **Update, 16th September 2026:** the [call for sponsors](../sponsor) is open, and our sponsorship prospectus is on that page.
 

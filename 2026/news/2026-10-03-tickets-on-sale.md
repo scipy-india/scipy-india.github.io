@@ -47,4 +47,4 @@ By buying a ticket, you agree to our [terms and conditions](../terms). In short:
 
 Questions? Please see the [FAQ](../faq), write to [info@scipy.in](mailto:info@scipy.in), or ask us on [Zulip](https://zulip.scipy.in).
 
-Reminder: the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) closes on **19th October 2026, 23:59 IST**, and accepted speakers get a free conference ticket. We hope to see you in Chennai in December!
+Reminder: the [call for proposals](https://cfp.scipy.in/scipy-india-2026/) closes on **1st November 2026, 23:59 IST**, and accepted speakers get a free conference ticket. We hope to see you in Chennai in December!
