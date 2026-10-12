@@ -45,6 +45,6 @@ We are glad to offer advice on what reviewers are looking for, answer questions 
 
 Can't make it? Don't worry! We may host another one of these calls before the CFP closes, so please keep an eye on our website. Nevertheless, you are always welcome to send questions to [info@scipy.in](mailto:info@scipy.in) or join the chat on [Zulip](https://zulip.scipy.in).
 
-Reminder: the CFP closes on **19th October 2026, 23:59 IST.** Submit early!
+Reminder: the CFP closes on **1st November 2026, 23:59 IST.** Submit early!
 
 Best wishes! We hope to see you at this call, and at the conference!
