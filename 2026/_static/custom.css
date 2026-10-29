@@ -236,6 +236,21 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
   max-height: 124px;
 }
 
+.bd-content img.sci-jetbrains-logo {
+  box-sizing: content-box;
+  max-width: calc(100% - 24px);
+  max-height: 64px;
+  padding: 12px;
+}
+
+.bd-content .sci-logo-attribution {
+  display: block;
+  margin-top: 0.75rem;
+  color: var(--pst-color-text-muted);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
 .sci-sponsor-slot {
   display: flex;
   align-items: center;

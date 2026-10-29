@@ -320,6 +320,13 @@ Read about our sponsorship tiers
 
 ### Community partners
 
+% The JetBrains card follows their brand guidelines
+% (https://www.jetbrains.com/company/brand/): use the company logo as
+% downloaded and unmodified, the colour version on light backgrounds and
+% the white text version on dark ones, link it to www.jetbrains.com, keep
+% the trademark attribution, and do not describe the subscriptions as
+% sponsorship or endorsement.
+
 ::::{grid} 1 1 2 2
 :gutter: 3
 
@@ -366,6 +373,25 @@ SciPy India is an [official community partner](https://www.python.org/psf/commun
 ```
 
 The RSE Asia Association supports research software engineers across Asia. Do check out [RSAA26](https://rseaa.org), their Research Software Asia Australia Conference, held online from 25 to 28 August 2026 with the RSE Association of Australia and New Zealand!
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/jetbrains.svg
+:alt: JetBrains
+:class: only-light partner-logo sci-supporter-logo sci-jetbrains-logo
+:target: https://www.jetbrains.com
+```
+
+```{image} _static/partner-logos/jetbrains-mono-white.svg
+:alt: JetBrains
+:class: only-dark partner-logo sci-supporter-logo sci-jetbrains-logo
+:target: https://www.jetbrains.com
+```
+
+[Copyright © 2026 JetBrains s.r.o. JetBrains and the JetBrains logo are trademarks of JetBrains s.r.o.]{.sci-logo-attribution}
 :::
 
 ::::
