@@ -391,6 +391,8 @@ The RSE Asia Association supports research software engineers across Asia. Do ch
 :target: https://www.jetbrains.com
 ```
 
+[JetBrains](https://www.jetbrains.com) is providing four annual subscriptions to a JetBrains IDE of the winner's choice, which will be raffled among attendees at the conference.
+
 [Copyright © 2026 JetBrains s.r.o. JetBrains and the JetBrains logo are trademarks of JetBrains s.r.o.]{.sci-logo-attribution}
 :::
 
