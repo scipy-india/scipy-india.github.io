@@ -289,6 +289,30 @@ Quansight's mission is to make open source software accessible, sustainable, and
 
 ::::
 
+#### Silver sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/essentia.png
+:alt: Essentia.dev
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-silver sci-logo-on-white
+:target: https://essentia.dev
+```
+
+**Redefining Possibilities with AI and Software**
+
+Essentia.dev is a software services firm committed to helping businesses and organizations achieve their goals through innovative and advanced software solutions. Our company culture is centred around nurturing creativity and encouraging our team members to think outside the box, enabling us to deliver exceptional results for our clients.
+
+[Read our announcement](news/2026-11-10-essentia-silver-sponsor)
+:::
+
+::::
+
 #### Sponsor us
 
 We are looking for more organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).

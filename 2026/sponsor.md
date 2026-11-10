@@ -83,6 +83,32 @@ Quansight's mission is to make open source software accessible, sustainable, and
 
 ::::
 
+### Silver sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/essentia.png
+:alt: Essentia.dev
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-silver sci-logo-on-white
+:target: https://essentia.dev
+```
+
+**[Essentia.dev](https://essentia.dev)**
+
+**Redefining Possibilities with AI and Software**
+
+Essentia.dev is a software services firm committed to helping businesses and organizations achieve their goals through innovative and advanced software solutions. Our company culture is centred around nurturing creativity and encouraging our team members to think outside the box, enabling us to deliver exceptional results for our clients.
+
+[Read our announcement](news/2026-11-10-essentia-silver-sponsor) | [Website](https://essentia.dev) | [LinkedIn](https://www.linkedin.com/company/essentia-dev/) | [X](https://x.com/essentia_dev)
+:::
+
+::::
+
 ### Join them
 
 We have slots open at every tier. Please see the tiers below, or write to [sponsor@scipy.in](mailto:sponsor@scipy.in).
@@ -328,7 +354,7 @@ Previous editions of the conference have been supported by a wide range of organ
 | What you get                           | Title (exclusive!)                              | Gold                                            | Silver                                      |
 | -------------------------------------- | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
 | Amount                                 | ₹2,50,000 / €2500 / $2750 (plus applicable GST) | ₹1,00,000 / €1000 / $1100 (plus applicable GST) | ₹50,000 / €500 / $550 (plus applicable GST) |
-| Slots available                        | 1                                               | 2                                               | 5                                           |
+| Slots available                        | 1                                               | 2                                               | 4                                           |
 | Free tickets                           | 10                                              | 5                                               | 2                                           |
 | Logo on this website                   | ✓                                               | ✓                                               | ✓                                           |
 | Logo in the programme                  | Large                                           | Medium                                          | Small                                       |

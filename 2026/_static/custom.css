@@ -250,6 +250,10 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
   padding: 12px 24px;
 }
 
+.bd-content img.sci-sponsor-logo-silver {
+  max-height: 120px;
+}
+
 html[data-theme="dark"] .bd-content img.sci-logo-on-white {
   background: #fff;
   border-radius: 12px;
