@@ -267,7 +267,31 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 
 ### Sponsors
 
-We are looking for organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
+#### Gold sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/quansight.svg
+:alt: Quansight
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-logo-on-white
+:target: https://quansight.com
+```
+
+Quansight's mission is to make open source software accessible, sustainable, and community-driven. We achieve this by fostering long-lasting partnerships between enterprise customers and open source projects and communities. Quansight helps customers safely and effectively build technology on open source to drive their own innovation, while ensuring their involvement strengthens the project's community and long-term health.
+
+[Read our announcement](news/2026-11-10-quansight-gold-sponsor)
+:::
+
+::::
+
+#### Sponsor us
+
+We are looking for more organisations, institutions, and corporate entities to support the conference. If you'd like to start the conversation, please get in touch with us at [sponsor@scipy.in](mailto:sponsor@scipy.in).
 
 :::{div} sci-hero-buttons
 

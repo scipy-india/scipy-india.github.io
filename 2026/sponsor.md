@@ -59,6 +59,34 @@ Our proceeds will go into the following areas:
 
 ## Current sponsors
 
+### Gold sponsors
+
+::::{grid} 1
+:gutter: 3
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/quansight.svg
+:alt: Quansight
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-logo-on-white
+:target: https://quansight.com
+```
+
+**[Quansight](https://quansight.com)**
+
+Quansight's mission is to make open source software accessible, sustainable, and community-driven. We achieve this by fostering long-lasting partnerships between enterprise customers and open source projects and communities. Quansight helps customers safely and effectively build technology on open source to drive their own innovation, while ensuring their involvement strengthens the project's community and long-term health.
+
+[Read our announcement](news/2026-11-10-quansight-gold-sponsor) | [Website](https://quansight.com) | [LinkedIn](https://www.linkedin.com/company/quansight/) | [Bluesky](https://bsky.app/profile/quansight.com)
+:::
+
+::::
+
+### Join them
+
+We have slots open at every tier. Please see the tiers below, or write to [sponsor@scipy.in](mailto:sponsor@scipy.in).
+
 ::::{grid} 1 1 3 3
 :gutter: 3
 
@@ -300,7 +328,7 @@ Previous editions of the conference have been supported by a wide range of organ
 | What you get                           | Title (exclusive!)                              | Gold                                            | Silver                                      |
 | -------------------------------------- | ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
 | Amount                                 | ₹2,50,000 / €2500 / $2750 (plus applicable GST) | ₹1,00,000 / €1000 / $1100 (plus applicable GST) | ₹50,000 / €500 / $550 (plus applicable GST) |
-| Slots available                        | 1                                               | 3                                               | 5                                           |
+| Slots available                        | 1                                               | 2                                               | 5                                           |
 | Free tickets                           | 10                                              | 5                                               | 2                                           |
 | Logo on this website                   | ✓                                               | ✓                                               | ✓                                           |
 | Logo in the programme                  | Large                                           | Medium                                          | Small                                       |

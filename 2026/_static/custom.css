@@ -243,6 +243,18 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
   padding: 12px;
 }
 
+.bd-content img.sci-sponsor-logo {
+  box-sizing: content-box;
+  max-width: calc(100% - 48px);
+  max-height: 168px;
+  padding: 12px 24px;
+}
+
+html[data-theme="dark"] .bd-content img.sci-logo-on-white {
+  background: #fff;
+  border-radius: 12px;
+}
+
 .bd-content .sci-logo-attribution {
   display: block;
   margin-top: 0.75rem;
