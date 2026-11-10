@@ -116,6 +116,26 @@ Previous editions of the SciPy India conference ran from 2009 to 2021, at venues
 
 We expect to form the final [programme](programme) in October 2026. We will publish it, along with the session times, and announce the keynote presentations, selected talks, and workshops once it is finalised.
 
+## Keynotes
+
+::::{grid} 1 2 3 3
+:gutter: 3
+
+:::{grid-item-card}
+:img-top: _static/speakers/dharhas-pothina.jpg
+:img-alt: Dharhas Pothina
+:link: keynote-presentations
+:link-type: ref
+:link-alt: Read about Dharhas Pothina on the programme page
+:text-align: center
+
+**Dharhas Pothina**\
+CTO, OpenTeams
+
+:::
+
+::::
+
 ## Who is this conference for?
 
 The SciPy India 2026 Conference is for anyone who writes or depends on code to do scientific, computational, and data-driven work, including but not limited to:
