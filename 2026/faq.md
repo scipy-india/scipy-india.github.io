@@ -70,7 +70,7 @@ We are still working this out and will update this answer once it is decided. If
 ## Tickets
 
 :::{dropdown} How much is a ticket?
-Early bird tickets start at ₹699 for a single day and ₹1,199 for both days. The full price table, including student, corporate, and contributor tickets, is on the [registration page](register). GST and platform fees are added at checkout. Early bird prices are available until 19th October 2026. We are keeping prices low to make the conference accessible, so please book early to get the early bird price.
+Early bird tickets start at ₹699 for a single day and ₹1,199 for both days. The full price table, including student, corporate, and contributor tickets, is on the [registration page](register). GST and platform fees are added at checkout. Early bird prices are available until the early bird tickets sell out. We are keeping prices low to make the conference accessible, so please book early to get the early bird price.
 :::
 
 :::{dropdown} What does a ticket cover?

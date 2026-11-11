@@ -87,7 +87,7 @@ Read about our sponsorship tiers and options, the audience you would reach, and 
 :link: register
 :link-type: doc
 
-Tickets are now on sale on KonfHub. Early bird prices are available until 19th October 2026, so please book early.
+Tickets are now on sale on KonfHub. Early bird prices are available until the early bird tickets sell out, so please book early.
 :::
 
 :::{grid-item-card} Volunteer
@@ -185,7 +185,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | Now open          | 18th December 2026|
 +----------------------------------------------------+-------------------+-------------------+
-| Early bird ticket prices end                       | 19th October, 2026                    |
+| Early bird ticket prices end                       | When early bird tickets sell out      |
 +----------------------------------------------------+---------------------------------------+
 | Programme announcement                             | To be announced                       |
 +----------------------------------------------------+---------------------------------------+

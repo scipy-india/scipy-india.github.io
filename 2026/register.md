@@ -31,7 +31,7 @@ By buying a ticket, you hereby agree to our [terms and conditions](terms). In sh
 
 Applicable Goods and Services Tax (GST) and KonfHub's platform fees are added at checkout.
 
-Early bird prices are available until **19th October 2026**. Regular prices apply from 20th October to 8th December, and late bird prices from 9th to 18th December, subject to availability. We may also sell a limited number of on-the-spot tickets at the venue on each day, for that day only, if seats remain. This is not guaranteed, so please do not rely on it. On-the-spot tickets do not include lunch or a conference T-shirt.
+Early bird prices are available **until the early bird tickets sell out**. Regular prices apply after that until 8th December, and late bird prices from 9th to 18th December, subject to availability. We may also sell a limited number of on-the-spot tickets at the venue on each day, for that day only, if seats remain. This is not guaranteed, so please do not rely on it. On-the-spot tickets do not include lunch or a conference T-shirt.
 
 - **Student:** if you are a student, please pick the student ticket. You will need to show a valid student ID at the registration desk.
 - **Corporate:** if your attendance is supported by your institution or company, please sign up for a corporate ticket at slightly higher pricing. This helps us keep the conference accessible to students, independent researchers, and those from underrepresented groups.
