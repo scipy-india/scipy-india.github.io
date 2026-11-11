@@ -210,54 +210,6 @@ We are committed to providing a safe and welcoming environment for all attendees
 % If the evening gathering is confirmed:
 % Conference social dinner | Saturday 19 December 2026 (spanning)
 
-## Programme
-
-### Workshops, 19th December (Saturday)
-
-% The workshops will be hands-on sessions of roughly three hours on various software-oriented topics. Attendees are required to bring their laptops and complete the necessary prerequisites set by the workshop facilitators. There will be Wi-Fi available, but please have a mobile connection handy just in case. We will have room for a limited number of people in each workshop.
-
-To be announced
-
-### Conference, 20th December (Sunday)
-
-% - Two keynotes
-% - Talks of 30 minutes including questions (planning ongoing)
-% - Five-minute Lightning talks/three-minute theses session (planning ongoing)
-% - Poster session
-
-To be announced
-
-## Venue
-
-The SciPy India 2026 Conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
-
-The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan and A.M.M. Arunachalam auditoriums at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
-
-The campus is about 15 kilometres from the Chennai International Airport (MAA), 13 kilometres from the Chennai Central Railway Station, and 10 kilometres from the Chennai Egmore Railway Station.
-
-Please refer to the [venue and travel page](venue) for maps of both buildings, directions, notes on accommodation, and general travel guidance.
-
-## Call for proposals
-
-Our [call for proposals (CFP)](https://cfp.scipy.in/scipy-india-2026/) for talks, workshops, and posters closed on 1st November 2026. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
-
-## Registration
-
-Tickets are now on sale on KonfHub. Please see the [registration page](register) for prices and what a ticket covers. By buying a ticket, you agree to our [terms and conditions](terms).
-
-**Please note that tickets are non-refundable and cannot be transferred to another person. All ticket sales are final. We have limited spots available, so please book early to secure your attendance.**
-
-```{button-link} https://konfhub.com/scipy-india-2026
-:color: primary
-:class: sci-new-tab
-
-Buy your tickets
-```
-
-## Recordings
-
-We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
-
 ## Our partners, supporters, and sponsors
 
 ### Venue host
@@ -518,6 +470,54 @@ The RSE Asia Association supports research software engineers across Asia. Do ch
 :::
 
 ::::
+
+## Programme
+
+### Workshops, 19th December (Saturday)
+
+% The workshops will be hands-on sessions of roughly three hours on various software-oriented topics. Attendees are required to bring their laptops and complete the necessary prerequisites set by the workshop facilitators. There will be Wi-Fi available, but please have a mobile connection handy just in case. We will have room for a limited number of people in each workshop.
+
+To be announced
+
+### Conference, 20th December (Sunday)
+
+% - Two keynotes
+% - Talks of 30 minutes including questions (planning ongoing)
+% - Five-minute Lightning talks/three-minute theses session (planning ongoing)
+% - Poster session
+
+To be announced
+
+## Venue
+
+The SciPy India 2026 Conference will be held at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
+
+The workshops on 19th December 2026 will be held at the seminar halls of the Department of Physics. The conference on 20th December 2026 will be held at the T.T. Jagannathan and A.M.M. Arunachalam auditoriums at the Centre for Industrial Consultancy and Sponsored Research (IC&SR) building. Both buildings are at a distance of 400 metres from each other.
+
+The campus is about 15 kilometres from the Chennai International Airport (MAA), 13 kilometres from the Chennai Central Railway Station, and 10 kilometres from the Chennai Egmore Railway Station.
+
+Please refer to the [venue and travel page](venue) for maps of both buildings, directions, notes on accommodation, and general travel guidance.
+
+## Call for proposals
+
+Our [call for proposals (CFP)](https://cfp.scipy.in/scipy-india-2026/) for talks, workshops, and posters closed on 1st November 2026. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
+
+## Registration
+
+Tickets are now on sale on KonfHub. Please see the [registration page](register) for prices and what a ticket covers. By buying a ticket, you agree to our [terms and conditions](terms).
+
+**Please note that tickets are non-refundable and cannot be transferred to another person. All ticket sales are final. We have limited spots available, so please book early to secure your attendance.**
+
+```{button-link} https://konfhub.com/scipy-india-2026
+:color: primary
+:class: sci-new-tab
+
+Buy your tickets
+```
+
+## Recordings
+
+We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.
 
 ## Updates
 
