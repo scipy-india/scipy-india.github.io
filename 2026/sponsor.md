@@ -78,7 +78,7 @@ Our proceeds will go into the following areas:
 
 Quansight's mission is to make open source software accessible, sustainable, and community-driven. We achieve this by fostering long-lasting partnerships between enterprise customers and open source projects and communities. Quansight helps customers safely and effectively build technology on open source to drive their own innovation, while ensuring their involvement strengthens the project's community and long-term health.
 
-[Read our announcement](news/2026-11-10-quansight-gold-sponsor) | [Website](https://quansight.com) | [LinkedIn](https://www.linkedin.com/company/quansight/) | [Bluesky](https://bsky.app/profile/quansight.com)
+[Read our announcement](news/2026-11-10-quansight-gold-sponsor) | [Website](https://quansight.com) | [GitHub](https://github.com/Quansight) | [LinkedIn](https://www.linkedin.com/company/quansight/) | [Bluesky](https://bsky.app/profile/quansight.com) | [Twitter/X](https://twitter.com/quansightai)
 :::
 
 ::::
@@ -105,7 +105,7 @@ Quansight's mission is to make open source software accessible, sustainable, and
 
 Essentia.dev is a software services firm committed to helping businesses and organizations achieve their goals through innovative and advanced software solutions. Our company culture is centred around nurturing creativity and encouraging our team members to think outside the box, enabling us to deliver exceptional results for our clients.
 
-[Read our announcement](news/2026-11-10-essentia-silver-sponsor) | [Website](https://essentia.dev) | [LinkedIn](https://www.linkedin.com/company/essentia-dev/) | [X](https://x.com/essentia_dev)
+[Read our announcement](news/2026-11-10-essentia-silver-sponsor) | [Website](https://essentia.dev) | [GitHub](https://github.com/essentiasoftserv) | [LinkedIn](https://www.linkedin.com/company/essentia-dev/) | [Twitter/X](https://twitter.com/essentia_dev)
 :::
 
 :::{grid-item-card}
@@ -124,7 +124,7 @@ Essentia.dev is a software services firm committed to helping businesses and org
 
 Thousands of open source contributors built the foundations of modern AI. OpenTeams helps organizations deploy, support, and own that technology at enterprise scale.
 
-[Read our announcement](news/2026-11-11-openteams-silver-sponsor) | [Website](https://openteams.com) | [LinkedIn](https://www.linkedin.com/company/openteams/) | [X](https://x.com/openteamsinc)
+[Read our announcement](news/2026-11-11-openteams-silver-sponsor) | [Website](https://openteams.com) | [GitHub](https://github.com/openteams-ai) | [LinkedIn](https://www.linkedin.com/company/openteams/) | [Twitter/X](https://twitter.com/openteamsinc)
 :::
 
 ::::

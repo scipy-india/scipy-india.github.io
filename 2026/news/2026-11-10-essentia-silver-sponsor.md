@@ -23,7 +23,7 @@ We are excited to announce [Essentia.dev](https://essentia.dev) as a **Silver sp
 
 Essentia.dev is a software services firm committed to helping businesses and organizations achieve their goals through innovative and advanced software solutions. Our company culture is centred around nurturing creativity and encouraging our team members to think outside the box, enabling us to deliver exceptional results for our clients.
 
-You can learn more at [essentia.dev](https://essentia.dev), and follow Essentia.dev on [LinkedIn](https://www.linkedin.com/company/essentia-dev/) and [X](https://x.com/essentia_dev).
+You can learn more at [essentia.dev](https://essentia.dev), and follow Essentia.dev on [GitHub](https://github.com/essentiasoftserv), [LinkedIn](https://www.linkedin.com/company/essentia-dev/), and [Twitter/X](https://twitter.com/essentia_dev).
 
 ## Thank you
 

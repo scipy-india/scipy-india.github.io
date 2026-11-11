@@ -21,7 +21,7 @@ We are excited to announce [Quansight](https://quansight.com) as a **Gold sponso
 
 Quansight's mission is to make open source software accessible, sustainable, and community-driven. We achieve this by fostering long-lasting partnerships between enterprise customers and open source projects and communities. Quansight helps customers safely and effectively build technology on open source to drive their own innovation, while ensuring their involvement strengthens the project's community and long-term health.
 
-You can learn more at [quansight.com](https://quansight.com), and follow Quansight on [LinkedIn](https://www.linkedin.com/company/quansight/) and [Bluesky](https://bsky.app/profile/quansight.com).
+You can learn more at [quansight.com](https://quansight.com), and follow Quansight on [GitHub](https://github.com/Quansight), [LinkedIn](https://www.linkedin.com/company/quansight/), [Bluesky](https://bsky.app/profile/quansight.com), and [Twitter/X](https://twitter.com/quansightai).
 
 ## Thank you
 

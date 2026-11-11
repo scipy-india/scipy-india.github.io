@@ -23,7 +23,7 @@ We are excited to announce [OpenTeams](https://openteams.com) as a **Silver spon
 
 Thousands of open source contributors built the foundations of modern AI. OpenTeams helps organizations deploy, support, and own that technology at enterprise scale.
 
-You can learn more at [openteams.com](https://openteams.com), and follow OpenTeams on [LinkedIn](https://www.linkedin.com/company/openteams/) and [X](https://x.com/openteamsinc).
+You can learn more at [openteams.com](https://openteams.com), and follow OpenTeams on [GitHub](https://github.com/openteams-ai), [LinkedIn](https://www.linkedin.com/company/openteams/), and [Twitter/X](https://twitter.com/openteamsinc).
 
 ## Thank you
 
