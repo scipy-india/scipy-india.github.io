@@ -14,20 +14,20 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 
 :::{div} sci-hero-buttons
 
-```{button-link} https://scipy.in
-:color: secondary
-:outline:
-:class: sci-new-tab
+```{button-link} https://konfhub.com/scipy-india-2026
+:color: primary
+:shadow:
+:class: sci-new-tab sci-hero-cta
 
-{octicon}`arrow-left` Go back to SciPy India's main website
+Get your ticket {octicon}`arrow-right`
 ```
 
-```{button-link} https://scipy.in/past-editions
+```{button-ref} sponsor
+:ref-type: doc
 :color: secondary
 :outline:
-:class: sci-new-tab
 
-{octicon}`history` Past editions
+Sponsor us
 ```
 
 :::

@@ -92,7 +92,6 @@ html_context = {
                 ("faq", "Frequently asked questions (FAQ)"),
             ],
         },
-        {"label": "Call for proposals", "page": "https://cfp.scipy.in/scipy-india-2026/"},
         {"label": "Sponsor us", "page": "sponsor"},
         {
             "label": "About",
@@ -142,7 +141,7 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["navbar-icon-links", "theme-switcher"],
-    "navbar_persistent": ["search-button"],
+    "navbar_persistent": ["navbar-tickets", "search-button"],
     "footer_start": ["copyright"],
     "footer_end": ["past-editions"],
     "show_prev_next": False,

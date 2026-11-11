@@ -457,3 +457,32 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
 #terms-and-conditions > section > ol > li > * {
   grid-column: 2;
 }
+
+.bd-content .sci-hero-cta {
+  font-weight: 600;
+}
+
+.sci-nav-tickets,
+.sci-nav-tickets:visited {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.25rem;
+  background: var(--pst-color-primary);
+  color: var(--pst-color-primary-text, #fff);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sci-nav-tickets:hover {
+  background: var(--pst-color-primary-highlight, var(--pst-color-primary));
+  color: var(--pst-color-primary-highlight-text, #fff);
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .bd-header .logo__title {
+    display: none;
+  }
+}
