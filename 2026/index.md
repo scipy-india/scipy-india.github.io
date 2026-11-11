@@ -66,49 +66,50 @@ Sponsor us
 
 We are elated to announce the **fourteenth edition** of the convening of scientific computing and research software enthusiasts in India, conveniently shortened and coined the "SciPy India 2026 Conference".
 
-::::{grid} 1 1 2 2
+::::{grid} 1 2 2 3
 :gutter: 3
-
-:::{grid-item-card} Call for proposals (CFP)
-:link: https://cfp.scipy.in/scipy-india-2026/
-:link-type: url
-
-Now closed. Thank you to everyone who sent us a proposal for a workshop, talk, or poster! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
-:::
-
-:::{grid-item-card} Sponsor us
-:link: sponsor
-:link-type: doc
-
-Read about our sponsorship tiers and options, the audience you would reach, and how you can support the conference.
-:::
 
 :::{grid-item-card} Registrations
 :link: register
 :link-type: doc
 
-Tickets are now on sale on KonfHub. Early bird prices are available until the early bird tickets sell out, so please book early.
-:::
-
-:::{grid-item-card} Volunteer
-:link: volunteer
-:link-type: doc
-
-The call for volunteers is open, with no deadline. Help with reviewing proposals, outreach, the website, or on the two days of the conference. Fill in the volunteer form to get involved.
+Tickets are now on sale on KonfHub. Early bird prices are available until the early bird tickets sell out.
 :::
 
 :::{grid-item-card} Programme
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We are reviewing the proposals we received, and we expect to announce the programme in November 2026.
+Workshops on 19th December and the conference on 20th December, all in English. We expect to announce the programme in November 2026.
 :::
 
 :::{grid-item-card} Venue and travel
 :link: venue
 :link-type: doc
 
-Visit this page for information on how to reach the venue, accommodation options, travel guidance, and visa requirements for international attendees.
+How to reach the venue, accommodation options, travel guidance, and visa requirements for international attendees.
+:::
+
+:::{grid-item-card} Sponsor us
+:link: sponsor
+:link-type: doc
+
+Our sponsorship tiers and options, the audience you would reach, and how you can support the conference.
+:::
+
+:::{grid-item-card} Volunteer
+:link: volunteer
+:link-type: doc
+
+The call for volunteers is open, with no deadline. Help with reviewing proposals, outreach, the website, or on the two days.
+:::
+
+:::{grid-item-card} Call for proposals (CFP)
+:link: https://cfp.scipy.in/scipy-india-2026/
+:link-type: url
+
+Now closed. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted.
+:::
 
 ::::
 
