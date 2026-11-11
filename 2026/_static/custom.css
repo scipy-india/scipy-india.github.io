@@ -467,6 +467,18 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
   font-weight: 600;
 }
 
+.bd-content .sci-btn-sponsor {
+  --sd-color-primary: #b3264a;
+  --sd-color-primary-highlight: #951f3d;
+  --sd-color-primary-text: #fff;
+}
+
+html[data-theme="dark"] .bd-content .sci-btn-sponsor {
+  --sd-color-primary: #ff7b93;
+  --sd-color-primary-highlight: #ff9bad;
+  --sd-color-primary-text: #14181e;
+}
+
 .sci-nav-tickets,
 .sci-nav-tickets:visited {
   display: inline-flex;

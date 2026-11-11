@@ -19,20 +19,21 @@ Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India
 :shadow:
 :class: sci-new-tab sci-hero-cta
 
-Get your ticket {octicon}`arrow-right`
+Get your ticket! {octicon}`arrow-right`
 ```
 
 ```{button-ref} sponsor
-:ref-type: doc
-:color: secondary
-:outline:
+:ref-type: myst
+:color: primary
+:shadow:
+:class: sci-btn-sponsor
 
-Sponsor us
+{octicon}`heart` Sponsor us
 ```
 
 ```{button-link} https://scipy.in/past-editions
 :color: secondary
-:outline:
+:shadow:
 :class: sci-new-tab
 
 {octicon}`history` Past editions
