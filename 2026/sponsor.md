@@ -85,8 +85,9 @@ Quansight's mission is to make open source software accessible, sustainable, and
 
 ### Silver sponsors
 
-::::{grid} 1
+::::{grid} 1 1 2 2
 :gutter: 3
+:class-container: sci-sponsor-row
 
 :::{grid-item-card}
 :text-align: center
@@ -105,6 +106,25 @@ Quansight's mission is to make open source software accessible, sustainable, and
 Essentia.dev is a software services firm committed to helping businesses and organizations achieve their goals through innovative and advanced software solutions. Our company culture is centred around nurturing creativity and encouraging our team members to think outside the box, enabling us to deliver exceptional results for our clients.
 
 [Read our announcement](news/2026-11-10-essentia-silver-sponsor) | [Website](https://essentia.dev) | [LinkedIn](https://www.linkedin.com/company/essentia-dev/) | [X](https://x.com/essentia_dev)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/openteams.svg
+:alt: OpenTeams
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-silver sci-logo-on-white
+:target: https://openteams.com
+```
+
+**[OpenTeams](https://openteams.com)**
+
+**Owned Intelligence. Built For Enterprise.**
+
+Thousands of open source contributors built the foundations of modern AI. OpenTeams helps organizations deploy, support, and own that technology at enterprise scale.
+
+[Read our announcement](news/2026-11-11-openteams-silver-sponsor) | [Website](https://openteams.com) | [LinkedIn](https://www.linkedin.com/company/openteams/) | [X](https://x.com/openteamsinc)
 :::
 
 ::::

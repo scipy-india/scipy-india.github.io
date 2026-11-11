@@ -254,6 +254,20 @@ html[data-theme="dark"] .bd-content a:has(> img.partner-logo.only-light) {
   max-height: 120px;
 }
 
+.bd-content .sci-sponsor-row img.sci-sponsor-logo {
+  height: 120px;
+  object-fit: contain;
+}
+
+.bd-content .sci-sponsor-row .sd-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bd-content .sci-sponsor-row .sd-card-body > p:last-child {
+  margin-top: auto;
+}
+
 html[data-theme="dark"] .bd-content img.sci-logo-on-white {
   background: #fff;
   border-radius: 12px;
