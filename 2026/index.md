@@ -76,43 +76,44 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 
 ::::{grid} 1 2 2 3
 :gutter: 3
+:class-container: sci-welcome-cards
 
-:::{grid-item-card} Registrations
+:::{grid-item-card} {octicon}`tag;1.1em` Registrations
 :link: register
 :link-type: doc
 
 Tickets are now on sale on KonfHub. Early bird prices are available until the early bird tickets sell out.
 :::
 
-:::{grid-item-card} Programme
+:::{grid-item-card} {octicon}`calendar;1.1em` Programme
 :link: programme
 :link-type: doc
 
 Workshops on 19th December and the conference on 20th December, all in English. We expect to announce the programme in November 2026.
 :::
 
-:::{grid-item-card} Venue and travel
+:::{grid-item-card} {octicon}`location;1.1em` Venue and travel
 :link: venue
 :link-type: doc
 
 How to reach the venue, accommodation options, travel guidance, and visa requirements for international attendees.
 :::
 
-:::{grid-item-card} Sponsor us
+:::{grid-item-card} {octicon}`heart;1.1em` Sponsor us
 :link: sponsor
 :link-type: doc
 
 Our sponsorship tiers and options, the audience you would reach, and how you can support the conference.
 :::
 
-:::{grid-item-card} Volunteer
+:::{grid-item-card} {octicon}`people;1.1em` Volunteer
 :link: volunteer
 :link-type: doc
 
 The call for volunteers is open, with no deadline. Help with reviewing proposals, outreach, the website, or on the two days.
 :::
 
-:::{grid-item-card} Call for proposals (CFP)
+:::{grid-item-card} {octicon}`megaphone;1.1em` Call for proposals (CFP)
 :link: https://cfp.scipy.in/scipy-india-2026/
 :link-type: url
 

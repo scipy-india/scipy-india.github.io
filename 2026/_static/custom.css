@@ -491,3 +491,72 @@ html[data-theme="dark"] .bd-content .sci-team-grid .sd-card-img-top {
     display: none;
   }
 }
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(1) .sd-card {
+  --sci-card: var(--pst-color-primary);
+}
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(2) .sd-card {
+  --sci-card: #b4530a;
+}
+
+html[data-theme="dark"]
+  .bd-content
+  .sci-welcome-cards
+  .sd-col:nth-child(2)
+  .sd-card {
+  --sci-card: #f0883e;
+}
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(3) .sd-card {
+  --sci-card: #1f5fa8;
+}
+
+html[data-theme="dark"]
+  .bd-content
+  .sci-welcome-cards
+  .sd-col:nth-child(3)
+  .sd-card {
+  --sci-card: #6ea8ff;
+}
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(4) .sd-card {
+  --sci-card: #b3264a;
+}
+
+html[data-theme="dark"]
+  .bd-content
+  .sci-welcome-cards
+  .sd-col:nth-child(4)
+  .sd-card {
+  --sci-card: #ff7b93;
+}
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(5) .sd-card {
+  --sci-card: #2f7d32;
+}
+
+html[data-theme="dark"]
+  .bd-content
+  .sci-welcome-cards
+  .sd-col:nth-child(5)
+  .sd-card {
+  --sci-card: #56c271;
+}
+
+.bd-content .sci-welcome-cards .sd-col:nth-child(6) .sd-card {
+  --sci-card: var(--pst-color-text-muted);
+}
+
+.bd-content .sci-welcome-cards .sd-card {
+  border-color: color-mix(in srgb, var(--sci-card), transparent 55%);
+  border-top: 3px solid var(--sci-card);
+}
+
+.bd-content .sci-welcome-cards .sd-card-title {
+  color: var(--sci-card);
+}
+
+.bd-content .sci-welcome-cards .sd-card-title .sd-octicon {
+  margin-right: 0.35em;
+}
