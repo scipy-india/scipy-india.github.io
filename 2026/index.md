@@ -163,6 +163,19 @@ The SciPy India 2026 Conference is for anyone who writes or depends on code to d
 
 We strive to make the conference accessible to all, and we welcome attendees from all backgrounds, disciplines, and levels of experience. We especially encourage participation from students, industry, early-career researchers, and those from underrepresented groups in STEAM (Science, Technology, Engineering, Arts, and Mathematics) fields. This includes women, non-binary individuals, and members of the LGBTQIA+ community, persons with disabilities, religious and ethnic minorities, members of Adivasi and tribal communities, and historically marginalised caste groups – including Scheduled Castes (SC), Scheduled Tribes (ST), and Other Backward Classes (OBC).
 
+## Registration
+
+Tickets are now on sale on KonfHub. Please see the [registration page](register) for prices and what a ticket covers. By buying a ticket, you agree to our [terms and conditions](terms).
+
+**Please note that tickets are non-refundable and cannot be transferred to another person. All ticket sales are final. We have limited spots available, so please book early to secure your attendance.**
+
+```{button-link} https://konfhub.com/scipy-india-2026
+:color: primary
+:class: sci-new-tab
+
+Buy your tickets
+```
+
 ## Code of Conduct
 
 We are committed to providing a safe and welcoming environment for all attendees, speakers, sponsors, and volunteers. We expect everyone to adhere to our [Code of Conduct](coc) and treat each other with respect and professionalism.
@@ -510,19 +523,6 @@ Please refer to the [venue and travel page](venue) for maps of both buildings, d
 ## Call for proposals
 
 Our [call for proposals (CFP)](https://cfp.scipy.in/scipy-india-2026/) for talks, workshops, and posters closed on 1st November 2026. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
-
-## Registration
-
-Tickets are now on sale on KonfHub. Please see the [registration page](register) for prices and what a ticket covers. By buying a ticket, you agree to our [terms and conditions](terms).
-
-**Please note that tickets are non-refundable and cannot be transferred to another person. All ticket sales are final. We have limited spots available, so please book early to secure your attendance.**
-
-```{button-link} https://konfhub.com/scipy-india-2026
-:color: primary
-:class: sci-new-tab
-
-Buy your tickets
-```
 
 ## Recordings
 
