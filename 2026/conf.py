@@ -133,6 +133,10 @@ html_logo = "_static/logo.svg"
 html_favicon = "_static/logo.svg"
 
 html_theme_options = {
+    "announcement": (
+        "Last few early bird tickets left! "
+        '<a href="https://konfhub.com/scipy-india-2026" target="_blank" rel="noopener">Get your ticket</a>'
+    ),
     "logo": {
         "image_light": "_static/logo.svg",
         "image_dark": "_static/logo.svg",

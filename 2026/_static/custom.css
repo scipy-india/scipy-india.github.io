@@ -572,3 +572,7 @@ html[data-theme="dark"]
 .bd-content .sci-welcome-cards .sd-card-title .sd-octicon {
   margin-right: 0.35em;
 }
+
+.bd-header-announcement {
+  background-color: var(--pst-color-primary-bg);
+}
