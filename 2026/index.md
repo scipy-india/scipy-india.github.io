@@ -132,6 +132,8 @@ We expect to form the final [programme](programme) in October 2026. We will publ
 **Dharhas Pothina**\
 CTO, OpenTeams
 
+[Read more {octicon}`arrow-right`]{.sci-card-cta}
+
 :::
 
 ::::
