@@ -67,6 +67,7 @@ html_css_files = [
 ]
 html_js_files = [
     ("team-shuffle.js", {"defer": "defer"}),
+    ("add-to-calendar.js", {"defer": "defer"}),
     (
         _FLIPDOWN_JS,
         {
