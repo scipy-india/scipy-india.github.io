@@ -30,6 +30,14 @@ Get your ticket {octicon}`arrow-right`
 Sponsor us
 ```
 
+```{button-link} https://scipy.in/past-editions
+:color: secondary
+:outline:
+:class: sci-new-tab
+
+{octicon}`history` Past editions
+```
+
 :::
 
 % A countdown to the conference using FlipDown.
