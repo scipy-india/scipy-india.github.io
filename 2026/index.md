@@ -73,7 +73,7 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 :link: https://cfp.scipy.in/scipy-india-2026/
 :link-type: url
 
-Now open! We are looking for proposals for workshops, talks, and posters on scientific computing, research software, and AI/ML applications with a scientific flavour. Submissions close on 1st November 2026.
+Now closed. Thank you to everyone who sent us a proposal for a workshop, talk, or poster! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
 :::
 
 :::{grid-item-card} Sponsor us
@@ -101,7 +101,7 @@ The call for volunteers is open, with no deadline. Help with reviewing proposals
 :link: programme
 :link-type: doc
 
-The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We expect to announce the programme after the call for proposals closes on 1st November 2026.
+The SciPy India 2026 Conference will be hosted across two days. The first day will be a tutorials/workshops day, and the second day will be the main conference day. Our programme and all its sessions will be conducted entirely in English. We are reviewing the proposals we received, and we expect to announce the programme in November 2026.
 :::
 
 :::{grid-item-card} Venue and travel
@@ -114,7 +114,7 @@ Visit this page for information on how to reach the venue, accommodation options
 
 Previous editions of the SciPy India conference ran from 2009 to 2021, at venues all across the country and consistently several times at the Indian Institute of Technology Bombay. We are pleased that 2026 is the first time the conference is being organised since 2021, and that it will be our first time in Chennai.
 
-We expect to form the final [programme](programme) in October 2026. We will publish it, along with the session times, and announce the keynote presentations, selected talks, and workshops once it is finalised.
+The call for proposals closed on 1st November 2026, and we are now reviewing the proposals to form the [programme](programme). We expect to announce it in November 2026, along with the session times, the selected talks, and the workshops.
 
 ## Keynotes
 
@@ -189,7 +189,7 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Early bird ticket prices end                       | When early bird tickets sell out      |
 +----------------------------------------------------+---------------------------------------+
-| Programme announcement                             | To be announced                       |
+| Programme announcement                             | November 2026                         |
 +----------------------------------------------------+---------------------------------------+
 | Workshops at the Department of Physics, IIT Madras | Saturday 19 December 2026             |
 +----------------------------------------------------+---------------------------------------+
@@ -239,14 +239,7 @@ Please refer to the [venue and travel page](venue) for maps of both buildings, d
 
 ## Call for proposals
 
-Our call for proposals (CFP) for talks, workshops, and posters is now open, and will close on 1st November 2026, 23:59 IST. We review proposals on a rolling basis, so we recommend submitting early.
-
-```{button-link} https://cfp.scipy.in/scipy-india-2026/
-:color: primary
-:class: sci-new-tab
-
-Submit your proposal
-```
+Our [call for proposals (CFP)](https://cfp.scipy.in/scipy-india-2026/) for talks, workshops, and posters closed on 1st November 2026. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted once the decisions are made.
 
 ## Registration
 
