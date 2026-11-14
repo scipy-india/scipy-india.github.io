@@ -16,22 +16,12 @@ We are reviewing the proposals we received through the [call for proposals](http
 
 ### Keynote presentations
 
-:::::{card}
-
-::::{grid} 1 1 2 2
+:::::{grid} 1 1 2 2
 :gutter: 3
 
-:::{grid-item}
-:columns: 12 12 4 4
-
-```{image} _static/speakers/dharhas-pothina.jpg
-:alt: Dharhas Pothina
-```
-
-:::
-
-:::{grid-item}
-:columns: 12 12 8 8
+::::{grid-item-card}
+:img-top: _static/speakers/dharhas-pothina.jpg
+:img-alt: Dharhas Pothina
 
 ```{rubric} Dharhas Pothina
 :heading-level: 4
@@ -49,7 +39,23 @@ He holds a PhD in Civil Engineering and an MS in Aerospace Engineering from the 
 
 Dharhas is passionate about enabling scientists and engineers with tools that let them scale as well as share their analyses. He loves woodworking, photography and teaching his daughters to love science.
 
-:::
+::::
+
+::::{grid-item-card}
+:img-top: _static/speakers/venkatesh-raghavan.jpg
+:img-alt: Venkatesh Raghavan
+
+```{rubric} Venkatesh Raghavan
+:heading-level: 4
+```
+
+```{rubric} Professor Emeritus, Osaka Metropolitan University
+:heading-level: 5
+```
+
+**Keynote title:** Towards Predictive Geoinformatics: SciPy–FOSS4G Synergies
+
+Venkatesh Raghavan (aka Venka) is, presently, Professor Emeritus at Osaka Metropolitan University, Japan. He has made significant contributions to geoinformatics science and education. He received his Doctor of Science degree from Osaka City University in 1994. He currently serves as President of the Japan Society of Geoinformatics and Association of GeoInformatics Laboratories for Earthsciences (AGILE), and as Editor-in-Chief of The GIS-IDEAS Journal. A long-standing advocate of Free and Open Source Software for Geoinformatics (FOSS4G), he has helped advance its development and adoption worldwide for more than three decades. His current research interests include Remote Sensing, Terrain Analysis and Machine Learning. He has mentored several students and researchers in effective use of FOSS4G technologies and co-authored several international research publications.
 
 ::::
 

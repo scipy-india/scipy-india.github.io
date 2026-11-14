@@ -131,6 +131,7 @@ The call for proposals closed on 1st November 2026, and we are now reviewing the
 
 ::::{grid} 1 2 3 3
 :gutter: 3
+:class-container: sci-keynote-cards
 
 :::{grid-item-card}
 :img-top: _static/speakers/dharhas-pothina.jpg
@@ -142,6 +143,21 @@ The call for proposals closed on 1st November 2026, and we are now reviewing the
 
 **Dharhas Pothina**\
 CTO, OpenTeams
+
+[Read more {octicon}`arrow-right`]{.sci-card-cta}
+
+:::
+
+:::{grid-item-card}
+:img-top: _static/speakers/venkatesh-raghavan.jpg
+:img-alt: Venkatesh Raghavan
+:link: keynote-presentations
+:link-type: ref
+:link-alt: Read about Venkatesh Raghavan on the programme page
+:text-align: center
+
+**Venkatesh Raghavan**\
+Professor Emeritus, Osaka Metropolitan University
 
 [Read more {octicon}`arrow-right`]{.sci-card-cta}
 

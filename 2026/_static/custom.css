@@ -576,3 +576,12 @@ html[data-theme="dark"]
 .bd-header-announcement {
   background-color: var(--pst-color-primary-bg);
 }
+
+.bd-content .sci-keynote-cards .sd-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bd-content .sci-keynote-cards .sd-card-body > p:last-child {
+  margin-top: auto;
+}
