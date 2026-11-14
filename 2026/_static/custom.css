@@ -585,3 +585,7 @@ html[data-theme="dark"]
 .bd-content .sci-keynote-cards .sd-card-body > p:last-child {
   margin-top: auto;
 }
+
+.bd-content .sci-keynote-title {
+  color: var(--pst-color-primary);
+}

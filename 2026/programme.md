@@ -53,7 +53,7 @@ Dharhas is passionate about enabling scientists and engineers with tools that le
 :heading-level: 5
 ```
 
-**Keynote title:** Towards Predictive Geoinformatics: SciPy–FOSS4G Synergies
+[*“Towards Predictive Geoinformatics: SciPy–FOSS4G Synergies”*]{.sci-keynote-title}
 
 Venkatesh Raghavan (aka Venka) is, presently, Professor Emeritus at Osaka Metropolitan University, Japan. He has made significant contributions to geoinformatics science and education. He received his Doctor of Science degree from Osaka City University in 1994. He currently serves as President of the Japan Society of Geoinformatics and Association of GeoInformatics Laboratories for Earthsciences (AGILE), and as Editor-in-Chief of The GIS-IDEAS Journal. A long-standing advocate of Free and Open Source Software for Geoinformatics (FOSS4G), he has helped advance its development and adoption worldwide for more than three decades. His current research interests include Remote Sensing, Terrain Analysis and Machine Learning. He has mentored several students and researchers in effective use of FOSS4G technologies and co-authored several international research publications.
 
