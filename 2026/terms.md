@@ -45,7 +45,7 @@ This summary is for your convenience. Please read the full terms and conditions 
    | Contributor     |                 N/A |               N/A |    ₹3,999 |
 
 2. The ticket categories are sold in the following windows:
-   - Early bird: until the early bird tickets sell out.
+   - Early bird: until the early bird tickets sold out. They are no longer available.
    - Regular: from then until 8th December 2026.
    - Late bird: 9th December 2026 to 18th December 2026, subject to availability.
    - On-the-spot: we may sell these at the venue on 19th December 2026 for the workshop day and on 20th December 2026 for the conference day, for that day only and subject to availability. We do not guarantee that on-the-spot tickets will be sold on either day. On-the-spot tickets do not include lunch or a conference T-shirt.

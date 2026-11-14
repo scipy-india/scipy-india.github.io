@@ -83,7 +83,7 @@ We are elated to announce the **fourteenth edition** of the convening of scienti
 :link: register
 :link-type: doc
 
-Tickets are now on sale on KonfHub. Early bird prices are available until the early bird tickets sell out.
+Tickets are now on sale on KonfHub. Early bird tickets are sold out, and regular prices apply until 8th December.
 :::
 
 :::{grid-item-card} {octicon}`calendar;1.1em` Programme
@@ -227,7 +227,9 @@ We are committed to providing a safe and welcoming environment for all attendees
 +----------------------------------------------------+-------------------+-------------------+
 | Registration                                       | Now open          | 18th December 2026|
 +----------------------------------------------------+-------------------+-------------------+
-| Early bird ticket prices end                       | When early bird tickets sell out      |
+| Early bird tickets                                 | Sold out                              |
++----------------------------------------------------+---------------------------------------+
+| Regular ticket prices end                          | 8th December 2026                     |
 +----------------------------------------------------+---------------------------------------+
 | Programme announcement                             | November 2026                         |
 +----------------------------------------------------+---------------------------------------+

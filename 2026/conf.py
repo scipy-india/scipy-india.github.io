@@ -134,7 +134,7 @@ html_favicon = "_static/logo.svg"
 
 html_theme_options = {
     "announcement": (
-        "Last few early bird tickets left! "
+        "Early bird tickets are sold out! Regular tickets are now on sale. "
         '<a href="https://konfhub.com/scipy-india-2026" target="_blank" rel="noopener">Get your ticket</a>'
     ),
     "logo": {

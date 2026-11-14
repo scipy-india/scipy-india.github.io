@@ -17,6 +17,8 @@ description: The SciPy India 2026 Conference will be held on 19th–20th Decembe
 
 **Update, 3rd October 2026:** [tickets are on sale](../register) on KonfHub. Early bird prices are available until 19th October 2026.
 
+**Update, 14th November 2026:** early bird tickets are sold out, and regular tickets are now on sale.
+
 We are happy to announce that the SciPy India 2026 Conference will be held on **Saturday 19th and Sunday 20th December 2026**, at the Indian Institute of Technology Madras, Chennai 600036, Tamil Nadu, India.
 
 ## What happens next
