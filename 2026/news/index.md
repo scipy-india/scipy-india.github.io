@@ -12,5 +12,4 @@ myst:
 :format: "{date} · {title}"
 :excerpts:
 :expand: Read more
-:sort:
 ```
