@@ -8,8 +8,6 @@ myst:
 
 Please keep an eye out on this page for the schedule announcement!
 
-More speakers yet to be confirmed!
-
 (keynote-presentations)=
 
 ## Keynotes
