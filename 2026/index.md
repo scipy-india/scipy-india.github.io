@@ -90,7 +90,7 @@ Tickets are now on sale on KonfHub. Early bird tickets are sold out, and regular
 :link: programme
 :link-type: doc
 
-Workshops on 19th December and the conference on 20th December, all in English. We expect to announce the programme in November 2026.
+Workshops on 19th December and the conference on 20th December, all in English. The selected talks, workshops, and posters are out, and the session times will follow in early December.
 :::
 
 :::{grid-item-card} {octicon}`location;1.1em` Venue and travel
@@ -118,14 +118,14 @@ The call for volunteers is open, with no deadline. Help with reviewing proposals
 :link: https://cfp.scipy.in/scipy-india-2026/
 :link-type: url
 
-Now closed. Thank you to everyone who sent us a proposal! We are reviewing the proposals and will write to everyone who submitted.
+Now closed. Thank you to everyone who sent us a proposal! The selected sessions are on the programme page.
 :::
 
 ::::
 
 Previous editions of the SciPy India conference ran from 2009 to 2021, at venues all across the country and consistently several times at the Indian Institute of Technology Bombay. We are pleased that 2026 is the first time the conference is being organised since 2021, and that it will be our first time in Chennai.
 
-The call for proposals closed on 1st November 2026, and we are now reviewing the proposals to form the [programme](programme). We expect to announce it in November 2026, along with the session times, the selected talks, and the workshops.
+The call for proposals closed on 1st November 2026, and the selected talks, workshops, and posters are now on the [programme](programme) page. We will publish the session times in early December 2026.
 
 ## Keynotes
 
@@ -180,6 +180,23 @@ The SciPy India 2026 Conference is for anyone who writes or depends on code to d
 - just about anyone with an enthusiasm for scientific computing, free and open source software (FOSS), and open science
 
 We strive to make the conference accessible to all, and we welcome attendees from all backgrounds, disciplines, and levels of experience. We especially encourage participation from students, industry, early-career researchers, and those from underrepresented groups in STEAM (Science, Technology, Engineering, Arts, and Mathematics) fields. This includes women, non-binary individuals, and members of the LGBTQIA+ community, persons with disabilities, religious and ethnic minorities, members of Adivasi and tribal communities, and historically marginalised caste groups – including Scheduled Castes (SC), Scheduled Tribes (ST), and Other Backward Classes (OBC).
+
+## Programme
+
+### Workshops, 19th December (Saturday)
+
+% The workshops will be hands-on sessions of roughly three hours on various software-oriented topics. Attendees are required to bring their laptops and complete the necessary prerequisites set by the workshop facilitators. There will be Wi-Fi available, but please have a mobile connection handy just in case. We will have room for a limited number of people in each workshop.
+
+Five workshops are on the [programme](programme) page, including an invited workshop on SAR imagery with the Alaska Satellite Facility.
+
+### Conference, 20th December (Sunday)
+
+% - Two keynotes
+% - Talks of 30 minutes including questions (planning ongoing)
+% - Five-minute Lightning talks/three-minute theses session (planning ongoing)
+% - Poster session
+
+Two keynotes, 16 talks, and a poster session. The selected sessions are on the [programme](programme) page, and the session times will follow in early December.
 
 ## Registration
 
@@ -512,23 +529,6 @@ The RSE Asia Association supports research software engineers across Asia. Do ch
 :::
 
 ::::
-
-## Programme
-
-### Workshops, 19th December (Saturday)
-
-% The workshops will be hands-on sessions of roughly three hours on various software-oriented topics. Attendees are required to bring their laptops and complete the necessary prerequisites set by the workshop facilitators. There will be Wi-Fi available, but please have a mobile connection handy just in case. We will have room for a limited number of people in each workshop.
-
-To be announced
-
-### Conference, 20th December (Sunday)
-
-% - Two keynotes
-% - Talks of 30 minutes including questions (planning ongoing)
-% - Five-minute Lightning talks/three-minute theses session (planning ongoing)
-% - Poster session
-
-To be announced
 
 ## Venue
 

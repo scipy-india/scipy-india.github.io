@@ -6,15 +6,13 @@ myst:
 
 # Programme
 
-We are reviewing the proposals we received through the [call for proposals](https://cfp.scipy.in/scipy-india-2026/), which closed on 1st November 2026. We expect to announce the programme in November 2026, and the sessions and their times will be published here.
+Please keep an eye out on this page for the schedule announcement!
 
-## Saturday 19 December, workshops
-
-## Sunday 20 December, the conference day
+More speakers yet to be confirmed!
 
 (keynote-presentations)=
 
-### Keynote presentations
+## Keynotes
 
 :::::{grid} 1 1 2 2
 :gutter: 3
@@ -61,11 +59,89 @@ Venkatesh Raghavan (aka Venka) is, presently, Professor Emeritus at Osaka Metrop
 
 :::::
 
+## Saturday 19 December, workshops
+
+Workshops are three hours long and hands-on, so bring a laptop.
+
+(invited-workshop)=
+
+### Invited workshop
+
+This workshop is a special collaboration between SciPy India 2026 and the [Alaska Satellite Facility](https://asf.alaska.edu) (ASF) of the Geophysical Institute at the University of Alaska Fairbanks. It covers synthetic aperture radar (SAR) imagery from Sentinel-1 to NISAR, the NASA–ISRO Synthetic Aperture Radar mission, and ASF has [a page about the workshop](https://asf.alaska.edu/trainings/asf-sar-workshop-at-scipy-india-2026) too.
+
+[*“Microwave Image Processing: Exploring realms of Earth through the lens of SAR Images, from Sentinel-1 to NISAR”*]{.sci-keynote-title}
+
+Remote Sensing has proved to be an important tool in monitoring our earth eco-system. The satellite imaging is a vital part of Remote Sensing. Predominantly, Satellite Imaging of the earth has been done in the optical domain and optical Images serve the majority of purpose for earth monitoring. But, these satellites do not have all-weather acquisition capability and this lacuna is filled by the satellite sensors working in the Microwave domain of the Electromagnetic spectrum. Synthetic Aperture Radar (SAR) is an Imaging Radar that acquires images of a particular area in the microwave region. This workshop deals with the processing of SAR Images and how these images can be beneficial in a variety of geographical applications.
+
+:::::{grid} 1 1 3 3
+:gutter: 3
+
+::::{grid-item-card}
+:img-top: _static/speakers/shubham-sharma.jpg
+:img-alt: Shubham Sharma
+
+```{rubric} Shubham Sharma
+:heading-level: 4
+```
+
+```{rubric} Senior Data Scientist, Andor Tech India
+:heading-level: 5
+```
+
+Shubham Sharma is a Senior Data Scientist with more than ten years of experience at the convergence of Remote Sensing, Image Processing, Computer Vision, and Deep Learning. He has been an active contributor to the open-source scientific computing ecosystem, engaging with communities through conferences such as SciPy and as a past speaker at PyCon. His work includes significant experience in Synthetic Aperture Radar (SAR) image processing, and he is deeply committed to advancing knowledge of satellite image analysis using Python within the open source community.
+
+::::
+
+::::{grid-item-card}
+:img-top: _static/speakers/julia-white.jpg
+:img-alt: Julia White
+
+```{rubric} Julia White
+:heading-level: 4
+```
+
+```{rubric} Remote Sensing Scientist, Alaska Satellite Facility
+:heading-level: 5
+```
+
+Julia White is a member of the Services Team at the Alaska Satellite Facility. Her work supports broader access to SAR through open-source materials and collaboration. Julia is a PhD student in Earth System Science with a concentration in Geospatial Science at the University of Alaska Fairbanks (UAF) Geophysical Institute. Her research utilizes interferometric synthetic aperture radar (InSAR) techniques to measure snow water equivalent (SWE) in Arctic and sub-Arctic environments.
+
+::::
+
+::::{grid-item-card}
+:img-top: _static/speakers/alex-lewandowski.jpg
+:img-alt: Alex Lewandowski
+
+```{rubric} Alex Lewandowski
+:heading-level: 4
+```
+
+```{rubric} Research Software Engineer, Alaska Satellite Facility
+:heading-level: 5
+```
+
+Alexander Lewandowski is a Research Software Engineer at the Alaska Satellite Facility (ASF), where he develops open-source tools, workflows, and educational resources to lower barriers to synthetic aperture radar (SAR) data analysis. He received his B.S. degree in computer science from the University of Alaska Fairbanks (UAF) in 2021 and is currently working towards an M.S. degree in Earth System Science with a concentration in Geospatial Science. He has delivered technical workshops, and developed and presented on open-source software at scientific and technical conferences.
+
+::::
+
+:::::
+
+### Workshops from the call for proposals
+
+```{include} _programme/workshops.md
+```
+
+## Sunday 20 December, the conference day
+
 ### Talks
 
-### Lightning talks
+```{include} _programme/talks.md
+```
 
-### Poster session
+### Posters
+
+```{include} _programme/posters.md
+```
 
 ### Social (tentative)
 
@@ -73,9 +149,4 @@ Venkatesh Raghavan (aka Venka) is, presently, Professor Emeritus at Osaka Metrop
 
 ## Recordings
 
-% We will not livestream the conference. We publish the conference day talks on
-% [YouTube](https://www.youtube.com/@scipy-india) after the conference. Workshops
-% are in person only and are not recorded.
-%
-% If you would prefer not to be recorded, tell us and we will keep your session out
-% of the published recordings.
+We plan to publish recordings of the conference day sessions on [our YouTube channel](https://www.youtube.com/@scipy-india) after the conference.

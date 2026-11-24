@@ -18,6 +18,8 @@ repos:
     hooks:
       - id: markdownlint
         args: ["--fix"]
+        # Generated session fragments that programme.md includes, not standalone pages
+        exclude: ^2026/_programme/
 
   - repo: local
     hooks:

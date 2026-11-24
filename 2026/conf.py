@@ -109,7 +109,7 @@ html_context = {
         },
     ],
 }
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "README.md"]
+exclude_patterns = ["_build", "_programme", "Thumbs.db", ".DS_Store", "README.md"]
 html_show_sourcelink = False
 
 html_sidebars = {
