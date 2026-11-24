@@ -110,6 +110,78 @@ Bridging Variational Priors and Deep Networks: Convex Regularisation for Image D
 :margin: 0 2 0 0
 
 :::{grid-item}
+```{image} _static/speakers/placeholder.svg
+:alt: Saket Choudhary
+```
+:::
+
+::::
+
+**Saket Choudhary**\
+National surveys of India for one and all: laptop-scale analysis of India's survey data
+:::::
+
+:::::{grid-item-card}
+:columns: 12 12 6 6
+:text-align: center
+
+::::{grid} 2
+:gutter: 2
+:margin: 0 2 0 0
+
+:::{grid-item}
+```{image} _static/speakers/MZKAMA.jpg
+:alt: Aheli Poddar
+```
+:::
+
+:::{grid-item}
+```{image} _static/speakers/placeholder.svg
+:alt: Arkadip Maitra
+```
+:::
+
+::::
+
+**Aheli Poddar, Arkadip Maitra**\
+Compiling Guardrails: LLM Safety Checks with torch.compile
+:::::
+
+:::::{grid-item-card}
+:columns: 12 12 6 6
+:text-align: center
+
+::::{grid} 2
+:gutter: 2
+:margin: 0 2 0 0
+
+:::{grid-item}
+```{image} _static/speakers/H3EFHS.jpg
+:alt: Sumanto Kar
+```
+:::
+
+:::{grid-item}
+```{image} _static/speakers/BRKA33.jpg
+:alt: Varadharam R S
+```
+:::
+
+::::
+
+**Sumanto Kar, Varadharam R S**\
+eSim: Open-Source Electronic Design Automation with Python and SciPy
+:::::
+
+:::::{grid-item-card}
+:columns: 6 6 3 3
+:text-align: center
+
+::::{grid} 1
+:gutter: 2
+:margin: 0 2 0 0
+
+:::{grid-item}
 ```{image} _static/speakers/HE7833.jpg
 :alt: Ganesh Kathiresan
 ```
@@ -142,26 +214,6 @@ Rethinking Scientific Computing with Python at Scale: 100 Million Cells with Cyt
 :::::
 
 :::::{grid-item-card}
-:columns: 6 6 3 3
-:text-align: center
-
-::::{grid} 1
-:gutter: 2
-:margin: 0 2 0 0
-
-:::{grid-item}
-```{image} _static/speakers/RQU8QT.jpg
-:alt: Agriya Khetarpal
-```
-:::
-
-::::
-
-**Agriya Khetarpal**\
-Aboard the Ship of Theseus: the story of SciPy's voyage to WebAssembly
-:::::
-
-:::::{grid-item-card}
 :columns: 12 12 6 6
 :text-align: center
 
@@ -170,21 +222,21 @@ Aboard the Ship of Theseus: the story of SciPy's voyage to WebAssembly
 :margin: 0 2 0 0
 
 :::{grid-item}
-```{image} _static/speakers/H3EFHS.jpg
-:alt: Sumanto Kar
+```{image} _static/speakers/3HA8PA.jpg
+:alt: Stuti Jain
 ```
 :::
 
 :::{grid-item}
-```{image} _static/speakers/BRKA33.jpg
-:alt: Varadharam R S
+```{image} _static/speakers/DRDZV3.jpg
+:alt: Palak Jain
 ```
 :::
 
 ::::
 
-**Sumanto Kar, Varadharam R S**\
-eSim: Open-Source Electronic Design Automation with Python and SciPy
+**Stuti Jain, Palak Jain**\
+Mirror, Mirror on the Wall, Who Wrote This Text After All: Inside LLM Text Watermarking
 :::::
 
 :::::{grid-item-card}
@@ -225,58 +277,6 @@ Train in Your Tab: PyTorch, JAX and ML Compilers in the Browser
 
 **Swayam Singh**\
 NumPy-QuadDType : A cross-platform 128-bit floating point data-type for NumPy
-:::::
-
-:::::{grid-item-card}
-:columns: 12 12 6 6
-:text-align: center
-
-::::{grid} 2
-:gutter: 2
-:margin: 0 2 0 0
-
-:::{grid-item}
-```{image} _static/speakers/MZKAMA.jpg
-:alt: Aheli Poddar
-```
-:::
-
-:::{grid-item}
-```{image} _static/speakers/placeholder.svg
-:alt: Arkadip Maitra
-```
-:::
-
-::::
-
-**Aheli Poddar, Arkadip Maitra**\
-Compiling Guardrails: LLM Safety Checks with torch.compile
-:::::
-
-:::::{grid-item-card}
-:columns: 12 12 6 6
-:text-align: center
-
-::::{grid} 2
-:gutter: 2
-:margin: 0 2 0 0
-
-:::{grid-item}
-```{image} _static/speakers/3HA8PA.jpg
-:alt: Stuti Jain
-```
-:::
-
-:::{grid-item}
-```{image} _static/speakers/DRDZV3.jpg
-:alt: Palak Jain
-```
-:::
-
-::::
-
-**Stuti Jain, Palak Jain**\
-Mirror, Mirror on the Wall, Who Wrote This Text After All: Inside LLM Text Watermarking
 :::::
 
 :::::{grid-item-card}
@@ -340,15 +340,15 @@ cppjit: Accelerating Python using C++
 :margin: 0 2 0 0
 
 :::{grid-item}
-```{image} _static/speakers/placeholder.svg
-:alt: Saket Choudhary
+```{image} _static/speakers/RQU8QT.jpg
+:alt: Agriya Khetarpal
 ```
 :::
 
 ::::
 
-**Saket Choudhary**\
-National surveys of India for one and all: laptop-scale analysis of India's survey data
+**Agriya Khetarpal**\
+Aboard the Ship of Theseus: the story of SciPy's voyage to WebAssembly
 :::::
 
 ::::::
