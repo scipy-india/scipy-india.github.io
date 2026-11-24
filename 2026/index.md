@@ -31,6 +31,14 @@ Get your ticket! {octicon}`arrow-right`
 {octicon}`heart` Sponsor us
 ```
 
+```{button-ref} jobs
+:ref-type: myst
+:color: secondary
+:shadow:
+
+{octicon}`briefcase` Jobs
+```
+
 ```{button-link} https://scipy.in/past-editions
 :color: secondary
 :shadow:
