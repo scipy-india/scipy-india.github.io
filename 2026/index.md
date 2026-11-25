@@ -171,6 +171,21 @@ Professor Emeritus, Osaka Metropolitan University
 
 :::
 
+:::{grid-item-card}
+:img-top: _static/speakers/usha-rengaraju.jpg
+:img-alt: Usha Rengaraju
+:link: keynote-presentations
+:link-type: ref
+:link-alt: Read about Usha Rengaraju on the programme page
+:text-align: center
+
+**Usha Rengaraju**\
+AI Engineer, Kaggle Grandmaster, and Google Developer Expert in JAX
+
+[Read more {octicon}`arrow-right`]{.sci-card-cta}
+
+:::
+
 ::::
 
 ## Who is this conference for?
@@ -204,7 +219,7 @@ Five workshops are on the [programme](programme) page, including an invited work
 % - Five-minute Lightning talks/three-minute theses session (planning ongoing)
 % - Poster session
 
-Two keynotes, 16 talks, and a poster session. The selected sessions are on the [programme](programme) page, and the session times will follow in early December.
+Three keynotes, 16 talks, and a poster session. The selected sessions are on the [programme](programme) page, and the session times will follow in early December.
 
 ## Registration
 

@@ -12,7 +12,7 @@ Please keep an eye out on this page for the schedule announcement!
 
 ## Keynotes
 
-:::::{grid} 1 1 2 2
+:::::{grid} 1 1 3 3
 :gutter: 3
 
 ::::{grid-item-card}
@@ -52,6 +52,30 @@ Dharhas is passionate about enabling scientists and engineers with tools that le
 [*“Towards Predictive Geoinformatics: SciPy–FOSS4G Synergies”*]{.sci-keynote-title}
 
 Venkatesh Raghavan (aka Venka) is, presently, Professor Emeritus at Osaka Metropolitan University, Japan. He has made significant contributions to geoinformatics science and education. He received his Doctor of Science degree from Osaka City University in 1994. He currently serves as President of the Japan Society of Geoinformatics and Association of GeoInformatics Laboratories for Earthsciences (AGILE), and as Editor-in-Chief of The GIS-IDEAS Journal. A long-standing advocate of Free and Open Source Software for Geoinformatics (FOSS4G), he has helped advance its development and adoption worldwide for more than three decades. His current research interests include Remote Sensing, Terrain Analysis and Machine Learning. He has mentored several students and researchers in effective use of FOSS4G technologies and co-authored several international research publications.
+
+::::
+
+::::{grid-item-card}
+:img-top: _static/speakers/usha-rengaraju.jpg
+:img-alt: Usha Rengaraju
+
+```{rubric} Usha Rengaraju
+:heading-level: 4
+```
+
+```{rubric} AI Engineer, Kaggle Grandmaster, and Google Developer Expert in JAX
+:heading-level: 5
+```
+
+[*“Beyond Deep Learning: JAX as a Scientific Computing Engine”*]{.sci-keynote-title}
+
+Usha is an AI Engineer and an open-source contributor, a Kaggle Grandmaster, and a Google Developer Expert (GDE) in JAX, with deep expertise in document intelligence platforms, recommendation systems for product discovery, and enterprise search solutions.
+
+Usha has been widely recognized for her contributions to the data science and AI community. She was ranked among the Top 10 Data Scientists in India by Analytics India Magazine in 2020, recognized as one of the Top 10 Women Data Scientists by Analytics Insight in 2021, and featured among the Top 150 AI Leaders and Influencers by 3AI.
+
+A passionate community builder and advocate for interdisciplinary research, Usha organized NeuroAI, India's first research symposium focused on the intersection of neuroscience and data science. She also organized the Neurodiversity India Summit, India's first conference dedicated to neurodiversity.
+
+Her accomplishments extend to global AI competitions and community recognition programs. Usha was a winner of the "ML in Action" competition organized by Google's ML Developer Programs team, and her team secured first place in the Stanford University WiDS Datathon 2022. She was also recognized with the Kaggle ML Research Spotlight award in 2022 and the TensorFlow Community Spotlight award in 2023.
 
 ::::
 
