@@ -318,7 +318,7 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 
 #### Gold sponsors
 
-::::{grid} 1
+::::{grid} 1 1 2 2
 :gutter: 3
 
 :::{grid-item-card}
@@ -334,6 +334,21 @@ Thank you to the [Indian Institute of Technology Madras](https://www.iitm.ac.in)
 Quansight's mission is to make open source software accessible, sustainable, and community-driven. We achieve this by fostering long-lasting partnerships between enterprise customers and open source projects and communities. Quansight helps customers safely and effectively build technology on open source to drive their own innovation, while ensuring their involvement strengthens the project's community and long-term health.
 
 [Read our announcement](news/2026-11-10-quansight-gold-sponsor)
+:::
+
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/m37labs.svg
+:alt: M37Labs
+:class: partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-wide sci-logo-on-white
+:target: https://www.m37labs.com
+```
+
+M37Labs is an AI-native technology enterprise focused on building Enterprise Proprietary Models - sovereign, reliable and production-ready AI systems. By combining research, high-quality data, model evaluation, and full-stack engineering, M37Labs helps organisations develop, deploy, and scale intelligent AI applications that solve real-world challenges across industries.
+
+[Read our announcement](news/2026-11-26-m37labs-gold-sponsor)
 :::
 
 ::::
