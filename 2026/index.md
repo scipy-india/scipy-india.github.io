@@ -393,6 +393,31 @@ Thousands of open source contributors built the foundations of modern AI. OpenTe
 [Read our announcement](news/2026-11-11-openteams-silver-sponsor)
 :::
 
+:::{grid-item-card}
+:text-align: center
+:shadow: sm
+
+```{image} _static/partner-logos/fossunited-dark.svg
+:alt: FOSS United Foundation
+:class: only-light partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-silver
+:target: https://fossunited.org
+```
+
+```{image} _static/partner-logos/fossunited-light.svg
+:alt: FOSS United Foundation
+:class: only-dark partner-logo sci-supporter-logo sci-sponsor-logo sci-sponsor-logo-silver
+:target: https://fossunited.org
+```
+
+**[FOSS United Foundation](https://fossunited.org)**
+
+**Event Grant**
+
+FOSS United is a Section 8 non-profit organisation that aims to promote and strengthen the free and open source software (FOSS) ecosystem in India. SciPy India is incubated by FOSS United, which supports the conference with an event grant.
+
+[Read our announcement](news/2026-11-27-foss-united-grant) | [Website](https://fossunited.org) | [GitHub](https://github.com/fossunited) | [Twitter/X](https://x.com/FOSSUnited)
+:::
+
 ::::
 
 #### Sponsor us
